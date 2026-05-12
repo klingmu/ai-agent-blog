@@ -11,7 +11,7 @@ import requests
 from pathlib import Path
 
 TODAY = datetime.date.today().isoformat()
-ARTICLES_DIR = Path("articles")
+ARTICLES_DIR = Path("drafts")
 ZENN_DIR = Path("zenn/articles")   # Zenn連携リポジトリのarticlesディレクトリ
 
 
