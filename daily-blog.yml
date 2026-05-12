@@ -1,0 +1,95 @@
+name: 🤖 Daily AI Agent Blog
+
+on:
+  schedule:
+    # 毎朝 6:00 JST (UTC 21:00 前日) に実行
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (記事生成のみ、投稿しない)"
+        type: boolean
+        default: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      contents: write   # Zenn用リポジトリへのPush権限
+
+    steps:
+      # ── 1. チェックアウト ──────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN }}
+
+      # ── 2. Python セットアップ ─────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ── 3. 情報収集 ────────────────────────────────────────
+      - name: 📥 Collect AI agent news
+        run: python scripts/collect.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      # ── 4. 記事生成（品質チェック含む）──────────────────────
+      - name: ✍️ Generate article
+        id: generate
+        run: python scripts/generate.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        continue-on-error: true   # 品質不足でも後続ステップへ
+
+      # ── 5. 記事をアーティファクトとして保存 ─────────────────
+      - name: 📦 Save article artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: article-${{ github.run_id }}
+          path: articles/
+          retention-days: 30
+
+      # ── 6. 投稿（品質チェック通過時のみ）──────────────────
+      - name: 🚀 Publish article
+        if: steps.generate.outcome == 'success' && inputs.dry_run != true
+        run: python scripts/publish.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PUBLISH_TARGET: ${{ vars.PUBLISH_TARGET || 'zenn' }}
+          # Zenn (GitHub Push)
+          GIT_USER_NAME: "AI Blog Bot"
+          GIT_USER_EMAIL: "bot@example.com"
+          # WordPress (任意)
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+          # Slack通知 (任意)
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+      # ── 7. 生成データをコミット保存 ───────────────────────────
+      - name: 💾 Commit collected data
+        run: |
+          git config user.name "AI Blog Bot"
+          git config user.email "bot@example.com"
+          git add data/ articles/
+          git diff --staged --quiet || git commit -m "📊 Data & article $(date +%Y-%m-%d)"
+          git push origin main || echo "Push skipped (nothing to push)"
+
+      # ── 8. 失敗通知 ────────────────────────────────────────
+      - name: ❌ Notify on failure
+        if: failure()
+        run: |
+          curl -s -X POST "${{ secrets.SLACK_WEBHOOK_URL }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"text\": \"❌ AI Blog ワークフロー失敗: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+            || true
