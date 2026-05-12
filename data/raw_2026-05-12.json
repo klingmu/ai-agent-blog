@@ -1,0 +1,368 @@
+{
+  "date": "2026-05-12",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "Dynamic Skill Lifecycle Management for Agentic Reinforcement Learning",
+      "summary": "Large language model agents increasingly rely on external skills to solve complex tasks, where skills act as modular units that extend their capabilities beyond what parametric memory alone supports. Existing methods assume external skills either accumulate as persistent guidance or internalized into the policy, eventually leading to zero-skill inference. We argue this assumption is overly restrictive, since with limited parametric capacity and uneven marginal contribution across skills, the opt",
+      "url": "http://arxiv.org/abs/2605.10923v1",
+      "authors": [
+        "Junhao Shen",
+        "Teng Zhang",
+        "Xiaoyan Zhao"
+      ],
+      "published": "2026-05-11T17:55:13+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace",
+      "summary": "We introduce Shepherd, a functional programming model that formalizes meta-agent operations on target agents as functions, with core operations mechanized in Lean. Shepherd records every agent-environment interaction as a typed event in a Git-like execution trace, enabling any past state to be forked and replayed. The system forks the agent process and its filesystem $5\\times$ faster than Docker, achieving $>95\\%$ prompt-cache reuse on replay. We demonstrate the model through three applications.",
+      "url": "http://arxiv.org/abs/2605.10913v1",
+      "authors": [
+        "Simon Yu",
+        "Derek Chong",
+        "Ananjan Nandi"
+      ],
+      "published": "2026-05-11T17:50:51+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.PL",
+        "cs.SE"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Engineering Robustness into Personal Agents with the AI Workflow Store",
+      "summary": "The dominant paradigm for AI agents is an \"on-the-fly\" loop in which agents synthesize plans and execute actions within seconds or minutes in response to user prompts. We argue that this paradigm short-circuits disciplined software engineering (SE) processes -- iterative design, rigorous testing, adversarial evaluation, staged deployment, and more -- that have delivered the (relatively) reliable and secure systems we use today. By focusing on rapid, real-time synthesis, are AI agents effectively",
+      "url": "http://arxiv.org/abs/2605.10907v1",
+      "authors": [
+        "Roxana Geambasu",
+        "Mariana Raykova",
+        "Pierre Tholoniat"
+      ],
+      "published": "2026-05-11T17:46:33+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "DataMaster: Towards Autonomous Data Engineering for Machine Learning",
+      "summary": "As model families, training recipes, and compute budgets become increasingly standardized, further gains in machine learning systems depend increasingly on data. Yet data engineering remains largely manual and ad hoc: practitioners repeatedly search for external datasets, adapt them to existing pipelines, validate candidate data through downstream training, and carry forward lessons from prior attempts. We study task-conditioned autonomous data engineering, where an autonomous agent improves a f",
+      "url": "http://arxiv.org/abs/2605.10906v1",
+      "authors": [
+        "Yaxin Du",
+        "Xiyuan Yang",
+        "Zhifan Zhou"
+      ],
+      "published": "2026-05-11T17:46:24+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers",
+      "summary": "Guardrail Classifiers defend production language models against harmful behavior, but although results seem promising in testing, they provide no formal guarantees. Providing formal guarantees for such models is hard because \"harmful behavior\" has no natural specification in a discrete input space: and the standard epsilon-ball properties used in other domains do not carry semantic meaning. We close this gap by shifting verification from the discrete input space to the classifier's pre-activatio",
+      "url": "http://arxiv.org/abs/2605.10901v1",
+      "authors": [
+        "Nikita Kezins",
+        "Urbas Ekka",
+        "Pascal Berrang"
+      ],
+      "published": "2026-05-11T17:41:38+00:00",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "V4FinBench: Benchmarking Tabular Foundation Models, LLMs, and Standard Methods on Corporate Bankruptcy Prediction",
+      "summary": "Corporate bankruptcy prediction is a high-stakes financial task characterized by severe class imbalance and multi-horizon forecasting demands. Public datasets supporting it remain scarce and small: widely used free benchmarks contain between 6,000 and 80,000 company-year observations, while larger resources are behind subscription paywalls. To address this gap, we introduce V4FinBench, a benchmark of over one million company-year records from the Visegràd Group (V4) economies (2006-2021), with 1",
+      "url": "http://arxiv.org/abs/2605.10896v1",
+      "authors": [
+        "Marcin Kostrzewa",
+        "Sebastian Tomczak",
+        "Roman Furman"
+      ],
+      "published": "2026-05-11T17:38:17+00:00",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents",
+      "summary": "Recent advances in machine learning and large-scale biological data collections have revived the prospect of building a virtual cell, a computational model of cellular behavior that could accelerate biological discovery. One of the most compelling promises of this vision is the ability to perform in silico phenotypic screens, in which a model predicts the effects of cellular perturbations in unseen biological contexts. This task combines heterogeneous textual inputs with diverse phenotypic outpu",
+      "url": "http://arxiv.org/abs/2605.10876v1",
+      "authors": [
+        "Edward De Brouwer",
+        "Carl Edwards",
+        "Alexander Wu"
+      ],
+      "published": "2026-05-11T17:27:16+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "q-bio.QM"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Remember the Decision, Not the Description: A Rate-Distortion Framework for Agent Memory",
+      "summary": "Long-horizon language agents must operate under limited runtime memory, yet existing memory mechanisms often organize experience around descriptive criteria such as relevance, salience, or summary quality. For an agent, however, memory is valuable not because it faithfully describes the past, but because it preserves the distinctions between histories that must remain separated under a fixed budget to support good decisions. We cast this as a decision-centric rate-distortion problem, measuring m",
+      "url": "http://arxiv.org/abs/2605.10870v1",
+      "authors": [
+        "Mingxi Zou",
+        "Zhihan Guo",
+        "Langzhang Liang"
+      ],
+      "published": "2026-05-11T17:20:58+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Rethinking Agentic Search with Pi-Serini: Is Lexical Retrieval Sufficient?",
+      "summary": "Does a lexical retriever suffice as large language models (LLMs) become more capable in an agentic loop? This question naturally arises when building deep research systems. We revisit it by pairing BM25 with frontier LLMs that have better reasoning and tool-use abilities. To support researchers asking the same question, we introduce Pi-Serini, a search agent equipped with three tools for retrieving, browsing, and reading documents. Our results show that, on BrowseComp-Plus, a well-configured lex",
+      "url": "http://arxiv.org/abs/2605.10848v1",
+      "authors": [
+        "Tz-Huan Hsu",
+        "Jheng-Hong Yang",
+        "Jimmy Lin"
+      ],
+      "published": "2026-05-11T16:58:57+00:00",
+      "categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "From Controlled to the Wild: Evaluation of Pentesting Agents for the Real-World",
+      "summary": "AI pentesting agents are increasingly credible as offensive security systems, but current benchmarks still provide limited guidance on which will perform best in real-world targets. Existing evaluation protocols assess and optimize for predefined goals such as capture-the-flag, remote code execution, exploit reproduction, or trajectory similarity, in simplified or narrow settings. These tools are valuable for measuring bounded capabilities, yet they do not adequately capture the complexity, open",
+      "url": "http://arxiv.org/abs/2605.10834v1",
+      "authors": [
+        "Pedro Conde",
+        "Henrique Branquinho",
+        "Valerio Mazzone"
+      ],
+      "published": "2026-05-11T16:50:00+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
+      "url": "https://openai.com/signals/research/2026q1-update",
+      "published": "Mon, 11 May 2026 15:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "OpenAI Campus Network: Student club interest form",
+      "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+      "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "published": "Mon, 11 May 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How enterprises are scaling AI",
+      "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+      "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "published": "Mon, 11 May 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "url": "https://openai.com/index/openai-launches-the-deployment-company",
+      "published": "Mon, 11 May 2026 06:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Running Codex safely at OpenAI",
+      "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
+      "url": "https://openai.com/index/running-codex-safely",
+      "published": "Fri, 08 May 2026 12:30:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+      "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "published": "Wed, 06 May 2026 10:43:49 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "summary": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "published": "Thu, 30 Apr 2026 12:14:15 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Announcing our partnership with the Republic of Korea",
+      "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "published": "Mon, 27 Apr 2026 07:00:06 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "summary": "",
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "published": "Wed, 22 Apr 2026 10:20:03 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
+      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "published": "Tue, 21 Apr 2026 14:54:15 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "summary": "",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "published": "Mon, 11 May 2026 23:18:26 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "EMO: Pretraining mixture of experts for emergent modularity",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/emo",
+      "published": "Fri, 08 May 2026 16:03:50 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "published": "Wed, 06 May 2026 19:06:55 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+      "summary": "",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+      "published": "Wed, 06 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Granite 4.1 LLMs: How They’re Built",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "published": "Wed, 29 Apr 2026 15:01:48 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\"",
+      "summary": "<p><strong><a href=\"https://about.gitlab.com/blog/gitlab-act-2/\">GitLab Act 2</a></strong></p>\nThere's a lot going on in this announcement from GitLab about the \"workforce reduction\" and \"structural and strategic decisions\" they are making with respect to the agentic era.</p>\n<ul>\n<li>They're \"planning to reduce the number of countries by up to 30% where we have small teams\". One of the most interesting things about GitLab is that they have employees spread across a large number of countries - 1",
+      "url": "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything",
+      "published": "2026-05-11T23:58:55+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting James Shore",
+      "summary": "<blockquote cite=\"https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs\"><p>Your AI coding agent, the one you use to write code, needs to reduce your maintenance costs. Not by a little bit, either. You write code twice as quick now? Better hope you’ve halved your maintenance costs. Three times as productive? One third the maintenance costs. Otherwise, you’re screwed. You’re trading a temporary speed boost for permanent indenture. [...]</p>\n<p>The math only works",
+      "url": "https://simonwillison.net/2026/May/11/james-shore/#atom-everything",
+      "published": "2026-05-11T19:48:32+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Your AI Use Is Breaking My Brain",
+      "summary": "<p><strong><a href=\"https://www.404media.co/your-ai-use-is-breaking-my-brain/\">Your AI Use Is Breaking My Brain</a></strong></p>\nExcellent, angry piece by Jason Koebler on how AI writing online is becoming impossible to avoid, filtering it is mentally exhausting and it's even starting to distort regular human writing styles.</p>\n<p>I particularly liked his use of the term \"Zombie Internet\" to define a different, more insidious alternative to the \"Dead Internet\" (which is just bots talking to eac",
+      "url": "https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything",
+      "published": "2026-05-11T19:21:27+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Using LLM in the shebang line of a script",
+      "summary": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/llm-shebang\">Using LLM in the shebang line of a script</a></p>\n        <p>Kim_Bruning <a href=\"https://news.ycombinator.com/item?id=48073246#48090590\">on Hacker News</a>:</p>\n<blockquote>\n<p>But seriously, you can put a shebang on an english text file now (if you're sufficiently brave) [...]</p>\n</blockquote>\n<p>This inspired me to look at patterns for doing exactly that with <a href=\"https://llm.datasette.io/en/stable/\">LLM</a",
+      "url": "https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything",
+      "published": "2026-05-11T18:48:57+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Learning on the Shop floor",
+      "summary": "<p><strong><a href=\"https://twitter.com/tobi/status/2053121182044451016\">Learning on the Shop floor</a></strong></p>\nTobias Lütke describes Shopify's internal coding agent tool, River, which operates entirely in public on their Slack:</p>\n<blockquote>\n<p>River does not respond to direct messages. She politely declines and suggests to create a public channel for you and her to start working in. I myself work with river in <code>#tobi_river</code> channel and many followed this pattern.  Every con",
+      "url": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
+      "published": "2026-05-11T15:46:36+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Platform on AWS",
+      "summary": "Score: 187, Comments: 81",
+      "url": "https://claude.com/blog/claude-platform-on-aws",
+      "published": "2026-05-12T10:24:29"
+    },
+    {
+      "source": "hackernews",
+      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
+      "summary": "Score: 246, Comments: 12",
+      "url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+      "published": "2026-05-11T02:05:05"
+    },
+    {
+      "source": "hackernews",
+      "title": "AMÁLIA and the future of European Portuguese LLMs",
+      "summary": "Score: 140, Comments: 75",
+      "url": "https://duarteocarmo.com/blog/amalia-and-the-future-of-european-portuguese-llms",
+      "published": "2026-05-09T01:34:45"
+    },
+    {
+      "source": "hackernews",
+      "title": "ICE Agents Have List of 20M People on Their iPhones Thanks to Palantir",
+      "summary": "Score: 26, Comments: 2",
+      "url": "https://www.404media.co/ice-agents-have-list-of-20-million-people-on-their-iphones-thanks-to-palantir/",
+      "published": "2026-05-12T22:09:37"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: E2a – Open-source email gateway for AI agents",
+      "summary": "Score: 43, Comments: 3",
+      "url": "https://github.com/Mnexa-AI/e2a",
+      "published": "2026-05-12T05:26:17"
+    },
+    {
+      "source": "hackernews",
+      "title": "A recent experience with ChatGPT 5.5 Pro",
+      "summary": "Score: 717, Comments: 524",
+      "url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
+      "published": "2026-05-09T11:41:42"
+    },
+    {
+      "source": "hackernews",
+      "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
+      "summary": "Score: 360, Comments: 105",
+      "url": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
+      "published": "2026-05-11T08:39:55"
+    },
+    {
+      "source": "hackernews",
+      "title": "Natural-language messages between LLM agents are an architectural anti-pattern",
+      "summary": "Score: 20, Comments: 5",
+      "url": "https://novaberg.de/papers/clipboard-pattern.html",
+      "published": "2026-05-12T03:56:54"
+    },
+    {
+      "source": "hackernews",
+      "title": "Arcadia, CA, Mayor Federally Charged with Acting as Illegal Agent of PRC, Pleads",
+      "summary": "Score: 31, Comments: 14",
+      "url": "https://www.justice.gov/usao-cdca/pr/arcadia-mayor-federally-charged-acting-illegal-agent-peoples-republic-china",
+      "published": "2026-05-12T12:59:41"
+    }
+  ]
+}

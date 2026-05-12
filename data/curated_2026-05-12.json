@@ -1,0 +1,135 @@
+{
+  "highlight": {
+    "title": "Shepherd: メタエージェント操作を形式化するランタイム基盤",
+    "reason": "Lean言語で機械化された形式的なエージェント操作モデルとGit風の実行トレースにより、エージェントの再現性・デバッグ性を根本から改善する画期的アプローチ",
+    "source_index": 1
+  },
+  "curated": [
+    {
+      "index": 1,
+      "score": 9,
+      "category": "paper",
+      "japanese_title": "Shepherd: 形式化された実行トレースでメタエージェントを強化するランタイム基盤",
+      "key_insight": "エージェント操作をLeanで形式化し、全ての相互作用を型付きイベントとしてGit風トレースに記録。過去の任意状態からのフォーク・リプレイが可能になり、エージェントのデバッグと再現性が飛躍的に向上する",
+      "original_title": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace",
+      "url": "http://arxiv.org/abs/2605.10913v1"
+    },
+    {
+      "index": 0,
+      "score": 8,
+      "category": "paper",
+      "japanese_title": "エージェント強化学習のための動的スキルライフサイクル管理",
+      "key_insight": "LLMエージェントの外部スキルを永続的に蓄積するのではなく、動的にライフサイクル管理する新手法。スキルの追加・更新・削除を適切に行うことで、エージェントの能力拡張を効率化",
+      "original_title": "Dynamic Skill Lifecycle Management for Agentic Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2605.10923v1"
+    },
+    {
+      "index": 2,
+      "score": 8,
+      "category": "paper",
+      "japanese_title": "AI Workflow Storeによるパーソナルエージェントの堅牢性設計",
+      "key_insight": "「即興」でプラン生成・実行するエージェントの主流パラダイムはソフトウェア工学プロセスを短絡していると指摘。反復設計・厳密テストを組み込むWorkflow Store概念を提案",
+      "original_title": "Engineering Robustness into Personal Agents with the AI Workflow Store",
+      "url": "http://arxiv.org/abs/2605.10907v1"
+    },
+    {
+      "index": 7,
+      "score": 8,
+      "category": "paper",
+      "japanese_title": "決定を記憶せよ、記述ではなく：エージェントメモリのRate-Distortionフレームワーク",
+      "key_insight": "長期タスクエージェントのメモリは「過去の忠実な記述」ではなく「将来の意思決定に有用か」で評価すべき。情報理論的フレームワークで最適なメモリ圧縮戦略を導出",
+      "original_title": "Remember the Decision, Not the Description: A Rate-Distortion Framework for Agent Memory",
+      "url": "http://arxiv.org/abs/2605.10870v1"
+    },
+    {
+      "index": 36,
+      "score": 8,
+      "category": "community",
+      "japanese_title": "AIコーディングエージェントはメンテナンスコストを削減すべき",
+      "key_insight": "コード生成が2倍速くなっても、メンテナンスコストが半減しなければ意味がない。エージェント導入の真の評価基準は生産性ではなく長期的な保守負担軽減であるべきという重要な視点",
+      "original_title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
+      "url": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs"
+    },
+    {
+      "index": 14,
+      "score": 8,
+      "category": "tool",
+      "japanese_title": "OpenAIのCodex安全運用：サンドボックスとエージェントネイティブなテレメトリ",
+      "key_insight": "サンドボックス化、承認フロー、ネットワークポリシー、エージェント専用のテレメトリを組み合わせた本番環境でのコーディングエージェント運用の実践的セキュリティ指針",
+      "original_title": "Running Codex safely at OpenAI",
+      "url": "https://openai.com/index/running-codex-safely"
+    },
+    {
+      "index": 15,
+      "score": 7,
+      "category": "news",
+      "japanese_title": "AlphaEvolve: Gemini搭載コーディングエージェントの分野横断的インパクト",
+      "key_insight": "DeepMindのGemini搭載アルゴリズム進化エージェントが、ビジネス・インフラ・科学の各分野で実用的成果を出し始めている。自動アルゴリズム最適化の実応用事例として注目",
+      "original_title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/"
+    },
+    {
+      "index": 8,
+      "score": 7,
+      "category": "paper",
+      "japanese_title": "エージェント検索再考：BM25で十分か？",
+      "key_insight": "高度な推論・ツール使用能力を持つ最新LLMとBM25を組み合わせた検証。Deep Researchシステム構築時、必ずしも高度なベクトル検索が必要ではない可能性を示唆",
+      "original_title": "Rethinking Agentic Search with Pi-Serini: Is Lexical Retrieval Sufficient?",
+      "url": "http://arxiv.org/abs/2605.10848v1"
+    },
+    {
+      "index": 37,
+      "score": 7,
+      "category": "community",
+      "japanese_title": "LLMエージェント間の自然言語メッセージはアンチパターン",
+      "key_insight": "エージェント間通信に自然言語を使うのは「クリップボードパターン」と同様のアンチパターン。構造化データでの通信がエージェントシステムの信頼性向上に重要",
+      "original_title": "Natural-language messages between LLM agents are an architectural anti-pattern",
+      "url": "https://novaberg.de/papers/clipboard-pattern.html"
+    },
+    {
+      "index": 34,
+      "score": 7,
+      "category": "tool",
+      "japanese_title": "E2a：AIエージェント向けオープンソースメールゲートウェイ",
+      "key_insight": "エージェントがメールを送受信するためのOSSゲートウェイ。エージェントの外部コミュニケーション基盤として、エンタープライズ統合に有用",
+      "original_title": "Show HN: E2a – Open-source email gateway for AI agents",
+      "url": "https://github.com/Mnexa-AI/e2a"
+    },
+    {
+      "index": 4,
+      "score": 7,
+      "category": "paper",
+      "japanese_title": "Red-Teamingを超えて：ガードレール分類器の形式的保証",
+      "key_insight": "本番LLMを守るガードレール分類器は、テストで良好でも形式的保証がない問題を指摘。離散入力空間での「有害行動」の仕様化困難を克服するアプローチを提案",
+      "original_title": "Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers",
+      "url": "http://arxiv.org/abs/2605.10901v1"
+    },
+    {
+      "index": 30,
+      "score": 6,
+      "category": "news",
+      "japanese_title": "Claude Platform on AWS提供開始",
+      "key_insight": "AnthropicのClaudeプラットフォームがAWS上で利用可能に。エンタープライズ向けエージェント開発の選択肢が拡大",
+      "original_title": "Claude Platform on AWS",
+      "url": "https://claude.com/blog/claude-platform-on-aws"
+    },
+    {
+      "index": 3,
+      "score": 6,
+      "category": "paper",
+      "japanese_title": "DataMaster：ML向け自律データエンジニアリング",
+      "key_insight": "データエンジニアリングの手動・アドホック作業を自動化するエージェント。外部データセット検索からパイプライン適応まで自律的に実行",
+      "original_title": "DataMaster: Towards Autonomous Data Engineering for Machine Learning",
+      "url": "http://arxiv.org/abs/2605.10906v1"
+    },
+    {
+      "index": 9,
+      "score": 6,
+      "category": "paper",
+      "japanese_title": "制御環境から実世界へ：ペンテストエージェントの実環境評価",
+      "key_insight": "CTFや特定目標への最適化ではなく、実際の攻撃対象での性能を測るペンテストエージェント評価プロトコルの提案。セキュリティエージェント開発者必読",
+      "original_title": "From Controlled to the Wild: Evaluation of Pentesting Agents for the Real-World",
+      "url": "http://arxiv.org/abs/2605.10834v1"
+    }
+  ]
+}
