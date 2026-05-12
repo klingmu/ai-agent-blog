@@ -12,7 +12,7 @@ from pathlib import Path
 
 TODAY = datetime.date.today().isoformat()
 ARTICLES_DIR = Path("drafts")
-ZENN_DIR = Path("zenn/articles")   # Zenn連携リポジトリのarticlesディレクトリ
+ZENN_DIR = Path("articles")
 
 
 # ────────────────────────────────────────────────────────────
