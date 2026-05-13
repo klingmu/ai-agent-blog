@@ -13,7 +13,7 @@ from pathlib import Path
 
 TODAY = datetime.date.today().isoformat()
 DRAFTS_DIR = Path("drafts")
-ZENN_DIR = Path("zenn/articles")
+ZENN_DIR = Path("articles")
 
 
 # ────────────────────────────────────────────────────────────
