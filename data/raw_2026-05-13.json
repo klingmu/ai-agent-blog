@@ -307,18 +307,18 @@
     {
       "source": "hackernews",
       "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "summary": "HNスコア: 562, コメント数: 160",
+      "summary": "HNスコア: 570, コメント数: 164",
       "url": "https://github.com/cactus-compute/needle",
       "published": "2026-05-12T18:03:11",
-      "hn_score": 562
+      "hn_score": 570
     },
     {
       "source": "hackernews",
       "title": "Show HN: Agentic interface for mainframes and COBOL",
-      "summary": "HNスコア: 82, コメント数: 43",
+      "summary": "HNスコア: 83, コメント数: 43",
       "url": "https://www.hypercubic.ai/hopper",
       "published": "2026-05-12T17:10:22",
-      "hn_score": 82
+      "hn_score": 83
     },
     {
       "source": "hackernews",
@@ -331,10 +331,10 @@
     {
       "source": "hackernews",
       "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
-      "summary": "HNスコア: 104, コメント数: 45",
+      "summary": "HNスコア: 105, コメント数: 45",
       "url": "https://github.com/statewright/statewright",
       "published": "2026-05-12T14:24:55",
-      "hn_score": 104
+      "hn_score": 105
     },
     {
       "source": "hackernews",
@@ -381,8 +381,8 @@
       "title": "2noise/ChatTTS",
       "summary": "A generative speech model for daily dialogue.",
       "url": "https://github.com/2noise/ChatTTS",
-      "published": "2026-05-13T12:06:33Z",
-      "stars": 39246,
+      "published": "2026-05-13T15:50:38Z",
+      "stars": 39247,
       "language": "Python"
     },
     {
@@ -399,8 +399,8 @@
       "title": "letta-ai/letta",
       "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
       "url": "https://github.com/letta-ai/letta",
-      "published": "2026-05-13T13:58:28Z",
-      "stars": 22693,
+      "published": "2026-05-13T15:51:50Z",
+      "stars": 22694,
       "language": "Python"
     },
     {
@@ -408,8 +408,8 @@
       "title": "The-Pocket/PocketFlow",
       "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
       "url": "https://github.com/The-Pocket/PocketFlow",
-      "published": "2026-05-13T15:08:11Z",
-      "stars": 10616,
+      "published": "2026-05-13T15:54:02Z",
+      "stars": 10617,
       "language": "Python"
     },
     {
