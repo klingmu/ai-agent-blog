@@ -109,7 +109,7 @@ RESEARCH_TOOLS = [
                     "description": "ライターへの調査メモ（背景・文脈・補足）",
                 },
             },
-            "required": ["selected_indices", "research_notes"],
+            "required": ["selected_indices"],
         },
     },
 ]
@@ -267,9 +267,11 @@ def run_research_agent(theme: dict, all_items: list[dict]) -> dict:
             "research_notes": "フォールバック: key_items を使用",
         }
 
-    selected = [all_items[i] for i in finalized["selected_indices"] if 0 <= i < len(all_items)]
+    indices = finalized.get("selected_indices") or theme.get("key_items", list(range(min(6, len(all_items)))))
+    notes   = finalized.get("research_notes") or "（調査メモなし）"
+    selected = [all_items[i] for i in indices if 0 <= i < len(all_items)]
     print(f"   [Research] 選定: {len(selected)}件")
-    return {"selected_items": selected, "research_notes": finalized["research_notes"]}
+    return {"selected_items": selected, "research_notes": notes}
 
 
 # ══════════════════════════════════════════════════════════════
