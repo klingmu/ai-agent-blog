@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://claude.ai/chat/c23a1f7b-3064-4add-a45a-440e73256efd
+HostUrl=https://claude.ai/api/organizations/01a4ea07-8049-424f-bf84-dd8dff429400/conversations/c23a1f7b-3064-4add-a45a-440e73256efd/wiggle/download-file?path=%2Fmnt%2Fuser-data%2Foutputs%2Fai-agent-blog%2F.github%2Fworkflows%2Fdaily-blog.yml

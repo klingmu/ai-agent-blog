@@ -46,6 +46,9 @@ published: true
     with open(zenn_article_path, "w", encoding="utf-8") as f:
         f.write(zenn_frontmatter + body)
 
+    gh_token = os.environ.get("GH_TOKEN", "")
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+
     try:
         env = {
             **os.environ,
@@ -59,6 +62,10 @@ published: true
             ["git", "commit", "-m", f"📝 AIエージェント最前線 {TODAY} (score:{meta.get('quality_score',0)}/100)"],
             check=True, env=env,
         )
+        # GH_TOKEN をリモートURLに埋め込んで認証
+        if gh_token and repo:
+            remote_url = f"https://x-access-token:{gh_token}@github.com/{repo}.git"
+            subprocess.run(["git", "remote", "set-url", "origin", remote_url], check=True)
         subprocess.run(["git", "push", "origin", "main"], check=True)
         print(f"✅ Zenn 投稿完了: https://zenn.dev/articles/{slug}")
         return True

@@ -72,6 +72,8 @@ jobs:
           WP_USER: ${{ secrets.WP_USER }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
 
       # ── 5. データ保存コミット ─────────────────────────────
       - name: 💾 Commit data
@@ -80,9 +82,9 @@ jobs:
         run: |
           git config user.name "AI Blog Bot"
           git config user.email "bot@example.com"
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
           git add data/ articles/
           git diff --staged --quiet || git commit -m "📊 $(date +%Y-%m-%d) data"
-          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
           git push origin main || true
 
       # ── 6. 失敗通知 ───────────────────────────────────────
