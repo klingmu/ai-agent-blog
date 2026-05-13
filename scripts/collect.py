@@ -25,7 +25,7 @@ def fetch_arxiv(max_results: int = 10) -> list[dict]:
         '(ti:"agent" OR ti:"agentic" OR ti:"multi-agent" OR '
         ' ti:"tool use" OR ti:"LLM" OR ti:"RAG" OR ti:"autonomous")'
     )
-    client = arxiv.Client(delay_seconds=10.0, num_retries=5)
+    client = arxiv.Client()
     search = arxiv.Search(
         query=query,
         max_results=max_results,

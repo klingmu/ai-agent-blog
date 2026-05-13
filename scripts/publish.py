@@ -12,7 +12,7 @@ import requests
 from pathlib import Path
 
 TODAY = datetime.date.today().isoformat()
-ARTICLES_DIR = Path("articles")
+DRAFTS_DIR = Path("drafts")
 ZENN_DIR = Path("zenn/articles")
 
 
@@ -32,7 +32,15 @@ def publish_to_zenn(article_path: Path, meta: dict) -> bool:
     title_match = re.search(r"^# (.+)$", body, re.MULTILINE)
     title = title_match.group(1) if title_match else f"AIエージェント最前線 {TODAY}"
 
-    slug = f"article-{TODAY.replace('-', '')}"
+    # タイトルからZenn用slugを生成（YYYY-MM-DD-<英数字>、12〜50文字）
+    title_for_slug = re.sub(r"[^a-zA-Z0-9]+", "-", title)[:30].strip("-").lower()
+    if not title_for_slug:
+        title_for_slug = "ai-agent"
+    slug = f"{TODAY}-{title_for_slug}"
+    # Zennのslugは12〜50文字
+    if len(slug) < 12:
+        slug = slug + "-article"
+    slug = slug[:50]
     zenn_frontmatter = f"""---
 title: "{title}"
 emoji: "🤖"
@@ -163,9 +171,12 @@ def load_meta(article_path: Path) -> dict:
 # メイン
 # ────────────────────────────────────────────────────────────
 def main():
-    article_path = ARTICLES_DIR / f"{TODAY}.md"
-    if not article_path.exists():
-        raise FileNotFoundError(f"記事が見つかりません: {article_path}")
+    # YYYY-MM-DD-*.md を検索
+    matches = sorted(DRAFTS_DIR.glob(f"{TODAY}-*.md"))
+    if not matches:
+        raise FileNotFoundError(f"記事が見つかりません: drafts/{TODAY}-*.md")
+    article_path = matches[-1]  # 複数あれば最新を使用
+    print(f"📄 記事: {article_path}")
 
     meta = load_meta(article_path)
     approved = meta.get("approved", False)
@@ -180,8 +191,8 @@ def main():
     url = ""
 
     if target == "zenn":
-        slug = f"article-{TODAY.replace('-', '')}"
-        url = f"https://zenn.dev/articles/{slug}"
+        # publish_to_zenn 内で slug が確定するので、ここは概算URLを表示
+        url = f"https://zenn.dev/{TODAY}-article"
         success = publish_to_zenn(article_path, meta)
     elif target == "wordpress":
         success = publish_to_wordpress(article_path, meta)
