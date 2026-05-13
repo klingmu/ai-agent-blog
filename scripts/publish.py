@@ -32,7 +32,7 @@ def publish_to_zenn(article_path: Path, meta: dict) -> bool:
     title_match = re.search(r"^# (.+)$", body, re.MULTILINE)
     title = title_match.group(1) if title_match else f"AIエージェント最前線 {TODAY}"
 
-    slug = f"ai-agent-{TODAY.replace('-', '')}"
+    slug = f"article-{TODAY.replace('-', '')}"
     zenn_frontmatter = f"""---
 title: "{title}"
 emoji: "🤖"
@@ -180,7 +180,7 @@ def main():
     url = ""
 
     if target == "zenn":
-        slug = f"ai-agent-{TODAY.replace('-', '')}"
+        slug = f"article-{TODAY.replace('-', '')}"
         url = f"https://zenn.dev/articles/{slug}"
         success = publish_to_zenn(article_path, meta)
     elif target == "wordpress":
