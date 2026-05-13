@@ -307,18 +307,18 @@
     {
       "source": "hackernews",
       "title": "Rars: a Rust RAR implementation, mostly written by LLMs",
-      "summary": "HNスコア: 62, コメント数: 42",
+      "summary": "HNスコア: 64, コメント数: 43",
       "url": "https://bitplane.net/log/2026/05/rars/",
       "published": "2026-05-13T19:59:35",
-      "hn_score": 62
+      "hn_score": 64
     },
     {
       "source": "hackernews",
       "title": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
-      "summary": "HNスコア: 99, コメント数: 52",
+      "summary": "HNスコア: 102, コメント数: 61",
       "url": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
       "published": "2026-05-13T19:01:54",
-      "hn_score": 99
+      "hn_score": 102
     },
     {
       "source": "hackernews",
@@ -330,11 +330,27 @@
     },
     {
       "source": "hackernews",
+      "title": "Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing",
+      "summary": "HNスコア: 5, コメント数: 0",
+      "url": "https://news.ycombinator.com/item?id=48128003",
+      "published": "2026-05-13T21:40:18",
+      "hn_score": 5
+    },
+    {
+      "source": "hackernews",
       "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
       "summary": "HNスコア: 3, コメント数: 0",
       "url": "https://arxiv.org/abs/2605.09998",
       "published": "2026-05-13T19:11:10",
       "hn_score": 3
+    },
+    {
+      "source": "hackernews",
+      "title": "New Claude Code programmatic usage restrictions",
+      "summary": "HNスコア: 26, コメント数: 11",
+      "url": "https://twitter.com/i/status/2054610152817619388",
+      "published": "2026-05-13T19:38:39",
+      "hn_score": 26
     },
     {
       "source": "hackernews",
@@ -346,19 +362,11 @@
     },
     {
       "source": "hackernews",
-      "title": "New Claude Code programmatic usage restrictions",
-      "summary": "HNスコア: 25, コメント数: 9",
-      "url": "https://twitter.com/i/status/2054610152817619388",
-      "published": "2026-05-13T19:38:39",
-      "hn_score": 25
-    },
-    {
-      "source": "hackernews",
       "title": "Show HN: Agentic interface for mainframes and COBOL",
-      "summary": "HNスコア: 87, コメント数: 45",
+      "summary": "HNスコア: 88, コメント数: 45",
       "url": "https://www.hypercubic.ai/hopper",
       "published": "2026-05-12T17:10:22",
-      "hn_score": 87
+      "hn_score": 88
     },
     {
       "source": "hackernews",
@@ -375,14 +383,6 @@
       "url": "https://github.com/ElamOlame31/agentgate-public",
       "published": "2026-05-13T15:16:50",
       "hn_score": 4
-    },
-    {
-      "source": "hackernews",
-      "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
-      "summary": "HNスコア: 111, コメント数: 50",
-      "url": "https://github.com/statewright/statewright",
-      "published": "2026-05-12T14:24:55",
-      "hn_score": 111
     },
     {
       "source": "github",
