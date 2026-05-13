@@ -21,7 +21,7 @@ from pathlib import Path
 
 TODAY = datetime.date.today().isoformat()
 DATA_DIR = Path("data")
-ARTICLES_DIR = Path("articles")
+ARTICLES_DIR = Path("drafts")
 ARTICLES_DIR.mkdir(exist_ok=True)
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
