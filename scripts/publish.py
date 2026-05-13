@@ -1,6 +1,7 @@
 """
 publish.py — 生成記事を Zenn（GitHub Push）または WordPress へ投稿
-品質スコアをSlack通知に含める
+generate.py が articles/ に Zenn フロントマター付きで直接出力するため、
+このスクリプトは git push と通知のみを担当する。
 """
 
 import os
@@ -11,49 +12,15 @@ import datetime
 import requests
 from pathlib import Path
 
-TODAY = datetime.date.today().isoformat()
-DRAFTS_DIR = Path("drafts")
-ZENN_DIR = Path("articles")
+_JST = datetime.timezone(datetime.timedelta(hours=9))
+TODAY = datetime.datetime.now(_JST).date().isoformat()
+ARTICLES_DIR = Path("articles")
 
 
 # ────────────────────────────────────────────────────────────
-# Zenn 投稿
+# Zenn 投稿（git push のみ）
 # ────────────────────────────────────────────────────────────
 def publish_to_zenn(article_path: Path, meta: dict) -> bool:
-    ZENN_DIR.mkdir(parents=True, exist_ok=True)
-
-    with open(article_path, encoding="utf-8") as f:
-        content = f.read()
-
-    # フロントマター除去
-    body = re.sub(r"^---\n.*?---\n\n", "", content, flags=re.DOTALL)
-
-    # タイトル抽出
-    title_match = re.search(r"^# (.+)$", body, re.MULTILINE)
-    title = title_match.group(1) if title_match else f"AIエージェント最前線 {TODAY}"
-
-    # タイトルからZenn用slugを生成（YYYY-MM-DD-<英数字>、12〜50文字）
-    title_for_slug = re.sub(r"[^a-zA-Z0-9]+", "-", title)[:30].strip("-").lower()
-    if not title_for_slug:
-        title_for_slug = "ai-agent"
-    slug = f"{TODAY}-{title_for_slug}"
-    # Zennのslugは12〜50文字
-    if len(slug) < 12:
-        slug = slug + "-article"
-    slug = slug[:50]
-    zenn_frontmatter = f"""---
-title: "{title}"
-emoji: "🤖"
-type: "tech"
-topics: ["AIエージェント", "LLM", "Claude", "機械学習", "生成AI"]
-published: true
----
-
-"""
-    zenn_article_path = ZENN_DIR / f"{slug}.md"
-    with open(zenn_article_path, "w", encoding="utf-8") as f:
-        f.write(zenn_frontmatter + body)
-
     gh_token = os.environ.get("GH_TOKEN", "")
     repo = os.environ.get("GITHUB_REPOSITORY", "")
 
@@ -65,21 +32,20 @@ published: true
             "GIT_COMMITTER_NAME": "AI Blog Bot",
             "GIT_COMMITTER_EMAIL": "bot@example.com",
         }
-        # push前に必ずリモートURLをトークン付きに書き換える
         if gh_token and repo:
             remote_url = f"https://x-access-token:{gh_token}@github.com/{repo}.git"
         else:
-            # gh_token / repo が取れない場合は現在のリモートURLをそのまま使う
             result = subprocess.run(["git", "remote", "get-url", "origin"],
                                     capture_output=True, text=True)
             remote_url = result.stdout.strip()
         subprocess.run(["git", "remote", "set-url", "origin", remote_url], check=True)
-        subprocess.run(["git", "add", str(zenn_article_path)], check=True)
+        subprocess.run(["git", "add", str(article_path)], check=True)
         subprocess.run(
             ["git", "commit", "-m", f"📝 AIエージェント最前線 {TODAY} (score:{meta.get('quality_score',0)}/100)"],
             check=True, env=env,
         )
         subprocess.run(["git", "push", "origin", "main"], check=True)
+        slug = article_path.stem
         print(f"✅ Zenn 投稿完了: https://zenn.dev/articles/{slug}")
         return True
     except subprocess.CalledProcessError as e:
@@ -171,11 +137,10 @@ def load_meta(article_path: Path) -> dict:
 # メイン
 # ────────────────────────────────────────────────────────────
 def main():
-    # YYYY-MM-DD-*.md を検索
-    matches = sorted(DRAFTS_DIR.glob(f"{TODAY}-*.md"))
+    matches = sorted(ARTICLES_DIR.glob(f"{TODAY}-*.md"))
     if not matches:
-        raise FileNotFoundError(f"記事が見つかりません: drafts/{TODAY}-*.md")
-    article_path = matches[-1]  # 複数あれば最新を使用
+        raise FileNotFoundError(f"記事が見つかりません: articles/{TODAY}-*.md")
+    article_path = matches[-1]
     print(f"📄 記事: {article_path}")
 
     meta = load_meta(article_path)
@@ -191,8 +156,8 @@ def main():
     url = ""
 
     if target == "zenn":
-        # publish_to_zenn 内で slug が確定するので、ここは概算URLを表示
-        url = f"https://zenn.dev/{TODAY}-article"
+        slug = article_path.stem
+        url = f"https://zenn.dev/articles/{slug}"
         success = publish_to_zenn(article_path, meta)
     elif target == "wordpress":
         success = publish_to_wordpress(article_path, meta)

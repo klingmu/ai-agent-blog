@@ -19,9 +19,10 @@ import datetime
 import anthropic
 from pathlib import Path
 
-TODAY = datetime.date.today().isoformat()
+_JST = datetime.timezone(datetime.timedelta(hours=9))
+TODAY = datetime.datetime.now(_JST).date().isoformat()
 DATA_DIR = Path("data")
-ARTICLES_DIR = Path("drafts")
+ARTICLES_DIR = Path("articles")
 ARTICLES_DIR.mkdir(exist_ok=True)
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
@@ -183,8 +184,11 @@ JSONのみ返してください（前後の説明・```json 不要）。
     "section4": "第4セクションの骨格（読者へのアクション・展望）"
   },
   "key_items": [0, 3, 7],
-  "glossary_needed": ["RAG", "MCP"]
-}"""
+  "glossary_needed": ["RAG", "MCP"],
+  "slug": "keyword-topic-name"
+}
+
+slugは記事テーマを表す英小文字3〜5単語のハイフン区切り（例: "needle-agent-distillation", "shepherd-runtime-debug"）。"""
 
 def run_theme_selector(all_items: list[dict]) -> dict:
     # ④ 100字要約のみ渡す
@@ -456,7 +460,7 @@ def orchestrate(all_items: list[dict]) -> tuple[str, dict]:
         if attempt == MAX_REWRITE_ATTEMPTS:
             print("⚠️  最大リトライ到達。最後の稿を使用")
 
-    return article, quality
+    return article, quality, theme
 
 
 # ══════════════════════════════════════════════════════════════
@@ -500,41 +504,56 @@ def main():
     all_items = raw["items"]
     print(f"📥 収集データ: {len(all_items)} 件")
 
-    article, quality = orchestrate(all_items)
+    article, quality, theme = orchestrate(all_items)
 
-    # タイトルからslugを生成してファイル名にする
     import re as _re
-    title_match = _re.search(r"^# (.+)$", article, _re.MULTILINE)
-    raw_title = title_match.group(1) if title_match else "ai-agent-news"
-    # 日本語→ローマ字変換は重いので、英数字のみ抽出してslugにする
-    slug_part = _re.sub(r"[^a-zA-Z0-9]+", "-", raw_title)[:40].strip("-").lower()
+
+    # slug: ThemeSelectorの出力を優先、なければタイトルから英数字を抽出
+    slug_part = theme.get("slug", "")
+    slug_part = _re.sub(r"[^a-z0-9-]+", "", slug_part.lower())[:50].strip("-")
+    if not slug_part:
+        title_match_slug = _re.search(r"^# (.+)$", article, _re.MULTILINE)
+        raw_title = title_match_slug.group(1) if title_match_slug else "ai-agent-news"
+        slug_part = _re.sub(r"[^a-zA-Z0-9]+", "-", raw_title)[:40].strip("-").lower()
     if not slug_part:
         slug_part = "ai-agent"
+
     article_path = ARTICLES_DIR / f"{TODAY}-{slug_part}.md"
-    meta = {
-        "date":               TODAY,
-        "quality_score":      quality.get("total", 0),
-        "approved":           quality.get("approved", False),
-        "scores":             quality.get("scores", {}),
-        "highlight_sentence": quality.get("highlight_sentence", ""),
-        "item_count":         len(all_items),
-        "models_used":        {"theme": MODEL_HAIKU, "research": MODEL_HAIKU,
-                               "writer": MODEL_SONNET, "editor": MODEL_HAIKU},
-    }
+
+    # タイトル抽出
+    title_match = _re.search(r"^# (.+)$", article, _re.MULTILINE)
+    title = title_match.group(1) if title_match else f"AIエージェント最前線 {TODAY}"
+
+    approved      = quality.get("approved", False)
+    quality_score = quality.get("total", 0)
+    highlight     = quality.get("highlight_sentence", "").replace('"', '\\"')
+    scores_json   = json.dumps(quality.get("scores", {}), ensure_ascii=False)
+
+    # Zennフロントマター（追加フィールドはZennが無視する）
     frontmatter = (
-        "---\n"
-        + "\n".join(f"{k}: {json.dumps(v, ensure_ascii=False)}" for k, v in meta.items())
-        + "\n---\n\n"
+        f'---\n'
+        f'title: "{title}"\n'
+        f'emoji: "🤖"\n'
+        f'type: "tech"\n'
+        f'topics: ["AIエージェント", "LLM", "Claude", "機械学習", "生成AI"]\n'
+        f'published: {str(approved).lower()}\n'
+        f'quality_score: {quality_score}\n'
+        f'approved: {str(approved).lower()}\n'
+        f'date: "{TODAY}"\n'
+        f'highlight_sentence: "{highlight}"\n'
+        f'scores: {scores_json}\n'
+        f'---\n\n'
     )
+
     with open(article_path, "w", encoding="utf-8") as f:
         f.write(frontmatter + article)
 
     print(f"\n✅ 記事生成完了 → {article_path}")
-    print(f"   品質スコア: {meta['quality_score']}/100")
-    print(f"   ハイライト: {meta['highlight_sentence'][:60]}...")
+    print(f"   品質スコア: {quality_score}/100")
+    print(f"   ハイライト: {highlight[:60]}...")
 
-    if not quality.get("approved"):
-        print("⚠️  品質未承認 → 投稿スキップ（下書き保存済み）")
+    if not approved:
+        print("⚠️  品質未承認 → 投稿スキップ（published: false で保存）")
         exit(1)
 
     print("🚀 投稿準備完了")

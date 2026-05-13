@@ -12,7 +12,8 @@ import arxiv
 from collections import Counter
 from pathlib import Path
 
-TODAY = datetime.date.today().isoformat()
+_JST = datetime.timezone(datetime.timedelta(hours=9))
+TODAY = datetime.datetime.now(_JST).date().isoformat()
 OUTPUT_DIR = Path("data")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
