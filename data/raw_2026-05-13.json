@@ -307,18 +307,18 @@
     {
       "source": "hackernews",
       "title": "Rars: a Rust RAR implementation, mostly written by LLMs",
-      "summary": "HNスコア: 64, コメント数: 43",
+      "summary": "HNスコア: 66, コメント数: 46",
       "url": "https://bitplane.net/log/2026/05/rars/",
       "published": "2026-05-13T19:59:35",
-      "hn_score": 64
+      "hn_score": 66
     },
     {
       "source": "hackernews",
       "title": "\"Not Medically Necessary\": Helping America's Health Insurers Deny Coverage",
-      "summary": "HNスコア: 102, コメント数: 61",
+      "summary": "HNスコア: 108, コメント数: 68",
       "url": "https://www.propublica.org/article/evicore-health-insurance-denials-cigna-unitedhealthcare-aetna-prior-authorizations",
       "published": "2026-05-13T19:01:54",
-      "hn_score": 102
+      "hn_score": 108
     },
     {
       "source": "hackernews",
@@ -331,34 +331,34 @@
     {
       "source": "hackernews",
       "title": "Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing",
-      "summary": "HNスコア: 5, コメント数: 0",
+      "summary": "HNスコア: 12, コメント数: 0",
       "url": "https://news.ycombinator.com/item?id=48128003",
       "published": "2026-05-13T21:40:18",
-      "hn_score": 5
+      "hn_score": 12
     },
     {
       "source": "hackernews",
       "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
-      "summary": "HNスコア: 3, コメント数: 0",
+      "summary": "HNスコア: 4, コメント数: 0",
       "url": "https://arxiv.org/abs/2605.09998",
       "published": "2026-05-13T19:11:10",
-      "hn_score": 3
+      "hn_score": 4
     },
     {
       "source": "hackernews",
       "title": "New Claude Code programmatic usage restrictions",
-      "summary": "HNスコア: 26, コメント数: 11",
+      "summary": "HNスコア: 28, コメント数: 11",
       "url": "https://twitter.com/i/status/2054610152817619388",
       "published": "2026-05-13T19:38:39",
-      "hn_score": 26
+      "hn_score": 28
     },
     {
       "source": "hackernews",
       "title": "Claude subscription changes coverage of `claude -p`",
-      "summary": "HNスコア: 21, コメント数: 11",
+      "summary": "HNスコア: 24, コメント数: 15",
       "url": "https://x.com/i/trending/2054617957440143639",
       "published": "2026-05-13T19:25:58",
-      "hn_score": 21
+      "hn_score": 24
     },
     {
       "source": "hackernews",
@@ -370,11 +370,11 @@
     },
     {
       "source": "hackernews",
-      "title": "Fragnesia Made Public as Latest Linux Local Privilege Escalation Vulnerability",
-      "summary": "HNスコア: 36, コメント数: 17",
-      "url": "https://www.phoronix.com/news/Linux-Fragnesia",
-      "published": "2026-05-13T16:01:13",
-      "hn_score": 36
+      "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
+      "summary": "HNスコア: 112, コメント数: 51",
+      "url": "https://github.com/statewright/statewright",
+      "published": "2026-05-12T14:24:55",
+      "hn_score": 112
     },
     {
       "source": "hackernews",
