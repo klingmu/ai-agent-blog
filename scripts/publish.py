@@ -57,15 +57,20 @@ published: true
             "GIT_COMMITTER_NAME": "AI Blog Bot",
             "GIT_COMMITTER_EMAIL": "bot@example.com",
         }
+        # push前に必ずリモートURLをトークン付きに書き換える
+        if gh_token and repo:
+            remote_url = f"https://x-access-token:{gh_token}@github.com/{repo}.git"
+        else:
+            # gh_token / repo が取れない場合は現在のリモートURLをそのまま使う
+            result = subprocess.run(["git", "remote", "get-url", "origin"],
+                                    capture_output=True, text=True)
+            remote_url = result.stdout.strip()
+        subprocess.run(["git", "remote", "set-url", "origin", remote_url], check=True)
         subprocess.run(["git", "add", str(zenn_article_path)], check=True)
         subprocess.run(
             ["git", "commit", "-m", f"📝 AIエージェント最前線 {TODAY} (score:{meta.get('quality_score',0)}/100)"],
             check=True, env=env,
         )
-        # GH_TOKEN をリモートURLに埋め込んで認証
-        if gh_token and repo:
-            remote_url = f"https://x-access-token:{gh_token}@github.com/{repo}.git"
-            subprocess.run(["git", "remote", "set-url", "origin", remote_url], check=True)
         subprocess.run(["git", "push", "origin", "main"], check=True)
         print(f"✅ Zenn 投稿完了: https://zenn.dev/articles/{slug}")
         return True
