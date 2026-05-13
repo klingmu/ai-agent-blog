@@ -1,41 +1,38 @@
 """
-publish.py — 生成記事を Zenn（GitHub）または WordPress へ投稿
+publish.py — 生成記事を Zenn（GitHub Push）または WordPress へ投稿
+品質スコアをSlack通知に含める
 """
 
 import os
 import json
-import datetime
-import subprocess
 import re
+import subprocess
+import datetime
 import requests
 from pathlib import Path
 
 TODAY = datetime.date.today().isoformat()
-ARTICLES_DIR = Path("drafts")
-ZENN_DIR = Path("articles")
+ARTICLES_DIR = Path("articles")
+ZENN_DIR = Path("zenn/articles")
 
 
 # ────────────────────────────────────────────────────────────
-# Zenn 投稿（GitHub Push）
+# Zenn 投稿
 # ────────────────────────────────────────────────────────────
-def publish_to_zenn(article_path: Path) -> bool:
-    """
-    Zenn はGitHubリポジトリと連携するため、
-    対象リポジトリに Markdown をコピーして Push するだけで公開される
-    """
+def publish_to_zenn(article_path: Path, meta: dict) -> bool:
     ZENN_DIR.mkdir(parents=True, exist_ok=True)
 
     with open(article_path, encoding="utf-8") as f:
         content = f.read()
 
-    # フロントマター除去してZenn形式に変換
+    # フロントマター除去
     body = re.sub(r"^---\n.*?---\n\n", "", content, flags=re.DOTALL)
 
-    # Zenn用フロントマター
-    slug = f"ai-agent-{TODAY.replace('-', '')}"
+    # タイトル抽出
     title_match = re.search(r"^# (.+)$", body, re.MULTILINE)
     title = title_match.group(1) if title_match else f"AIエージェント最前線 {TODAY}"
 
+    slug = f"ai-agent-{TODAY.replace('-', '')}"
     zenn_frontmatter = f"""---
 title: "{title}"
 emoji: "🤖"
@@ -45,23 +42,25 @@ published: true
 ---
 
 """
-    zenn_content = zenn_frontmatter + body
-
     zenn_article_path = ZENN_DIR / f"{slug}.md"
     with open(zenn_article_path, "w", encoding="utf-8") as f:
-        f.write(zenn_content)
+        f.write(zenn_frontmatter + body)
 
-    # Git commit & push
     try:
+        env = {
+            **os.environ,
+            "GIT_AUTHOR_NAME": "AI Blog Bot",
+            "GIT_AUTHOR_EMAIL": "bot@example.com",
+            "GIT_COMMITTER_NAME": "AI Blog Bot",
+            "GIT_COMMITTER_EMAIL": "bot@example.com",
+        }
         subprocess.run(["git", "add", str(zenn_article_path)], check=True)
         subprocess.run(
-            ["git", "commit", "-m", f"📝 AIエージェント最前線 {TODAY}"],
-            check=True,
-            env={**os.environ, "GIT_AUTHOR_NAME": "AI Blog Bot", "GIT_AUTHOR_EMAIL": "bot@example.com",
-                 "GIT_COMMITTER_NAME": "AI Blog Bot", "GIT_COMMITTER_EMAIL": "bot@example.com"},
+            ["git", "commit", "-m", f"📝 AIエージェント最前線 {TODAY} (score:{meta.get('quality_score',0)}/100)"],
+            check=True, env=env,
         )
         subprocess.run(["git", "push", "origin", "main"], check=True)
-        print(f"✅ Zenn に投稿完了: https://zenn.dev/articles/{slug}")
+        print(f"✅ Zenn 投稿完了: https://zenn.dev/articles/{slug}")
         return True
     except subprocess.CalledProcessError as e:
         print(f"❌ Git push 失敗: {e}")
@@ -69,44 +68,31 @@ published: true
 
 
 # ────────────────────────────────────────────────────────────
-# WordPress 投稿（REST API）
+# WordPress 投稿
 # ────────────────────────────────────────────────────────────
-def publish_to_wordpress(article_path: Path) -> bool:
-    """WordPress REST API で投稿"""
+def publish_to_wordpress(article_path: Path, meta: dict) -> bool:
     wp_url = os.environ.get("WP_URL")
     wp_user = os.environ.get("WP_USER")
     wp_password = os.environ.get("WP_APP_PASSWORD")
-
     if not all([wp_url, wp_user, wp_password]):
-        print("⚠️  WordPress の環境変数が未設定です (WP_URL, WP_USER, WP_APP_PASSWORD)")
+        print("⚠️  WordPress 環境変数が未設定")
         return False
 
     with open(article_path, encoding="utf-8") as f:
         content = f.read()
-
     body = re.sub(r"^---\n.*?---\n\n", "", content, flags=re.DOTALL)
     title_match = re.search(r"^# (.+)$", body, re.MULTILINE)
     title = title_match.group(1) if title_match else f"AIエージェント最前線 {TODAY}"
-
-    # Markdown → HTML（簡易変換。本番では markdown2 等を使用）
-    html_content = body
 
     try:
         r = requests.post(
             f"{wp_url}/wp-json/wp/v2/posts",
             auth=(wp_user, wp_password),
-            json={
-                "title": title,
-                "content": html_content,
-                "status": "publish",
-                "categories": [],
-                "tags": [],
-            },
+            json={"title": title, "content": body, "status": "publish"},
             timeout=30,
         )
         r.raise_for_status()
-        post_url = r.json().get("link", "")
-        print(f"✅ WordPress に投稿完了: {post_url}")
+        print(f"✅ WordPress 投稿完了: {r.json().get('link', '')}")
         return True
     except requests.RequestException as e:
         print(f"❌ WordPress 投稿失敗: {e}")
@@ -116,14 +102,49 @@ def publish_to_wordpress(article_path: Path) -> bool:
 # ────────────────────────────────────────────────────────────
 # Slack 通知
 # ────────────────────────────────────────────────────────────
-def notify_slack(message: str):
+def notify_slack(meta: dict, success: bool, url: str = ""):
     webhook = os.environ.get("SLACK_WEBHOOK_URL")
     if not webhook:
         return
+    score = meta.get("quality_score", 0)
+    highlight = meta.get("highlight_sentence", "")[:60]
+    scores = meta.get("scores", {})
+    score_detail = " / ".join(f"{k}:{v}" for k, v in scores.items())
+
+    if success:
+        text = (
+            f"🤖 *AIエージェント最前線 {TODAY}* を投稿しました！\n"
+            f"📊 品質スコア: *{score}/100* ({score_detail})\n"
+            f"💬 ハイライト: _{highlight}_\n"
+            f"🔗 {url}"
+        )
+    else:
+        text = f"❌ {TODAY} の記事投稿に失敗しました。GitHubのログを確認してください。"
+
     try:
-        requests.post(webhook, json={"text": message}, timeout=5)
+        requests.post(webhook, json={"text": text}, timeout=5)
     except Exception:
         pass
+
+
+# ────────────────────────────────────────────────────────────
+# メタデータ読み込み
+# ────────────────────────────────────────────────────────────
+def load_meta(article_path: Path) -> dict:
+    with open(article_path, encoding="utf-8") as f:
+        content = f.read()
+    meta_match = re.match(r"^---\n(.*?)---\n", content, re.DOTALL)
+    if not meta_match:
+        return {}
+    meta = {}
+    for line in meta_match.group(1).splitlines():
+        if ": " in line:
+            k, v = line.split(": ", 1)
+            try:
+                meta[k.strip()] = json.loads(v.strip())
+            except Exception:
+                meta[k.strip()] = v.strip()
+    return meta
 
 
 # ────────────────────────────────────────────────────────────
@@ -134,31 +155,26 @@ def main():
     if not article_path.exists():
         raise FileNotFoundError(f"記事が見つかりません: {article_path}")
 
-    # メタデータ確認
-    with open(article_path, encoding="utf-8") as f:
-        content = f.read()
+    meta = load_meta(article_path)
+    approved = meta.get("approved", False)
 
-    approved_match = re.search(r"^approved: (.+)$", content, re.MULTILINE)
-    if approved_match and approved_match.group(1).strip() == "false":
-        print("⚠️  品質チェック未承認のため投稿をスキップします")
-        notify_slack(f"⚠️ {TODAY} の記事は品質チェック未承認のため投稿をスキップしました")
+    if not approved:
+        print(f"⚠️  品質未承認（スコア: {meta.get('quality_score', 0)}/100）→ 投稿スキップ")
+        notify_slack(meta, success=False)
         return
 
-    # 投稿先を環境変数で切り替え
     target = os.environ.get("PUBLISH_TARGET", "zenn").lower()
-
     success = False
-    if target == "zenn":
-        success = publish_to_zenn(article_path)
-    elif target == "wordpress":
-        success = publish_to_wordpress(article_path)
-    else:
-        print(f"❌ 不明な投稿先: {target} (zenn / wordpress のいずれかを指定)")
+    url = ""
 
-    if success:
-        notify_slack(f"🤖 *AIエージェント最前線 {TODAY}* を投稿しました！")
-    else:
-        notify_slack(f"❌ {TODAY} の記事投稿に失敗しました。ログを確認してください")
+    if target == "zenn":
+        slug = f"ai-agent-{TODAY.replace('-', '')}"
+        url = f"https://zenn.dev/articles/{slug}"
+        success = publish_to_zenn(article_path, meta)
+    elif target == "wordpress":
+        success = publish_to_wordpress(article_path, meta)
+
+    notify_slack(meta, success, url)
 
 
 if __name__ == "__main__":
