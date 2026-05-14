@@ -1,0 +1,458 @@
+{
+  "date": "2026-05-15",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents",
+      "summary": "Voice agents, artificial intelligence systems that conduct spoken conversations to complete tasks, are increasingly deployed across enterprise applications. However, no existing benchmark jointly addresses two core evaluation challenges: generating realistic simulated conversations, and measuring quality across the full scope of voice-specific failure modes. We present EVA-Bench, an end-to-end evaluation framework that addresses both. On the simulation side, EVA-Bench orchestrates bot-to-bot audio conversations over dynamic multi-turn dialogues, with automatic simulation validation that detect",
+      "url": "http://arxiv.org/abs/2605.13841v1",
+      "authors": [
+        "Tara Bogavelli",
+        "Gabrielle Gauthier Melançon",
+        "Katrina Stankiewicz"
+      ],
+      "published": "2026-05-13T17:58:52+00:00",
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "History Anchors: How Prior Behavior Steers LLM Decisions Toward Unsafe Actions",
+      "summary": "Frontier LLMs are increasingly deployed as agents that pick the next action after a long log of prior tool calls produced by the same or a different model. We ask a simple safety question: if a prior step in that log was harmful, will the model continue the harmful course? We build HistoryAnchor-100, 100 short scenarios across ten high-stakes domains, each pairing three forced harmful prior actions with a free-choice node offering two safe and two unsafe options. Across 17 frontier models from six providers we find a striking asymmetry: under a neutral system prompt the strongest aligned model",
+      "url": "http://arxiv.org/abs/2605.13825v1",
+      "authors": [
+        "Alberto G. Rodríguez Salgado"
+      ],
+      "published": "2026-05-13T17:50:27+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Harnessing Agentic Evolution",
+      "summary": "Agentic evolution has emerged as a powerful paradigm for improving programs, workflows, and scientific solutions by iteratively generating candidates, evaluating them, and using feedback to guide future search. However, existing methods are typically instantiated either as fixed hand-designed procedures that are modular but rigid, or as general-purpose agents that flexibly integrate feedback but can drift in long-horizon evolution. Both forms accumulate rich evidence over time, including candidates, feedback, traces, and failures, yet lack a stable interface for organizing this evidence and re",
+      "url": "http://arxiv.org/abs/2605.13821v1",
+      "authors": [
+        "Jiayi Zhang",
+        "Yongfeng Gu",
+        "Jianhao Ruan"
+      ],
+      "published": "2026-05-13T17:45:16+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "MinT: Managed Infrastructure for Training and Serving Millions of LLMs",
+      "summary": "We present MindLab Toolkit (MinT), a managed infrastructure system for Low-Rank Adaptation (LoRA) post-training and online serving. MinT targets a setting where many trained policies are produced over a small number of expensive base-model deployments. Instead of materializing each policy as a merged full checkpoint, MinT keeps the base model resident and moves exported LoRA adapter revisions through rollout, update, export, evaluation, serving, and rollback, hiding distributed training, serving, scheduling, and data movement behind a service interface. MinT scales this path along three axes. ",
+      "url": "http://arxiv.org/abs/2605.13779v1",
+      "authors": [
+        "Mind Lab",
+        ":",
+        "Song Cao"
+      ],
+      "published": "2026-05-13T16:59:08+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.DC"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Senses Wide Shut: A Representation-Action Gap in Omnimodal LLMs",
+      "summary": "When an omnimodal large language model accepts a question whose textual premise contradicts what it actually sees or hears, does the failure lie in perception or in action? Recent omnimodal models are positioned as perception-grounded agents that jointly process video, audio, and text, yet a basic form of grounding remains untested: catching a textual claim that conflicts with the model's own sensory input. We introduce IMAVB, a curated 500-clip benchmark of long-form movies with a 2x2 design crossing target modality (vision, audio) and premise condition (standard, misleading), which lets us m",
+      "url": "http://arxiv.org/abs/2605.13737v1",
+      "authors": [
+        "Trung Nguyen Quang",
+        "Yiming Gao",
+        "Fanyi Pu"
+      ],
+      "published": "2026-05-13T16:14:44+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "KVServe: Service-Aware KV Cache Compression for Communication-Efficient Disaggregated LLM Serving",
+      "summary": "LLMs are widely adopted in production, pushing inference systems to their limits. Disaggregated LLM serving (e.g., PD separation and KV state disaggregation) improves scalability and cost efficiency, but it also turns KV into an explicit payload crossing network and storage boundaries, making KV a dominant end-to-end bottleneck. Existing KV compression are typically static runtime configurations, despite production service context varies over time in workload mix, bandwidth, and SLO/quality budgets. As a result, a fixed choice can be suboptimal or even increase latency. We present \\emph{KVServ",
+      "url": "http://arxiv.org/abs/2605.13734v1",
+      "authors": [
+        "Zedong Liu",
+        "Xinyang Ma",
+        "Dejun Luo"
+      ],
+      "published": "2026-05-13T16:12:33+00:00",
+      "categories": [
+        "cs.DC",
+        "cs.AI",
+        "cs.NI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "ScioMind: Cognitively Grounded Multi-Agent Social Simulation with Anchoring-Based Belief Dynamics and Dynamic Profiles",
+      "summary": "Large language model (LLM)-based multi-agent simulation offers a powerful testbed for studying social opinion dynamics. Yet current approaches often adopt two contrasting methods: either relying on fixed update rules with limited cognitive grounding or delegating belief change largely to unconstrained LLM interaction. We introduce ScioMind, a cognitively grounded simulation framework that bridges these paradigms by combining structured opinion dynamics with LLM-based agent reasoning. ScioMind integrates three key components: 1) a memory-anchored belief update rule that modulates susceptibility",
+      "url": "http://arxiv.org/abs/2605.13725v1",
+      "authors": [
+        "Yitian Yang",
+        "Yiqun Duan",
+        "Linghan Huang"
+      ],
+      "published": "2026-05-13T16:07:00+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.SI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Children's English Reading Story Generation via Supervised Fine-Tuning of Compact LLMs with Controllable Difficulty and Safety",
+      "summary": "Large Language Models (LLMs) are widely applied in educational practices, such as for generating children's stories. However, the generated stories are often too difficult for children to read, and the operational cost of LLMs hinders their widespread adoption in educational settings. We used an existing expert-designed children's reading curriculum and its corresponding generated stories from GPT-4o and Llama 3.3 70B to design different experiments for fine-tuning three 8B-parameter LLMs, which then generated new English reading stories that were subjected to quantitative and qualitative eval",
+      "url": "http://arxiv.org/abs/2605.13709v1",
+      "authors": [
+        "Qian Shen",
+        "Fanghua Cao",
+        "Min Yao"
+      ],
+      "published": "2026-05-13T15:56:37+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "RTLC -- Research, Teach-to-Learn, Critique: A three-stage prompting paradigm inspired by the Feynman Learning Technique that lifts LLM-as-judge accuracy on JudgeBench with no fine-tuning",
+      "summary": "LLM-as-a-judge is now the default measurement instrument for open-ended generation, but on the public JudgeBench benchmark even strong instruction-tuned judges barely scrape past random on objective-correctness pairwise items. We introduce RTLC, a three-stage prompting recipe -- Research, Teach-to-Learn, Critique -- that promotes a single black-box LLM into an ensemble-of-thought judge with no fine-tuning, retrieval, or external tools. Stage 1 wraps the input in a fixed pedagogical scaffold porting the Feynman Learning Technique (study $\\to$ teach $\\to$ find gaps $\\to$ simplify) into LLM promp",
+      "url": "http://arxiv.org/abs/2605.13695v1",
+      "authors": [
+        "Andrea Morandi"
+      ],
+      "published": "2026-05-13T15:48:16+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Causality-Aware End-to-End Autonomous Driving via Ego-Centric Joint Scene Modeling",
+      "summary": "End-to-end autonomous driving, which bypasses traditional modular pipelines by directly predicting future trajectories from sensor inputs, has recently achieved substantial progress. However, existing methods often overlook the causal inter-dependencies in ego-vehicle planning, ignoring the reciprocal relations between the ego vehicle and surrounding agents. This causal oversight leads to inconsistent and unreliable trajectory predictions, especially in interaction-critical scenarios where ego decisions and neighboring agent behaviors must be reasoned about jointly. To address this limitation,",
+      "url": "http://arxiv.org/abs/2605.13646v1",
+      "authors": [
+        "Seokha Moon",
+        "Minseung Lee",
+        "Joon Seo"
+      ],
+      "published": "2026-05-13T15:06:22+00:00",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Work with Codex from anywhere",
+      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere",
+      "published": "Thu, 14 May 2026 13:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Helping ChatGPT better recognize context in sensitive conversations",
+      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
+      "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
+      "published": "Thu, 14 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "summary": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
+      "url": "https://openai.com/index/building-codex-windows-sandbox",
+      "published": "Wed, 13 May 2026 11:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Our response to the TanStack npm supply chain attack",
+      "summary": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening defenses against evolving software supply chain threats.",
+      "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
+      "published": "Wed, 13 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How finance teams use Codex",
+      "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
+      "url": "https://openai.com/academy/how-finance-teams-use-codex",
+      "published": "Tue, 12 May 2026 15:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+      "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "published": "Wed, 06 May 2026 10:43:49 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "summary": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "published": "Thu, 30 Apr 2026 12:14:15 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Announcing our partnership with the Republic of Korea",
+      "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "published": "Mon, 27 Apr 2026 07:00:06 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "summary": "",
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "published": "Wed, 22 Apr 2026 10:20:03 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
+      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "published": "Tue, 21 Apr 2026 14:54:15 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "published": "Thu, 14 May 2026 18:55:01 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Unlocking asynchronicity in continuous batching",
+      "summary": "",
+      "url": "https://huggingface.co/blog/continuous_async",
+      "published": "Thu, 14 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "summary": "",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "published": "Mon, 11 May 2026 23:18:26 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "EMO: Pretraining mixture of experts for emergent modularity",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/emo",
+      "published": "Fri, 08 May 2026 16:03:50 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "published": "Wed, 06 May 2026 19:06:55 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "datasette-ip-rate-limit 0.1a0",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-ip-rate-limit/releases/tag/0.1a0\">datasette-ip-rate-limit 0.1a0</a></p>\n        <p>The <a href=\"https://datasette.io/\">datasette.io</a> site was being hammered by poorly-behaved crawlers, so I had Codex (GPT-5.5 xhigh) build a configurable rate limiting plugin to block IPs that were hammering specific areas of the site too quickly.</p>\n<p>Here's <a href=\"https://github.com/simonw/datasette.io/blob/b6022bf9987661b94a26d3143028193a6cabfdcf/datasette.yml#L103-L116\">the production configuration</a> I'm using on that site ",
+      "url": "https://simonwillison.net/2026/May/14/datasette-ip-rate-limit/#atom-everything",
+      "published": "2026-05-14T04:10:23+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Welcome to the Datasette blog",
+      "summary": "<p><strong><a href=\"https://datasette.io/blog/2026/new-blog/\">Welcome to the Datasette blog</a></strong></p>\nWe have a bunch of neat Datasette announcements in the pipeline so we decided it was time the project grew an official blog.</p>\n<p>I built this using OpenAI Codex desktop, which turns out to have the Markdown session transcript export feature I've always wanted. Here's <a href=\"https://gist.github.com/simonw/885b11eee46822622b8031a1f4e5f3a3\">the session that built the blog</a>. See also <a href=\"https://github.com/simonw/datasette.io/issues/179\">issue 179</a>.\n\n\n    <p>Tags: <a href=\"h",
+      "url": "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything",
+      "published": "2026-05-13T23:59:39+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Boris Mann",
+      "summary": "<blockquote cite=\"https://bsky.app/profile/bmann.ca/post/3mlp2ipupv22z\"><p>“11 AI agents” is meaningless as a phrase. </p>\n<p>If I said “I have 11 spreadsheets” or “I have 11 browser tabs” to do my work, it means about the same thing.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://bsky.app/profile/bmann.ca/post/3mlp2ipupv22z\">Boris Mann</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-agents\">ai-agents</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/agent-definitions\">agent-definitions</a></p>",
+      "url": "https://simonwillison.net/2026/May/13/boris-mann/#atom-everything",
+      "published": "2026-05-13T16:15:50+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "CSP Allow-list Experiment",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/csp-allow\">CSP Allow-list Experiment</a></p>\n        <p>An experiment that shows that you can load an app in a CSP-protected sandboxed iframe (see <a href=\"https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/\">previous note</a>) and have a custom <code>fetch()</code> that intercepts CSP errors and passes them up to the parent window... which can then prompt the user to add that domain to an allow-list and then refresh the page.</p>\n<p><img alt=\"Screenshot of a web tool titled &quot;CSP Allow-list Experiment&quot; with b",
+      "url": "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything",
+      "published": "2026-05-13T04:50:45+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "datasette 1.0a29",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a29\">datasette 1.0a29</a></p>\n        <blockquote>\n<ul>\n<li>New <code>TokenRestrictions.abbreviated(datasette)</code> <a href=\"https://docs.datasette.io/en/latest/internals.html#tokenrestrictions\">utility method</a> for creating <code>\"_r\"</code> dictionaries. <a href=\"https://github.com/simonw/datasette/issues/2695\">#2695</a></li>\n<li>Table headers and column options are now visible even if a table contains zero rows. <a href=\"https://github.com/simonw/datasette/issues/2701\">#2701</a></li>\n<li>Fixed bug ",
+      "url": "https://simonwillison.net/2026/May/12/datasette/#atom-everything",
+      "published": "2026-05-12T23:41:06+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude for Legal",
+      "summary": "HNスコア: 28, コメント数: 18",
+      "url": "https://github.com/anthropics/claude-for-legal",
+      "published": "2026-05-14T21:05:05",
+      "hn_score": 28
+    },
+    {
+      "source": "hackernews",
+      "title": "Infracost (YC W21) Is Hiring Sr Dev Advocate to make agents cloud cost-aware",
+      "summary": "HNスコア: 1, コメント数: 0",
+      "url": "https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate",
+      "published": "2026-05-14T21:00:37",
+      "hn_score": 1
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenData Vector: MIT-Licensed Vector Search on Object Storage",
+      "summary": "HNスコア: 21, コメント数: 3",
+      "url": "https://www.opendata.dev/blog/introducing-vector/",
+      "published": "2026-05-14T18:19:08",
+      "hn_score": 21
+    },
+    {
+      "source": "hackernews",
+      "title": "Best \"Brain\" for Agents Is Just Versioned Folders of Markdown Files",
+      "summary": "HNスコア: 5, コメント数: 0",
+      "url": "https://extency.com/blog/markdown-versioned-folders-agent-brain-2026",
+      "published": "2026-05-14T20:15:26",
+      "hn_score": 5
+    },
+    {
+      "source": "hackernews",
+      "title": "Codex is now available on mobile via ChatGPT app",
+      "summary": "HNスコア: 28, コメント数: 9",
+      "url": "https://twitter.com/openai/status/2055016850849993072",
+      "published": "2026-05-14T20:17:43",
+      "hn_score": 28
+    },
+    {
+      "source": "hackernews",
+      "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
+      "summary": "HNスコア: 214, コメント数: 46",
+      "url": "https://github.com/DrCatHicks/learning-opportunities",
+      "published": "2026-05-14T03:13:31",
+      "hn_score": 214
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude for Small Business",
+      "summary": "HNスコア: 500, コメント数: 446",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "published": "2026-05-14T03:59:35",
+      "hn_score": 500
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI's Codex is now in the ChatGPT mobile app",
+      "summary": "HNスコア: 9, コメント数: 0",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview",
+      "published": "2026-05-14T20:25:01",
+      "hn_score": 9
+    },
+    {
+      "source": "hackernews",
+      "title": "Viable open source Claude Design alternative?",
+      "summary": "HNスコア: 9, コメント数: 0",
+      "url": "https://news.ycombinator.com/item?id=48140859",
+      "published": "2026-05-14T20:33:20",
+      "hn_score": 9
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "summary": "HNスコア: 726, コメント数: 206",
+      "url": "https://github.com/cactus-compute/needle",
+      "published": "2026-05-12T18:03:11",
+      "hn_score": 726
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-05-14T10:14:49Z",
+      "stars": 39254,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-05-14T22:08:02Z",
+      "stars": 25080,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-05-14T20:14:06Z",
+      "stars": 22717,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-05-14T13:05:57Z",
+      "stars": 10616,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-05-14T01:46:05Z",
+      "stars": 3341,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-05-14T01:21:06Z",
+      "stars": 3252,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-05-14T09:50:17Z",
+      "stars": 3055,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-05-14T17:10:53Z",
+      "stars": 2514,
+      "language": "Python"
+    }
+  ]
+}
