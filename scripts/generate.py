@@ -414,6 +414,25 @@ def run_research_agent(theme: dict, all_items: list[dict]) -> dict:
 WRITER_SYSTEM = """あなたはトップクラスのテックライターです。
 AIビギナーから最前線エンジニアまで全員が楽しめる雑誌スタイルの記事を書きます。
 
+## 📌 タイトル生成の鉄則（絶対守ること）
+1. **シンプルで短い** — 15〜20文字以内。複雑な用語は避ける。
+2. **人々の関心を引く** — 「なぜこれを読む必要があるのか」を一目で感じさせる。
+   - 例：「○○が変わった」「意外な○○の真実」「今こそ知るべき○○」
+   - 避けるべき：技術用語の直訳、抽象的すぎる表現、英語的な複雑な言い回し
+3. **日本語として自然** — 英語の直訳は厳禁。日本人が日常で使う言葉を優先。
+   - 「〇〇の最適化」より「〇〇を速くする」
+   - 「フレームワークの進化」より「新しい〇〇が登場」
+4. **検索性を考慮** — ユーザーが検索しそうなキーワードを1つは含める。
+5. **新規性を示唆** — 「新」「今」「ついに」など、読者の好奇心をくすぐる言葉を活用。
+
+## ✍️ 日本語表現の鉄則（執筆全体で必須）
+- 難しい専門用語を使う場合は、「〜とは」で簡単に解説する
+- 文長は最長30文字程度に（長い文は読者を疲れさせる）
+- 「〜である」の堅い表現より「〜です」の親しみやすい表現を優先
+- 「多くの研究によれば」より「実は」「意外にも」など話し言葉を使う
+- 英語の直訳（例：「実装」「活用」「サポート」の誤用）を避け、自然な日本語に
+- 見出しは短く（目安：15字以内）、読者が一目で内容を理解できる言葉に
+
 ## 執筆の鉄則
 1. 論理的な流れで書く — 編集長から渡された構成タイプ（structure_type）に従い、
    読者が自然に次を読みたくなる展開を作る。「起承転結」などのラベルは記事本文に
@@ -511,23 +530,85 @@ def run_writer_agent(theme: dict, research: dict,
 # ══════════════════════════════════════════════════════════════
 # Agent 4: EditorAgent — Haiku（先頭 2,000 字のみ評価）
 # ══════════════════════════════════════════════════════════════
-EDITOR_SYSTEM = f"""あなたは雑誌編集長です。記事を5軸で採点し承認 or 差し戻しを判定します。
+EDITOR_SYSTEM = f"""あなたは雑誌編集長です。記事を6軸で採点し承認 or 差し戻しを判定します。
 
-評価基準（各20点満点・合計 {APPROVE_THRESHOLD}点以上で承認）:
-1. fun_novelty   — おもしろさ・新規性
-2. clarity       — わかりやすさ（用語解説あるか）
-3. accuracy      — 正確性・信頼性
-4. practicality  — 実用性（明日使えるか）
-5. narrative     — 構成の完成度（論理的な流れ・核心セクションに驚きがあるか）
+評価基準（各16〜17点満点・合計 {APPROVE_THRESHOLD}点以上で承認）:
+1. fun_novelty      — おもしろさ・新規性
+2. clarity          — わかりやすさ（用語解説あるか、日本語が読みやすいか）
+3. accuracy         — 正確性・信頼性
+4. practicality     — 実用性（明日使えるか）
+5. narrative        — 構成の完成度（論理的な流れ・核心セクションに驚きがあるか）
+6. japanese_quality — 日本語表現の質（タイトル・見出し・本文は自然で読みやすいか）
+
+## 日本語品質チェック（評価項目6）:
+- タイトルが簡潔で読者の興味を引くか（15〜20字目安、複雑な表現がないか）
+- 難しい用語は「〜とは」で解説されているか
+- 文が長すぎないか（30字以上は避けるべき）
+- 「〜です」など親しみやすい表現を使っているか
+- 英語の直訳表現が混在していないか（例：「実装する」「活用する」の誤用）
+- 全体的に読みやすい、自然な日本語か
 
 JSONのみ返すこと（前後の説明不要）:
 {{
-  "scores": {{"fun_novelty":0,"clarity":0,"accuracy":0,"practicality":0,"narrative":0}},
+  "scores": {{"fun_novelty":0,"clarity":0,"accuracy":0,"practicality":0,"narrative":0,"japanese_quality":0}},
   "total": 0,
   "approved": false,
   "feedback": "差し戻し時の具体的改善指示（承認時は空文字）",
   "highlight_sentence": "SNSシェア用の最良の一文"
 }}"""
+
+# ══════════════════════════════════════════════════════════════
+# Agent 4.5: JapaneseNativeCheckAgent — Haiku
+# ══════════════════════════════════════════════════════════════
+JAPANESE_CHECKER_SYSTEM = """あなたは日本語ネイティブの校正者です。
+テックライターが書いた記事のタイトル・見出し・本文を精査し、
+より読みやすく、わかりやすい自然な日本語に修正します。
+
+## チェック項目
+1. タイトルが簡潔で興味を引くか（15〜20字、複雑な表現がないか）
+2. 見出しが短く、内容を一目で理解できるか（目安：15字以内）
+3. 文が長すぎないか（30字以上は短く分割を提案）
+4. 難しい直訳表現があれば、自然な日本語に修正
+   - 「実装する」「活用する」など英語的な表現を日本語に
+5. 専門用語が十分に解説されているか
+6. 全体の読みやすさ（話し言葉を活用しているか）
+
+## 出力フォーマット（JSON のみ）
+{
+  "title_suggestion": "修正されたタイトル（修正不要なら元のまま）",
+  "corrections": [
+    {"original": "修正前の表現", "corrected": "修正後の表現", "reason": "理由"},
+    ...
+  ],
+  "corrected_article": "日本語が修正された記事全体（Markdown形式）",
+  "notes": "その他の提案・コメント"
+}"""
+
+def run_japanese_native_checker(article: str, theme: dict) -> str:
+    """日本語表現のネイティブチェック"""
+    article_head = article[:3000]  # 先頭部分で充分判定可能
+    resp = client.messages.create(
+        model=MODEL_HAIKU, max_tokens=2500,
+        system=JAPANESE_CHECKER_SYSTEM,
+        messages=[{"role": "user", "content":
+                   f"テーマ: {theme['theme']}\n\n記事:\n{article_head}"}],
+    )
+    _log_cost("JapaneseNativeChecker(Haiku)", resp)
+    try:
+        checked = json.loads(_strip_json(resp.content[0].text))
+        # タイトル修正提案があれば適用
+        if checked.get("title_suggestion"):
+            import re as _re
+            title_new = checked["title_suggestion"]
+            article = _re.sub(r"^# .+$", f"# {title_new}", article, count=1, flags=_re.MULTILINE)
+        # 本文の修正を適用
+        if checked.get("corrected_article"):
+            article = checked["corrected_article"]
+        print(f"   [JapaneseChecker] 修正完了（{len(checked.get('corrections', []))}件の改善）")
+    except Exception as e:
+        print(f"   [JapaneseChecker] スキップ（パース失敗: {str(e)[:50]}）")
+    return article
+
 
 def run_editor_agent(article: str, theme: dict) -> dict:
     # ⑤ 先頭 2,000 字のみ渡す（構成・品質は冒頭でわかる）
@@ -548,7 +629,7 @@ def run_editor_agent(article: str, theme: dict) -> dict:
 # ══════════════════════════════════════════════════════════════
 # OrchestratorAgent
 # ══════════════════════════════════════════════════════════════
-def orchestrate(all_items: list[dict]) -> tuple[str, dict]:
+def orchestrate(all_items: list[dict]) -> tuple[str, dict, dict]:
     print("\n🎯 [Orchestrator] ThemeSelectorAgent (Haiku)")
     theme = run_theme_selector(all_items)
 
@@ -562,6 +643,9 @@ def orchestrate(all_items: list[dict]) -> tuple[str, dict]:
     for attempt in range(1, MAX_REWRITE_ATTEMPTS + 1):
         print(f"\n✍️  [Orchestrator] WriterAgent (Sonnet) 第{attempt}稿")
         article = run_writer_agent(theme, research, feedback, attempt)
+
+        print(f"\n🔤 [Orchestrator] JapaneseNativeCheckAgent (Haiku) 第{attempt}稿「日本語」チェック")
+        article = run_japanese_native_checker(article, theme)
 
         print(f"\n🔎 [Orchestrator] EditorAgent (Haiku) 第{attempt}稿評価")
         quality = run_editor_agent(article, theme)
