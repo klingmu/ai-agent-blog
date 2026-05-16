@@ -2,174 +2,24 @@
   "date": "2026-05-16",
   "items": [
     {
-      "source": "arxiv",
-      "title": "ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both",
-      "summary": "Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models during reasoning, but this is computationally expensive and architecturally non-trivial. Recent alternatives include agentic reasoning through code or tool calls, and latent reasoning with learnable hidden embeddings. However, agentic methods incur context-switching latency from external execution, while latent methods lack task generalization and are difficult to train with autoregressive paralleliz",
-      "url": "http://arxiv.org/abs/2605.15198v1",
-      "authors": [
-        "Ziyu Guo",
-        "Rain Liu",
-        "Xinyan Chen"
-      ],
-      "published": "2026-05-14T17:59:55+00:00",
-      "categories": [
-        "cs.CV",
-        "cs.AI",
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arxiv",
-      "title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents",
-      "summary": "AI agents are being increasingly deployed in dynamic, open-ended environments that require adapting to new information as it arrives. To efficiently measure this capability for realistic use-cases, we propose building grounded simulations that replay real-world events in the order they occurred. We build FutureSim, where agents forecast world events beyond their knowledge cutoff while interacting with a chronological replay of the world: real news articles arriving and questions resolving over the simulated period. We evaluate frontier agents in their native harness, testing their ability to p",
-      "url": "http://arxiv.org/abs/2605.15188v1",
-      "authors": [
-        "Shashwat Goel",
-        "Nikhil Chandak",
-        "Arvindh Arun"
-      ],
-      "published": "2026-05-14T17:59:28+00:00",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arxiv",
-      "title": "Self-Distilled Agentic Reinforcement Learning",
-      "summary": "Reinforcement learning (RL) has emerged as a central paradigm for post-training LLM agents, yet its trajectory-level reward signal provides only coarse supervision for long-horizon interaction. On-Policy Self-Distillation (OPSD) complements RL by introducing dense token-level guidance from a teacher branch augmented with privileged context. However, transferring OPSD to multi-turn agents proves problematic: compounding multi-turn instability destabilizes supervision, while skill-conditioned privileged guidance requires asymmetric treatment for negative teacher rejections may arise from imperfe",
-      "url": "http://arxiv.org/abs/2605.15155v1",
-      "authors": [
-        "Zhengxi Lu",
-        "Zhiyuan Yao",
-        "Zhuowen Han"
-      ],
-      "published": "2026-05-14T17:51:26+00:00",
-      "categories": [
-        "cs.LG",
-        "cs.AI",
-        "cs.CL"
-      ]
-    },
-    {
-      "source": "arxiv",
-      "title": "Widening the Gap: Exploiting LLM Quantization via Outlier Injection",
-      "summary": "LLM quantization has become essential for memory-efficient deployment. Recent work has shown that quantization schemes can pose critical security risks: an adversary may release a model that appears benign in full precision but exhibits malicious behavior once quantized by users. However, existing quantization-conditioned attacks have been limited to relatively simple quantization methods, where the attacker can estimate weight regions that remain invariant under the target quantization. Notably, prior attacks have consistently failed to compromise more popular and sophisticated schemes, limit",
-      "url": "http://arxiv.org/abs/2605.15152v1",
-      "authors": [
-        "Xiaohua Zhan",
-        "Kazuki Egashira",
-        "Robin Staab"
-      ],
-      "published": "2026-05-14T17:50:39+00:00",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arxiv",
-      "title": "APWA: A Distributed Architecture for Parallelizable Agentic Workflows",
-      "summary": "Autonomous multi-agent systems based on large language models (LLMs) have demonstrated remarkable abilities in independently solving complex tasks in a wide breadth of application domains. However, these systems hit critical reasoning, coordination, and computational scaling bottlenecks as the size and complexity of their tasks grow. These limitations hinder multi-agent systems from achieving high-throughput processing for highly parallelizable tasks, despite the availability of parallel computing and reasoning primitives in the underlying LLMs. We introduce the Agent-Parallel Workload Archite",
-      "url": "http://arxiv.org/abs/2605.15132v1",
-      "authors": [
-        "Evan Rose",
-        "Tushin Mallick",
-        "Matthew D. Laws"
-      ],
-      "published": "2026-05-14T17:40:20+00:00",
-      "categories": [
-        "cs.AI",
-        "cs.DC",
-        "cs.MA"
-      ]
-    },
-    {
-      "source": "arxiv",
-      "title": "CLOVER: Closed-Loop Value Estimation \\& Ranking for End-to-End Autonomous Driving Planning",
-      "summary": "End-to-end autonomous driving planners are commonly trained by imitating a single logged trajectory, yet evaluated by rule-based planning metrics that measure safety, feasibility, progress, and comfort. This creates a training--evaluation mismatch: trajectories close to the logged path may violate planning rules, while alternatives farther from the demonstration can remain valid and high-scoring. The mismatch is especially limiting for proposal-selection planners, whose performance depends on candidate-set coverage and scorer ranking quality. We propose CLOVER, a Closed-LOop Value Estimation a",
-      "url": "http://arxiv.org/abs/2605.15120v1",
-      "authors": [
-        "Sining Ang",
-        "Yuguang Yang",
-        "Canyu Chen"
-      ],
-      "published": "2026-05-14T17:32:18+00:00",
-      "categories": [
-        "cs.RO",
-        "cs.AI",
-        "cs.CV"
-      ]
-    },
-    {
-      "source": "arxiv",
-      "title": "Why Neighborhoods Matter: Traversal Context and Provenance in Agentic GraphRAG",
-      "summary": "Retrieval-Augmented Generation can improve factuality by grounding answers in external evidence, but Agentic GraphRAG complicates what it means for citations to be faithful. In these systems, an agent explores a knowledge graph before producing an answer and a small set of citations. We frame citation faithfulness as a trajectory-level problem: final citations should not only support the answer, but also account for the graph traversal, structure, and visited-but-uncited entities that may influence it. Through controlled ablation experiments, we compare the effects of isolating, removing, and ",
-      "url": "http://arxiv.org/abs/2605.15109v1",
-      "authors": [
-        "Riccardo Terrenzi",
-        "Maximilian von Zastrow",
-        "Serkan Ayvaz"
-      ],
-      "published": "2026-05-14T17:25:20+00:00",
-      "categories": [
-        "cs.AI",
-        "cs.IR"
-      ]
-    },
-    {
-      "source": "arxiv",
-      "title": "Concurrency without Model Changes: Future-based Asynchronous Function Calling for LLMs",
-      "summary": "Function calling, also known as tool use, is a core capability of modern LLM agents but is typically constrained by synchronous execution semantics. Under these semantics, LLM decoding is blocked until each function call completes, resulting in increasing end-to-end latency. In this work, we introduce AsyncFC, a pure execution-layer framework that decouples LLM decoding from function execution, enabling overlap between model decoding and function execution as well as inter-function parallelism when dependencies permit. AsyncFC layers over existing models and unmodified function implementations",
-      "url": "http://arxiv.org/abs/2605.15077v1",
-      "authors": [
-        "Guangyu Feng",
-        "Huanzhi Mao",
-        "Prabal Dutta"
-      ],
-      "published": "2026-05-14T17:02:28+00:00",
-      "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
-      ]
-    },
-    {
-      "source": "arxiv",
-      "title": "TFGN: Task-Free, Replay-Free Continual Pre-Training Without Catastrophic Forgetting at LLM Scale",
-      "summary": "Continually pre-training a large language model on heterogeneous text domains, without replay or task labels, has remained an unsolved architectural problem at LLM scale. Existing methods rely on replay buffers, task identifiers, regularization penalties that scale poorly, or sentence-classification-scale evaluation.\n  We introduce TFGN, an architectural overlay for transformer language models that produces input-conditioned, parameter-efficient updates while leaving the rest of the transformer unchanged. On six heterogeneous text domains (Prose, Python, Math, Biomedical, Chinese, JavaScript) ",
-      "url": "http://arxiv.org/abs/2605.15053v1",
-      "authors": [
-        "Anurup Ganguli"
-      ],
-      "published": "2026-05-14T16:46:26+00:00",
-      "categories": [
-        "cs.LG",
-        "cs.AI"
-      ]
-    },
-    {
-      "source": "arxiv",
-      "title": "An Interpretable Latency Model for Speculative Decoding in LLM Serving",
-      "summary": "Speculative decoding (SD) accelerates large language model (LLM) inference by using a smaller draft model to propose multiple tokens that are verified by a larger target model in parallel. While prior work demonstrates substantial speedups in isolated or fixed-batch settings, the behavior of SD in production serving systems remains poorly understood: request load varies over time, and effective batch size emerges from the serving system rather than being directly controlled or observed. In this work, we develop a simple and interpretable latency model for SD in LLM serving. We infer effective ",
-      "url": "http://arxiv.org/abs/2605.15051v1",
-      "authors": [
-        "Linghao Kong",
-        "Megan Flynn",
-        "Michael Peng"
-      ],
-      "published": "2026-05-14T16:45:28+00:00",
-      "categories": [
-        "cs.LG",
-        "cs.PF"
-      ]
+      "source": "rss:OpenAI Blog",
+      "title": "How sales teams use Codex",
+      "summary": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "published": "Fri, 15 May 2026 00:00:00 GMT"
     },
     {
       "source": "rss:OpenAI Blog",
-      "title": "A new personal finance experience in ChatGPT",
-      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
-      "url": "https://openai.com/index/personal-finance-chatgpt",
+      "title": "How business operations teams use Codex",
+      "summary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "published": "Fri, 15 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How data science teams use Codex",
+      "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "published": "Fri, 15 May 2026 00:00:00 GMT"
     },
     {
@@ -181,24 +31,10 @@
     },
     {
       "source": "rss:OpenAI Blog",
-      "title": "Sea's View on the Future of Agentic Software Development with Codex",
-      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
-      "url": "https://openai.com/index/sea-david-chen",
-      "published": "Thu, 14 May 2026 20:30:00 GMT"
-    },
-    {
-      "source": "rss:OpenAI Blog",
-      "title": "Work with Codex from anywhere",
-      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere",
-      "published": "Thu, 14 May 2026 13:00:00 GMT"
-    },
-    {
-      "source": "rss:OpenAI Blog",
-      "title": "Helping ChatGPT better recognize context in sensitive conversations",
-      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
-      "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "published": "Thu, 14 May 2026 00:00:00 GMT"
+      "title": "A new personal finance experience in ChatGPT",
+      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "url": "https://openai.com/index/personal-finance-chatgpt",
+      "published": "Fri, 15 May 2026 00:00:00 GMT"
     },
     {
       "source": "rss:Google DeepMind",
@@ -307,43 +143,43 @@
     },
     {
       "source": "hackernews",
-      "title": "Show HN: Sx – an open-source package manager for AI skills, MCPs, and commands",
-      "summary": "HNスコア: 39, コメント数: 23",
-      "url": "https://github.com/sleuth-io/sx",
-      "published": "2026-05-15T17:03:22",
-      "hn_score": 39
-    },
-    {
-      "source": "hackernews",
       "title": "Claude for Legal",
-      "summary": "HNスコア: 196, コメント数: 185",
+      "summary": "HNスコア: 199, コメント数: 187",
       "url": "https://github.com/anthropics/claude-for-legal",
       "published": "2026-05-14T21:05:05",
-      "hn_score": 196
+      "hn_score": 199
     },
     {
       "source": "hackernews",
-      "title": "The 52-Page Memo That Nearly Destroyed OpenAI: Ilya Sutskever's Deposition",
-      "summary": "HNスコア: 25, コメント数: 3",
-      "url": "https://medium.com/@prateekj24/the-52-page-memo-that-nearly-destroyed-openai-inside-ilya-sutskevers-deposition-acef91208a1c",
-      "published": "2026-05-15T19:55:32",
-      "hn_score": 25
+      "title": "Show HN: Sx – an open-source package manager for AI skills, MCPs, and commands",
+      "summary": "HNスコア: 40, コメント数: 24",
+      "url": "https://github.com/sleuth-io/sx",
+      "published": "2026-05-15T17:03:22",
+      "hn_score": 40
     },
     {
       "source": "hackernews",
       "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "summary": "HNスコア: 747, コメント数: 208",
+      "summary": "HNスコア: 748, コメント数: 208",
       "url": "https://github.com/cactus-compute/needle",
       "published": "2026-05-12T18:03:11",
-      "hn_score": 747
+      "hn_score": 748
     },
     {
       "source": "hackernews",
       "title": "Codex is now in the ChatGPT mobile app",
-      "summary": "HNスコア: 469, コメント数: 244",
+      "summary": "HNスコア: 471, コメント数: 246",
       "url": "https://openai.com/index/work-with-codex-from-anywhere/",
       "published": "2026-05-14T20:06:14",
-      "hn_score": 469
+      "hn_score": 471
+    },
+    {
+      "source": "hackernews",
+      "title": "The 52-Page Memo That Nearly Destroyed OpenAI: Ilya Sutskever's Deposition",
+      "summary": "HNスコア: 32, コメント数: 5",
+      "url": "https://medium.com/@prateekj24/the-52-page-memo-that-nearly-destroyed-openai-inside-ilya-sutskevers-deposition-acef91208a1c",
+      "published": "2026-05-15T19:55:32",
+      "hn_score": 32
     },
     {
       "source": "hackernews",
@@ -355,35 +191,43 @@
     },
     {
       "source": "hackernews",
-      "title": "OpenAI Models in OpenClaw, Done Right",
-      "summary": "HNスコア: 4, コメント数: 0",
-      "url": "https://openclaw.ai/blog/openai-models-in-openclaw-done-right",
-      "published": "2026-05-15T19:19:36",
-      "hn_score": 4
+      "title": "Claude for Small Business",
+      "summary": "HNスコア: 533, コメント数: 467",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "published": "2026-05-14T03:59:35",
+      "hn_score": 533
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: MIT OSS LinkedIn DMs for Agents (CLI and Example TUI)",
+      "summary": "HNスコア: 3, コメント数: 0",
+      "url": "https://allman.sh",
+      "published": "2026-05-15T20:45:58",
+      "hn_score": 3
     },
     {
       "source": "hackernews",
       "title": "How Claude Code works in large codebases",
-      "summary": "HNスコア: 234, コメント数: 152",
+      "summary": "HNスコア: 234, コメント数: 153",
       "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
       "published": "2026-05-15T04:15:31",
       "hn_score": 234
     },
     {
       "source": "hackernews",
-      "title": "Claude for Small Business",
-      "summary": "HNスコア: 532, コメント数: 465",
-      "url": "https://www.anthropic.com/news/claude-for-small-business",
-      "published": "2026-05-14T03:59:35",
-      "hn_score": 532
+      "title": "OpenAI Models in OpenClaw, Done Right",
+      "summary": "HNスコア: 6, コメント数: 0",
+      "url": "https://openclaw.ai/blog/openai-models-in-openclaw-done-right",
+      "published": "2026-05-15T19:19:36",
+      "hn_score": 6
     },
     {
       "source": "github",
       "title": "2noise/ChatTTS",
       "summary": "A generative speech model for daily dialogue.",
       "url": "https://github.com/2noise/ChatTTS",
-      "published": "2026-05-16T02:27:38Z",
-      "stars": 39258,
+      "published": "2026-05-16T06:09:43Z",
+      "stars": 39261,
       "language": "Python"
     },
     {
@@ -391,8 +235,8 @@
       "title": "agentscope-ai/agentscope",
       "summary": "Build and run agents you can see, understand and trust.",
       "url": "https://github.com/agentscope-ai/agentscope",
-      "published": "2026-05-16T02:57:08Z",
-      "stars": 25150,
+      "published": "2026-05-16T06:43:52Z",
+      "stars": 25155,
       "language": "Python"
     },
     {
@@ -400,8 +244,8 @@
       "title": "letta-ai/letta",
       "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
       "url": "https://github.com/letta-ai/letta",
-      "published": "2026-05-16T03:08:58Z",
-      "stars": 22739,
+      "published": "2026-05-16T06:51:42Z",
+      "stars": 22741,
       "language": "Python"
     },
     {
@@ -445,9 +289,17 @@
       "title": "BAAI-Agents/Cradle",
       "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
       "url": "https://github.com/BAAI-Agents/Cradle",
-      "published": "2026-05-15T21:21:03Z",
-      "stars": 2515,
+      "published": "2026-05-16T04:25:20Z",
+      "stars": 2514,
       "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Web Scraping Is Insanely Good | Browserbase Full Tutorial",
+      "summary": "Create a free account and get started with Browserbase: https://browserbase.run/twt1 If you've ever tried to connect an AI agent to ...",
+      "url": "https://www.youtube.com/watch?v=XTQTJoSfeMg",
+      "published": "2026-05-15T15:19:07Z",
+      "channel": "Tech With Tim"
     },
     {
       "source": "youtube",
@@ -467,27 +319,11 @@
     },
     {
       "source": "youtube",
-      "title": "AI Web Scraping Is Insanely Good | Browserbase Full Tutorial",
-      "summary": "Create a free account and get started with Browserbase: https://browserbase.run/twt1 If you've ever tried to connect an AI agent to ...",
-      "url": "https://www.youtube.com/watch?v=XTQTJoSfeMg",
-      "published": "2026-05-15T15:19:07Z",
-      "channel": "Tech With Tim"
-    },
-    {
-      "source": "youtube",
       "title": "AI Agents Explained: How to Create and Use AI Agents in 2026",
       "summary": "sponsored Redeem IAMAIMASTER50 to save 50% on our Starter and Standard Plans for the first 3 months (only applicable to ...",
       "url": "https://www.youtube.com/watch?v=4TvH-OZhwxI",
       "published": "2026-05-13T18:56:35Z",
       "channel": "AI Master"
-    },
-    {
-      "source": "youtube",
-      "title": "Agentic AI Full Course for Beginners 2026 | Complete AI Agents Tutorial | Intellipaat",
-      "summary": "Enroll for Agentic AI Course: https://intellipaat.com/agentic-ai-systems-design-course/ Book your Free ...",
-      "url": "https://www.youtube.com/watch?v=eooxQPZQUEM",
-      "published": "2026-05-12T13:30:44Z",
-      "channel": "Intellipaat"
     },
     {
       "source": "youtube",
@@ -499,19 +335,19 @@
     },
     {
       "source": "youtube",
-      "title": "I Switched From Claude to ChatGPT (the difference is insane)",
-      "summary": "Join the WhatsApp community (prompts + comparison sheet free): https://links.stayingahead.com/YT29 ChatGPT vs Claude - I ...",
-      "url": "https://www.youtube.com/watch?v=2fb_N_uk_9w",
-      "published": "2026-05-15T15:48:53Z",
-      "channel": "Vaibhav Sisinty"
+      "title": "Hermes Agent Desktop + Local LLM — Full Setup with Llama.cpp &amp; Gemma 4",
+      "summary": "Get your VPS Today: https://hostinger.com/prompt Run Hermes Agent on your desktop with a fully local LLM — no API key needed ...",
+      "url": "https://www.youtube.com/watch?v=e85NzrAmb7U",
+      "published": "2026-05-16T03:27:24Z",
+      "channel": "Prompt Engineer"
     },
     {
       "source": "youtube",
-      "title": "Codex SuperApp: Did OpenAI Just Kill Claude Code?",
-      "summary": "OpenAI just shipped three updates in one drop that turn Codex from a desktop coding tool into a full-blown developer super app.",
-      "url": "https://www.youtube.com/watch?v=n3sDrvsDDGY",
-      "published": "2026-05-14T23:14:43Z",
-      "channel": "Universe of AI"
+      "title": "I Switched From Claude to ChatGPT (the difference is insane)",
+      "summary": "Join the WhatsApp community: https://links.stayingahead.com/YT29 ChatGPT vs Claude - I switched from Claude to ChatGPT after ...",
+      "url": "https://www.youtube.com/watch?v=2fb_N_uk_9w",
+      "published": "2026-05-15T15:48:53Z",
+      "channel": "Vaibhav Sisinty"
     },
     {
       "source": "youtube",
@@ -520,6 +356,14 @@
       "url": "https://www.youtube.com/watch?v=eHypGunx-QU",
       "published": "2026-05-15T17:00:06Z",
       "channel": "AI a Mindennapokban - Szabolccsal"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Agents Are Becoming Operating Systems | The Intelligent Operator",
+      "summary": "AI agents are shifting from chat demos into real operating workflows. In this Intelligent Operator brief, John Lowe breaks down the ...",
+      "url": "https://www.youtube.com/watch?v=3oRbO9o2jOs",
+      "published": "2026-05-15T20:09:06Z",
+      "channel": "John Lowe | The Intelligent Operator"
     },
     {
       "source": "youtube_shorts",
