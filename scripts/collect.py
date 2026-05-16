@@ -6,6 +6,7 @@ collect.py — 情報収集スクリプト（エージェント版）
 import os
 import json
 import datetime
+import time
 import feedparser
 import requests
 import arxiv
@@ -26,23 +27,46 @@ def fetch_arxiv(max_results: int = 10) -> list[dict]:
         '(ti:"agent" OR ti:"agentic" OR ti:"multi-agent" OR '
         ' ti:"tool use" OR ti:"LLM" OR ti:"RAG" OR ti:"autonomous")'
     )
-    client = arxiv.Client()
+    # arXiv APIのレート制限対策: リトライ設定を追加
+    client = arxiv.Client(
+        page_size=100,
+        delay_seconds=3,  # リクエスト間隔を3秒に設定
+        num_retries=5,    # 最大5回リトライ
+    )
     search = arxiv.Search(
         query=query,
         max_results=max_results,
         sort_by=arxiv.SortCriterion.SubmittedDate,
     )
     results = []
-    for paper in client.results(search):
-        results.append({
-            "source": "arxiv",
-            "title": paper.title,
-            "summary": paper.summary[:600],
-            "url": paper.entry_id,
-            "authors": [a.name for a in paper.authors[:3]],
-            "published": paper.published.isoformat(),
-            "categories": paper.categories,
-        })
+    retry_count = 0
+    max_retries = 5
+    
+    while retry_count < max_retries:
+        try:
+            for paper in client.results(search):
+                results.append({
+                    "source": "arxiv",
+                    "title": paper.title,
+                    "summary": paper.summary[:600],
+                    "url": paper.entry_id,
+                    "authors": [a.name for a in paper.authors[:3]],
+                    "published": paper.published.isoformat(),
+                    "categories": paper.categories,
+                })
+            break  # 成功したらループを抜ける
+        except arxiv.HTTPError as e:
+            retry_count += 1
+            if retry_count >= max_retries:
+                print(f"[arXiv] エラー: {e} (リトライ上限に達しました)")
+                break
+            wait_time = 2 ** retry_count  # 指数バックオフ: 2, 4, 8, 16, 32 秒
+            print(f"[arXiv] エラー: {e.status_code} - {wait_time}秒待機してリトライします (試行: {retry_count}/{max_retries})")
+            time.sleep(wait_time)
+        except Exception as e:
+            print(f"[arXiv] 予期しないエラー: {e}")
+            break
+    
     print(f"[arXiv] {len(results)} 件取得")
     return results
 
@@ -265,12 +289,24 @@ def fetch_youtube_shorts(max_results: int = 4) -> list[dict]:
 # ────────────────────────────────────────────────────────────
 def main():
     all_items: list[dict] = []
-    all_items += fetch_arxiv()
-    all_items += fetch_rss()
-    all_items += fetch_hackernews()
-    all_items += fetch_github_trending()
-    all_items += fetch_youtube()
-    all_items += fetch_youtube_shorts()
+    
+    # 各ソースからの取得を試みるが、失敗しても続行
+    sources = [
+        ("arXiv", fetch_arxiv),
+        ("RSS", fetch_rss),
+        ("Hacker News", fetch_hackernews),
+        ("GitHub", fetch_github_trending),
+        ("YouTube", fetch_youtube),
+        ("YouTube Shorts", fetch_youtube_shorts),
+    ]
+    
+    for source_name, fetch_func in sources:
+        try:
+            items = fetch_func()
+            all_items += items
+        except Exception as e:
+            print(f"⚠️ [{source_name}] 取得失敗: {e}")
+            print(f"   → {source_name}はスキップして続行します\n")
 
     out_path = OUTPUT_DIR / f"raw_{TODAY}.json"
     with open(out_path, "w", encoding="utf-8") as f:
