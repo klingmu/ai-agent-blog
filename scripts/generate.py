@@ -41,16 +41,100 @@ APPROVE_THRESHOLD    = 70  # 75 → 70
 
 
 # ══════════════════════════════════════════════════════════════
+# 🎯 ユーザーの関心領域設定
+# ══════════════════════════════════════════════════════════════
+USER_INTERESTS = {
+    # 優先度: 2.0 （最高！！）
+    "highest_priority": [
+        # GitHub Copilot 関連
+        "github copilot", "copilot update", "copilot feature", "copilot release",
+        "copilot enterprise", "copilot workspace",
+        # Claude Code / Anthropic 関連
+        "claude code", "claude codebase", "claude model", "claude update", "claude release",
+        "claude 3", "claude 4", "claude 5",
+        # VSCode 関連
+        "vscode", "vscode update", "vscode release", "visual studio code",
+        "vscode extension", "vscode ai", "vscode copilot",
+        # 最新AIモデルのアップデート
+        "gpt-4", "gpt-5", "gemini", "gemini update", "o1", "o1-preview",
+        "model release", "ai model", "model update",
+        "anthropic", "openai", "google deepmind",
+    ],
+    # 優先度: 1.5 （高）
+    "high_priority": [
+        # エージェント・スキル評価・最適化
+        "agent evaluation", "skill evaluation", "token optimization", "token efficiency",
+        "context management", "context control", "orchestration", "agent orchestration",
+        "execution time", "inference control", "parallel processing", "concurrency",
+        "debugging", "debug tool", "trace", "observability",
+        # ローカルLLM
+        "local llm", "edge llm", "quantization", "model compression",
+    ],
+    # 優先度: 1.2 （中）
+    "medium_priority": [
+        # クラウドAI・アーキテクチャ
+        "azure", "aws", "google cloud", "cloud architecture",
+        "cloud ai", "vertex ai", "bedrock", "sagemaker",
+        # RAG設計
+        "rag", "retrieval", "vector database", "embedding",
+        # AIアプリ
+        "notion ai", "obsidian", "notebooklm", "ai notebook",
+        "knowledge management", "ai app",
+    ],
+    # 優先度: 0.5 （低、学術的な論文）
+    "low_priority": [
+        "arxiv", "research", "paper", "academic",
+        "theoretical", "formalization",
+    ]
+}
+
+def _score_by_user_interest(item: dict) -> float:
+    """アイテムをユーザーの関心度でスコア化（1.0 ~ 3.0）"""
+    title_lower = item.get("title", "").lower()
+    summary_lower = item.get("summary", "").lower()
+    text = f"{title_lower} {summary_lower}"
+    
+    score = 1.0  # ベーススコア
+    
+    # 最高優先度キーワード（GitHub Copilot, Claude Code, VSCode, 最新モデル）
+    for keyword in USER_INTERESTS.get("highest_priority", []):
+        if keyword in text:
+            score += 1.0  # +1.0
+    
+    # 高優先度キーワード
+    for keyword in USER_INTERESTS.get("high_priority", []):
+        if keyword in text:
+            score += 0.5
+    
+    # 中優先度キーワード
+    for keyword in USER_INTERESTS.get("medium_priority", []):
+        if keyword in text:
+            score += 0.2
+    
+    # 低優先度キーワード（スコア低下）
+    for keyword in USER_INTERESTS.get("low_priority", []):
+        if keyword in text:
+            score *= 0.7
+    
+    # HackerNews スコアも加味
+    hn_score = item.get("hn_score", 0)
+    score += min(hn_score / 1000, 0.5)
+    
+    return min(score, 3.0)  # 最大3.0
+
+
+# ══════════════════════════════════════════════════════════════
 # ④ データ圧縮ヘルパー
 # ══════════════════════════════════════════════════════════════
 def _slim(items: list[dict], summary_len: int = 100) -> list[dict]:
-    """ThemeSelector / ResearchAgent に渡す圧縮版（タイトル + 100字要約）"""
+    """ThemeSelector / ResearchAgent に渡す圧縮版（タイトル + 100字要約 + 関心度）"""
     return [
         {
             "idx": i,
             "src": item["source"].split(":")[0],
             "title": item["title"],
             "summary": item.get("summary", "")[:summary_len],
+            "user_interest_score": round(_score_by_user_interest(item), 2),
         }
         for i, item in enumerate(items)
     ]
@@ -143,11 +227,26 @@ def _handle_tool(tool_name: str, tool_input: dict, all_items: list[dict]) -> str
             if 0 <= idx < len(all_items):
                 item  = all_items[idx]
                 score = 0
+                
+                # ★ ユーザー関心度スコアを大きく加味（最高優先度をさらに重視）
+                user_interest_score = _score_by_user_interest(item)
+                if user_interest_score >= 2.0:
+                    # 最高優先度（GitHub Copilot, Claude Code, VSCode, 最新モデル）
+                    score += user_interest_score * 4  # 4倍に重み付け
+                elif user_interest_score >= 1.5:
+                    # 高優先度
+                    score += user_interest_score * 2.5  # 2.5倍
+                else:
+                    # 中・低優先度
+                    score += user_interest_score * 2  # 2倍
+                
+                # 既存スコアリング
                 if "arxiv"   in item["source"]: score += 3
                 if "youtube" in item["source"]: score += 2
                 score += min(item.get("hn_score", 0) // 100, 3)
                 score += min(item.get("stars",    0) // 1000, 2)
-                ranked.append({"index": idx, "title": item["title"], "score": score})
+                
+                ranked.append({"index": idx, "title": item["title"], "score": round(score, 2)})
         ranked.sort(key=lambda x: x["score"], reverse=True)
         return json.dumps(ranked, ensure_ascii=False)
 
@@ -163,6 +262,24 @@ def _handle_tool(tool_name: str, tool_input: dict, all_items: list[dict]) -> str
 THEME_SELECTOR_SYSTEM = """あなたは雑誌編集長です。
 収集データを見て今日号のテーマと記事構成を設計します。
 JSONのみ返してください（前後の説明・```json 不要）。
+
+## 🎯🎯 テーマ選択の優先順位（ユーザー最優先）
+**最高優先度（user_interest_score 2.0以上）を最優先で選ぶべき**:
+- 🔴 GitHub Copilot のアップデート・新機能・ベストプラクティス
+- 🔴 Claude Code / Anthropic の最新モデル・アップデート情報
+- 🔴 VSCode のアップデート・AI統合・新機能
+- 🔴 GPT-5, Gemini, O1などの最新AIモデルのリリース・性能情報
+
+その次の優先度（user_interest_score 1.5以上）:
+- エージェント・スキル評価、トークン最適化、コンテキスト制御
+- オーケストレーション、並列処理制御、デバッグツール
+- ローカルLLM、エッジデバイス向けモデル
+
+その次（user_interest_score 1.2以上）:
+- Azure/AWS/Google Cloud のクラウドAI、RAG設計
+- Notion, Obsidian, NotebookLM などのAIアプリ
+
+低優先度：純粋な学術論文の理論的内容
 
 ## 構成パターン（最も適切なものを選ぶ）
 - problem_solution: 課題提起 → 解決策の登場 → 実装・効果 → 今後の展望
@@ -191,13 +308,16 @@ JSONのみ返してください（前後の説明・```json 不要）。
 slugは記事テーマを表す英小文字3〜5単語のハイフン区切り（例: "needle-agent-distillation", "shepherd-runtime-debug"）。"""
 
 def run_theme_selector(all_items: list[dict]) -> dict:
-    # ④ 100字要約のみ渡す
+    # ④ 100字要約＋関心度スコア付き圧縮版を作成
     slim = _slim(all_items, summary_len=100)
+    # ★ 関心度の高い順にソート（ThemeSelectorが最初に見るデータを優先度順に）
+    slim_sorted = sorted(slim, key=lambda x: x.get("user_interest_score", 0), reverse=True)
+    
     resp = client.messages.create(
         model=MODEL_HAIKU, max_tokens=800,   # ① Haiku
         system=THEME_SELECTOR_SYSTEM,
         messages=[{"role": "user",
-                   "content": f"収集データ:\n{json.dumps(slim, ensure_ascii=False)}"}],
+                   "content": f"収集データ（ユーザー関心度でソート済み）:\n{json.dumps(slim_sorted, ensure_ascii=False)}"}],
     )
     theme = json.loads(_strip_json(resp.content[0].text))
     print(f"📋 テーマ: 「{theme['theme']}」  フック: {theme['hook']}")
@@ -212,6 +332,8 @@ RESEARCH_SYSTEM = """あなたはデータリサーチャーです。
 テーマに沿って収集データから情報を集め、最後に finalize_research を呼んでください。
 
 ルール:
+- 🔴🔴 user_interest_score 2.0以上（GitHub Copilot, Claude Code, VSCode, 最新モデル）のアイテムを最優先
+- 各アイテムの user_interest_score を参考に、スコアの高いアイテムを優先的に選ぶ
 - search_collected_data でテーマ関連データを検索（1〜2回）
 - rank_items_by_novelty で候補を精査（1回）
 - 情報が揃ったらすぐ finalize_research を呼ぶ（ループを最小化）
