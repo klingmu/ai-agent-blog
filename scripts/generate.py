@@ -14,6 +14,7 @@ generate.py — 記事生成エージェント（コスト最適化版）
 """
 
 import os
+import re
 import json
 import datetime
 import anthropic
@@ -38,6 +39,10 @@ MAX_AGENT_TURNS     = 5   # 10 → 5
 # ── ③ 差し戻し上限・合格ライン ───────────────────────────────
 MAX_REWRITE_ATTEMPTS = 2  # 3 → 2
 APPROVE_THRESHOLD    = 70  # 75 → 70
+
+# ── 読了時間制限 ──────────────────────────────────────────────
+READING_TIME_LIMIT_MIN = 5   # 最大5分
+CHARS_PER_MIN          = 500  # 日本語平均読書速度（字/分）
 
 
 # ══════════════════════════════════════════════════════════════
@@ -446,19 +451,25 @@ AIビギナーから最前線エンジニアまで全員が楽しめる雑誌ス
 6. 実用的なTips — エンジニアが明日から使えるアクションを含める。
 7. 読後感を大切に — 締めで読者に希望・次の一歩・問いを渡す。
 
+## ⏱️ 文字数・読了時間の厳守ルール（最重要）
+- **記事全体（本文）は2,000字以内** — 日本語平均読書速度500字/分で計算すると5分以内に読了できる量
+- 詳しく書きたい内容は本文には書かず「詳細はこちら → [記事タイトル](URL)」の形で参考リソースへ誘導する
+- セクションごとの上限を必ず守ること（下記フォーマット参照）
+- 読了時間の表示は実際の文字数から計算した値を使う（必ず5以下）
+
 ## フォーマット（Markdown）
 
 # {キャッチーなタイトル}
 
 **{日付} | 読了 {分}分 | #{タグ}**
 
-{リード文 — 2〜3文。統計・逆説・問いかけ・具体的なシーンで引き込む}
+{リード文 — 2〜3文。統計・逆説・問いかけ・具体的なシーンで引き込む（150字以内）}
 
 ---
 
 ## {セクション1の見出し（内容を表す言葉。「起」などのラベルは使わない）}
 
-（600〜800字。）
+（300〜400字。要点のみ。詳細はリンクへ誘導）
 
 > 💡 **用語解説**
 > **[用語]** — わかりやすい説明（1〜2文）
@@ -467,31 +478,31 @@ AIビギナーから最前線エンジニアまで全員が楽しめる雑誌ス
 
 ## {セクション2の見出し}
 
-（800〜1000字。データ・論文・実装例・動画を交えて深掘り）
+（400〜500字。データ・実装例の要点のみ。詳細は参考リソースへ）
 
 ---
 
 ## {セクション3の見出し（驚き・核心・課題解決の転機がここに来ることが多い）}
 
-（800〜1000字。）
+（400〜500字。）
 
 ---
 
 ## {セクション4の見出し（展望・読者へのアクション）}
 
-（400〜600字。）
+（200〜300字。）
 
 ---
 
 ## 🛠️ エンジニアのための実践Tips
 
-（箇条書き 3〜5個。明日から使えるアクション）
+（箇条書き 3個。各項目は1行で完結させる）
 
 ---
 
 ## 📚 参考リソース
 
-（URLリスト）
+（URLリスト。詳細を読みたい読者はここへ）
 
 ---
 *収集ソース: arXiv, OpenAI/Anthropic Blog, Hacker News, GitHub, YouTube*
@@ -598,9 +609,8 @@ def run_japanese_native_checker(article: str, theme: dict) -> str:
         checked = json.loads(_strip_json(resp.content[0].text))
         # タイトル修正提案があれば適用
         if checked.get("title_suggestion"):
-            import re as _re
             title_new = checked["title_suggestion"]
-            article = _re.sub(r"^# .+$", f"# {title_new}", article, count=1, flags=_re.MULTILINE)
+            article = re.sub(r"^# .+$", f"# {title_new}", article, count=1, flags=re.MULTILINE)
         # 本文の修正を適用
         if checked.get("corrected_article"):
             article = checked["corrected_article"]
@@ -647,6 +657,14 @@ def orchestrate(all_items: list[dict]) -> tuple[str, dict, dict]:
         print(f"\n🔤 [Orchestrator] JapaneseNativeCheckAgent (Haiku) 第{attempt}稿「日本語」チェック")
         article = run_japanese_native_checker(article, theme)
 
+        reading_min = _estimate_reading_time(article)
+        print(f"   [ReadingTime] 推定読了時間: {reading_min:.1f}分")
+        if reading_min > READING_TIME_LIMIT_MIN:
+            print(f"\n✂️  [Orchestrator] SummarizerAgent (Haiku) — {reading_min:.1f}分 → 5分以内に圧縮")
+            article = run_summarizer_agent(article, theme, reading_min)
+            reading_min_after = _estimate_reading_time(article)
+            print(f"   [ReadingTime] 圧縮後: {reading_min_after:.1f}分")
+
         print(f"\n🔎 [Orchestrator] EditorAgent (Haiku) 第{attempt}稿評価")
         quality = run_editor_agent(article, theme)
 
@@ -667,6 +685,49 @@ def orchestrate(all_items: list[dict]) -> tuple[str, dict, dict]:
             print("⚠️  最大リトライ到達。最後の稿を使用")
 
     return article, quality, theme
+
+
+# ══════════════════════════════════════════════════════════════
+# Agent 5: SummarizerAgent — Haiku（読了時間超過時に圧縮）
+# ══════════════════════════════════════════════════════════════
+SUMMARIZER_SYSTEM = f"""あなたは優秀な編集者です。
+記事の読了時間が{READING_TIME_LIMIT_MIN}分を超えているため、{READING_TIME_LIMIT_MIN}分以内（本文2,000字以内）に圧縮してください。
+
+## 圧縮ルール
+1. **各セクションを半分程度に削る** — 要点だけ残し、説明的な文章を削除する
+2. **詳細はリンクへ誘導** — 削った内容は「詳細は → [タイトル](URL)」の形で参考リソースへ誘導する
+3. **リード文・タイトル・見出しは変えない** — 読者の興味を引く部分はそのまま残す
+4. **Tips は3個まで** — 各項目は1行で完結させる
+5. **フロントマター（---で囲まれた部分）は一切変更しない**
+6. **「読了 X分」の表示を実際の圧縮後の文字数に合わせて更新する**（必ず5以下）
+
+圧縮後の記事全体（Markdownそのまま）を返してください。前後の説明は不要。"""
+
+def run_summarizer_agent(article: str, theme: dict, current_min: float) -> str:
+    """読了時間が5分を超える場合に記事を圧縮する"""
+    resp = client.messages.create(
+        model=MODEL_HAIKU, max_tokens=3000,
+        system=SUMMARIZER_SYSTEM,
+        messages=[{"role": "user", "content":
+                   f"現在の推定読了時間: {current_min:.1f}分\n\n"
+                   f"テーマ: {theme['theme']}\n\n"
+                   f"記事:\n{article}"}],
+    )
+    _log_cost("Summarizer(Haiku)", resp)
+    return resp.content[0].text
+
+
+def _estimate_reading_time(article: str) -> float:
+    """記事の推定読了時間（分）を返す"""
+    # フロントマターを除去
+    text = re.sub(r"^---\n.*?\n---\n", "", article, flags=re.DOTALL)
+    # Markdownシンタックスを除去
+    text = re.sub(r"[#*`>\-\[\]()!]", "", text)
+    # URLを除去
+    text = re.sub(r"https?://\S+", "", text)
+    # 空白を除去してピュアテキスト文字数を数える
+    text = re.sub(r"\s+", "", text)
+    return len(text) / CHARS_PER_MIN
 
 
 # ══════════════════════════════════════════════════════════════
@@ -712,22 +773,20 @@ def main():
 
     article, quality, theme = orchestrate(all_items)
 
-    import re as _re
-
     # slug: ThemeSelectorの出力を優先、なければタイトルから英数字を抽出
     slug_part = theme.get("slug", "")
-    slug_part = _re.sub(r"[^a-z0-9-]+", "", slug_part.lower())[:50].strip("-")
+    slug_part = re.sub(r"[^a-z0-9-]+", "", slug_part.lower())[:50].strip("-")
     if not slug_part:
-        title_match_slug = _re.search(r"^# (.+)$", article, _re.MULTILINE)
+        title_match_slug = re.search(r"^# (.+)$", article, re.MULTILINE)
         raw_title = title_match_slug.group(1) if title_match_slug else "ai-agent-news"
-        slug_part = _re.sub(r"[^a-zA-Z0-9]+", "-", raw_title)[:40].strip("-").lower()
+        slug_part = re.sub(r"[^a-zA-Z0-9]+", "-", raw_title)[:40].strip("-").lower()
     if not slug_part:
         slug_part = "ai-agent"
 
     article_path = ARTICLES_DIR / f"{TODAY}-{slug_part}.md"
 
     # タイトル抽出
-    title_match = _re.search(r"^# (.+)$", article, _re.MULTILINE)
+    title_match = re.search(r"^# (.+)$", article, re.MULTILINE)
     title = title_match.group(1) if title_match else f"AIエージェント最前線 {TODAY}"
 
     approved      = quality.get("approved", False)
