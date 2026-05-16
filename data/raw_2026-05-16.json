@@ -1,0 +1,549 @@
+{
+  "date": "2026-05-16",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both",
+      "summary": "Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models during reasoning, but this is computationally expensive and architecturally non-trivial. Recent alternatives include agentic reasoning through code or tool calls, and latent reasoning with learnable hidden embeddings. However, agentic methods incur context-switching latency from external execution, while latent methods lack task generalization and are difficult to train with autoregressive paralleliz",
+      "url": "http://arxiv.org/abs/2605.15198v1",
+      "authors": [
+        "Ziyu Guo",
+        "Rain Liu",
+        "Xinyan Chen"
+      ],
+      "published": "2026-05-14T17:59:55+00:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "FutureSim: Replaying World Events to Evaluate Adaptive Agents",
+      "summary": "AI agents are being increasingly deployed in dynamic, open-ended environments that require adapting to new information as it arrives. To efficiently measure this capability for realistic use-cases, we propose building grounded simulations that replay real-world events in the order they occurred. We build FutureSim, where agents forecast world events beyond their knowledge cutoff while interacting with a chronological replay of the world: real news articles arriving and questions resolving over the simulated period. We evaluate frontier agents in their native harness, testing their ability to p",
+      "url": "http://arxiv.org/abs/2605.15188v1",
+      "authors": [
+        "Shashwat Goel",
+        "Nikhil Chandak",
+        "Arvindh Arun"
+      ],
+      "published": "2026-05-14T17:59:28+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Self-Distilled Agentic Reinforcement Learning",
+      "summary": "Reinforcement learning (RL) has emerged as a central paradigm for post-training LLM agents, yet its trajectory-level reward signal provides only coarse supervision for long-horizon interaction. On-Policy Self-Distillation (OPSD) complements RL by introducing dense token-level guidance from a teacher branch augmented with privileged context. However, transferring OPSD to multi-turn agents proves problematic: compounding multi-turn instability destabilizes supervision, while skill-conditioned privileged guidance requires asymmetric treatment for negative teacher rejections may arise from imperfe",
+      "url": "http://arxiv.org/abs/2605.15155v1",
+      "authors": [
+        "Zhengxi Lu",
+        "Zhiyuan Yao",
+        "Zhuowen Han"
+      ],
+      "published": "2026-05-14T17:51:26+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Widening the Gap: Exploiting LLM Quantization via Outlier Injection",
+      "summary": "LLM quantization has become essential for memory-efficient deployment. Recent work has shown that quantization schemes can pose critical security risks: an adversary may release a model that appears benign in full precision but exhibits malicious behavior once quantized by users. However, existing quantization-conditioned attacks have been limited to relatively simple quantization methods, where the attacker can estimate weight regions that remain invariant under the target quantization. Notably, prior attacks have consistently failed to compromise more popular and sophisticated schemes, limit",
+      "url": "http://arxiv.org/abs/2605.15152v1",
+      "authors": [
+        "Xiaohua Zhan",
+        "Kazuki Egashira",
+        "Robin Staab"
+      ],
+      "published": "2026-05-14T17:50:39+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "APWA: A Distributed Architecture for Parallelizable Agentic Workflows",
+      "summary": "Autonomous multi-agent systems based on large language models (LLMs) have demonstrated remarkable abilities in independently solving complex tasks in a wide breadth of application domains. However, these systems hit critical reasoning, coordination, and computational scaling bottlenecks as the size and complexity of their tasks grow. These limitations hinder multi-agent systems from achieving high-throughput processing for highly parallelizable tasks, despite the availability of parallel computing and reasoning primitives in the underlying LLMs. We introduce the Agent-Parallel Workload Archite",
+      "url": "http://arxiv.org/abs/2605.15132v1",
+      "authors": [
+        "Evan Rose",
+        "Tushin Mallick",
+        "Matthew D. Laws"
+      ],
+      "published": "2026-05-14T17:40:20+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.DC",
+        "cs.MA"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "CLOVER: Closed-Loop Value Estimation \\& Ranking for End-to-End Autonomous Driving Planning",
+      "summary": "End-to-end autonomous driving planners are commonly trained by imitating a single logged trajectory, yet evaluated by rule-based planning metrics that measure safety, feasibility, progress, and comfort. This creates a training--evaluation mismatch: trajectories close to the logged path may violate planning rules, while alternatives farther from the demonstration can remain valid and high-scoring. The mismatch is especially limiting for proposal-selection planners, whose performance depends on candidate-set coverage and scorer ranking quality. We propose CLOVER, a Closed-LOop Value Estimation a",
+      "url": "http://arxiv.org/abs/2605.15120v1",
+      "authors": [
+        "Sining Ang",
+        "Yuguang Yang",
+        "Canyu Chen"
+      ],
+      "published": "2026-05-14T17:32:18+00:00",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Why Neighborhoods Matter: Traversal Context and Provenance in Agentic GraphRAG",
+      "summary": "Retrieval-Augmented Generation can improve factuality by grounding answers in external evidence, but Agentic GraphRAG complicates what it means for citations to be faithful. In these systems, an agent explores a knowledge graph before producing an answer and a small set of citations. We frame citation faithfulness as a trajectory-level problem: final citations should not only support the answer, but also account for the graph traversal, structure, and visited-but-uncited entities that may influence it. Through controlled ablation experiments, we compare the effects of isolating, removing, and ",
+      "url": "http://arxiv.org/abs/2605.15109v1",
+      "authors": [
+        "Riccardo Terrenzi",
+        "Maximilian von Zastrow",
+        "Serkan Ayvaz"
+      ],
+      "published": "2026-05-14T17:25:20+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.IR"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Concurrency without Model Changes: Future-based Asynchronous Function Calling for LLMs",
+      "summary": "Function calling, also known as tool use, is a core capability of modern LLM agents but is typically constrained by synchronous execution semantics. Under these semantics, LLM decoding is blocked until each function call completes, resulting in increasing end-to-end latency. In this work, we introduce AsyncFC, a pure execution-layer framework that decouples LLM decoding from function execution, enabling overlap between model decoding and function execution as well as inter-function parallelism when dependencies permit. AsyncFC layers over existing models and unmodified function implementations",
+      "url": "http://arxiv.org/abs/2605.15077v1",
+      "authors": [
+        "Guangyu Feng",
+        "Huanzhi Mao",
+        "Prabal Dutta"
+      ],
+      "published": "2026-05-14T17:02:28+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "TFGN: Task-Free, Replay-Free Continual Pre-Training Without Catastrophic Forgetting at LLM Scale",
+      "summary": "Continually pre-training a large language model on heterogeneous text domains, without replay or task labels, has remained an unsolved architectural problem at LLM scale. Existing methods rely on replay buffers, task identifiers, regularization penalties that scale poorly, or sentence-classification-scale evaluation.\n  We introduce TFGN, an architectural overlay for transformer language models that produces input-conditioned, parameter-efficient updates while leaving the rest of the transformer unchanged. On six heterogeneous text domains (Prose, Python, Math, Biomedical, Chinese, JavaScript) ",
+      "url": "http://arxiv.org/abs/2605.15053v1",
+      "authors": [
+        "Anurup Ganguli"
+      ],
+      "published": "2026-05-14T16:46:26+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "An Interpretable Latency Model for Speculative Decoding in LLM Serving",
+      "summary": "Speculative decoding (SD) accelerates large language model (LLM) inference by using a smaller draft model to propose multiple tokens that are verified by a larger target model in parallel. While prior work demonstrates substantial speedups in isolated or fixed-batch settings, the behavior of SD in production serving systems remains poorly understood: request load varies over time, and effective batch size emerges from the serving system rather than being directly controlled or observed. In this work, we develop a simple and interpretable latency model for SD in LLM serving. We infer effective ",
+      "url": "http://arxiv.org/abs/2605.15051v1",
+      "authors": [
+        "Linghao Kong",
+        "Megan Flynn",
+        "Michael Peng"
+      ],
+      "published": "2026-05-14T16:45:28+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.PF"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "A new personal finance experience in ChatGPT",
+      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "url": "https://openai.com/index/personal-finance-chatgpt",
+      "published": "Fri, 15 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "url": "https://openai.com/index/databricks",
+      "published": "Fri, 15 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Sea's View on the Future of Agentic Software Development with Codex",
+      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
+      "url": "https://openai.com/index/sea-david-chen",
+      "published": "Thu, 14 May 2026 20:30:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Work with Codex from anywhere",
+      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere",
+      "published": "Thu, 14 May 2026 13:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Helping ChatGPT better recognize context in sensitive conversations",
+      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
+      "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
+      "published": "Thu, 14 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+      "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "published": "Wed, 06 May 2026 10:43:49 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "summary": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "published": "Thu, 30 Apr 2026 12:14:15 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Announcing our partnership with the Republic of Korea",
+      "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "published": "Mon, 27 Apr 2026 07:00:06 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "summary": "",
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "published": "Wed, 22 Apr 2026 10:20:03 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
+      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "published": "Tue, 21 Apr 2026 14:54:15 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "published": "Thu, 14 May 2026 18:55:01 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Unlocking asynchronicity in continuous batching",
+      "summary": "",
+      "url": "https://huggingface.co/blog/continuous_async",
+      "published": "Thu, 14 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "summary": "",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "published": "Mon, 11 May 2026 23:18:26 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "EMO: Pretraining mixture of experts for emergent modularity",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/emo",
+      "published": "Fri, 08 May 2026 16:03:50 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "published": "Wed, 06 May 2026 19:06:55 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "inaturalist-clumper 0.1",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/inaturalist-clumper/releases/tag/0.1\">inaturalist-clumper 0.1</a></p>\n        <p>Part of the infrastructure I use for <a href=\"https://simonwillison.net/2026/May/1/inat-sightings/\">publishing my iNaturalist sightings on my blog</a>. I've been running this in production for a few weeks now, inspiring some iterations on how it works, so I decided to ship a 0.1 release.</p>\n<p>You can see an example of the output <a href=\"https://github.com/simonw/inaturalist-clumps/blob/main/clumps.json\">in this JSON file</a>.</p>\n    \n    \n        ",
+      "url": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
+      "published": "2026-05-15T23:53:11+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Western Gull, Rock Pigeon",
+      "summary": "<p><img alt=\"Western Gull\" src=\"https://static.inaturalist.org/photos/660343826/large.jpg\" /></p><p><img alt=\"Rock Pigeon\" src=\"https://static.inaturalist.org/photos/660344126/large.jpg\" /></p><p>Western Gull, Rock Pigeon, in Los Angeles Area (custom), CA, US</p><p>I went for a bird walk in the morning before PyCon, and we spotted a local seagull enjoying a Starbucks.</p>",
+      "url": "https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything",
+      "published": "2026-05-15T14:42:00+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "QR code generator",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/qr-code-generator\">QR code generator</a></p>\n        <p>Claude helped me build this tool for creating QR codes, for both text/URLs and for connecting to WiFi networks.</p>\n<p><img alt=\"Screenshot of a QR code generator web form. Heading &quot;QR code generator&quot; with subtitle &quot;Create a scannable code for a URL, text, or WiFi network.&quot; A segmented toggle shows &quot;URL / text&quot; and &quot;WiFi&quot; with WiFi selected. Below are fields: &quot;Network name (SSID)&quot; with placeholder &quot;My WiFi&quot;; &quot",
+      "url": "https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything",
+      "published": "2026-05-15T04:00:49+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "datasette-llm-limits 0.1a0",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-llm-limits/releases/tag/0.1a0\">datasette-llm-limits 0.1a0</a></p>\n        <p>This plugin works in conjunction with <a href=\"https://github.com/datasette/datasette-llm\">datasette-llm</a> and <a href=\"https://github.com/datasette/datasette-llm-accountant\">datasette-llm-accountant</a> to let you configure a per-user (or global) spending limit for LLM usage inside of Datasette. Configuration looks something like this:</p>\n<pre><span class=\"pl-ent\">plugins</span>:\n  <span class=\"pl-ent\">datasette-llm-limits</span>:\n    <sp",
+      "url": "https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything",
+      "published": "2026-05-15T00:42:09+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Not so locked in any more",
+      "summary": "<p>This <a href=\"https://simonwillison.net/2026/May/14/mitchell-hashimoto/\">Mitchell Hashimoto quote</a> about Bun migrating from Zig to Rust reminded me of a similar conversation I had at a conference last week.</p>\n<p>I was talking to someone who worked for a medium sized technology company with a pair of legacy/<a href=\"https://simonwillison.net/2018/Jul/17/mark-norman-francis/\">legendary</a> iPhone and Android apps.</p>\n<p>They told me they had just completed a coding-agent driven rewrite of both apps to React Native.</p>\n<p>I asked why they chose that, given that coding agents presumably ",
+      "url": "https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything",
+      "published": "2026-05-14T22:53:49+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Sx – an open-source package manager for AI skills, MCPs, and commands",
+      "summary": "HNスコア: 39, コメント数: 22",
+      "url": "https://github.com/sleuth-io/sx",
+      "published": "2026-05-15T17:03:22",
+      "hn_score": 39
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude for Legal",
+      "summary": "HNスコア: 195, コメント数: 185",
+      "url": "https://github.com/anthropics/claude-for-legal",
+      "published": "2026-05-14T21:05:05",
+      "hn_score": 195
+    },
+    {
+      "source": "hackernews",
+      "title": "The 52-Page Memo That Nearly Destroyed OpenAI: Ilya Sutskever's Deposition",
+      "summary": "HNスコア: 25, コメント数: 3",
+      "url": "https://medium.com/@prateekj24/the-52-page-memo-that-nearly-destroyed-openai-inside-ilya-sutskevers-deposition-acef91208a1c",
+      "published": "2026-05-15T19:55:32",
+      "hn_score": 25
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "summary": "HNスコア: 747, コメント数: 208",
+      "url": "https://github.com/cactus-compute/needle",
+      "published": "2026-05-12T18:03:11",
+      "hn_score": 747
+    },
+    {
+      "source": "hackernews",
+      "title": "Codex is now in the ChatGPT mobile app",
+      "summary": "HNスコア: 469, コメント数: 244",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "published": "2026-05-14T20:06:14",
+      "hn_score": 469
+    },
+    {
+      "source": "hackernews",
+      "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
+      "summary": "HNスコア: 246, コメント数: 47",
+      "url": "https://github.com/DrCatHicks/learning-opportunities",
+      "published": "2026-05-14T03:13:31",
+      "hn_score": 246
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI Models in OpenClaw, Done Right",
+      "summary": "HNスコア: 4, コメント数: 0",
+      "url": "https://openclaw.ai/blog/openai-models-in-openclaw-done-right",
+      "published": "2026-05-15T19:19:36",
+      "hn_score": 4
+    },
+    {
+      "source": "hackernews",
+      "title": "How Claude Code works in large codebases",
+      "summary": "HNスコア: 231, コメント数: 152",
+      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "published": "2026-05-15T04:15:31",
+      "hn_score": 231
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude for Small Business",
+      "summary": "HNスコア: 532, コメント数: 465",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "published": "2026-05-14T03:59:35",
+      "hn_score": 532
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI's KOSA Endorsement Is Regulatory Capture with a Smiley Face",
+      "summary": "HNスコア: 13, コメント数: 0",
+      "url": "https://www.techdirt.com/2026/05/14/openais-kosa-endorsement-is-regulatory-capture-with-a-smiley-face/",
+      "published": "2026-05-15T17:34:11",
+      "hn_score": 13
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-05-16T02:27:38Z",
+      "stars": 39258,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-05-16T02:57:08Z",
+      "stars": 25150,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-05-16T03:08:58Z",
+      "stars": 22739,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-05-15T16:06:08Z",
+      "stars": 10620,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-05-15T08:23:30Z",
+      "stars": 3342,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-05-15T21:22:07Z",
+      "stars": 3255,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-05-15T22:53:36Z",
+      "stars": 3054,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-05-15T21:21:03Z",
+      "stars": 2515,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "Turn Claude into a True AI Agent with this MCP",
+      "summary": "Sign Up for a Free Zapier Account https://bit.ly/3RJXcdK Turn Claude Code Skills Into Real Client Projects ...",
+      "url": "https://www.youtube.com/watch?v=d2hXU7d2_fQ",
+      "published": "2026-05-16T02:10:53Z",
+      "channel": "Zubair Trabzada | AI Workshop"
+    },
+    {
+      "source": "youtube",
+      "title": "Building AI Agents in Kotlin • Anton Arhipov • YOW! 2025",
+      "summary": "This presentation was recorded at YOW! Australia 2025. #GOTOcon #YOW https://yowcon.com Anton Arhipov - Developer ...",
+      "url": "https://www.youtube.com/watch?v=Lq1lZRhsZjs",
+      "published": "2026-05-13T12:00:38Z",
+      "channel": "GOTO Conferences"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Web Scraping Is Insanely Good | Browserbase Full Tutorial",
+      "summary": "Create a free account and get started with Browserbase: https://browserbase.run/twt1 If you've ever tried to connect an AI agent to ...",
+      "url": "https://www.youtube.com/watch?v=XTQTJoSfeMg",
+      "published": "2026-05-15T15:19:07Z",
+      "channel": "Tech With Tim"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Agents Explained: How to Create and Use AI Agents in 2026",
+      "summary": "sponsored Redeem IAMAIMASTER50 to save 50% on our Starter and Standard Plans for the first 3 months (only applicable to ...",
+      "url": "https://www.youtube.com/watch?v=4TvH-OZhwxI",
+      "published": "2026-05-13T18:56:35Z",
+      "channel": "AI Master"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI Full Course for Beginners 2026 | Complete AI Agents Tutorial | Intellipaat",
+      "summary": "Enroll for Agentic AI Course: https://intellipaat.com/agentic-ai-systems-design-course/ Book your Free ...",
+      "url": "https://www.youtube.com/watch?v=eooxQPZQUEM",
+      "published": "2026-05-12T13:30:44Z",
+      "channel": "Intellipaat"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI Systems, Clearly Explained",
+      "summary": "Build agentic systems that run your business: https://skool.com/scrapes Don't miss the next build ...",
+      "url": "https://www.youtube.com/watch?v=kwRTUw8pb2c",
+      "published": "2026-05-09T14:35:10Z",
+      "channel": "Simon Scrapes"
+    },
+    {
+      "source": "youtube",
+      "title": "I Switched From Claude to ChatGPT (the difference is insane)",
+      "summary": "Join the WhatsApp community (prompts + comparison sheet free): https://links.stayingahead.com/YT29 ChatGPT vs Claude - I ...",
+      "url": "https://www.youtube.com/watch?v=2fb_N_uk_9w",
+      "published": "2026-05-15T15:48:53Z",
+      "channel": "Vaibhav Sisinty"
+    },
+    {
+      "source": "youtube",
+      "title": "ChatGPT Realtime Voice 2 + Claude Code újdonságok 2026",
+      "summary": "Támogasd a csatornám egy iPon vásárlással, ahol használd az AISZABI kosárkódot. https://ipon.hu/byteclub?ref=banner 🎙️ A ...",
+      "url": "https://www.youtube.com/watch?v=eHypGunx-QU",
+      "published": "2026-05-15T17:00:06Z",
+      "channel": "AI a Mindennapokban - Szabolccsal"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Agents Are Becoming Operating Systems | The Intelligent Operator",
+      "summary": "AI agents are shifting from chat demos into real operating workflows. In this Intelligent Operator brief, John Lowe breaks down the ...",
+      "url": "https://www.youtube.com/watch?v=3oRbO9o2jOs",
+      "published": "2026-05-15T20:09:06Z",
+      "channel": "John Lowe | The Intelligent Operator"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AlphaFold - The Most Important AI Breakthrough Ever Made",
+      "summary": "Full interview: https://www.youtube.com/watch?v=Vhcwjzeukts.",
+      "url": "https://www.youtube.com/shorts/VQ2bV58QbH0",
+      "published": "2025-12-11T07:19:41Z",
+      "channel": "Two Minute Papers"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "The “Biggest” AI That Came Out Of Nowhere!",
+      "summary": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Guide for using DeepSeek on Lambda: ...",
+      "url": "https://www.youtube.com/shorts/4bFDPVe6BHs",
+      "published": "2025-07-15T15:06:39Z",
+      "channel": "Two Minute Papers"
+    }
+  ]
+}
