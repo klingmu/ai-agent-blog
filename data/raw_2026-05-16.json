@@ -308,7 +308,7 @@
     {
       "source": "hackernews",
       "title": "Show HN: Sx – an open-source package manager for AI skills, MCPs, and commands",
-      "summary": "HNスコア: 39, コメント数: 22",
+      "summary": "HNスコア: 39, コメント数: 23",
       "url": "https://github.com/sleuth-io/sx",
       "published": "2026-05-15T17:03:22",
       "hn_score": 39
@@ -316,10 +316,10 @@
     {
       "source": "hackernews",
       "title": "Claude for Legal",
-      "summary": "HNスコア: 195, コメント数: 185",
+      "summary": "HNスコア: 196, コメント数: 185",
       "url": "https://github.com/anthropics/claude-for-legal",
       "published": "2026-05-14T21:05:05",
-      "hn_score": 195
+      "hn_score": 196
     },
     {
       "source": "hackernews",
@@ -364,10 +364,10 @@
     {
       "source": "hackernews",
       "title": "How Claude Code works in large codebases",
-      "summary": "HNスコア: 231, コメント数: 152",
+      "summary": "HNスコア: 234, コメント数: 152",
       "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
       "published": "2026-05-15T04:15:31",
-      "hn_score": 231
+      "hn_score": 234
     },
     {
       "source": "hackernews",
@@ -376,14 +376,6 @@
       "url": "https://www.anthropic.com/news/claude-for-small-business",
       "published": "2026-05-14T03:59:35",
       "hn_score": 532
-    },
-    {
-      "source": "hackernews",
-      "title": "OpenAI's KOSA Endorsement Is Regulatory Capture with a Smiley Face",
-      "summary": "HNスコア: 13, コメント数: 0",
-      "url": "https://www.techdirt.com/2026/05/14/openais-kosa-endorsement-is-regulatory-capture-with-a-smiley-face/",
-      "published": "2026-05-15T17:34:11",
-      "hn_score": 13
     },
     {
       "source": "github",
@@ -515,19 +507,19 @@
     },
     {
       "source": "youtube",
+      "title": "Codex SuperApp: Did OpenAI Just Kill Claude Code?",
+      "summary": "OpenAI just shipped three updates in one drop that turn Codex from a desktop coding tool into a full-blown developer super app.",
+      "url": "https://www.youtube.com/watch?v=n3sDrvsDDGY",
+      "published": "2026-05-14T23:14:43Z",
+      "channel": "Universe of AI"
+    },
+    {
+      "source": "youtube",
       "title": "ChatGPT Realtime Voice 2 + Claude Code újdonságok 2026",
       "summary": "Támogasd a csatornám egy iPon vásárlással, ahol használd az AISZABI kosárkódot. https://ipon.hu/byteclub?ref=banner 🎙️ A ...",
       "url": "https://www.youtube.com/watch?v=eHypGunx-QU",
       "published": "2026-05-15T17:00:06Z",
       "channel": "AI a Mindennapokban - Szabolccsal"
-    },
-    {
-      "source": "youtube",
-      "title": "AI Agents Are Becoming Operating Systems | The Intelligent Operator",
-      "summary": "AI agents are shifting from chat demos into real operating workflows. In this Intelligent Operator brief, John Lowe breaks down the ...",
-      "url": "https://www.youtube.com/watch?v=3oRbO9o2jOs",
-      "published": "2026-05-15T20:09:06Z",
-      "channel": "John Lowe | The Intelligent Operator"
     },
     {
       "source": "youtube_shorts",
