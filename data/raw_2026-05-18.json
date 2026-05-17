@@ -1,0 +1,389 @@
+{
+  "date": "2026-05-18",
+  "items": [
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "published": "Sat, 16 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How business operations teams use Codex",
+      "summary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "published": "Fri, 15 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "url": "https://openai.com/index/databricks",
+      "published": "Fri, 15 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How data science teams use Codex",
+      "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "published": "Fri, 15 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "A new personal finance experience in ChatGPT",
+      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "url": "https://openai.com/index/personal-finance-chatgpt",
+      "published": "Fri, 15 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+      "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "published": "Wed, 06 May 2026 10:43:49 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "summary": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "published": "Thu, 30 Apr 2026 12:14:15 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Announcing our partnership with the Republic of Korea",
+      "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "published": "Mon, 27 Apr 2026 07:00:06 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "summary": "",
+      "url": "https://deepmind.google/blog/decoupled-diloco/",
+      "published": "Wed, 22 Apr 2026 10:20:03 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.",
+      "url": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "published": "Tue, 21 Apr 2026 14:54:15 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "published": "Thu, 14 May 2026 18:55:01 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Unlocking asynchronicity in continuous batching",
+      "summary": "",
+      "url": "https://huggingface.co/blog/continuous_async",
+      "published": "Thu, 14 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "summary": "",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "published": "Mon, 11 May 2026 23:18:26 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "EMO: Pretraining mixture of experts for emergent modularity",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/emo",
+      "published": "Fri, 08 May 2026 16:03:50 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "published": "Wed, 06 May 2026 19:06:55 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "GDS weighs in on the NHS's decision to retreat from Open Source",
+      "summary": "<p><strong><a href=\"https://shkspr.mobi/blog/2026/05/gds-weighs-in-on-the-nhss-decision-to-retreat-from-open-source/\">GDS weighs in on the NHS&#x27;s decision to retreat from Open Source</a></strong></p>\nTerence Eden continues his coverage of the NHS' <a href=\"https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/\">poorly considered decision</a> to close down access to their open source repositories in response to vulnerabilities reported to them as part of <a href=\"https://simonwillison.net/2026/Apr/7/project-glasswing/\">Project Glasswing</a>.</p>\n<p>Now the Government Digital ",
+      "url": "https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything",
+      "published": "2026-05-17T15:59:41+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Warelay -> OpenClaw",
+      "summary": "<p>In preparation for a lightning talk I'm giving at PyCon US <a href=\"https://us.pycon.org/2026/schedule/presentation/175/\">this afternoon</a> I decided to figure out how many names OpenClaw has <em>actually</em> had since that <a href=\"https://github.com/openclaw/openclaw/commit/f6dd362d39b8e30bd79ef7560aab9575712ccc11\">first commit</a> back in November.</p>\n<p>Thanks to this <a href=\"https://tools.simonwillison.net/python/#first_line_historypy\">first_line_history.py tool</a> (<a href=\"https://github.com/simonw/tools/blob/main/python/first_line_history.py\">code here</a>) the answer, accordin",
+      "url": "https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything",
+      "published": "2026-05-16T20:23:30+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Julia Evans",
+      "summary": "<blockquote cite=\"https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/\"><p>[...] in the last 10 years I’ve learned to really love and respect CSS as a technology.</p>\n<p>So I decided years ago that I wanted to react to “CSS is hard” by getting better at CSS and taking it seriously as a technology, instead of devaluing it. Doing that changed everything for me: I learned that so many of my frustrations (“centering is impossible”) had been addressed in CSS a long time ago, and that also what “centering” means is not always straightforward and it makes sens",
+      "url": "https://simonwillison.net/2026/May/16/julia-evans/#atom-everything",
+      "published": "2026-05-16T16:45:37+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "inaturalist-clumper 0.1",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/inaturalist-clumper/releases/tag/0.1\">inaturalist-clumper 0.1</a></p>\n        <p>Part of the infrastructure I use for <a href=\"https://simonwillison.net/2026/May/1/inat-sightings/\">publishing my iNaturalist sightings on my blog</a>. I've been running this in production for a few weeks now, inspiring some iterations on how it works, so I decided to ship a 0.1 release.</p>\n<p>You can see an example of the output <a href=\"https://github.com/simonw/inaturalist-clumps/blob/main/clumps.json\">in this JSON file</a>.</p>\n    \n    \n        ",
+      "url": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
+      "published": "2026-05-15T23:53:11+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Western Gull, Rock Pigeon",
+      "summary": "<p><img alt=\"Western Gull\" src=\"https://static.inaturalist.org/photos/660343826/large.jpg\" /></p><p><img alt=\"Rock Pigeon\" src=\"https://static.inaturalist.org/photos/660344126/large.jpg\" /></p><p>Western Gull, Rock Pigeon, in Los Angeles Area (custom), CA, US</p><p>I went for a bird walk in the morning before PyCon, and we spotted a local seagull enjoying a Starbucks.</p>",
+      "url": "https://simonwillison.net/2026/May/15/sighting-361818285/#atom-everything",
+      "published": "2026-05-15T14:42:00+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
+      "summary": "HNスコア: 68, コメント数: 23",
+      "url": "https://github.com/MinishLab/semble",
+      "published": "2026-05-17T15:37:07",
+      "hn_score": 68
+    },
+    {
+      "source": "hackernews",
+      "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+      "summary": "HNスコア: 529, コメント数: 293",
+      "url": "https://crates.io/crates/zerostack/1.0.0",
+      "published": "2026-05-16T22:23:50",
+      "hn_score": 529
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
+      "summary": "HNスコア: 310, コメント数: 319",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
+      "published": "2026-05-16T20:14:06",
+      "hn_score": 310
+    },
+    {
+      "source": "hackernews",
+      "title": "Agentic Trading with Safe Guardrails",
+      "summary": "HNスコア: 37, コメント数: 19",
+      "url": "https://github.com/ShurikenTrade/shuriken-skills",
+      "published": "2026-05-17T12:44:24",
+      "hn_score": 37
+    },
+    {
+      "source": "hackernews",
+      "title": "MCP Hello Page",
+      "summary": "HNスコア: 126, コメント数: 47",
+      "url": "https://www.hybridlogic.co.uk/blog/2026/05/mcp-hello-page",
+      "published": "2026-05-16T22:25:33",
+      "hn_score": 126
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "summary": "HNスコア: 764, コメント数: 210",
+      "url": "https://github.com/cactus-compute/needle",
+      "published": "2026-05-12T18:03:11",
+      "hn_score": 764
+    },
+    {
+      "source": "hackernews",
+      "title": "DeepSeek-V4-Flash means LLM steering is interesting again",
+      "summary": "HNスコア: 258, コメント数: 75",
+      "url": "https://www.seangoedecke.com/steering-vectors/",
+      "published": "2026-05-16T14:58:16",
+      "hn_score": 258
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI is connecting ChatGPT to bank accounts via Plaid",
+      "summary": "HNスコア: 119, コメント数: 140",
+      "url": "https://firethering.com/chatgpt-bank-account-plaid-openai/",
+      "published": "2026-05-15T16:38:50",
+      "hn_score": 119
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude for Legal",
+      "summary": "HNスコア: 220, コメント数: 190",
+      "url": "https://github.com/anthropics/claude-for-legal",
+      "published": "2026-05-14T21:05:05",
+      "hn_score": 220
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-05-17T19:11:50Z",
+      "stars": 39273,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-05-17T20:24:00Z",
+      "stars": 25196,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-05-17T18:53:09Z",
+      "stars": 22769,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-05-17T14:01:11Z",
+      "stars": 10631,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-05-15T08:23:30Z",
+      "stars": 3342,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-05-17T07:36:14Z",
+      "stars": 3258,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-05-15T22:53:36Z",
+      "stars": 3054,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-05-16T04:25:20Z",
+      "stars": 2514,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Agents Explained: How to Create and Use AI Agents in 2026",
+      "summary": "sponsored Redeem IAMAIMASTER50 to save 50% on our Starter and Standard Plans for the first 3 months (only applicable to ...",
+      "url": "https://www.youtube.com/watch?v=4TvH-OZhwxI",
+      "published": "2026-05-13T18:56:35Z",
+      "channel": "AI Master",
+      "has_video": true,
+      "video_id": "4TvH-OZhwxI"
+    },
+    {
+      "source": "youtube",
+      "title": "You’re Not Behind (Yet): Learn AI Agents in 13 Minutes",
+      "summary": "Subscribe to my newsletter → https://www.sandeepswadia.com/newsletter Most people still use AI like a better search box, but the ...",
+      "url": "https://www.youtube.com/watch?v=P5sKKnWCvzk",
+      "published": "2026-05-14T13:00:44Z",
+      "channel": "theMITmonk",
+      "has_video": true,
+      "video_id": "P5sKKnWCvzk"
+    },
+    {
+      "source": "youtube",
+      "title": "Build your first AI agent (Claude Code)",
+      "summary": "FULL Claude Code Course: https://bit.ly/4tyq4Uz firecrawl: https://bit.ly/4feyw72 🎙️ Type with voice: https://bit.ly/42isnim Build ...",
+      "url": "https://www.youtube.com/watch?v=o1u_mEELKOQ",
+      "published": "2026-05-13T19:23:52Z",
+      "channel": "Jack Roberts",
+      "has_video": true,
+      "video_id": "o1u_mEELKOQ"
+    },
+    {
+      "source": "youtube",
+      "title": "How To Build LLM Wiki In Obsidian? 🧠 A Memory Layer For Any Agentic AI",
+      "summary": "How do I build a LLM Wiki? How can I future proof my knowledge systems for both myself and for AI, so I don't lose work, ideas, ...",
+      "url": "https://www.youtube.com/watch?v=QbjAQFJJyt0",
+      "published": "2026-05-17T14:05:02Z",
+      "channel": "Wanderloots",
+      "has_video": true,
+      "video_id": "QbjAQFJJyt0"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI | When It&#39;s Useful and When Not",
+      "summary": "AI Agents or AI Assistants? Well… let's find out. How do AI agents actually work, and what tools do they use to automate our ...",
+      "url": "https://www.youtube.com/watch?v=qLx-eqbCGSg",
+      "published": "2026-05-13T12:58:15Z",
+      "channel": "KNIME",
+      "has_video": true,
+      "video_id": "qLx-eqbCGSg"
+    },
+    {
+      "source": "youtube",
+      "title": "ChatGPT Realtime Voice 2 + Claude Code újdonságok 2026",
+      "summary": "Támogasd a csatornám egy iPon vásárlással, ahol használd az AISZABI kosárkódot. https://ipon.hu/byteclub?ref=banner 🎙️ A ...",
+      "url": "https://www.youtube.com/watch?v=eHypGunx-QU",
+      "published": "2026-05-15T17:00:06Z",
+      "channel": "AI a Mindennapokban - Szabolccsal",
+      "has_video": true,
+      "video_id": "eHypGunx-QU"
+    },
+    {
+      "source": "youtube",
+      "title": "I Switched From Claude to ChatGPT (the difference is insane)",
+      "summary": "Join the WhatsApp community: https://links.stayingahead.com/YT29 ChatGPT vs Claude - I switched from Claude to ChatGPT after ...",
+      "url": "https://www.youtube.com/watch?v=2fb_N_uk_9w",
+      "published": "2026-05-15T15:48:53Z",
+      "channel": "Vaibhav Sisinty",
+      "has_video": true,
+      "video_id": "2fb_N_uk_9w"
+    },
+    {
+      "source": "youtube",
+      "title": "The Future of AI Agents Just Arrived ( /goal for Claude Code &amp; Codex)",
+      "summary": "Want the Agentic AI Masterclass and start earning from AI?",
+      "url": "https://www.youtube.com/watch?v=aEDq1bBynOg",
+      "published": "2026-05-13T11:08:42Z",
+      "channel": "Jay E | RoboNuggets",
+      "has_video": true,
+      "video_id": "aEDq1bBynOg"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AlphaFold - The Most Important AI Breakthrough Ever Made",
+      "summary": "Full interview: https://www.youtube.com/watch?v=Vhcwjzeukts.",
+      "url": "https://www.youtube.com/shorts/VQ2bV58QbH0",
+      "published": "2025-12-11T07:19:41Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "VQ2bV58QbH0"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "The “Biggest” AI That Came Out Of Nowhere!",
+      "summary": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Guide for using DeepSeek on Lambda: ...",
+      "url": "https://www.youtube.com/shorts/4bFDPVe6BHs",
+      "published": "2025-07-15T15:06:39Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "4bFDPVe6BHs"
+    }
+  ]
+}
