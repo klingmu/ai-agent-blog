@@ -1,6 +1,6 @@
 """
 collect.py — 情報収集スクリプト（エージェント版）
-収集ソース: arXiv, RSS, Hacker News, GitHub, YouTube, YouTube Shorts
+収集ソース: arXiv, RSS, Hacker News, GitHub, YouTube, YouTube Shorts, X(Twitter)
 """
 
 import os
@@ -236,19 +236,38 @@ def fetch_youtube(max_results: int = 8) -> list[dict]:
                     continue
                 seen.add(vid)
                 sn = item["snippet"]
+                # 動画トランスクリプトを取得してsummaryを充実させる
+                transcript = _fetch_youtube_transcript(vid, max_chars=400)
+                summary = sn.get("description", "")[:400]
+                if transcript:
+                    summary = f"{summary}\n[トランスクリプト]: {transcript[:300]}"
                 results.append({
                     "source": "youtube",
                     "title": sn.get("title", ""),
-                    "summary": sn.get("description", "")[:400],
+                    "summary": summary[:600],
                     "url": f"https://www.youtube.com/watch?v={vid}",
                     "published": sn.get("publishedAt", ""),
                     "channel": sn.get("channelTitle", ""),
+                    "has_video": True,
+                    "video_id": vid,
                 })
         except Exception as e:
             print(f"[YouTube] '{keyword}' 失敗: {e}")
 
     print(f"[YouTube] {len(results)} 件取得")
     return results
+
+def _fetch_youtube_transcript(video_id: str, max_chars: int = 500) -> str:
+    """YouTube動画のトランスクリプトを取得（日本語 → 英語の順で試行）"""
+    try:
+        from youtube_transcript_api import YouTubeTranscriptApi
+        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=["ja", "en"])
+        return " ".join(t["text"] for t in transcript)[:max_chars]
+    except ImportError:
+        return ""
+    except Exception:
+        return ""
+
 
 def fetch_youtube_shorts(max_results: int = 4) -> list[dict]:
     """著名AIチャンネルのShorts（短尺解説動画）を取得"""
@@ -269,18 +288,128 @@ def fetch_youtube_shorts(max_results: int = 4) -> list[dict]:
             for item in data.get("items", []):
                 vid = item["id"]["videoId"]
                 sn = item["snippet"]
+                transcript = _fetch_youtube_transcript(vid, max_chars=300)
+                summary = sn.get("description", "")[:300]
+                if transcript:
+                    summary = f"{summary}\n[トランスクリプト]: {transcript[:200]}"
                 results.append({
                     "source": "youtube_shorts",
                     "title": sn.get("title", ""),
-                    "summary": sn.get("description", "")[:300],
+                    "summary": summary[:600],
                     "url": f"https://www.youtube.com/shorts/{vid}",
                     "published": sn.get("publishedAt", ""),
                     "channel": channel_name,
+                    "has_video": True,
+                    "video_id": vid,
                 })
         except Exception as e:
             print(f"[Shorts] {channel_name} 失敗: {e}")
 
     print(f"[YouTube Shorts] {len(results)} 件取得")
+    return results
+
+
+# ────────────────────────────────────────────────────────────
+# 6. X (Twitter) 公式アカウント
+# ────────────────────────────────────────────────────────────
+# 優先度最高の公式アカウント（AnthropicAI, ClaudeAI, VS Code, Microsoft Copilot）
+TWITTER_OFFICIAL_ACCOUNTS = [
+    "AnthropicAI",       # Anthropic公式
+    "ClaudeAI",          # Claude公式
+    "code",              # Visual Studio Code公式
+    "MicrosoftCopilot",  # Microsoft Copilot公式
+]
+
+def _twitter_headers() -> dict:
+    token = os.environ.get("TWITTER_BEARER_TOKEN", "")
+    return {"Authorization": f"Bearer {token}"}
+
+def fetch_twitter_official(max_results: int = 10) -> list[dict]:
+    """公式X(Twitter)アカウントの最新投稿を取得し、動画があれば内容を収集"""
+    if not os.environ.get("TWITTER_BEARER_TOKEN"):
+        print("[Twitter] TWITTER_BEARER_TOKEN 未設定 → スキップ")
+        return []
+
+    query = " OR ".join(f"from:{acc}" for acc in TWITTER_OFFICIAL_ACCOUNTS)
+    query += " -is:retweet"
+
+    try:
+        r = requests.get(
+            "https://api.twitter.com/2/tweets/search/recent",
+            headers=_twitter_headers(),
+            params={
+                "query": query,
+                "max_results": max_results,
+                "tweet.fields": "created_at,public_metrics,attachments,entities,author_id",
+                "expansions": "attachments.media_keys,author_id",
+                "media.fields": "type,url,alt_text,variants,preview_image_url",
+                "user.fields": "username,name",
+            },
+            timeout=10,
+        )
+        r.raise_for_status()
+        data = r.json()
+    except Exception as e:
+        print(f"[Twitter] 公式アカウント取得失敗: {e}")
+        return []
+
+    # メディアとユーザーのルックアップマップを構築
+    media_map = {
+        m["media_key"]: m
+        for m in data.get("includes", {}).get("media", [])
+    }
+    user_map = {
+        u["id"]: u["username"]
+        for u in data.get("includes", {}).get("users", [])
+    }
+
+    results = []
+    for tweet in data.get("data", []):
+        text = tweet.get("text", "")
+        author = user_map.get(tweet.get("author_id", ""), "unknown")
+
+        # 動画コンテンツの検出と要約
+        has_video = False
+        video_info = ""
+        if "attachments" in tweet:
+            for mk in tweet["attachments"].get("media_keys", []):
+                media = media_map.get(mk, {})
+                if media.get("type") in ("video", "animated_gif"):
+                    has_video = True
+                    alt = media.get("alt_text", "")
+                    # YouTube埋め込みリンクがあればトランスクリプトを試みる
+                    yt_match = None
+                    for url_entity in tweet.get("entities", {}).get("urls", []):
+                        expanded = url_entity.get("expanded_url", "")
+                        if "youtube.com/watch" in expanded or "youtu.be/" in expanded:
+                            yt_match = expanded
+                            break
+                    if yt_match:
+                        import re as _re
+                        vid_id_match = _re.search(r"(?:v=|youtu\.be/)([A-Za-z0-9_-]{11})", yt_match)
+                        if vid_id_match:
+                            transcript = _fetch_youtube_transcript(vid_id_match.group(1), max_chars=300)
+                            if transcript:
+                                video_info = f"[YouTube動画トランスクリプト]: {transcript}"
+                    if not video_info:
+                        video_info = f"[動画: {alt}]" if alt else "[動画コンテンツ]"
+
+        summary = text
+        if has_video and video_info:
+            summary = f"{text}\n{video_info}"
+
+        results.append({
+            "source": "twitter_official",
+            "title": f"@{author}: {text[:80]}",
+            "summary": summary[:600],
+            "url": f"https://x.com/{author}/status/{tweet['id']}",
+            "published": tweet.get("created_at", ""),
+            "is_official_account": True,
+            "has_video": has_video,
+            "twitter_account": author,
+        })
+
+    print(f"[Twitter] 公式アカウント: {len(results)} 件取得")
     return results
 
 
@@ -298,6 +427,7 @@ def main():
         ("GitHub", fetch_github_trending),
         ("YouTube", fetch_youtube),
         ("YouTube Shorts", fetch_youtube_shorts),
+        ("Twitter公式", fetch_twitter_official),  # 最後に追加（優先度は別途スコアリングで管理）
     ]
     
     for source_name, fetch_func in sources:
@@ -312,7 +442,7 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump({"date": TODAY, "items": all_items}, f, ensure_ascii=False, indent=2)
 
-    src_counts = Counter(item["source"].split(":")[0] for item in all_items)
+    src_counts = Counter(item["source"] for item in all_items)
     print(f"\n✅ 収集完了: {len(all_items)} 件 → {out_path}")
     for src, cnt in sorted(src_counts.items()):
         print(f"   {src}: {cnt}件")

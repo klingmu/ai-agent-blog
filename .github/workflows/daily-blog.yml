@@ -84,7 +84,7 @@ jobs:
           git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
           git config user.name "AI Blog Bot"
           git config user.email "bot@example.com"
-          git add data/ articles/
+          git add data/
           git diff --staged --quiet || git commit -m "📊 $(date +%Y-%m-%d) data"
           git push origin main || true
 

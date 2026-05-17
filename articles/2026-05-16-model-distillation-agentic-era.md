@@ -57,6 +57,20 @@ Cactus Computeが開発したNeedleは、Geminiのツール呼び出し能力を
 
 ## Claude CodeとOpenAI Codexが加速させる「スキル経済圏」
 
+```mermaid
+raph TB
+    A["蒸留基盤<br/>Needle/Self-Distilled RL"] --> B["スキルの<br/>パッケージ化"]
+    B --> C["MCP<br/>標準化インターフェース"]
+    C --> D["Sx<br/>スキルパッケージマネージャ"]
+    E["Claude Code"] -.->|MCP接続| F["社内API"]
+    G["OpenAI Codex"] -.->|MCP接続| F
+    H["将来の蒸留モデル"] -.->|MCP接続| F
+    D --> I["スキル経済圏<br/>再利用&共有"]
+    style A fill:#ff9
+    style C fill:#9cf
+    style I fill:#9f9
+```
+
 個別の研究成果が業界を変えるには、大きなプレーヤーがその方向を向いている必要がある。そしてまさに今、AnthropicとOpenAIという二大巨頭がエージェント化の方向に本腰を入れている。
 
 Anthropicが公開した「How Claude Code works in large codebases」（HNスコア231）は、大規模コードベースにおけるClaude Codeの実践的なベストプラクティスを解説したものだ。注目すべきは、その内容が「大型モデルを漠然と使う」のではなく、**コンテキストの絞り込みと段階的なタスク分解**を重視している点だ。つまり大型モデルの側でも「小さく賢く動く」ことが求められている。
@@ -93,6 +107,37 @@ YouTubeで話題となった「Turn Claude into a True AI Agent with this MCP」
 
 大型モデルの能力が小型モデルへと蒸留される流れは、もはや止まらない。重要なのは、その波が来たときに乗れる準備ができているかどうかだ。26Mパラメータのモデルが巨人の技を受け継いだように、あなたのプロダクトも今日から「継承者」になれる。問いはシンプルだ——最初に蒸留するのは、どのスキルにするか。
 
+```mermaid
+graph TB
+    A["大型モデル<br/>GPT-4 / Gemini"]
+    B["汎用能力"]
+    C["高パフォーマンス<br/>＄＄＄ 高コスト<br/>遅延 数秒"]
+    
+    A --> B --> C
+    
+    D["蒸留モデル<br/>Needle等"]
+    E["特定スキル<br/>特化型"]
+    F["実用的精度<br/>＄ 低コスト<br/>遅延 ミリ秒"]
+    
+    D --> E --> F
+    
+    G["スキル1\n検索"]
+    H["スキル2\n計算"]
+    I["スキル3\n合成"]
+    
+    D -->|複数デプロイ| G
+    D -->|複数デプロイ| H
+    D -->|複数デプロイ| I
+    
+    C -->|性能| J["比較"]
+    F -->|運用コスト| J
+    
+    style C fill:#f99
+    style F fill:#9f9
+    style A fill:#fbf
+    style D fill:#9fb
+```
+
 ---
 
 ## 🛠️ エンジニアのための実践Tips
@@ -115,6 +160,13 @@ YouTubeで話題となった「Turn Claude into a True AI Agent with this MCP」
 - [Sx: Open-Source Package Manager for AI Skills and MCPs](https://github.com/sleuth-io/sx)
 - [APWA: Distributed Architecture for Parallelizable Agentic Workflows (arXiv:2605.15132)](http://arxiv.org/abs/2605.15132v1)
 
----
 *収集ソース: arXiv, Anthropic Blog, Hacker News, GitHub, YouTube*
 *2026-05-16*
+
+---
+
+## おわりに
+
+本記事を執筆していて感じたのは、蒸留革命の本質が「有能さの圧縮」というより「責任の明確化」にあるのではないかということだ。大型モデルの万能さに隠れていた「何ができて、何ができないのか」という問いが、蒸留によって初めて表面化する。それはAIを使う側にとって、一見すると制限に見えるかもしれない。しかし私たちにとっては解放のように思える——自分たちが何をしているのかを正確に把握し、制御できるAIを初めて手にする感覚だ。
+
+今後、蒸留技術が一般化するにつれ、最も価値がある開発者は「最新技術を知っている人」ではなく、「自分たちのシステムで何が必要で何が不要かを正確に判断できる人」になるのではないだろうか。その未来が、少しでも早く、多くのチームに届くことを願っている。

@@ -49,6 +49,10 @@ CHARS_PER_MIN          = 500  # 日本語平均読書速度（字/分）
 # 🎯 ユーザーの関心領域設定
 # ══════════════════════════════════════════════════════════════
 USER_INTERESTS = {
+    # 優先度: 超最高（公式X/Twitterアカウントからの発信 — source == "twitter_official" で判定）
+    # @AnthropicAI / @ClaudeAI / @code (VS Code) / @MicrosoftCopilot
+    # → _score_by_user_interest() でソース判定し score=3.0 を直接返す
+
     # 優先度: 2.0 （最高！！）
     "highest_priority": [
         # GitHub Copilot 関連
@@ -95,12 +99,17 @@ USER_INTERESTS = {
 
 def _score_by_user_interest(item: dict) -> float:
     """アイテムをユーザーの関心度でスコア化（1.0 ~ 3.0）"""
+
+    # 🔴🔴🔴 超最高優先度: 公式X(Twitter)アカウントの発信は常に最大スコア
+    if item.get("source") == "twitter_official" or item.get("is_official_account"):
+        return 3.0
+
     title_lower = item.get("title", "").lower()
     summary_lower = item.get("summary", "").lower()
     text = f"{title_lower} {summary_lower}"
-    
+
     score = 1.0  # ベーススコア
-    
+
     # 最高優先度キーワード（GitHub Copilot, Claude Code, VSCode, 最新モデル）
     for keyword in USER_INTERESTS.get("highest_priority", []):
         if keyword in text:
@@ -136,10 +145,12 @@ def _slim(items: list[dict], summary_len: int = 100) -> list[dict]:
     return [
         {
             "idx": i,
-            "src": item["source"].split(":")[0],
+            "src": item["source"],
             "title": item["title"],
             "summary": item.get("summary", "")[:summary_len],
             "user_interest_score": round(_score_by_user_interest(item), 2),
+            # 公式X投稿は明示的にフラグを立てる
+            "is_official": item.get("is_official_account", False),
         }
         for i, item in enumerate(items)
     ]
@@ -162,7 +173,7 @@ RESEARCH_TOOLS = [
                 "sources": {
                     "type": "array",
                     "items": {"type": "string",
-                              "enum": ["arxiv","rss","hackernews","github","youtube","youtube_shorts"]},
+                              "enum": ["arxiv","rss","hackernews","github","youtube","youtube_shorts","twitter_official"]},
                     "description": "絞り込むソース（省略で全ソース）",
                 },
                 "max_results": {"type": "integer", "default": 5},
@@ -192,7 +203,7 @@ RESEARCH_TOOLS = [
             "properties": {
                 "selected_indices": {
                     "type": "array", "items": {"type": "integer"},
-                    "description": "記事に使うアイテムのインデックス（5〜8件）",
+                    "description": "記事に使うアイテムのインデックス（spotlight構成なら1〜3件、それ以外は5〜8件）",
                 },
                 "research_notes": {
                     "type": "string",
@@ -232,25 +243,29 @@ def _handle_tool(tool_name: str, tool_input: dict, all_items: list[dict]) -> str
             if 0 <= idx < len(all_items):
                 item  = all_items[idx]
                 score = 0
-                
-                # ★ ユーザー関心度スコアを大きく加味（最高優先度をさらに重視）
-                user_interest_score = _score_by_user_interest(item)
-                if user_interest_score >= 2.0:
-                    # 最高優先度（GitHub Copilot, Claude Code, VSCode, 最新モデル）
-                    score += user_interest_score * 4  # 4倍に重み付け
-                elif user_interest_score >= 1.5:
-                    # 高優先度
-                    score += user_interest_score * 2.5  # 2.5倍
+
+                # 🔴🔴🔴 超最高優先度: 公式X(Twitter)アカウントの発信
+                if item.get("source") == "twitter_official" or item.get("is_official_account"):
+                    score += 30  # 他のいかなるソースも超える圧倒的スコア
                 else:
-                    # 中・低優先度
-                    score += user_interest_score * 2  # 2倍
-                
-                # 既存スコアリング
+                    # ★ ユーザー関心度スコアを大きく加味
+                    user_interest_score = _score_by_user_interest(item)
+                    if user_interest_score >= 2.0:
+                        # 最高優先度（GitHub Copilot, Claude Code, VSCode, 最新モデル）
+                        score += user_interest_score * 4  # 4倍に重み付け
+                    elif user_interest_score >= 1.5:
+                        # 高優先度
+                        score += user_interest_score * 2.5  # 2.5倍
+                    else:
+                        # 中・低優先度
+                        score += user_interest_score * 2  # 2倍
+
+                # 既存スコアリング（Twitterアカウント以外に適用）
                 if "arxiv"   in item["source"]: score += 3
                 if "youtube" in item["source"]: score += 2
                 score += min(item.get("hn_score", 0) // 100, 3)
                 score += min(item.get("stars",    0) // 1000, 2)
-                
+
                 ranked.append({"index": idx, "title": item["title"], "score": round(score, 2)})
         ranked.sort(key=lambda x: x["score"], reverse=True)
         return json.dumps(ranked, ensure_ascii=False)
@@ -268,8 +283,17 @@ THEME_SELECTOR_SYSTEM = """あなたは雑誌編集長です。
 収集データを見て今日号のテーマと記事構成を設計します。
 JSONのみ返してください（前後の説明・```json 不要）。
 
-## 🎯🎯 テーマ選択の優先順位（ユーザー最優先）
-**最高優先度（user_interest_score 2.0以上）を最優先で選ぶべき**:
+## 🎯🎯🎯 テーマ選択の優先順位（ユーザー最優先）
+
+**【絶対最高】公式X(Twitter)アカウントの発信（src: "twitter_official" かつ is_official: true）**:
+- 🔴🔴🔴 @AnthropicAI — Anthropic公式
+- 🔴🔴🔴 @ClaudeAI — Claude公式
+- 🔴🔴🔴 @code — Visual Studio Code公式
+- 🔴🔴🔴 @MicrosoftCopilot — Microsoft Copilot公式
+→ **これらの投稿が存在する場合は、他のどんな情報よりも最優先でテーマに選ぶこと**
+→ user_interest_score が 3.0 のアイテムが対象
+
+**最高優先度（user_interest_score 2.0以上）**:
 - 🔴 GitHub Copilot のアップデート・新機能・ベストプラクティス
 - 🔴 Claude Code / Anthropic の最新モデル・アップデート情報
 - 🔴 VSCode のアップデート・AI統合・新機能
@@ -287,6 +311,7 @@ JSONのみ返してください（前後の説明・```json 不要）。
 低優先度：純粋な学術論文の理論的内容
 
 ## 構成パターン（最も適切なものを選ぶ）
+- spotlight: 【単一ソース深掘り】公式発表・重要リリース1件を徹底解説。背景 → 何が変わるか → 使い方・影響 → 読者へのアクション。複数ソースを無理に集めず、1件の情報を深く掘り下げる。user_interest_score 2.5以上の公式発表があればこれを優先。
 - problem_solution: 課題提起 → 解決策の登場 → 実装・効果 → 今後の展望
 - discovery: 意外な発見・事実 → 背景の深掘り → 業界への影響 → 読者への示唆
 - journey: 現状の限界 → 新技術の登場 → 採用事例・実証 → 次のステージ
@@ -337,12 +362,16 @@ RESEARCH_SYSTEM = """あなたはデータリサーチャーです。
 テーマに沿って収集データから情報を集め、最後に finalize_research を呼んでください。
 
 ルール:
+- 🔴🔴🔴 src="twitter_official" かつ is_official=true のアイテムを「絶対最高」で優先
+  （@AnthropicAI / @ClaudeAI / @code / @MicrosoftCopilot の公式投稿）
 - 🔴🔴 user_interest_score 2.0以上（GitHub Copilot, Claude Code, VSCode, 最新モデル）のアイテムを最優先
 - 各アイテムの user_interest_score を参考に、スコアの高いアイテムを優先的に選ぶ
 - search_collected_data でテーマ関連データを検索（1〜2回）
 - rank_items_by_novelty で候補を精査（1回）
 - 情報が揃ったらすぐ finalize_research を呼ぶ（ループを最小化）
-- 5件以上選定してメモを添える"""
+- 選定件数のルール:
+  - structure_type が "spotlight" の場合: 主役アイテム1件 + 補足1〜2件（合計1〜3件）で十分。無理に件数を増やさない。
+  - それ以外の場合: 5件以上選定してメモを添える"""
 
 def run_research_agent(theme: dict, all_items: list[dict]) -> dict:
     # ④ 圧縮版データをプロンプトに含める
@@ -442,6 +471,9 @@ AIビギナーから最前線エンジニアまで全員が楽しめる雑誌ス
 1. 論理的な流れで書く — 編集長から渡された構成タイプ（structure_type）に従い、
    読者が自然に次を読みたくなる展開を作る。「起承転結」などのラベルは記事本文に
    一切書かない。セクション見出しは内容を表す言葉にする。
+   **structure_type が "spotlight" の場合**: 公式発表・重要リリース1件を主役に据え、
+   深く丁寧に解説する。無理に複数ソースをつなげず、「この1件が何をもたらすか」を
+   背景・変化・使い方・展望の順で掘り下げる。参考情報は補足程度に留める。
 2. フックで心を掴む — 冒頭リード文（2〜3文）で「続きが気になる」と思わせる。
    統計・逆説・問いかけ・具体的なシーンなど引き込み方は自由。
 3. 専門用語は必ず解説 — 初出の用語には 💡 用語解説ボックスを付ける。
@@ -457,6 +489,35 @@ AIビギナーから最前線エンジニアまで全員が楽しめる雑誌ス
 - セクションごとの上限を必ず守ること（下記フォーマット参照）
 - 読了時間の表示は実際の文字数から計算した値を使う（必ず5以下）
 
+## 🖼️ 図・画像の使い方（著作権に配慮した引用）
+
+### インライン引用番号
+- 本文中でソースを参照するときは `[[n]](URL)` 形式で番号を埋め込む。クリックするとすぐ参照先に飛べる。
+  - 例: `Anthropic が発表した新機能 [[1]](https://...) によれば…`
+- 参考文献セクションは番号付きリストにして、インライン番号と対応させる。
+
+### YouTube動画の埋め込み
+- YouTubeが参照元の場合は **必ず** Zenn の埋め込み記法を使う（再生できる状態で表示される）:
+  ```
+  @[youtube](VIDEO_ID)
+  ```
+  VIDEO_ID は URL の `?v=` 以降の11文字。埋め込み直後に出典を記載:
+  ```
+  *出典: [動画タイトル](https://youtube.com/watch?v=VIDEO_ID)*
+  ```
+
+### ブログ・公式発表の画像
+- 公式ブログや論文に掲載されている図は、画像URLが分かれば直接引用する:
+  ```
+  ![図の説明（出典: サービス名）](画像のURL)
+  *出典: [記事タイトル](記事URL)*
+  ```
+- 画像URLが不明な場合は埋め込まず、リンクのみにする。**画像を勝手に再現・模写しない**。
+
+### 自作図（Mermaid）
+- 複数の概念の関係性・フローを示すときのみ Mermaid を使う。
+- 参照元の図を説明できるなら Mermaid を作らず原典を引用する。
+
 ## フォーマット（Markdown）
 
 # {キャッチーなタイトル}
@@ -469,7 +530,7 @@ AIビギナーから最前線エンジニアまで全員が楽しめる雑誌ス
 
 ## {セクション1の見出し（内容を表す言葉。「起」などのラベルは使わない）}
 
-（300〜400字。要点のみ。詳細はリンクへ誘導）
+（300〜400字。要点のみ。詳細はリンクへ誘導。ソース参照は [[n]](URL) 形式で本文中に入れる）
 
 > 💡 **用語解説**
 > **[用語]** — わかりやすい説明（1〜2文）
@@ -478,7 +539,7 @@ AIビギナーから最前線エンジニアまで全員が楽しめる雑誌ス
 
 ## {セクション2の見出し}
 
-（400〜500字。データ・実装例の要点のみ。詳細は参考リソースへ）
+（400〜500字。YouTubeソースがあれば @[youtube](VIDEO_ID) で埋め込む。データ・実装例の要点のみ）
 
 ---
 
@@ -500,13 +561,26 @@ AIビギナーから最前線エンジニアまで全員が楽しめる雑誌ス
 
 ---
 
-## 📚 参考リソース
+## 📚 参考文献
 
-（URLリスト。詳細を読みたい読者はここへ）
+1. [タイトル](URL) — 一言説明
+2. [タイトル](URL) — 一言説明
+（本文中の [[n]] と番号を対応させる）
 
 ---
-*収集ソース: arXiv, OpenAI/Anthropic Blog, Hacker News, GitHub, YouTube*
-*{date}*"""
+*収集ソース: arXiv, OpenAI/Anthropic Blog, Hacker News, GitHub, YouTube, X(Twitter)*
+*{date}*
+
+---
+
+## おわりに
+
+（150〜200字。**【必須セクション・必ず書くこと】筆者の所感として記述する**。
+ルール:
+• 語尾は「〜のように感じる」「〜のように思う」「〜ではないだろうか」「〜を願っている」など一人称・主観的な言葉を使う
+• 記事全体の要約ではなく、この記事を書いて感じたこと・気づき・驚きを伝える
+• 読者への問いかけや希望・展望で締める
+• 「〜と感じる」「〜と思う」で終わる文を最低1文含めること）"""
 
 def run_writer_agent(theme: dict, research: dict,
                      feedback: str | None = None, attempt: int = 1) -> str:
@@ -515,8 +589,13 @@ def run_writer_agent(theme: dict, research: dict,
 
     # アイテムは要約 200 字に絞ってトークンを節約
     items_slim = [
-        {"title": it["title"], "url": it.get("url",""),
-         "summary": it.get("summary","")[:200], "source": it["source"]}
+        {
+            "title": it["title"],
+            "url": it.get("url", ""),
+            "summary": it.get("summary", "")[:200],
+            "source": it["source"],
+            "video_id": it.get("video_id", ""),  # YouTube埋め込み用
+        }
         for it in research["selected_items"]
     ]
 
@@ -700,6 +779,7 @@ SUMMARIZER_SYSTEM = f"""あなたは優秀な編集者です。
 4. **Tips は3個まで** — 各項目は1行で完結させる
 5. **フロントマター（---で囲まれた部分）は一切変更しない**
 6. **「読了 X分」の表示を実際の圧縮後の文字数に合わせて更新する**（必ず5以下）
+7. **「## おわりに」セクションは削除しない** — 筆者の所感として必須のセクション
 
 圧縮後の記事全体（Markdownそのまま）を返してください。前後の説明は不要。"""
 
