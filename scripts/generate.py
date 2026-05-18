@@ -335,7 +335,8 @@ JSONのみ返してください（前後の説明・```json 不要）。
   "slug": "keyword-topic-name"
 }
 
-slugは記事テーマを表す英小文字3〜5単語のハイフン区切り（例: "needle-agent-distillation", "shepherd-runtime-debug"）。"""
+slugは記事テーマを表す英小文字3〜5単語のハイフン区切り（例: "needle-agent-distillation", "shepherd-runtime-debug"）。
+重要: slugは必ず39文字以内にすること（ファイル名が "{日付}-{slug}" となり合計50文字以内のZenn制約に収まるよう）。"""
 
 def run_theme_selector(all_items: list[dict]) -> dict:
     # ④ 100字要約＋関心度スコア付き圧縮版を作成
@@ -854,16 +855,29 @@ def main():
     article, quality, theme = orchestrate(all_items)
 
     # slug: ThemeSelectorの出力を優先、なければタイトルから英数字を抽出
+    # Zennのslugルール: ファイル名（拡張子除く）が12〜50文字
+    # ファイル名 = "{TODAY}-{slug_part}" なので slug_part の上限は 50 - len(TODAY) - 1 文字
+    _SLUG_PART_MAX = 50 - len(TODAY) - 1  # TODAY=10文字 + ハイフン1文字 = 11文字分を引く
+
+    def _trim_slug(s: str, max_len: int) -> str:
+        """slug_part を max_len 以内に収める。ハイフン境界で切る。"""
+        if len(s) <= max_len:
+            return s
+        truncated = s[:max_len]
+        last_hyphen = truncated.rfind("-")
+        return (truncated[:last_hyphen] if last_hyphen > 0 else truncated).strip("-")
+
     slug_part = theme.get("slug", "")
-    slug_part = re.sub(r"[^a-z0-9-]+", "", slug_part.lower())[:50].strip("-")
+    slug_part = _trim_slug(re.sub(r"[^a-z0-9-]+", "", slug_part.lower()), _SLUG_PART_MAX)
     if not slug_part:
         title_match_slug = re.search(r"^# (.+)$", article, re.MULTILINE)
         raw_title = title_match_slug.group(1) if title_match_slug else "ai-agent-news"
-        slug_part = re.sub(r"[^a-zA-Z0-9]+", "-", raw_title)[:40].strip("-").lower()
+        slug_part = _trim_slug(re.sub(r"[^a-zA-Z0-9]+", "-", raw_title).strip("-").lower(), _SLUG_PART_MAX)
     if not slug_part:
         slug_part = "ai-agent"
 
     article_path = ARTICLES_DIR / f"{TODAY}-{slug_part}.md"
+    assert 12 <= len(article_path.stem) <= 50, f"slug長エラー: {article_path.stem} ({len(article_path.stem)}文字)"
 
     # タイトル抽出
     title_match = re.search(r"^# (.+)$", article, re.MULTILINE)
