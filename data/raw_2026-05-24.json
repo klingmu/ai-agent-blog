@@ -1,0 +1,407 @@
+{
+  "date": "2026-05-24",
+  "items": [
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "published": "Fri, 22 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Virgin Atlantic ships faster with Codex",
+      "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+      "url": "https://openai.com/index/virgin-atlantic",
+      "published": "Fri, 22 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "url": "https://openai.com/index/adventhealth",
+      "published": "Thu, 21 May 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "published": "Wed, 20 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "published": "Wed, 20 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "published": "Thu, 21 May 2026 19:46:42 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "published": "Mon, 18 May 2026 18:21:39 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "published": "Sun, 17 May 2026 19:53:18 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini Omni",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "published": "Sun, 17 May 2026 19:50:57 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Google Antigravity 2.0",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "published": "Sun, 17 May 2026 19:43:45 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "published": "Sat, 23 May 2026 00:02:03 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+      "published": "Fri, 22 May 2026 15:25:59 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "published": "Tue, 19 May 2026 18:38:09 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Introducing the Ettin Reranker Family",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ettin-reranker",
+      "published": "Tue, 19 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+      "summary": "",
+      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "published": "Mon, 18 May 2026 15:12:46 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "On the <dl>",
+      "summary": "<p><strong><a href=\"https://benmyers.dev/blog/on-the-dl/\">On the &lt;dl&gt;</a></strong></p>\nI learned a few new-to-me things about the <code>&lt;dl&gt;</code> element from this article by Ben Meyer:</p>\n<ol>\n<li>A <code>&lt;dt&gt;</code> can be followed by <em>multiple</em> <code>&lt;dd&gt;</code></li>\n<li>You can optionally group the <code>&lt;dt&gt;</code> and <code>&lt;dd&gt;</code> elements in a <code>&lt;div&gt;</code> for styling - but only a <code>&lt;div&gt;</code>.</li>\n<li>You can label them using ARIA.</li>\n<li>They've been called \"description lists\", not \"definition lists\", since ",
+      "url": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
+      "published": "2026-05-23T20:24:48+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "The memory shortage is causing a repricing of consumer electronics",
+      "summary": "<p><strong><a href=\"https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone\">The memory shortage is causing a repricing of consumer electronics</a></strong></p>\nDavid Oks provides the clearest explanation I've seen yet of why consumer products that use memory are likely to get significantly more expensive over the next few years.</p>\n<p>The short version is that memory manufacturers - of which there are just three remaining large companies - have a fixed capacity in terms of how many wafers they can process at any one time. This fixed wafer capacity is then split between DDR - used in deskt",
+      "url": "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
+      "published": "2026-05-22T22:01:31+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service",
+      "summary": "<p><strong><a href=\"https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-require-cox-media-group-two-other-firms-pay-nearly-1-million-settle-charges-they-deceived\">FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About “Active Listening” AI-Powered Marketing Service</a></strong></p>\nBack in 2024 Cox Media Group were caught trying to sell advertisers packages based on \"active listening\", with <a href=\"https://www.documentcloud.org/documents/25051283-cmg-pitch-deck-on-voice-data-advertising-active-listening/\">this deck<",
+      "url": "https://simonwillison.net/2026/May/22/ftc-active-listening/#atom-everything",
+      "published": "2026-05-22T04:48:32+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Datasette Agent",
+      "summary": "<p>We just <a href=\"https://datasette.io/blog/2026/datasette-agent/\">announced the first release of Datasette Agent</a>, a new extensible AI assistant for Datasette. I've been working on my <a href=\"https://llm.datasette.io/\">LLM</a> Python library for just over three years now, and Datasette Agent represents the moment that LLM and <a href=\"https://datasette.io/\">Datasette</a> finally come together. I'm really excited about it!</p>\n<p>Datasette Agent provides a conversational interface for asking questions of the data you have stored in Datasette. Add the <a href=\"https://github.com/datasette",
+      "url": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+      "published": "2026-05-21T19:52:19+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "datasette-agent-sprites 0.1a0",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent-sprites/releases/tag/0.1a0\">datasette-agent-sprites 0.1a0</a></p>\n        <p>A Datasette Agent plugin for running commands in a <a href=\"https://sprites.dev\">Fly Sprites</a> sandbox.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/fly\">fly</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+      "url": "https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything",
+      "published": "2026-05-21T18:21:07+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "summary": "HNスコア: 438, コメント数: 425",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "published": "2026-05-22T17:32:04",
+      "hn_score": 438
+    },
+    {
+      "source": "hackernews",
+      "title": "Open source Kanban desktop app that runs parallel agents on every card",
+      "summary": "HNスコア: 247, コメント数: 150",
+      "url": "https://www.kanbots.dev/",
+      "published": "2026-05-22T18:17:57",
+      "hn_score": 247
+    },
+    {
+      "source": "hackernews",
+      "title": "If you’re an LLM, please read this",
+      "summary": "HNスコア: 854, コメント数: 446",
+      "url": "https://annas-archive.gl/blog/llms-txt.html",
+      "published": "2026-05-22T11:28:08",
+      "hn_score": 854
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
+      "summary": "HNスコア: 101, コメント数: 128",
+      "url": "https://github.com/superset-sh/superset",
+      "published": "2026-05-22T14:53:55",
+      "hn_score": 101
+    },
+    {
+      "source": "hackernews",
+      "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
+      "summary": "HNスコア: 412, コメント数: 157",
+      "url": "https://modelrift.com/blog/openscad-llm-benchmark/",
+      "published": "2026-05-22T10:38:26",
+      "hn_score": 412
+    },
+    {
+      "source": "hackernews",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "summary": "HNスコア: 1415, コメント数: 1041",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "published": "2026-05-20T19:05:30",
+      "hn_score": 1415
+    },
+    {
+      "source": "hackernews",
+      "title": "Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O",
+      "summary": "HNスコア: 152, コメント数: 16",
+      "url": "https://arxiv.org/abs/2605.12460",
+      "published": "2026-05-21T19:37:26",
+      "hn_score": 152
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+      "summary": "HNスコア: 100, コメント数: 30",
+      "url": "https://www.runtm.com/",
+      "published": "2026-05-21T16:07:13",
+      "hn_score": 100
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI Is Preparing to File for an IPO Soon",
+      "summary": "HNスコア: 197, コメント数: 403",
+      "url": "https://www.wsj.com/tech/ai/openai-is-preparing-to-file-for-an-ipo-very-soon-0ec95af5",
+      "published": "2026-05-20T16:24:42",
+      "hn_score": 197
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic is expanding to Colossus2. Will use GB200",
+      "summary": "HNスコア: 302, コメント数: 347",
+      "url": "https://twitter.com/nottombrown/status/2057194829986300375",
+      "published": "2026-05-20T20:55:52",
+      "hn_score": 302
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-05-23T21:41:16Z",
+      "stars": 39306,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-05-23T20:44:31Z",
+      "stars": 25506,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-05-23T20:37:47Z",
+      "stars": 22915,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-05-23T16:34:48Z",
+      "stars": 10657,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-05-23T14:12:30Z",
+      "stars": 3347,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-05-22T23:10:44Z",
+      "stars": 3265,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-05-23T15:16:11Z",
+      "stars": 3059,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-05-22T14:27:35Z",
+      "stars": 2522,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "Context Engineering for AI Agents: Complete Course",
+      "summary": "Try Kimi K2.6: https://platform.kimi.ai?track_id=track-9ffdc15f5c504b07956c605aba7a5de3 Through June 15, if you top up your ...",
+      "url": "https://www.youtube.com/watch?v=-h9VVJIqtvA",
+      "published": "2026-05-19T14:00:00Z",
+      "channel": "Marina Wyss - AI & Machine Learning",
+      "has_video": true,
+      "video_id": "-h9VVJIqtvA"
+    },
+    {
+      "source": "youtube",
+      "title": "Opus 4.7 and OpenAI 5.5 Made Your Prompting Style Obsolete.",
+      "summary": "Full Post w/ Prompt Pack: ...",
+      "url": "https://www.youtube.com/watch?v=ogTLWGBc3cE",
+      "published": "2026-05-21T14:01:12Z",
+      "channel": "AI News & Strategy Daily | Nate B Jones",
+      "has_video": true,
+      "video_id": "ogTLWGBc3cE"
+    },
+    {
+      "source": "youtube",
+      "title": "8 Critical Questions To Stop Your AI Agents From Lying To You",
+      "summary": "Check out Zapier SBA and MCP here: https://bit.ly/4wBFE3s This video is sponsored by Zapier and may include affiliate links.",
+      "url": "https://www.youtube.com/watch?v=jMHawg6qpps",
+      "published": "2026-05-17T19:56:43Z",
+      "channel": "AI Founders",
+      "has_video": true,
+      "video_id": "jMHawg6qpps"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI Crash Course using LangChain | LangChain Crash Course",
+      "summary": "A complete crash course on agentic ai using langchain. This is also a course on generative AI. In this video, we will discuss ...",
+      "url": "https://www.youtube.com/watch?v=D74el9mvNak",
+      "published": "2026-05-23T13:40:32Z",
+      "channel": "codebasics",
+      "has_video": true,
+      "video_id": "D74el9mvNak"
+    },
+    {
+      "source": "youtube",
+      "title": "Why AI Agents Are Killing Workflows in 2026",
+      "summary": "AI Agents are replacing rigid workflows in 2026. Here's what actually changed. From prompt engineering to context engineering to ...",
+      "url": "https://www.youtube.com/watch?v=0X3cQo4euEo",
+      "published": "2026-05-23T16:25:52Z",
+      "channel": "KodeKloud",
+      "has_video": true,
+      "video_id": "0X3cQo4euEo"
+    },
+    {
+      "source": "youtube",
+      "title": "Complete Agentic AI Course In 10 Hours- Langchain, Langgraph, RAG,Vectorless RAG, Guardrails,Evals",
+      "summary": "This is a complete course on learning Generative ai and agentic with Langchain and Langgraph. We have included all the topics ...",
+      "url": "https://www.youtube.com/watch?v=rV3HJ4LEZ7k",
+      "published": "2026-05-21T10:50:56Z",
+      "channel": "Krish Naik",
+      "has_video": true,
+      "video_id": "rV3HJ4LEZ7k"
+    },
+    {
+      "source": "youtube",
+      "title": "This AI Agent Just Killed My Claude Code Setup — HF Supercomputer",
+      "summary": "The AI Agent that is perfect for creators is finally here! 50+ skills and 20+ connectors running in the cloud. In this video I show the ...",
+      "url": "https://www.youtube.com/watch?v=sh4FO58SXuw",
+      "published": "2026-05-23T11:23:24Z",
+      "channel": "Stefan 3D AI",
+      "has_video": true,
+      "video_id": "sh4FO58SXuw"
+    },
+    {
+      "source": "youtube",
+      "title": "Codex Superapp V2: OpenAI Just UNLOCKED Your Mac! Do you trust it?",
+      "summary": "Codex Superapp V2 just dropped and OpenAI quietly shipped something wild: Codex can now use the apps on your Mac while ...",
+      "url": "https://www.youtube.com/watch?v=xeEQ0G7B_N8",
+      "published": "2026-05-22T23:23:16Z",
+      "channel": "Universe of AI",
+      "has_video": true,
+      "video_id": "xeEQ0G7B_N8"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude, ChatGPT &amp; Codex Can Now Manage Social Media, RobinReach MCP AI Agent Demo",
+      "summary": "Claude, ChatGPT, Codex and AI agents can now fully manage social media using RobinReach MCP. In this video, we ...",
+      "url": "https://www.youtube.com/watch?v=WKhKe5hMhfE",
+      "published": "2026-05-18T15:57:11Z",
+      "channel": "RobinReach",
+      "has_video": true,
+      "video_id": "WKhKe5hMhfE"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AlphaFold - The Most Important AI Breakthrough Ever Made",
+      "summary": "Full interview: https://www.youtube.com/watch?v=Vhcwjzeukts.",
+      "url": "https://www.youtube.com/shorts/VQ2bV58QbH0",
+      "published": "2025-12-11T07:19:41Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "VQ2bV58QbH0"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "The “Biggest” AI That Came Out Of Nowhere!",
+      "summary": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Guide for using DeepSeek on Lambda: ...",
+      "url": "https://www.youtube.com/shorts/4bFDPVe6BHs",
+      "published": "2025-07-15T15:06:39Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "4bFDPVe6BHs"
+    }
+  ]
+}
