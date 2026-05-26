@@ -1,0 +1,399 @@
+{
+  "date": "2026-05-27",
+  "items": [
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "published": "Mon, 25 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Virgin Atlantic ships faster with Codex",
+      "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+      "url": "https://openai.com/index/virgin-atlantic",
+      "published": "Fri, 22 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "published": "Fri, 22 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "url": "https://openai.com/index/adventhealth",
+      "published": "Thu, 21 May 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "published": "Wed, 20 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "published": "Thu, 21 May 2026 19:46:42 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "published": "Mon, 18 May 2026 18:21:39 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "published": "Sun, 17 May 2026 19:53:18 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini Omni",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "published": "Sun, 17 May 2026 19:50:57 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Google Antigravity 2.0",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "published": "Sun, 17 May 2026 19:43:45 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "summary": "",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "published": "Mon, 25 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "published": "Sat, 23 May 2026 00:02:03 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+      "published": "Fri, 22 May 2026 15:25:59 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "published": "Tue, 19 May 2026 18:38:09 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Introducing the Ettin Reranker Family",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ettin-reranker",
+      "published": "Tue, 19 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Microsoft Copilot Cowork Exfiltrates Files",
+      "summary": "<p><strong><a href=\"https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files\">Microsoft Copilot Cowork Exfiltrates Files</a></strong></p>\nThe biggest challenge in designing agentic systems continues to be preventing them from enabling attackers to exfiltrate data.</p>\n<p>In this case Microsoft Copilot Cowork (yes, that's <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/\">a real product name</a>) was allowing agents to send emails to the user's own inbox without approval... but those messages were then d",
+      "url": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
+      "published": "2026-05-26T15:36:48+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Paul Graham",
+      "summary": "<blockquote cite=\"https://twitter.com/paulg/status/2058844147092488401\"><p>A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by AI, because no founder ever wrote this way before. And once you realize something is written by AI, it's hard not to ignore it.</p>\n<p>I have never knowingly finished reading an email signed by a human but written by AI. It feels like being lied to, and who would stand for that?</p>\n<p>[<a href=\"https://twitter.com/paulg/status/2058863028523659390\">...</a>] It makes me think less of the author. It mean",
+      "url": "https://simonwillison.net/2026/May/26/paul-graham/#atom-everything",
+      "published": "2026-05-26T15:02:30+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Corey Quinn",
+      "summary": "<blockquote cite=\"https://twitter.com/quinnypig/status/2058960462256210268\"><p>I cannot believe I'm saying this, but getting the literal Pope to canonize your product's specific technical limitations as a spiritual treatise is the single greatest act of vendor lobbying I have ever seen.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/quinnypig/status/2058960462256210268\">Corey Quinn</a>, on Anthropic co-founder Christopher Olah's <a href=\"https://www.washingtonpost.com/world/2026/05/25/pope-elevates-ai-ethics-religious-imperative-with-first-encyclical/\">influence</a> on <",
+      "url": "https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything",
+      "published": "2026-05-26T02:28:54+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Notes on Pope Leo XIV's encyclical on AI",
+      "summary": "<p>Dropped this morning by the Vatican: <a href=\"https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html\">Magnifica Humanitas of His Holiness Pope Leo XIV on Safeguarding the Human Person in the Time of Artificial Intelligence</a>. This is a <em>very interesting</em> document. It's some of the clearest writing I've seen on the ethics of integrating AI into modern society.</p>\n<p>Pope Leo XIV chose the name Leo in honor of Pope Leo XIII, who is known for his 1891 <em><a href=\"https://en.wikipedia.org/wiki/Rerum_novarum\">Rerum novarum</a></em> encyclical",
+      "url": "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything",
+      "published": "2026-05-25T23:58:17+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "California Brown Pelican, Snowy Egret, California Sea Lion, Harbor Seal",
+      "summary": "<p><img alt=\"California Brown Pelican\" src=\"https://static.inaturalist.org/photos/666934915/large.jpg\" /></p><p><img alt=\"California Brown Pelican\" src=\"https://static.inaturalist.org/photos/666934945/large.jpg\" /></p><p><img alt=\"Snowy Egret\" src=\"https://static.inaturalist.org/photos/666934484/large.jpg\" /></p><p><img alt=\"California Sea Lion\" src=\"https://static.inaturalist.org/photos/666935110/large.jpg\" /></p><p><img alt=\"Harbor Seal\" src=\"https://static.inaturalist.org/photos/666935468/large.jpg\" /></p><p>California Brown Pelican, Snowy Egret, California Sea Lion, Harbor Seal, in San Mat",
+      "url": "https://simonwillison.net/2026/May/25/sighting-365297287/#atom-everything",
+      "published": "2026-05-25T23:08:00+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Use boring languages with LLMs",
+      "summary": "HNスコア: 138, コメント数: 110",
+      "url": "https://jry.io/writing/use-boring-languages-with-llms/",
+      "published": "2026-05-22T15:10:22",
+      "hn_score": 138
+    },
+    {
+      "source": "hackernews",
+      "title": "A sleep-like consolidation mechanism for LLMs",
+      "summary": "HNスコア: 169, コメント数: 122",
+      "url": "https://arxiv.org/abs/2605.26099",
+      "published": "2026-05-26T15:36:24",
+      "hn_score": 169
+    },
+    {
+      "source": "hackernews",
+      "title": "DeepSWE: A contamination-free benchmark for long-horizon coding agents",
+      "summary": "HNスコア: 16, コメント数: 3",
+      "url": "https://deepswe.datacurve.ai/blog",
+      "published": "2026-05-26T19:40:59",
+      "hn_score": 16
+    },
+    {
+      "source": "hackernews",
+      "title": "Eagle 3.1: Collaboration Between the EAGLE Team, vLLM Team, and TorchSpec Team",
+      "summary": "HNスコア: 63, コメント数: 21",
+      "url": "https://vllm.ai/blog/2026-05-26-eagle-3-1",
+      "published": "2026-05-26T11:46:10",
+      "hn_score": 63
+    },
+    {
+      "source": "hackernews",
+      "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
+      "summary": "HNスコア: 320, コメント数: 202",
+      "url": "https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910",
+      "published": "2026-05-25T19:37:57",
+      "hn_score": 320
+    },
+    {
+      "source": "hackernews",
+      "title": "CVE-2026-28952: Apple macOS 26.5 Kernel Vuln found by Claude",
+      "summary": "HNスコア: 165, コメント数: 98",
+      "url": "https://support.apple.com/en-us/127115",
+      "published": "2026-05-25T23:40:40",
+      "hn_score": 165
+    },
+    {
+      "source": "hackernews",
+      "title": "Microsoft Copilot Cowork Exfiltrates Files",
+      "summary": "HNスコア: 256, コメント数: 49",
+      "url": "https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files",
+      "published": "2026-05-25T21:45:57",
+      "hn_score": 256
+    },
+    {
+      "source": "hackernews",
+      "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+      "summary": "HNスコア: 722, コメント数: 278",
+      "url": "https://esengine.github.io/DeepSeek-Reasonix/",
+      "published": "2026-05-24T13:02:06",
+      "hn_score": 722
+    },
+    {
+      "source": "hackernews",
+      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "summary": "HNスコア: 283, コメント数: 192",
+      "url": "https://arxiv.org/abs/2605.06445",
+      "published": "2026-05-24T12:55:53",
+      "hn_score": 283
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-05-26T16:31:52Z",
+      "stars": 39325,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-05-26T19:48:49Z",
+      "stars": 25683,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-05-26T21:52:44Z",
+      "stars": 22973,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-05-26T21:55:07Z",
+      "stars": 10669,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-05-26T17:11:38Z",
+      "stars": 3345,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-05-25T10:12:47Z",
+      "stars": 3265,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-05-26T18:09:57Z",
+      "stars": 3063,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-05-26T22:06:40Z",
+      "stars": 2527,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "How to Build Autonomous AI Agents in 2025",
+      "summary": "Learn how to build autonomous AI agents in 2025 with our step-by-step guide. Discover how to automate tasks, optimize ...",
+      "url": "https://www.youtube.com/watch?v=vZAmPR6X-8E",
+      "published": "2026-05-21T18:39:15Z",
+      "channel": "V-Architect AI",
+      "has_video": true,
+      "video_id": "vZAmPR6X-8E"
+    },
+    {
+      "source": "youtube",
+      "title": "How to Use Claude Routines – Full Workflow Automation Guide 2026",
+      "summary": "sponsored Try Scribe for free: https://https://scribe.how/master Learn how to use Claude and automate your entire content ...",
+      "url": "https://www.youtube.com/watch?v=w4MbjaMFrAM",
+      "published": "2026-05-19T17:53:34Z",
+      "channel": "AI Master",
+      "has_video": true,
+      "video_id": "w4MbjaMFrAM"
+    },
+    {
+      "source": "youtube",
+      "title": "How &#39;Agent Skills&#39; Are Fixing the Biggest Problem with LLMs",
+      "summary": "This is AI Agent Skills Tutorial. Now is the time to stop stuffing workflows into your System Prompt. AI agents are getting smarter ...",
+      "url": "https://www.youtube.com/watch?v=TsjrHmsmBjA",
+      "published": "2026-05-19T18:42:13Z",
+      "channel": "AI with Ruchi",
+      "has_video": true,
+      "video_id": "TsjrHmsmBjA"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI Crash Course using LangChain | LangChain Crash Course",
+      "summary": "A complete crash course on agentic ai using langchain. This is also a course on generative AI. In this video, we will discuss ...",
+      "url": "https://www.youtube.com/watch?v=D74el9mvNak",
+      "published": "2026-05-23T13:40:32Z",
+      "channel": "codebasics",
+      "has_video": true,
+      "video_id": "D74el9mvNak"
+    },
+    {
+      "source": "youtube",
+      "title": "Generative AI vs AI Agents vs Agentic AI Explained with Examples",
+      "summary": "Connect and grow with me on other social media platforms: Linkedin: https://www.linkedin.com/in/balaji-chippada-0317/ ...",
+      "url": "https://www.youtube.com/watch?v=u-glihrL-Ko",
+      "published": "2026-05-25T13:30:20Z",
+      "channel": "Balaji Chippada",
+      "has_video": true,
+      "video_id": "u-glihrL-Ko"
+    },
+    {
+      "source": "youtube",
+      "title": "Why AI Agents Are Killing Workflows in 2026",
+      "summary": "AI Agents are replacing rigid workflows in 2026. Here's what actually changed. From prompt engineering to context engineering to ...",
+      "url": "https://www.youtube.com/watch?v=0X3cQo4euEo",
+      "published": "2026-05-23T16:25:52Z",
+      "channel": "KodeKloud",
+      "has_video": true,
+      "video_id": "0X3cQo4euEo"
+    },
+    {
+      "source": "youtube",
+      "title": "This AI Agent Just Killed My Claude Code Setup — HF Supercomputer",
+      "summary": "The AI Agent that is perfect for creators is finally here! 50+ skills and 20+ connectors running in the cloud. In this video I show the ...",
+      "url": "https://www.youtube.com/watch?v=sh4FO58SXuw",
+      "published": "2026-05-23T11:23:24Z",
+      "channel": "Stefan 3D AI",
+      "has_video": true,
+      "video_id": "sh4FO58SXuw"
+    },
+    {
+      "source": "youtube",
+      "title": "Aion UI Demo: Is This the Ultimate AI Agent Desktop? 🤖",
+      "summary": "Discover Aion UI, the desktop app that could replace your AI agent tools. See how it stacks up against Paperclip and Hermes in ...",
+      "url": "https://www.youtube.com/watch?v=l_5E292Y1g0",
+      "published": "2026-05-25T15:00:13Z",
+      "channel": "Fru Dev",
+      "has_video": true,
+      "video_id": "l_5E292Y1g0"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Code Advanced Workflow - Build &amp; Ship Real Apps",
+      "summary": "Try Oxylabs: https://oxylabs.io/leon Use code LEON for 20% off when you upgrade. Free trial: up to 2000 scraping results, ...",
+      "url": "https://www.youtube.com/watch?v=zVZotTk6ZWU",
+      "published": "2026-05-26T12:25:38Z",
+      "channel": "Leon van Zyl",
+      "has_video": true,
+      "video_id": "zVZotTk6ZWU"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Google DeepMind CEO Likes Hard Questions",
+      "summary": "Full video: https://youtu.be/huAwz_BR8WM #shorts.",
+      "url": "https://www.youtube.com/shorts/kIvvzCR5NjA",
+      "published": "2026-05-26T17:35:28Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "kIvvzCR5NjA"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AlphaFold - The Most Important AI Breakthrough Ever Made",
+      "summary": "Full interview: https://www.youtube.com/watch?v=Vhcwjzeukts.",
+      "url": "https://www.youtube.com/shorts/VQ2bV58QbH0",
+      "published": "2025-12-11T07:19:41Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "VQ2bV58QbH0"
+    }
+  ]
+}
