@@ -1,0 +1,570 @@
+{
+  "date": "2026-05-28",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation",
+      "summary": "Large language model (LLM) agents rely on reusable skills to solve complex tasks. However, existing skill creation approaches treat skills as isolated and static artifacts, limiting their reusability, reliability, and long-term improvement. We propose MUSE-Autoskill Agent (Memory-Utilizing Skill Evolution), a skill-centric agent framework that lets agents continuously improve their task-solving capability by creating, reusing, and refining skills under a unified lifecycle (creation, memory, management, evaluation, and refinement). Our framework enables agents to create skills on demand, store ",
+      "url": "http://arxiv.org/abs/2605.27366v1",
+      "authors": [
+        "Huawei Lin",
+        "Peng Li",
+        "Jie Song"
+      ],
+      "published": "2026-05-26T17:59:19+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.MA"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Natural Language Query to Configuration for Retrieval Agents",
+      "summary": "Modern retrieval agents expose many configuration choices -- LLM, retriever, number of documents, number of hops, and synthesis strategy -- each shaping both answer quality and serving cost. Today, these pipelines are typically hand-tuned once per workload, leaving substantial per-query optimization untapped. We formulate the problem: given a natural-language query and either an accuracy or a budget target, select from a predefined pipeline catalog the configuration that minimizes cost or maximizes accuracy at inference time. We propose **BRANE**, which uses an LLM to convert each query into w",
+      "url": "http://arxiv.org/abs/2605.27361v1",
+      "authors": [
+        "Melissa Z. Pan",
+        "Negar Arabzadeh",
+        "Mathew Jacob"
+      ],
+      "published": "2026-05-26T17:58:47+00:00",
+      "categories": [
+        "cs.AI",
+        "eess.SY"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "GENESIS: Harnessing AI Agents for Autonomous 6G RAN Synthesis, Research, and Testing",
+      "summary": "Cellular research and development (R&D) is throttled by six structural processes that each consume months of manual engineering work per iteration: (i) synthesizing new features from standards or research papers into production code; (ii) conformance and interoperability testing; (iii) hardening against field anomalies and diverse deployment environments; (iv) data-driven optimization of network functionalities; (v) discovering and prototyping novel waveforms, functionalities, and capabilities for future standards; and (vi) securing the stack against vulnerabilities. Although Large Language Mo",
+      "url": "http://arxiv.org/abs/2605.27360v1",
+      "authors": [
+        "Tamerlan Aghayev",
+        "Maxime Elkael",
+        "Michele Polese"
+      ],
+      "published": "2026-05-26T17:58:43+00:00",
+      "categories": [
+        "cs.NI",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Guiding LLM Post-training Data Engineering with Model Internals from Sparse Autoencoders",
+      "summary": "Model internals encode rich information about how a large language model (LLM) processes its training data; however, post-training data engineering largely relies on external signals and ignores rich intrinsic signals lying in model internals. We propose SAERL, a data engineering framework for LLM reinforcement learning (RL). It models three intrinsic data properties: diversity, difficulty, and quality, using model internals extracted with Sparse Autoencoder (SAE), an advanced mechanistic interpretability tool. Each property grounds a concrete data engineering operation: SAE-space clustering w",
+      "url": "http://arxiv.org/abs/2605.27354v1",
+      "authors": [
+        "Yi Jing",
+        "Zao Dai",
+        "Jinwu Hu"
+      ],
+      "published": "2026-05-26T17:55:59+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Maat: The Agentic Legal Research Assistant for Competition Protection",
+      "summary": "Competition law experts conducting legal research must review extensive volumes of cases, decisions, and judicial reports to identify precedents and assess key elements in competition and merger cases. Although general research assistants such as Claude and ChatGPT and legal assistants such as SaulLM-7B and LegalGPT are increasingly used to assist legal research, they remain inadequate for competition law analysis: they lack specialized domain expertise, provide insufficient official citations, or hallucinate competition law cases. We propose Maat, a ReAct agent that orchestrates tools corresp",
+      "url": "http://arxiv.org/abs/2605.27331v1",
+      "authors": [
+        "Basant Mounir",
+        "Farida Madkour",
+        "Amira Abdelaziz"
+      ],
+      "published": "2026-05-26T17:38:26+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Governed Evolution of Agent Runtimes through Executable Operational Cognition",
+      "summary": "Recent advances in agentic systems increasingly treat code as an executable operational substrate rather than as a disposable output artifact. Prior work such as \\emph{Code as Agent Harness} frames validated agent-generated artifacts as runtime entities that can be created, executed, revised, persisted, and reused within long-running cognitive loops. However, the governance, lifecycle management, and operational evolution of such artifacts remain under-specified.\n  This paper proposes a framework for governed runtime evolution in multi-agent systems through executable operational cognition. We",
+      "url": "http://arxiv.org/abs/2605.27328v1",
+      "authors": [
+        "Mariano Garralda-Barrio"
+      ],
+      "published": "2026-05-26T17:36:48+00:00",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.MA"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Modeling Agentic Technical Debt and Stochastic Tax: A Standalone Framework for Measurement, Simulation, and Dashboarding",
+      "summary": "Agentic AI systems combine probabilistic reasoning with delegated action through tools, context, memory, orchestration, and external workflow integration. This note develops a formal and managerially usable model that distinguishes Agentic Technical Debt from Stochastic Tax. Agentic Technical Debt is a stock of accumulated design and governance liability. Stochastic Tax is a recurring flow of operating burden that arises when stochastic agents are used in business workflows. The two constructs are related, but they are not the same: debt can amplify the tax, while the tax can remain positive e",
+      "url": "http://arxiv.org/abs/2605.27320v1",
+      "authors": [
+        "Muhammad Zia Hydari",
+        "Raja Iqbal",
+        "Narayan Ramasubbu"
+      ],
+      "published": "2026-05-26T17:28:30+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "econ.GN"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "BASIS: Batchwise Advantage Estimation from Single-Rollout Information Sharing for LLM Reasoning",
+      "summary": "Reinforcement learning with verifiable rewards has become a standard recipe for improving the reasoning abilities of large language models. Existing algorithms face a tradeoff between computational efficiency and sample efficiency in value estimation and policy learning. We introduce BASIS, a critic-free post-training algorithm designed to address this tradeoff. At each online training step, BASIS samples only one rollout per prompt, but leverages rich information across prompts in the entire batch to improve value function estimation. Our experiments demonstrate that BASIS reduces MSE in valu",
+      "url": "http://arxiv.org/abs/2605.27293v1",
+      "authors": [
+        "Shijin Gong",
+        "Erhan Xu",
+        "Kai Ye"
+      ],
+      "published": "2026-05-26T17:06:41+00:00",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "It's Not Always Sycophancy: Measuring LLM Conformity as a Function of Epistemic Uncertainty",
+      "summary": "Large language models (LLMs) are known to abandon their initial stance to conform to user pushback. While prior research largely attributes this behavior to sycophancy learned during reinforcement learning from human feedback, we hypothesize that conformity is also driven by a model's epistemic uncertainty at inference time. In this paper, we introduce MUSE, a two-stage evaluation framework to disentangle the mechanisms driving LLM conformity. Specifically, MUSE maps a model's epistemic uncertainty in responding to a query against its likelihood to yield to user pushback in a subsequent turn. ",
+      "url": "http://arxiv.org/abs/2605.27288v1",
+      "authors": [
+        "Kevin H. Guo",
+        "Chao Yan",
+        "Avinash Baidya"
+      ],
+      "published": "2026-05-26T17:04:11+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Lost in Sampling: Assessing Lexical Reachability in LLMs via the Word Coverage Score (WCS)",
+      "summary": "Modern Large Language Models (LLMs) are often criticized for producing repetitive and homogeneous text, despite possessing vast latent vocabularies. While previous research has focused on model knowledge and training data, we investigate the role of decoding mechanics in suppressing linguistic diversity. We introduce the Word Coverage Score (WCS), a metric that quantifies the extent to which contextually appropriate human vocabulary is mathematically pruned by standard sampling filters (e.g., Top-$p$, Top-$k$, and Min-$p$). Rather than assessing static knowledge, the WCS measures the lexical s",
+      "url": "http://arxiv.org/abs/2605.27268v1",
+      "authors": [
+        "Samer Awad",
+        "Javier Conde",
+        "Carlos Arriaga"
+      ],
+      "published": "2026-05-26T16:44:25+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "url": "https://openai.com/index/cisco",
+      "published": "Wed, 27 May 2026 11:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Building self-improving tax agents with Codex",
+      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
+      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "published": "Wed, 27 May 2026 07:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "url": "https://openai.com/index/warp",
+      "published": "Wed, 27 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Election information and safeguards in 2026",
+      "summary": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
+      "url": "https://openai.com/index/election-safeguards-2026",
+      "published": "Wed, 27 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "published": "Mon, 25 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "published": "Thu, 21 May 2026 19:46:42 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "published": "Mon, 18 May 2026 18:21:39 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "published": "Sun, 17 May 2026 19:53:18 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini Omni",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "published": "Sun, 17 May 2026 19:50:57 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Google Antigravity 2.0",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "published": "Sun, 17 May 2026 19:43:45 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "published": "Wed, 27 May 2026 17:20:29 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Reachy Mini goes fully local",
+      "summary": "",
+      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "published": "Wed, 27 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "summary": "",
+      "url": "https://huggingface.co/blog/delta-weight-sync",
+      "published": "Wed, 27 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "summary": "",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "published": "Mon, 25 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "published": "Sat, 23 May 2026 00:02:03 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "summary": "<p>Anthropic are <a href=\"https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/\">strongly rumored</a> to be about to have their first profitable quarter. Stories <a href=\"https://www.theinformation.com/newsletters/applied-ai/uber-cto-shows-claude-code-can-blow-ai-budgets\">are circulating</a> of companies surprised at how expensive their LLM bills are becoming from usage by their staff. I think this is because OpenAI and Anthropic have both found product-market fit.</p>\n\n<ul>\n  <li><a href=\"https://simonwillison.net/2026/May/27/product-market-fit/#ente",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
+      "published": "2026-05-27T16:38:35+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Kyle Ferrana",
+      "summary": "<blockquote cite=\"https://twitter.com/kyletrainemoji/status/2059301102814953511\"><p>PICARD: Data, shields up</p>\n<p>DATA: Brilliant! Shields can reduce damage we sustain. Not immunity. Not hubris. Just prudence. It's not precaution—it's strategy.</p>\n<p>[camera shakes]</p>\n<p>WORF: HULL BREACHES ON NINE DECKS</p>\n<p>DATA: Here's what happened: you told me to raise shields, and I didn't</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/kyletrainemoji/status/2059301102814953511\">Kyle Ferrana</a>, @KyleTrainEmoji</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-mis",
+      "url": "https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything",
+      "published": "2026-05-27T06:41:43+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "The pressure",
+      "summary": "<p><strong><a href=\"https://daniel.haxx.se/blog/2026/05/26/the-pressure/\">The pressure</a></strong></p>\nDaniel Stenberg on the unprecedented level of pressure the <code>curl</code> team are facing right now thanks to the deluge of (credible) AI-assisted security issues being reported.</p>\n<blockquote>\n<p>The rate of incoming security reports is 4-5 times higher than it was in 2024 and double the speed of 2025 -- meaning that <strong>on average we now get more than one report per day</strong>. The quality is way higher than ever before. The reports are typically <em>very</em> detailed and long.",
+      "url": "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
+      "published": "2026-05-26T23:48:45+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Microsoft Copilot Cowork Exfiltrates Files",
+      "summary": "<p><strong><a href=\"https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files\">Microsoft Copilot Cowork Exfiltrates Files</a></strong></p>\nThe biggest challenge in designing agentic systems continues to be preventing them from enabling attackers to exfiltrate data.</p>\n<p>In this case Microsoft Copilot Cowork (yes, that's <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/\">a real product name</a>) was allowing agents to send emails to the user's own inbox without approval... but those messages were then d",
+      "url": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
+      "published": "2026-05-26T15:36:48+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Paul Graham",
+      "summary": "<blockquote cite=\"https://twitter.com/paulg/status/2058844147092488401\"><p>A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by AI, because no founder ever wrote this way before. And once you realize something is written by AI, it's hard not to ignore it.</p>\n<p>I have never knowingly finished reading an email signed by a human but written by AI. It feels like being lied to, and who would stand for that?</p>\n<p>[<a href=\"https://twitter.com/paulg/status/2058863028523659390\">...</a>] It makes me think less of the author. It mean",
+      "url": "https://simonwillison.net/2026/May/26/paul-graham/#atom-everything",
+      "published": "2026-05-26T15:02:30+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "summary": "HNスコア: 536, コメント数: 644",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "published": "2026-05-27T16:39:13",
+      "hn_score": 536
+    },
+    {
+      "source": "hackernews",
+      "title": "Gemini, Gophers, and Fingers. Oh My Alternative Internets Beyond HTTPS",
+      "summary": "HNスコア: 65, コメント数: 33",
+      "url": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/",
+      "published": "2026-05-27T17:24:25",
+      "hn_score": 65
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
+      "summary": "HNスコア: 336, コメント数: 214",
+      "url": "https://arps18.github.io/posts/claude-code-mastery/",
+      "published": "2026-05-27T05:13:39",
+      "hn_score": 336
+    },
+    {
+      "source": "hackernews",
+      "title": "Multi-Agent LLM System for Automated Vulnerability Discovery and Reproduction",
+      "summary": "HNスコア: 38, コメント数: 4",
+      "url": "https://arxiv.org/abs/2605.21779",
+      "published": "2026-05-27T17:42:24",
+      "hn_score": 38
+    },
+    {
+      "source": "hackernews",
+      "title": "Evolving Webflow for the Agentic Web",
+      "summary": "HNスコア: 42, コメント数: 19",
+      "url": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web",
+      "published": "2026-05-27T14:02:38",
+      "hn_score": 42
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI and Anthropic dig in against each other on AI jobs apocalypse",
+      "summary": "HNスコア: 16, コメント数: 7",
+      "url": "https://www.axios.com/2026/05/27/ai-hype-doom-openai-anthropic",
+      "published": "2026-05-27T16:26:16",
+      "hn_score": 16
+    },
+    {
+      "source": "hackernews",
+      "title": "DeepSWE: A contamination-free benchmark for long-horizon coding agents",
+      "summary": "HNスコア: 59, コメント数: 19",
+      "url": "https://deepswe.datacurve.ai/blog",
+      "published": "2026-05-26T19:40:59",
+      "hn_score": 59
+    },
+    {
+      "source": "hackernews",
+      "title": "A sleep-like consolidation mechanism for LLMs",
+      "summary": "HNスコア: 209, コメント数: 139",
+      "url": "https://arxiv.org/abs/2605.26099",
+      "published": "2026-05-26T15:36:24",
+      "hn_score": 209
+    },
+    {
+      "source": "hackernews",
+      "title": "Eagle 3.1: Collaboration Between the EAGLE Team, vLLM Team, and TorchSpec Team",
+      "summary": "HNスコア: 66, コメント数: 23",
+      "url": "https://vllm.ai/blog/2026-05-26-eagle-3-1",
+      "published": "2026-05-26T11:46:10",
+      "hn_score": 66
+    },
+    {
+      "source": "hackernews",
+      "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
+      "summary": "HNスコア: 724, コメント数: 283",
+      "url": "https://esengine.github.io/DeepSeek-Reasonix/",
+      "published": "2026-05-24T13:02:06",
+      "hn_score": 724
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-05-27T20:33:05Z",
+      "stars": 39343,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-05-27T17:12:26Z",
+      "stars": 25755,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-05-27T17:57:46Z",
+      "stars": 22997,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-05-27T19:37:01Z",
+      "stars": 10673,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-05-26T17:11:38Z",
+      "stars": 3345,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-05-27T11:58:15Z",
+      "stars": 3268,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-05-27T17:04:04Z",
+      "stars": 3062,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-05-27T09:42:36Z",
+      "stars": 2528,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "How to Build Autonomous AI Agents in 2025",
+      "summary": "Learn how to build autonomous AI agents in 2025 with our step-by-step guide. Discover how to automate tasks, optimize ...",
+      "url": "https://www.youtube.com/watch?v=vZAmPR6X-8E",
+      "published": "2026-05-21T18:39:15Z",
+      "channel": "V-Architect AI",
+      "has_video": true,
+      "video_id": "vZAmPR6X-8E"
+    },
+    {
+      "source": "youtube",
+      "title": "Antigravity 2.0 Setup | Gemini 3.5 Flash AI Coding Agent Tutorial 2026",
+      "summary": "Antigravity 2.0 Setup & Full Installation Tutorial | Gemini 3.5 Flash AI Coding Agent 2026 In this video, I'll show you how to install ...",
+      "url": "https://www.youtube.com/watch?v=9JhSuaXPHkI",
+      "published": "2026-05-23T13:07:03Z",
+      "channel": "Swadhin Howlader",
+      "has_video": true,
+      "video_id": "9JhSuaXPHkI"
+    },
+    {
+      "source": "youtube",
+      "title": "TestSprite 3.0 Test AI Agent - New Test Explore, Reports &amp; Use Case Flow Explained 🚀",
+      "summary": "TestSprite 3.0 is live — and this isn't just a minor update. The entire engine has been rebuilt from the ground up, with accuracy ...",
+      "url": "https://www.youtube.com/watch?v=U3rO60Hd0nM",
+      "published": "2026-05-27T07:52:02Z",
+      "channel": "Execute Automation",
+      "has_video": true,
+      "video_id": "U3rO60Hd0nM"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI Crash Course using LangChain | LangChain Crash Course",
+      "summary": "A complete crash course on agentic ai using langchain. This is also a course on generative AI. In this video, we will discuss ...",
+      "url": "https://www.youtube.com/watch?v=D74el9mvNak",
+      "published": "2026-05-23T13:40:32Z",
+      "channel": "codebasics",
+      "has_video": true,
+      "video_id": "D74el9mvNak"
+    },
+    {
+      "source": "youtube",
+      "title": "Generative AI vs AI Agents vs Agentic AI Explained with Examples",
+      "summary": "Connect and grow with me on other social media platforms: Linkedin: https://www.linkedin.com/in/balaji-chippada-0317/ ...",
+      "url": "https://www.youtube.com/watch?v=u-glihrL-Ko",
+      "published": "2026-05-25T13:30:20Z",
+      "channel": "Balaji Chippada",
+      "has_video": true,
+      "video_id": "u-glihrL-Ko"
+    },
+    {
+      "source": "youtube",
+      "title": "Why AI Agents Are Killing Workflows in 2026",
+      "summary": "AI Agents are replacing rigid workflows in 2026. Here's what actually changed. From prompt engineering to context engineering to ...",
+      "url": "https://www.youtube.com/watch?v=0X3cQo4euEo",
+      "published": "2026-05-23T16:25:52Z",
+      "channel": "KodeKloud",
+      "has_video": true,
+      "video_id": "0X3cQo4euEo"
+    },
+    {
+      "source": "youtube",
+      "title": "This AI Agent Just Killed My Claude Code Setup — HF Supercomputer",
+      "summary": "The AI Agent that is perfect for creators is finally here! 50+ skills and 20+ connectors running in the cloud. In this video I show the ...",
+      "url": "https://www.youtube.com/watch?v=sh4FO58SXuw",
+      "published": "2026-05-23T11:23:24Z",
+      "channel": "Stefan 3D AI",
+      "has_video": true,
+      "video_id": "sh4FO58SXuw"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Managed Agents Will Make Millionaires (do this now)",
+      "summary": "Host your 24/7 Agent on Hostinger: https://hostinger.com/liam10 Join the #1 community for AI entrepreneurs and connect with ...",
+      "url": "https://www.youtube.com/watch?v=qpa5XwGkLp8",
+      "published": "2026-05-20T02:09:16Z",
+      "channel": "Liam Ottley",
+      "has_video": true,
+      "video_id": "qpa5XwGkLp8"
+    },
+    {
+      "source": "youtube",
+      "title": "Gemini 3.5 Pro X-High, MiniMax M3, DeepSwe, New Claude Models, MiMO-v2.5 Upgrade, &amp; More! AI NEWS",
+      "summary": "AI News is getting absolutely INSANE heading into June. My Links: Sponsor a Video or Do a Demo of Your Product, Contact ...",
+      "url": "https://www.youtube.com/watch?v=UbzkazAtjv0",
+      "published": "2026-05-27T07:13:35Z",
+      "channel": "WorldofAI",
+      "has_video": true,
+      "video_id": "UbzkazAtjv0"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Google DeepMind CEO Loves Hard Questions 🙂",
+      "summary": "Full video: https://youtu.be/huAwz_BR8WM #shorts.",
+      "url": "https://www.youtube.com/shorts/kIvvzCR5NjA",
+      "published": "2026-05-26T17:35:28Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "kIvvzCR5NjA"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AlphaFold - The Most Important AI Breakthrough Ever Made",
+      "summary": "Full interview: https://www.youtube.com/watch?v=Vhcwjzeukts.",
+      "url": "https://www.youtube.com/shorts/VQ2bV58QbH0",
+      "published": "2025-12-11T07:19:41Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "VQ2bV58QbH0"
+    }
+  ]
+}
