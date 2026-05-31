@@ -1,0 +1,397 @@
+{
+  "date": "2026-06-01",
+  "items": [
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "summary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "url": "https://openai.com/index/boston-childrens-hospital",
+      "published": "Fri, 29 May 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "url": "https://openai.com/index/braintrust",
+      "published": "Fri, 29 May 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "published": "Fri, 29 May 2026 03:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "A shared playbook for trustworthy third party evaluations",
+      "summary": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
+      "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "published": "Fri, 29 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Endava builds an agentic organization with Codex",
+      "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "url": "https://openai.com/index/endava",
+      "published": "Thu, 28 May 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "published": "Thu, 21 May 2026 19:46:42 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "published": "Mon, 18 May 2026 18:21:39 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "published": "Sun, 17 May 2026 19:53:18 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini Omni",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "published": "Sun, 17 May 2026 19:50:57 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Google Antigravity 2.0",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "published": "Sun, 17 May 2026 19:43:45 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+      "summary": "",
+      "url": "https://huggingface.co/blog/torch-profiler",
+      "published": "Fri, 29 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "published": "Wed, 27 May 2026 17:20:29 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Reachy Mini goes fully local",
+      "summary": "",
+      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "published": "Wed, 27 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "summary": "",
+      "url": "https://huggingface.co/blog/delta-weight-sync",
+      "published": "Wed, 27 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "summary": "",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "published": "Mon, 25 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "The solution might be cancelling my AI subscription",
+      "summary": "<p><strong><a href=\"https://thoughts.hmmz.org/2026-05-31.html\">The solution might be cancelling my AI subscription</a></strong></p>\nI find this post by David Wilson very relatable. David lists 16+ projects he's spun up with AI tooling, and concludes:</p>\n<blockquote>\n<p>I didn't mean to build most of these things. Usually the Claude session started with something like \"<em>write a quick script for X</em>\", and one hour later the result is not a <em>quick script for X</em>, nor in the usual case is my problem solved, whatever the original itch happened to be.</p>\n<p>On that last point, this tec",
+      "url": "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything",
+      "published": "2026-05-31T16:31:32+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Karen Kwok for Reuters Breakingviews",
+      "summary": "<blockquote cite=\"https://www.reuters.com/commentary/breakingviews/anthropic-gives-lesson-ai-revenue-hallucination-2026-03-10/\"><p>Anthropic defines “run-rate revenue” in two parts. Use the last 28 days of sales ⁠from customers charged on a consumption basis and multiply it by 13. Then, multiply the monthly subscription take by 12, ​and add the two together.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.reuters.com/commentary/breakingviews/anthropic-gives-lesson-ai-revenue-hallucination-2026-03-10/\">Karen Kwok for Reuters Breakingviews</a>, citing \"a person familiar with the ma",
+      "url": "https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything",
+      "published": "2026-05-31T01:48:12+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "How we contain Claude across products",
+      "summary": "<p><strong><a href=\"https://www.anthropic.com/engineering/how-we-contain-claude\">How we contain Claude across products</a></strong></p>\nA complaint I often have about sandboxing products is that they are rarely thoroughly <em>documented</em>, and in the absence of detailed documentation it's hard to know how much I can trust them.</p>\n<p>Anthropic just published a fantastic overview of how their various sandbox techniques work across <a href=\"https://claude.ai/\">Claude.ai</a>, Claude Code, and Cowork.</p>\n<blockquote>\n<p>We constrain where and how an agent can act with process sandboxes, VMs, ",
+      "url": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+      "published": "2026-05-30T21:36:24+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Running Python ASGI apps in the browser via Pyodide + a service worker",
+      "summary": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/pyodide-asgi-browser#readme\">Running Python ASGI apps in the browser via Pyodide + a service worker</a></p>\n        <p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly.</p>\n<p>When I first built it <a href=\"https://simonwillison.net/2022/May/4/datasette-lite/\">four years ago</a> I used Web Workers and code that intercepts navigation operations and fetches the generated HTML by running the Python app.</p>\n<p>This wor",
+      "url": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+      "published": "2026-05-30T21:02:16+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "I Am Retiring from Tech to Live Offline",
+      "summary": "<p><strong><a href=\"https://openpath.quest/2026/i-am-retiring-from-tech-to-live-offline/\">I Am Retiring from Tech to Live Offline</a></strong></p>\nI've seen a lot of posts on forums from people threatening to quit their careers over AI. This is <em>not</em> one of those: Chad Whitacre is taking concrete steps, starting with this typewritten, scanned letter</p>\n<blockquote>\n<p>I'm retiring from tech. Well, \"retiring\" is euphemistic. I'm stepping away from tech, and that includes Open Source. [...]</p>\n<p>AI was the last straw. Have you heard of that island off India where the indigenous populat",
+      "url": "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything",
+      "published": "2026-05-30T19:39:08+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "ChatGPT for Google Sheets Exfiltrates Workbooks",
+      "summary": "HNスコア: 22, コメント数: 0",
+      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "published": "2026-05-31T20:35:38",
+      "hn_score": 22
+    },
+    {
+      "source": "hackernews",
+      "title": "Remove all LLM generated commits before people get hurt by this nonsense",
+      "summary": "HNスコア: 11, コメント数: 1",
+      "url": "https://github.com/RsyncProject/rsync/issues/934",
+      "published": "2026-05-31T15:44:30",
+      "hn_score": 11
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Ouijit, an open-source task and terminal manager for coding agents",
+      "summary": "HNスコア: 7, コメント数: 0",
+      "url": "https://ouijit.com/",
+      "published": "2026-05-31T16:29:06",
+      "hn_score": 7
+    },
+    {
+      "source": "hackernews",
+      "title": "With Claude: Less Coding, More Testing",
+      "summary": "HNスコア: 15, コメント数: 0",
+      "url": "https://henrikwarne.com/2026/05/31/with-claude-less-coding-more-testing/",
+      "published": "2026-05-31T11:56:54",
+      "hn_score": 15
+    },
+    {
+      "source": "hackernews",
+      "title": "Talk Is Cheap: The Operational Impact of LLM Use",
+      "summary": "HNスコア: 29, コメント数: 16",
+      "url": "https://unessays.substack.com/p/talk-is-cheap",
+      "published": "2026-05-31T16:37:47",
+      "hn_score": 29
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Agentpack – isolated config layers for Claude Code, Codex, and OpenCode",
+      "summary": "HNスコア: 4, コメント数: 0",
+      "url": "https://nexo.sh/posts/agentpack/",
+      "published": "2026-05-31T14:32:55",
+      "hn_score": 4
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Komi-learn – continuous memory and self-improvement for coding agents",
+      "summary": "HNスコア: 20, コメント数: 3",
+      "url": "https://github.com/kurikomi-labs/komi-learn",
+      "published": "2026-05-31T05:11:40",
+      "hn_score": 20
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Open Envelope – an open schema for defining AI agent teams",
+      "summary": "HNスコア: 46, コメント数: 7",
+      "url": "https://openenvelope.org/docs/schema/",
+      "published": "2026-05-28T20:30:20",
+      "hn_score": 46
+    },
+    {
+      "source": "hackernews",
+      "title": "A zot extension that makes answering your coding agent's questions painless",
+      "summary": "HNスコア: 12, コメント数: 0",
+      "url": "https://github.com/patriceckhart/zot-answer",
+      "published": "2026-05-31T12:24:59",
+      "hn_score": 12
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Opus 4.8",
+      "summary": "HNスコア: 1758, コメント数: 1361",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "published": "2026-05-28T16:49:14",
+      "hn_score": 1758
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-05-31T17:37:36Z",
+      "stars": 39369,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-05-31T21:38:08Z",
+      "stars": 25917,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-05-31T22:02:29Z",
+      "stars": 23061,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-05-31T17:36:13Z",
+      "stars": 10692,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-05-30T12:47:58Z",
+      "stars": 3345,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-05-31T08:09:05Z",
+      "stars": 3276,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-05-31T17:37:16Z",
+      "stars": 3063,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-05-29T04:20:24Z",
+      "stars": 2530,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "This New AI Agent Turns You Into a One-Person Company",
+      "summary": "Try Accio Work : https://www.accio.com/work?src=p_ytkol_vaibhav @Accio_official Join our WhatsApp Community Get the ...",
+      "url": "https://www.youtube.com/watch?v=HJN3husu1oM",
+      "published": "2026-05-24T15:24:19Z",
+      "channel": "Vaibhav Sisinty",
+      "has_video": true,
+      "video_id": "HJN3husu1oM"
+    },
+    {
+      "source": "youtube",
+      "title": "No PC. No Model. No Payment. Free AI Agents on the Web | Z.ai Full Tour",
+      "summary": "What if you could run powerful AI Agents — completely FREE — straight from your browser? No local setup. No downloading ...",
+      "url": "https://www.youtube.com/watch?v=_QzmkaOfLXo",
+      "published": "2026-05-30T14:29:34Z",
+      "channel": "Sabi AI and Automations",
+      "has_video": true,
+      "video_id": "_QzmkaOfLXo"
+    },
+    {
+      "source": "youtube",
+      "title": "I Found a Way to Get FREE API Access to EVERY Major AI Model in 2026 (GPT-5, Claude, Gemini &amp; More!)",
+      "summary": "What if you could access GPT-5, Claude, Gemini, DeepSeek, Grok, Mistral, Qwen and every other major AI model — completely ...",
+      "url": "https://www.youtube.com/watch?v=ntrisRU5fFw",
+      "published": "2026-05-28T17:30:21Z",
+      "channel": "EarnixLab",
+      "has_video": true,
+      "video_id": "ntrisRU5fFw"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Opus 4.8: Best AI Model Ever? Powerful, Agentic, and Faster! (Fully Tested)",
+      "summary": "Claude Opus 4.8 is finally here, and after extensive testing, I can confidently say this is Anthropic's most capable model yet.",
+      "url": "https://www.youtube.com/watch?v=MkzUPtYjgBY",
+      "published": "2026-05-29T05:44:41Z",
+      "channel": "WorldofAI",
+      "has_video": true,
+      "video_id": "MkzUPtYjgBY"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI - from classical MAS to production LLM Systems",
+      "summary": "This is a video of the talk on Agentic AI to the students of the Master's in Informatics Engineering at the Faculty of Engineering of ...",
+      "url": "https://www.youtube.com/watch?v=WSIYLOpSq_Q",
+      "published": "2026-05-26T18:32:05Z",
+      "channel": "Antonio Castro",
+      "has_video": true,
+      "video_id": "WSIYLOpSq_Q"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI Evolution: Watching a Coding Agent Evolve in Real-Time",
+      "summary": "Welcome to The Hidden Layer: Decoding Artificial Intelligence. Today we are breaking down a breakthrough in autonomous AI ...",
+      "url": "https://www.youtube.com/watch?v=3Q31kdiMvtg",
+      "published": "2026-05-31T14:00:38Z",
+      "channel": "The Hidden Layer: Decoding Artificial Intelligence",
+      "has_video": true,
+      "video_id": "3Q31kdiMvtg"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Opus 4.8, GPT-5.5 Canvas, Grok Build ve Google AI Studio Mobil App | Haftanın AI Özeti",
+      "summary": "Bu videoda haftanın tüm gelişmelerini şirket ve ürün bazında, anlatılır ve uygulanır biçimde derledim. Anthropic'in haftası ...",
+      "url": "https://www.youtube.com/watch?v=otuHCsUbWZ4",
+      "published": "2026-05-30T19:00:06Z",
+      "channel": "Harun Seyhan",
+      "has_video": true,
+      "video_id": "otuHCsUbWZ4"
+    },
+    {
+      "source": "youtube",
+      "title": "China’s Qwen 3.7 Max DESTROYS Claude?",
+      "summary": "Get the Agent OS https://www.skool.com/ai-profit-lab-7462/about Want to make money and save time with AI? Join here: ...",
+      "url": "https://www.youtube.com/watch?v=-B9nbm7xGJA",
+      "published": "2026-05-28T10:02:14Z",
+      "channel": "AI News Today | Julian Goldie Podcast",
+      "has_video": true,
+      "video_id": "-B9nbm7xGJA"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "The “Biggest” AI That Came Out Of Nowhere!",
+      "summary": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Guide for using DeepSeek on Lambda: ...",
+      "url": "https://www.youtube.com/shorts/4bFDPVe6BHs",
+      "published": "2025-07-15T15:06:39Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "4bFDPVe6BHs"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Text to Video For Everyone!",
+      "summary": "Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papersllm Alternatives: Luma Labs Dream ...",
+      "url": "https://www.youtube.com/shorts/uczjycmDyZk",
+      "published": "2024-09-10T13:26:21Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "uczjycmDyZk"
+    }
+  ]
+}
