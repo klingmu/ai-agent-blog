@@ -1,0 +1,407 @@
+{
+  "date": "2026-06-03",
+  "items": [
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "url": "https://openai.com/index/travelers",
+      "published": "Tue, 02 Jun 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Codex for every role, tool, and workflow",
+      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "published": "Tue, 02 Jun 2026 09:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "summary": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+      "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "published": "Tue, 02 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Codex is becoming a productivity tool for everyone",
+      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+      "url": "https://openai.com/index/codex-for-knowledge-work",
+      "published": "Tue, 02 Jun 2026 02:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Our views on AI policy and political advocacy",
+      "summary": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
+      "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+      "published": "Mon, 01 Jun 2026 17:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "published": "Thu, 21 May 2026 19:46:42 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "published": "Mon, 18 May 2026 18:21:39 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "published": "Sun, 17 May 2026 19:53:18 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini Omni",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "published": "Sun, 17 May 2026 19:50:57 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Google Antigravity 2.0",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "published": "Sun, 17 May 2026 19:43:45 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "published": "Tue, 02 Jun 2026 14:13:23 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "summary": "",
+      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "published": "Mon, 01 Jun 2026 15:45:17 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "published": "Mon, 01 Jun 2026 13:51:18 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "published": "Mon, 01 Jun 2026 04:44:55 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+      "summary": "",
+      "url": "https://huggingface.co/blog/torch-profiler",
+      "published": "Fri, 29 May 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Microsoft's new MAI models",
+      "summary": "<p>Microsoft <a href=\"https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/\">announced two new text LLMs</a> this morning - <strong><a href=\"https://microsoft.ai/news/introducing-mai-thinking-1/\">MAI-Thinking-1</a></strong> (reasoning, 35B parameters, available to \"select early partners\") and <strong><a href=\"https://microsoft.ai/news/introducingmai-code-1-flash/\">MAI-Code-1-Flash</a></strong> (5B parameters, \"purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot individual users in Visual",
+      "url": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+      "published": "2026-06-02T22:21:52+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "California Brown Pelican",
+      "summary": "<p><img alt=\"California Brown Pelican\" src=\"https://static.inaturalist.org/photos/671786719/large.jpg\" /></p><p>California Brown Pelican, in Fort Mason, CA, US</p><p>I'm at the <a href=\"https://build.microsoft.com/\">Microsoft Build</a> conference today, held at <a href=\"https://en.wikipedia.org/wiki/Fort_Mason\">Fort Mason</a> in San Francisco. There are California Brown Pelicans diving into the water directly behind venue!</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/microsoft\">microsoft</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwi",
+      "url": "https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything",
+      "published": "2026-06-02T18:17:03+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Pasted File Editor",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/pasted-file-editor\">Pasted File Editor</a></p>\n        <p>I really like how you can paste a large volume of text into <a href=\"https://claude.ail\">claude.ai</a> (or the Claude desktop/mobile apps) and it will detect it as a large paste and turn it into a file attachment instead.</p>\n<p>I decided to have Codex desktop <a href=\"https://gist.github.com/simonw/74c79119b487a5acce18b4dcc26b9f79\">build me a version of that</a> as a prototype.</p>\n<p>You can also open files directly - including images which will be shown as thumbnails ",
+      "url": "https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything",
+      "published": "2026-06-02T04:13:36+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked",
+      "summary": "<p><strong><a href=\"https://www.404media.co/hackers-simply-asked-meta-ai-to-give-them-access-to-high-profile-instagram-accounts-it-worked/\">Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked</a></strong></p>\nI had trouble believing this story was true, but I've seen it verified from multiple sources now:</p>\n<blockquote>\n<p>One video shows a hacker starting a conversation with Meta’s AI support bot and asking it to link the target account with a new email address: “Just link my new email address. This is my username @{target_username}. I will send yo",
+      "url": "https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything",
+      "published": "2026-06-01T21:14:47+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "May 2026 newsletter",
+      "summary": "<p>I just sent out the May edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-05-may.md\">access it here</a>.</p>\n<p>This month:</p>\n<ul>\n<li>Al got expensive, and Anthropic had a really good month</li>\n<li>The model releases were a little disappointing</li>\n<li>Conferences and podcasts</li>\n<li>I launched Datasette Agent and made a lot of progress on Datasette</li>\n<li>What I'm using, May 2026 edition</li>\n<li>Miscella",
+      "url": "https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything",
+      "published": "2026-06-01T04:45:00+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "How we index images for RAG",
+      "summary": "HNスコア: 67, コメント数: 7",
+      "url": "https://www.kapa.ai/blog/how-we-index-images-for-rag",
+      "published": "2026-06-02T16:13:41",
+      "hn_score": 67
+    },
+    {
+      "source": "hackernews",
+      "title": "Now AI agents need what RSS does",
+      "summary": "HNスコア: 31, コメント数: 6",
+      "url": "https://julienreszka.com/blog/rss-is-back-ai-agents-are-reading-it/",
+      "published": "2026-06-02T20:19:11",
+      "hn_score": 31
+    },
+    {
+      "source": "hackernews",
+      "title": "Paseo – Beautiful open-source coding agent interface (desktop, mobile, CLI)",
+      "summary": "HNスコア: 5, コメント数: 1",
+      "url": "https://github.com/getpaseo/paseo",
+      "published": "2026-06-02T22:34:42",
+      "hn_score": 5
+    },
+    {
+      "source": "hackernews",
+      "title": "GitHub Copilot App",
+      "summary": "HNスコア: 93, コメント数: 66",
+      "url": "https://github.com/features/preview/github-app",
+      "published": "2026-06-02T17:58:55",
+      "hn_score": 93
+    },
+    {
+      "source": "hackernews",
+      "title": "CLI tool that packages data science projects for LLM context windows",
+      "summary": "HNスコア: 14, コメント数: 0",
+      "url": "https://github.com/arianmokhtariha/data2prompt",
+      "published": "2026-06-02T17:08:25",
+      "hn_score": 14
+    },
+    {
+      "source": "hackernews",
+      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
+      "summary": "HNスコア: 673, コメント数: 1178",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
+      "published": "2026-06-01T23:45:46",
+      "hn_score": 673
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Build Your Own AI Agent CLI in 150 Lines",
+      "summary": "HNスコア: 21, コメント数: 0",
+      "url": "https://go-micro.dev/blog/11",
+      "published": "2026-06-02T14:00:38",
+      "hn_score": 21
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: 100cc - Roll your own Claude in 100 lines",
+      "summary": "HNスコア: 5, コメント数: 0",
+      "url": "https://github.com/yujqiao/100cc",
+      "published": "2026-06-02T18:35:06",
+      "hn_score": 5
+    },
+    {
+      "source": "hackernews",
+      "title": "Microsoft announces Scout, an autonomous AI agent built on OpenClaw",
+      "summary": "HNスコア: 80, コメント数: 71",
+      "url": "https://www.computerworld.com/article/4180103/microsoft-unveils-scout-an-autonomous-ai-agent-built-on-openclaw.html",
+      "published": "2026-06-02T18:19:27",
+      "hn_score": 80
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: MetaBrain – A local document memory for AI agents",
+      "summary": "HNスコア: 6, コメント数: 1",
+      "url": "https://metabrain.eu",
+      "published": "2026-06-02T17:03:09",
+      "hn_score": 6
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-06-02T17:19:05Z",
+      "stars": 39374,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-06-02T22:33:59Z",
+      "stars": 26031,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-06-02T22:43:35Z",
+      "stars": 23105,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-06-02T21:19:21Z",
+      "stars": 10708,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-06-01T04:12:35Z",
+      "stars": 3346,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-06-01T04:30:34Z",
+      "stars": 3278,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-06-02T13:28:39Z",
+      "stars": 3064,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-06-02T04:54:10Z",
+      "stars": 2531,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "Cursor just crushed Claude Code",
+      "summary": "Deploy your site using here.now completely for free, copy the prompt for your agent here! https://here.now/r/twt I accidentally ...",
+      "url": "https://www.youtube.com/watch?v=XOCVdPIhAHg",
+      "published": "2026-06-02T11:58:44Z",
+      "channel": "Tech With Tim",
+      "has_video": true,
+      "video_id": "XOCVdPIhAHg"
+    },
+    {
+      "source": "youtube",
+      "title": "How to Build Your First AI Agent (Step-by-step Tutorial)",
+      "summary": "Learn how to build AI agents for beginners, which ones to start with, and watch a live step-by-step build completed in 6 minutes.",
+      "url": "https://www.youtube.com/watch?v=YkdAx2XjWDs",
+      "published": "2026-05-26T14:00:29Z",
+      "channel": "HubSpot Marketing",
+      "has_video": true,
+      "video_id": "YkdAx2XjWDs"
+    },
+    {
+      "source": "youtube",
+      "title": "Hermes Just Killed The #1 AI Agent",
+      "summary": "SPONSOR: Abacus Hermes* — One-click access to the #1 AI agent, no install required. https://chatllm.abacus.ai/fmj *On May ...",
+      "url": "https://www.youtube.com/watch?v=1SaLww1eFMY",
+      "published": "2026-05-26T20:14:32Z",
+      "channel": "Julia McCoy",
+      "has_video": true,
+      "video_id": "1SaLww1eFMY"
+    },
+    {
+      "source": "youtube",
+      "title": "Build Your Own AI Agent – Full Course with OpenAI, Langchain, Render Deployment",
+      "summary": "Learn to build and deploy intelligent AI agents that bridge the gap between LLMs and real-world automation to handle complex ...",
+      "url": "https://www.youtube.com/watch?v=MnG0ugK2JAI",
+      "published": "2026-06-02T10:00:09Z",
+      "channel": "freeCodeCamp.org",
+      "has_video": true,
+      "video_id": "MnG0ugK2JAI"
+    },
+    {
+      "source": "youtube",
+      "title": "假如你从6月1日决定转AI Agent，需要多久才能上岸？",
+      "summary": "配套教程籽料可以在我的主頁簡介上自取 或者在我【公眾號：白白說大模型】回復關鍵詞：【2】領取 #ai #artificialintelligence ...",
+      "url": "https://www.youtube.com/watch?v=iu6avGuYR7g",
+      "published": "2026-06-02T05:54:27Z",
+      "channel": "白白说大模型",
+      "has_video": true,
+      "video_id": "iu6avGuYR7g"
+    },
+    {
+      "source": "youtube",
+      "title": "If You&#39;re Building AI Agents in 2026, Watch This ft. @oracledevs",
+      "summary": "Article link: https://fandf.co/4dXJP1m Checkout Oracle Blogs: https://blogs.oracle.com/ Every AI agent Cursor, Claude, Devin runs ...",
+      "url": "https://www.youtube.com/watch?v=khYDC9qhOLo",
+      "published": "2026-06-02T12:45:00Z",
+      "channel": "Harkirat Singh",
+      "has_video": true,
+      "video_id": "khYDC9qhOLo"
+    },
+    {
+      "source": "youtube",
+      "title": "Microsoft Build 2026 | Opening Keynote",
+      "summary": "Join the Microsoft Build 2026 opening keynote, streamed live from San Francisco. Follow along as Microsoft CEO Satya Nadella ...",
+      "url": "https://www.youtube.com/watch?v=FFMm454fxNA",
+      "published": "2026-06-02T19:10:29Z",
+      "channel": "Microsoft",
+      "has_video": true,
+      "video_id": "FFMm454fxNA"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Opus 4.8, GPT-5.5 Canvas, Grok Build ve Google AI Studio Mobil App | Haftanın AI Özeti",
+      "summary": "Bu videoda haftanın tüm gelişmelerini şirket ve ürün bazında, anlatılır ve uygulanır biçimde derledim. Anthropic'in haftası ...",
+      "url": "https://www.youtube.com/watch?v=otuHCsUbWZ4",
+      "published": "2026-05-30T19:00:06Z",
+      "channel": "Harun Seyhan",
+      "has_video": true,
+      "video_id": "otuHCsUbWZ4"
+    },
+    {
+      "source": "youtube",
+      "title": "China’s Qwen 3.7 Max DESTROYS Claude?",
+      "summary": "Get the Agent OS https://www.skool.com/ai-profit-lab-7462/about Want to make money and save time with AI? Join here: ...",
+      "url": "https://www.youtube.com/watch?v=-B9nbm7xGJA",
+      "published": "2026-05-28T10:02:14Z",
+      "channel": "AI News Today | Julian Goldie Podcast",
+      "has_video": true,
+      "video_id": "-B9nbm7xGJA"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "A Second Nobel Prize for AlphaFold? 🧬🏆 #alphafold #deepmind #nobelprize #science #ai",
+      "summary": "Check the pinned comment for the link to the full interview. We're discussing whether a \"second order Nobel\" prize is on the ...",
+      "url": "https://www.youtube.com/shorts/MOviZKtFeHM",
+      "published": "2026-06-02T07:13:59Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "MOviZKtFeHM"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Einstein vs Feynman,  Who Wins? 🧠🤔 #physics #ai #science #feynman #research",
+      "summary": "Check the pinned comment for the link to the full interview. In this quick clip, we explore which legendary scientist ranks higher ...",
+      "url": "https://www.youtube.com/shorts/vsKH3oPwss4",
+      "published": "2026-06-01T00:16:21Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "vsKH3oPwss4"
+    }
+  ]
+}
