@@ -1,0 +1,407 @@
+{
+  "date": "2026-06-05",
+  "items": [
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "url": "https://openai.com/index/endava-frontiers",
+      "published": "Thu, 04 Jun 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "published": "Thu, 04 Jun 2026 09:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Biodefense in the Intelligence Age",
+      "summary": "An action plan for AI-powered biological resilience",
+      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "published": "Thu, 04 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "published": "Wed, 03 Jun 2026 13:15:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "url": "https://openai.com/index/wasmer",
+      "published": "Wed, 03 Jun 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "published": "Thu, 21 May 2026 19:46:42 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "published": "Mon, 18 May 2026 18:21:39 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "published": "Sun, 17 May 2026 19:53:18 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini Omni",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "published": "Sun, 17 May 2026 19:50:57 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Google Antigravity 2.0",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "published": "Sun, 17 May 2026 19:43:45 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "published": "Thu, 04 Jun 2026 18:57:45 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "published": "Thu, 04 Jun 2026 12:24:58 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "summary": "",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "published": "Thu, 04 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "published": "Wed, 03 Jun 2026 12:55:11 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Adding MCP Tools to Reachy Mini",
+      "summary": "",
+      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "published": "Wed, 03 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Emanuel Maiberg, 404 Media",
+      "summary": "<blockquote cite=\"https://www.404media.co/google-employees-internally-share-memes-about-how-its-ai-sucks/\"><p>After this story was published Google's spokesperson reached out and asked us to publish a slightly different version of that statement. The new statement no longer stated that \"it's critical that we maintain humans in the loop.\"</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.404media.co/google-employees-internally-share-memes-about-how-its-ai-sucks/\">Emanuel Maiberg, 404 Media</a>, Google Employees Internally Share Memes About How Its AI Sucks</p>\n\n    <p>Tags: <a href=",
+      "url": "https://simonwillison.net/2026/Jun/4/a-slightly-different-version/#atom-everything",
+      "published": "2026-06-04T16:38:29+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Uber Caps Usage of AI Tools Like Claude Code to Manage Costs",
+      "summary": "<p><strong><a href=\"https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs\">Uber Caps Usage of AI Tools Like Claude Code to Manage Costs</a></strong></p>\nI wrote <a href=\"https://simonwillison.net/2026/May/27/product-market-fit/#the-ai-failure-stories-around-this-are-pretty-thin\">the other day</a> about Uber blowing its 2026 AI budget in four months, and how that wasn't particularly surprising given they would have set that budget in 2025, before anyone could have predicted how popular token-burning coding agents were about to become.\nNatal",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything",
+      "published": "2026-06-03T12:01:27+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Microsoft's new MAI models",
+      "summary": "<p>Microsoft <a href=\"https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/\">announced two new text LLMs</a> this morning - <strong><a href=\"https://microsoft.ai/news/introducing-mai-thinking-1/\">MAI-Thinking-1</a></strong> (reasoning, 1T parameters, 35B active, available to \"select early partners\") and <strong><a href=\"https://microsoft.ai/news/introducingmai-code-1-flash/\">MAI-Code-1-Flash</a></strong> (137B Parameters, 5B active, \"purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot in",
+      "url": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+      "published": "2026-06-02T22:21:52+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "datasette-agent-micropython 0.1a0",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent-micropython/releases/tag/0.1a0\">datasette-agent-micropython 0.1a0</a></p>\n        <p>I want <a href=\"https://agent.datasette.io\">Datasette Agent</a> to be able to generate and execute Python code safely. This alpha is looking promising so far. GPT-5.5 has so far failed to break out of the sandbox!</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasett",
+      "url": "https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything",
+      "published": "2026-06-02T19:28:36+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "micropython-wasm 0.1a1",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/micropython-wasm/releases/tag/0.1a1\">micropython-wasm 0.1a1</a></p>\n        <p>Fixes for some limitations that emerged while I was trying to use this to build <code>datasette-agent-micropython</code>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a></p>",
+      "url": "https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything",
+      "published": "2026-06-02T19:20:47+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "summary": "HNスコア: 152, コメント数: 53",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "published": "2026-06-04T20:11:20",
+      "hn_score": 152
+    },
+    {
+      "source": "hackernews",
+      "title": "Castor: CERN Advanced STORage Manager",
+      "summary": "HNスコア: 34, コメント数: 14",
+      "url": "https://castor.web.cern.ch/content/home.html",
+      "published": "2026-06-04T19:52:02",
+      "hn_score": 34
+    },
+    {
+      "source": "hackernews",
+      "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+      "summary": "HNスコア: 102, コメント数: 10",
+      "url": "https://github.com/huawei-csl/KVarN",
+      "published": "2026-06-04T15:18:00",
+      "hn_score": 102
+    },
+    {
+      "source": "hackernews",
+      "title": "NSA using Anthropic's Mythos for cyber attacks",
+      "summary": "HNスコア: 49, コメント数: 17",
+      "url": "https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815",
+      "published": "2026-06-04T20:33:02",
+      "hn_score": 49
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+      "summary": "HNスコア: 23, コメント数: 7",
+      "url": "https://cost.dev/",
+      "published": "2026-06-04T11:30:13",
+      "hn_score": 23
+    },
+    {
+      "source": "hackernews",
+      "title": "The ways we contain Claude across products",
+      "summary": "HNスコア: 219, コメント数: 94",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "published": "2026-06-04T00:27:52",
+      "hn_score": 219
+    },
+    {
+      "source": "hackernews",
+      "title": "Ask HN: Why is it still so hard for LLMs to query NoSQL databases?",
+      "summary": "HNスコア: 3, コメント数: 0",
+      "url": "https://news.ycombinator.com/item?id=48399793",
+      "published": "2026-06-04T15:06:53",
+      "hn_score": 3
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
+      "summary": "HNスコア: 79, コメント数: 57",
+      "url": "https://boxes.dev",
+      "published": "2026-06-04T14:38:35",
+      "hn_score": 79
+    },
+    {
+      "source": "hackernews",
+      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
+      "summary": "HNスコア: 376, コメント数: 202",
+      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
+      "published": "2026-06-04T00:56:32",
+      "hn_score": 376
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code and Codex can have real-time conversation via Git",
+      "summary": "HNスコア: 101, コメント数: 74",
+      "url": "https://medium.com/@Koukyosyumei/claude-code-and-codex-can-have-real-time-conversation-via-git-f95b696c1c05",
+      "published": "2026-05-31T14:12:48",
+      "hn_score": 101
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-06-04T16:38:53Z",
+      "stars": 39388,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-06-04T21:51:15Z",
+      "stars": 26152,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-06-04T21:03:53Z",
+      "stars": 23144,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-06-04T19:23:56Z",
+      "stars": 10716,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-06-01T04:12:35Z",
+      "stars": 3346,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-06-04T13:29:47Z",
+      "stars": 3280,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-06-04T17:06:15Z",
+      "stars": 3065,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-06-04T11:10:24Z",
+      "stars": 2534,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "I Found a Way to Get FREE API Access to EVERY Major AI Model in 2026 (GPT-5, Claude, Gemini &amp; More!)",
+      "summary": "What if you could access GPT-5, Claude, Gemini, DeepSeek, Grok, Mistral, Qwen and every other major AI model — completely ...",
+      "url": "https://www.youtube.com/watch?v=tKCoEj6nWgQ",
+      "published": "2026-06-04T01:30:00Z",
+      "channel": "Programming with Kumaresan ",
+      "has_video": true,
+      "video_id": "tKCoEj6nWgQ"
+    },
+    {
+      "source": "youtube",
+      "title": "NEW AI Agent Creates Long AI Videos With One Prompt!",
+      "summary": "How To Make Long AI Videos With Higgsfield Supercomputer Try Higgsfield Supercomputer: ...",
+      "url": "https://www.youtube.com/watch?v=H491tDR3lJg",
+      "published": "2026-05-28T16:14:53Z",
+      "channel": "Skai Generated",
+      "has_video": true,
+      "video_id": "H491tDR3lJg"
+    },
+    {
+      "source": "youtube",
+      "title": "Cursor just crushed Claude Code",
+      "summary": "Deploy your site using here.now completely for free, copy the prompt for your agent here! https://here.now/r/twt I accidentally ...",
+      "url": "https://www.youtube.com/watch?v=XOCVdPIhAHg",
+      "published": "2026-06-02T11:58:44Z",
+      "channel": "Tech With Tim",
+      "has_video": true,
+      "video_id": "XOCVdPIhAHg"
+    },
+    {
+      "source": "youtube",
+      "title": "Introducing Nemotron 3 Ultra",
+      "summary": "nvidia #nemotron #llm #agent.",
+      "url": "https://www.youtube.com/watch?v=xKTnvDpUOBM",
+      "published": "2026-06-04T13:06:08Z",
+      "channel": "NVIDIA Developer",
+      "has_video": true,
+      "video_id": "xKTnvDpUOBM"
+    },
+    {
+      "source": "youtube",
+      "title": "3.0 Agentic AI Specialisation with AgentOps Bootcamp",
+      "summary": "Enrollment links: https://www.krishnaik.in/liveclass2/AgenticAi?id=11 Agentic AI & GenAI with Cloud 3.0 is the modern, ...",
+      "url": "https://www.youtube.com/watch?v=XRCAMNCUBRg",
+      "published": "2026-06-03T15:22:27Z",
+      "channel": "Krish Naik",
+      "has_video": true,
+      "video_id": "XRCAMNCUBRg"
+    },
+    {
+      "source": "youtube",
+      "title": "假如你从6月1日决定转AI Agent，需要多久才能上岸？",
+      "summary": "配套教程籽料可以在我的主頁簡介上自取 或者在我【公眾號：白白說大模型】回復關鍵詞：【2】領取 #ai #artificialintelligence ...",
+      "url": "https://www.youtube.com/watch?v=iu6avGuYR7g",
+      "published": "2026-06-02T05:54:27Z",
+      "channel": "白白说大模型",
+      "has_video": true,
+      "video_id": "iu6avGuYR7g"
+    },
+    {
+      "source": "youtube",
+      "title": "BrowserAct: This Free AI Browser Agent Gets Past Anti-Bot Blocks Where Playwright Fails - 100% FREE",
+      "summary": "AI agents are getting smarter, but still fail when need to interact with real websites. AI Automation BrowserAct for The Metaverse ...",
+      "url": "https://www.youtube.com/watch?v=WvEILN3NPDY",
+      "published": "2026-06-03T15:21:29Z",
+      "channel": "The Metaverse Guy",
+      "has_video": true,
+      "video_id": "WvEILN3NPDY"
+    },
+    {
+      "source": "youtube",
+      "title": "Hermes + Obsidian is Insane (FREE!) 🤯",
+      "summary": "Get the Hermes + Obsidian Agent OS https://www.skool.com/ai-profit-lab-7462/about Want to make money and save time with ...",
+      "url": "https://www.youtube.com/watch?v=y15_TKmCfOU",
+      "published": "2026-06-04T19:00:04Z",
+      "channel": "Julian Goldie SEO",
+      "has_video": true,
+      "video_id": "y15_TKmCfOU"
+    },
+    {
+      "source": "youtube",
+      "title": "OpenAI Changed Codex, Microsoft Drops 7 NEW Models &amp; Anthropic&#39;s IPO Is Coming!",
+      "summary": "Three big AI moves in one day. Microsoft launched seven new in-house MAI models and says its flagship reasoning model hits ...",
+      "url": "https://www.youtube.com/watch?v=7kNgUZpK09M",
+      "published": "2026-06-03T20:20:11Z",
+      "channel": "Universe of AI",
+      "has_video": true,
+      "video_id": "7kNgUZpK09M"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Meet the AI &quot;Co-Scientist&quot; Changing Everything 🤖🧪 #ai",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/iz7elwbqZVI",
+      "published": "2026-06-03T17:00:19Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "iz7elwbqZVI"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "A Second Nobel Prize for AlphaFold? 🧬🏆 #alphafold #deepmind #nobelprize #science #ai",
+      "summary": "Check the pinned comment for the link to the full interview. We're discussing whether a \"second order Nobel\" prize is on the ...",
+      "url": "https://www.youtube.com/shorts/MOviZKtFeHM",
+      "published": "2026-06-02T07:13:59Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "MOviZKtFeHM"
+    }
+  ]
+}
