@@ -1,0 +1,563 @@
+{
+  "date": "2026-06-06",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers",
+      "summary": "For a humanoid robot to be deployed in the real world, the choice of command space (i.e., the interface between task planning and whole-body control) is crucial. Existing whole-body controllers typically demand dense kinematic or spatial references that planners struggle to synthesize from task semantics. We instead propose a compact, explicit interface that is intuitive, general, modular, and expressive enough for diverse manipulation skills. To this end, we introduce HANDOFF, a single humanoid whole-body controller that follows this interface and is distilled via multi-teacher KL distillatio",
+      "url": "http://arxiv.org/abs/2606.06493v1",
+      "authors": [
+        "Lizhi Yang",
+        "Junheng Li",
+        "Nehar Poddar"
+      ],
+      "published": "2026-06-04T17:59:50+00:00",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "PC Layer: Polynomial Weight Preconditioning for Improving LLM Pre-Training",
+      "summary": "We propose a preconditioning (PC) layer, a weight parameterization via polynomial preconditioner that ensures stable weight conditioning throughout LLM training. The PC module reshapes the singular-value spectrum of weight matrices via low-degree polynomial preconditioning. After training, the preconditioned weights can be merged back into the original architecture, incurring no inference overhead. We demonstrate the advantage of the proposed PC layer over standard transformers in Llama-1B pre-training, for both the AdamW and Muon optimizers. Theoretically, we justify this spectrum-control pri",
+      "url": "http://arxiv.org/abs/2606.06470v1",
+      "authors": [
+        "Senmiao Wang",
+        "Tiantian Fang",
+        "Haoran Zhang"
+      ],
+      "published": "2026-06-04T17:55:11+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Will the Agent Recuse Itself? Measuring LLM-Agent Compliance with In-Band Access-Deny Signals",
+      "summary": "As autonomous LLM agents increasingly hold real credentials and operate infrastructure without a human in the loop, operators have no standard way to tell an agent that a resource is off-limits. Access controls either let the agent in (it has valid credentials) or hard-fail it (indistinguishable from any other client). We propose a third mode: a lightweight, published in-band deny signal -- the Recuse Signal -- that a server emits over a protocol's existing channels (an SSH banner, a PostgreSQL NOTICE) asking a connecting automated agent to voluntarily withdraw. This is a cooperative governanc",
+      "url": "http://arxiv.org/abs/2606.06460v1",
+      "authors": [
+        "Thamilvendhan Munirathinam"
+      ],
+      "published": "2026-06-04T17:50:54+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Vortex: Efficient and Programmable Sparse Attention Serving for AI Agents",
+      "summary": "Sparse attention is becoming increasingly important for serving large language models (LLMs) as generation lengths continue to grow. However, deploying and evaluating new sparse attention algorithms at scale remains highly engineering-intensive, slowing both human researchers and AI agents in exploring the sparse attention design. To address this challenge, we present Vortex, a system that combines a Python-embedded frontend language atop a page-centric tensor abstraction for expressing a broad range of sparse attention algorithms, with an efficient backend tightly integrated into modern LLM s",
+      "url": "http://arxiv.org/abs/2606.06453v1",
+      "authors": [
+        "Zhuoming Chen",
+        "Xinrui Zhong",
+        "Qilong Feng"
+      ],
+      "published": "2026-06-04T17:48:17+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads",
+      "summary": "LLM agents are increasingly deployed on long-horizon tasks requiring sustained reasoning over extended interaction histories. Realizing this at scale requires agents to persistently store, retrieve, and update their own memory across sessions. A rich ecosystem of agent memory systems has emerged spanning flat retrieval, LLM-mediated extraction, consolidating fact stores, and agentic control flows. Yet, their system-level behavior remains uncharacterized. We present the first systems characterization of agent memory. First, we introduce a system-oriented taxonomy classifying agent memory system",
+      "url": "http://arxiv.org/abs/2606.06448v1",
+      "authors": [
+        "Yasmine Omri",
+        "Ziyu Gan",
+        "Zachary Broveak"
+      ],
+      "published": "2026-06-04T17:44:18+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Unsupervised Skill Discovery for Agentic Data Analysis",
+      "summary": "Inference-time skill augmentation provides a lightweight way to improve data-analytic agents by injecting reusable procedural knowledge without updating model parameters. However, discovering effective skills for data analysis remains challenging, as reliable supervision is expensive and success criteria vary across analytical formats. This raises the key question of how to discover reusable data-analysis skills from unlabeled exploration alone. We propose DataCOPE, an unsupervised verifier-guided skill discovery framework for data-analytic agents. DataCOPE derives verifier signals from the ex",
+      "url": "http://arxiv.org/abs/2606.06416v1",
+      "authors": [
+        "Zhisong Qiu",
+        "Kangqi Song",
+        "Shengwei Tang"
+      ],
+      "published": "2026-06-04T17:20:47+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.MA"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Risk Assessment of Autonomous Driving: Integrating Technical Failures, Ethical Dilemmas, and Policy Frameworks",
+      "summary": "Autonomous driving technology has the potential to reduce the large number of road traffic accidents caused by human error each year, but it also brings new types of risks that need to be evaluated from the aspects of technology, ethics and regulations. Based on public crash data from the National Highway Traffic Safety Administration (NHTSA), disengagement reports from the California Department of Motor Vehicles (DMV), the MIT Moral Machines dataset, and a comparative regulatory analysis of five jurisdictions, we have found that the main types of technical failure modes are perception and cla",
+      "url": "http://arxiv.org/abs/2606.06396v1",
+      "authors": [
+        "Boyi Chen",
+        "Shengqin Chu",
+        "Zicheng Wang"
+      ],
+      "published": "2026-06-04T17:02:53+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Humans' ALMANAC: A Human Collaboration Dataset of Action-Level Mental Model Annotations for Agent Collaboration",
+      "summary": "Recent advances in LLM agents have enabled complex cognitive capabilities, such as multi-step reasoning, planning, and tool use, that increasingly position these agents as human collaborators. Effective collaboration, however, requires collaborators to continuously maintain and align mental models of their own reasoning,partners' intentions, and shared goals during the collaborative process. Today's agents rarely develop such capabilities since they are primarily optimized for task completion, and the community lacks authentic human collaboration data with action-level mental model annotations",
+      "url": "http://arxiv.org/abs/2606.06388v1",
+      "authors": [
+        "Jiaju Chen",
+        "Yuxuan Lu",
+        "Jiayi Su"
+      ],
+      "published": "2026-06-04T16:56:12+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "TokenMizer: Graph-Structured Session Memory for Long-Horizon LLM Context Management",
+      "summary": "Large language model (LLM) deployments for long-horizon tasks face a fundamental constraint: context windows are finite while productive work sessions are not. When history exceeds the Maximum Effective Context Window (MECW), critical structured information - architectural decisions, task transitions, file histories - is silently discarded. Existing mitigations treat history as flat text, destroying the relational structure that makes sessions resumable. We present TokenMizer, an open-source proxy system that models LLM session history as a typed knowledge graph. The schema defines 14 node typ",
+      "url": "http://arxiv.org/abs/2606.06337v1",
+      "authors": [
+        "Shweta Mishra"
+      ],
+      "published": "2026-06-04T16:12:28+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Learning What to Forget: Improving LLM Unlearning via Learned Token-Level Importance",
+      "summary": "Machine unlearning aims to remove targeted knowledge from a trained model while preserving its general capabilities. For autoregressive language models, not all tokens in a forget sample are equally relevant to forgetting. Existing approaches either ignore this heterogeneity or rely on auxiliary models, heuristics, or external annotations to estimate each token's relevance for forgetting. We instead characterize it through the interaction with the retain objective: a token is forget-specific to the extent that minimizing the forget loss on that token does not conflict with retain optimality. W",
+      "url": "http://arxiv.org/abs/2606.06320v1",
+      "authors": [
+        "Gizem Yüce",
+        "Giorgos Nikolaou",
+        "Nicolas Flammarion"
+      ],
+      "published": "2026-06-04T15:56:32+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "url": "https://openai.com/index/endava-frontiers",
+      "published": "Thu, 04 Jun 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "published": "Thu, 04 Jun 2026 09:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Biodefense in the Intelligence Age",
+      "summary": "An action plan for AI-powered biological resilience",
+      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "published": "Thu, 04 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "published": "Wed, 03 Jun 2026 13:15:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "url": "https://openai.com/index/wasmer",
+      "published": "Wed, 03 Jun 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "published": "Thu, 21 May 2026 19:46:42 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "published": "Mon, 18 May 2026 18:21:39 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "published": "Sun, 17 May 2026 19:53:18 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini Omni",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "published": "Sun, 17 May 2026 19:50:57 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Google Antigravity 2.0",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "published": "Sun, 17 May 2026 19:43:45 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
+      "summary": "",
+      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+      "published": "Fri, 05 Jun 2026 22:18:46 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "published": "Thu, 04 Jun 2026 18:57:45 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "published": "Thu, 04 Jun 2026 12:24:58 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "summary": "",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "published": "Thu, 04 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "published": "Wed, 03 Jun 2026 12:55:11 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Andreas Kling",
+      "summary": "<blockquote cite=\"https://ladybird.org/posts/changing-how-we-develop-ladybird/\"><p>We will no longer accept public pull requests. [...]</p>\n<p>A substantial patch used to imply substantial effort, and that effort was a reasonable proxy for good faith. That assumption no longer holds. [...]</p>\n<p>Whether code was typed by hand is beside the point. What matters is who is responsible for it once it enters the browser. Ladybird is becoming a browser for real users. The people introducing changes to it must be the people who decide those changes belong in the project, and who will answer for the c",
+      "url": "https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything",
+      "published": "2026-06-05T11:10:05+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy",
+      "summary": "<p><strong><a href=\"https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against\">AI enthusiasts are in a race against time, AI skeptics are in a race against entropy</a></strong></p>\nCharity Majors neatly captures the dynamic between AI enthusiasts and AI skeptics, both of whom are trying to build great software, often in the same teams:</p>\n<blockquote>\n<p>The enthusiasts are <em>not wrong</em>. We are starting to see real, non-imaginary, discontinuous leaps in capabilities from teams that lean in hard to working with AI. And this does not feel like a normal technology cycle whe",
+      "url": "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything",
+      "published": "2026-06-04T23:55:27+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Emanuel Maiberg, 404 Media",
+      "summary": "<blockquote cite=\"https://www.404media.co/google-employees-internally-share-memes-about-how-its-ai-sucks/\"><p>After this story was published Google's spokesperson reached out and asked us to publish a slightly different version of that statement. The new statement no longer stated that \"it's critical that we maintain humans in the loop.\"</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.404media.co/google-employees-internally-share-memes-about-how-its-ai-sucks/\">Emanuel Maiberg, 404 Media</a>, Google Employees Internally Share Memes About How Its AI Sucks</p>\n\n    <p>Tags: <a href=",
+      "url": "https://simonwillison.net/2026/Jun/4/a-slightly-different-version/#atom-everything",
+      "published": "2026-06-04T16:38:29+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Uber Caps Usage of AI Tools Like Claude Code to Manage Costs",
+      "summary": "<p><strong><a href=\"https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs\">Uber Caps Usage of AI Tools Like Claude Code to Manage Costs</a></strong></p>\nI wrote <a href=\"https://simonwillison.net/2026/May/27/product-market-fit/#the-ai-failure-stories-around-this-are-pretty-thin\">the other day</a> about Uber blowing its 2026 AI budget in four months, and how that wasn't particularly surprising given they would have set that budget in 2025, before anyone could have predicted how popular token-burning coding agents were about to become.\nNatal",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything",
+      "published": "2026-06-03T12:01:27+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Microsoft's new MAI models",
+      "summary": "<p>Microsoft <a href=\"https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/\">announced two new text LLMs</a> this morning - <strong><a href=\"https://microsoft.ai/news/introducing-mai-thinking-1/\">MAI-Thinking-1</a></strong> (reasoning, 1T parameters, 35B active, available to \"select early partners\") and <strong><a href=\"https://microsoft.ai/news/introducingmai-code-1-flash/\">MAI-Code-1-Flash</a></strong> (137B Parameters, 5B active, \"purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot in",
+      "url": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything",
+      "published": "2026-06-02T22:21:52+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "My Agent Skill for Test-Driven Development",
+      "summary": "HNスコア: 85, コメント数: 35",
+      "url": "https://www.saturnci.com/my-agent-skill-for-test-driven-development.html",
+      "published": "2026-06-04T14:10:40",
+      "hn_score": 85
+    },
+    {
+      "source": "hackernews",
+      "title": "Conventional Commits encourages focus on the wrong things",
+      "summary": "HNスコア: 223, コメント数: 175",
+      "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
+      "published": "2026-06-05T15:39:38",
+      "hn_score": 223
+    },
+    {
+      "source": "hackernews",
+      "title": "Did Claude increase bugs in rsync?",
+      "summary": "HNスコア: 217, コメント数: 213",
+      "url": "https://alexispurslane.github.io/rsync-analysis/",
+      "published": "2026-06-05T12:43:33",
+      "hn_score": 217
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
+      "summary": "HNスコア: 95, コメント数: 52",
+      "url": "https://github.com/zdk/lowfat",
+      "published": "2026-06-05T09:10:42",
+      "hn_score": 95
+    },
+    {
+      "source": "hackernews",
+      "title": "Fine-tuning an LLM to write docs like it's 1995",
+      "summary": "HNスコア: 172, コメント数: 64",
+      "url": "https://passo.uno/fine-tuning-docs-llm/",
+      "published": "2026-06-05T05:46:06",
+      "hn_score": 172
+    },
+    {
+      "source": "hackernews",
+      "title": "Programmers will document for Claude, but not for each other",
+      "summary": "HNスコア: 165, コメント数: 145",
+      "url": "https://blog.plover.com/2026/03/09/#documentation-wins-2",
+      "published": "2026-06-05T12:30:17",
+      "hn_score": 165
+    },
+    {
+      "source": "hackernews",
+      "title": "Bad MCP design costs your agent 5x more tokens",
+      "summary": "HNスコア: 8, コメント数: 0",
+      "url": "https://news.ycombinator.com/item?id=48407391",
+      "published": "2026-06-05T02:53:15",
+      "hn_score": 8
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "summary": "HNスコア: 514, コメント数: 141",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "published": "2026-06-04T20:11:20",
+      "hn_score": 514
+    },
+    {
+      "source": "hackernews",
+      "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+      "summary": "HNスコア: 143, コメント数: 15",
+      "url": "https://github.com/huawei-csl/KVarN",
+      "published": "2026-06-04T15:18:00",
+      "hn_score": 143
+    },
+    {
+      "source": "hackernews",
+      "title": "Magenta RealTime 2: Open and Local Live Music Models",
+      "summary": "HNスコア: 61, コメント数: 10",
+      "url": "https://magenta.withgoogle.com/magenta-realtime-2",
+      "published": "2026-06-05T04:09:53",
+      "hn_score": 61
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-06-05T17:31:10Z",
+      "stars": 39396,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-06-05T22:01:53Z",
+      "stars": 26263,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-06-05T22:11:09Z",
+      "stars": 23157,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-06-05T16:15:02Z",
+      "stars": 10721,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-06-05T11:04:13Z",
+      "stars": 3347,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-06-05T21:24:49Z",
+      "stars": 3282,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-06-04T22:49:15Z",
+      "stars": 3066,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-06-05T16:59:00Z",
+      "stars": 2535,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "I Found a Way to Get FREE API Access to EVERY Major AI Model in 2026 (GPT-5, Claude, Gemini &amp; More!)",
+      "summary": "What if you could access GPT-5, Claude, Gemini, DeepSeek, Grok, Mistral, Qwen and every other major AI model — completely ...",
+      "url": "https://www.youtube.com/watch?v=tKCoEj6nWgQ",
+      "published": "2026-06-04T01:30:00Z",
+      "channel": "Programming with Kumaresan ",
+      "has_video": true,
+      "video_id": "tKCoEj6nWgQ"
+    },
+    {
+      "source": "youtube",
+      "title": "You can build an AI agent - Dennis Beatty | ElixirConf US 2025",
+      "summary": "This talk was recorded at ElixirConf US 2025. If you're curious about our upcoming event, check https://elixirconf.com✨ AI agents ...",
+      "url": "https://www.youtube.com/watch?v=Xg1Hib517c0",
+      "published": "2026-06-04T22:00:13Z",
+      "channel": "ElixirConf",
+      "has_video": true,
+      "video_id": "Xg1Hib517c0"
+    },
+    {
+      "source": "youtube",
+      "title": "Cursor just crushed Claude Code",
+      "summary": "Deploy your site using here.now completely for free, copy the prompt for your agent here! https://here.now/r/twt I accidentally ...",
+      "url": "https://www.youtube.com/watch?v=XOCVdPIhAHg",
+      "published": "2026-06-02T11:58:44Z",
+      "channel": "Tech With Tim",
+      "has_video": true,
+      "video_id": "XOCVdPIhAHg"
+    },
+    {
+      "source": "youtube",
+      "title": "Build Your Own AI Agent – Full Course with OpenAI, Langchain, Render Deployment",
+      "summary": "Learn to build and deploy intelligent AI agents that bridge the gap between LLMs and real-world automation to handle complex ...",
+      "url": "https://www.youtube.com/watch?v=MnG0ugK2JAI",
+      "published": "2026-06-02T10:00:09Z",
+      "channel": "freeCodeCamp.org",
+      "has_video": true,
+      "video_id": "MnG0ugK2JAI"
+    },
+    {
+      "source": "youtube",
+      "title": "Introducing Nemotron 3 Ultra",
+      "summary": "nvidia #nemotron #llm #agent.",
+      "url": "https://www.youtube.com/watch?v=xKTnvDpUOBM",
+      "published": "2026-06-04T13:06:08Z",
+      "channel": "NVIDIA Developer",
+      "has_video": true,
+      "video_id": "xKTnvDpUOBM"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI from Scratch #1 (Python): Build Your First AI Agent Loop | Zero Cost",
+      "summary": "Start your Agentic AI journey from scratch in Python with zero-cost tools. In this video, you'll learn what Agentic AI is, how it differs ...",
+      "url": "https://www.youtube.com/watch?v=m6lOsItp9_w",
+      "published": "2026-06-01T13:42:49Z",
+      "channel": "StatLearn Tech",
+      "has_video": true,
+      "video_id": "m6lOsItp9_w"
+    },
+    {
+      "source": "youtube",
+      "title": "AGI is FAKE: The Biggest AI Lie Exposed",
+      "summary": "sponsored Get 50% off the Bitdefender plan! https://odiencetrck.com/clk.php?lid=1887 Learn And Build AI workflows with AI ...",
+      "url": "https://www.youtube.com/watch?v=I3YR5xVpcS4",
+      "published": "2026-06-05T18:00:05Z",
+      "channel": "AI Master",
+      "has_video": true,
+      "video_id": "I3YR5xVpcS4"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Oceanus, Anthropic AGI Claims, GPT-5.6 Checkpoint, GLM 5.2, Nemotron 3 Ultra &amp; More! AI NEWS!",
+      "summary": "AI-generated code is moving faster than human review can keep up. If you wanna actually catch the bugs that slip through PRs ...",
+      "url": "https://www.youtube.com/watch?v=h6_v1IBqmNI",
+      "published": "2026-06-05T07:27:15Z",
+      "channel": "WorldofAI",
+      "has_video": true,
+      "video_id": "h6_v1IBqmNI"
+    },
+    {
+      "source": "youtube",
+      "title": "OpenAI Changed Codex, Microsoft Drops 7 NEW Models &amp; Anthropic&#39;s IPO Is Coming!",
+      "summary": "Three big AI moves in one day. Microsoft launched seven new in-house MAI models and says its flagship reasoning model hits ...",
+      "url": "https://www.youtube.com/watch?v=7kNgUZpK09M",
+      "published": "2026-06-03T20:20:11Z",
+      "channel": "Universe of AI",
+      "has_video": true,
+      "video_id": "7kNgUZpK09M"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Meet the AI &quot;Co-Scientist&quot; Changing Everything 🤖🧪 #ai",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/iz7elwbqZVI",
+      "published": "2026-06-03T17:00:19Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "iz7elwbqZVI"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "A Second Nobel Prize for AlphaFold? 🧬🏆 #alphafold #deepmind #nobelprize #science #ai",
+      "summary": "Check the pinned comment for the link to the full interview. We're discussing whether a \"second order Nobel\" prize is on the ...",
+      "url": "https://www.youtube.com/shorts/MOviZKtFeHM",
+      "published": "2026-06-02T07:13:59Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "MOviZKtFeHM"
+    }
+  ]
+}
