@@ -1,0 +1,397 @@
+{
+  "date": "2026-06-07",
+  "items": [
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "url": "https://openai.com/index/endava-frontiers",
+      "published": "Thu, 04 Jun 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "published": "Thu, 04 Jun 2026 09:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Biodefense in the Intelligence Age",
+      "summary": "An action plan for AI-powered biological resilience",
+      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "published": "Thu, 04 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "published": "Wed, 03 Jun 2026 13:15:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "url": "https://openai.com/index/wasmer",
+      "published": "Wed, 03 Jun 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "published": "Thu, 21 May 2026 19:46:42 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "published": "Mon, 18 May 2026 18:21:39 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "published": "Sun, 17 May 2026 19:53:18 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini Omni",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "published": "Sun, 17 May 2026 19:50:57 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Google Antigravity 2.0",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "published": "Sun, 17 May 2026 19:43:45 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Five labs, five minds: building a multi-model finance drama on small models",
+      "summary": "",
+      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+      "published": "Sat, 06 Jun 2026 19:02:33 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "published": "Thu, 04 Jun 2026 18:57:45 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "published": "Thu, 04 Jun 2026 12:24:58 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "summary": "",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "published": "Thu, 04 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "published": "Wed, 03 Jun 2026 12:55:11 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "micropython-wasm 0.1a2",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/micropython-wasm/releases/tag/0.1a2\">micropython-wasm 0.1a2</a></p>\n        <p>I added a CLI to <code>micropython-wasm</code> (<a href=\"https://github.com/simonw/micropython-wasm/issues/7\">issue #7</a>), inspired by the first draft of <a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/\">the blog entry</a> when I realized it would be a great way to illustrate the <a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#try-it-yourself\">Try it yourself</a> section.</p>\n    \n    \n        <p>Tags: <a",
+      "url": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
+      "published": "2026-06-06T04:26:06+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Running Python code in a sandbox with MicroPython and WASM",
+      "summary": "<p>I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called <a href=\"https://github.com/simonw/micropython-wasm\">micropython-wasm</a>, and I'm using it for a code execution sandbox plugin for <a href=\"https://github.com/datasette/datasette-agent\">Datasette Agent</a> called <a href=\"https://github.com/datasette/datasette-agent-micropython\">datasette-agent-micropython</a>.</p>\n<ul>\n  <li><a href=\"https://",
+      "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything",
+      "published": "2026-06-06T03:53:34+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "OpenAI Help: Lockdown Mode",
+      "summary": "<p><strong><a href=\"https://help.openai.com/en/articles/20001061-lockdown-mode\">OpenAI Help: Lockdown Mode</a></strong></p>\nOpenAI first teased this <a href=\"https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/\">in February</a>, but now it's live and \"rolling out to eligible personal accounts, including Free, Go, Plus, and Pro, and self-serve ChatGPT Business accounts\":</p>\n<blockquote>\n<p>Lockdown Mode is designed to help prevent the final stage of data exfiltration from a prompt injection attack by limiting outbound network requests that could transfer sens",
+      "url": "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything",
+      "published": "2026-06-05T23:56:40+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Andreas Kling",
+      "summary": "<blockquote cite=\"https://ladybird.org/posts/changing-how-we-develop-ladybird/\"><p>We will no longer accept public pull requests. [...]</p>\n<p>A substantial patch used to imply substantial effort, and that effort was a reasonable proxy for good faith. That assumption no longer holds. [...]</p>\n<p>Whether code was typed by hand is beside the point. What matters is who is responsible for it once it enters the browser. Ladybird is becoming a browser for real users. The people introducing changes to it must be the people who decide those changes belong in the project, and who will answer for the c",
+      "url": "https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything",
+      "published": "2026-06-05T11:10:05+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy",
+      "summary": "<p><strong><a href=\"https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against\">AI enthusiasts are in a race against time, AI skeptics are in a race against entropy</a></strong></p>\nCharity Majors neatly captures the dynamic between AI enthusiasts and AI skeptics, both of whom are trying to build great software, often in the same teams:</p>\n<blockquote>\n<p>The enthusiasts are <em>not wrong</em>. We are starting to see real, non-imaginary, discontinuous leaps in capabilities from teams that lean in hard to working with AI. And this does not feel like a normal technology cycle whe",
+      "url": "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/#atom-everything",
+      "published": "2026-06-04T23:55:27+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Universal Memory Protocol – a shared format for agent memory",
+      "summary": "HNスコア: 34, コメント数: 14",
+      "url": "https://universalmemoryprotocol.io/",
+      "published": "2026-06-06T20:39:21",
+      "hn_score": 34
+    },
+    {
+      "source": "hackernews",
+      "title": "Computex 2026: Are We Heading for the Agentic PC Era Yet? – EE Times",
+      "summary": "HNスコア: 13, コメント数: 7",
+      "url": "https://www.eetimes.com/computex-2026-are-we-heading-for-the-agentic-pc-era-yet/",
+      "published": "2026-06-06T20:24:29",
+      "hn_score": 13
+    },
+    {
+      "source": "hackernews",
+      "title": "New U.S. college grads now have higher unemployment than the average worker",
+      "summary": "HNスコア: 37, コメント数: 14",
+      "url": "https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip/",
+      "published": "2026-06-06T20:35:40",
+      "hn_score": 37
+    },
+    {
+      "source": "hackernews",
+      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+      "summary": "HNスコア: 1293, コメント数: 445",
+      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+      "published": "2026-06-06T04:38:36",
+      "hn_score": 1293
+    },
+    {
+      "source": "hackernews",
+      "title": "How LLMs work",
+      "summary": "HNスコア: 818, コメント数: 224",
+      "url": "https://www.0xkato.xyz/how-llms-actually-work/",
+      "published": "2026-06-03T20:15:13",
+      "hn_score": 818
+    },
+    {
+      "source": "hackernews",
+      "title": "My Agent Skill for Test-Driven Development",
+      "summary": "HNスコア: 218, コメント数: 104",
+      "url": "https://www.saturnci.com/my-agent-skill-for-test-driven-development.html",
+      "published": "2026-06-04T14:10:40",
+      "hn_score": 218
+    },
+    {
+      "source": "hackernews",
+      "title": "Conventional Commits encourages focus on the wrong things",
+      "summary": "HNスコア: 350, コメント数: 256",
+      "url": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
+      "published": "2026-06-05T15:39:38",
+      "hn_score": 350
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
+      "summary": "HNスコア: 144, コメント数: 73",
+      "url": "https://github.com/zdk/lowfat",
+      "published": "2026-06-05T09:10:42",
+      "hn_score": 144
+    },
+    {
+      "source": "hackernews",
+      "title": "Fine-tuning an LLM to write docs like it's 1995",
+      "summary": "HNスコア: 189, コメント数: 66",
+      "url": "https://passo.uno/fine-tuning-docs-llm/",
+      "published": "2026-06-05T05:46:06",
+      "hn_score": 189
+    },
+    {
+      "source": "hackernews",
+      "title": "Did Claude increase bugs in rsync?",
+      "summary": "HNスコア: 493, コメント数: 512",
+      "url": "https://alexispurslane.github.io/rsync-analysis/",
+      "published": "2026-06-05T12:43:33",
+      "hn_score": 493
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-06-06T17:00:08Z",
+      "stars": 39398,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-06-06T21:00:57Z",
+      "stars": 26341,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-06-06T20:22:42Z",
+      "stars": 23176,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-06-06T17:18:54Z",
+      "stars": 10727,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-06-06T18:25:07Z",
+      "stars": 3348,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-06-06T06:01:36Z",
+      "stars": 3283,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-06-06T09:26:10Z",
+      "stars": 3067,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-06-06T10:08:37Z",
+      "stars": 2536,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "Build Your Own AI Agent – Full Course with OpenAI, Langchain, Render Deployment",
+      "summary": "Learn to build and deploy intelligent AI agents that bridge the gap between LLMs and real-world automation to handle complex ...",
+      "url": "https://www.youtube.com/watch?v=MnG0ugK2JAI",
+      "published": "2026-06-02T10:00:09Z",
+      "channel": "freeCodeCamp.org",
+      "has_video": true,
+      "video_id": "MnG0ugK2JAI"
+    },
+    {
+      "source": "youtube",
+      "title": "I Found a Way to Get FREE API Access to EVERY Major AI Model in 2026 (GPT-5, Claude, Gemini &amp; More!)",
+      "summary": "What if you could access GPT-5, Claude, Gemini, DeepSeek, Grok, Mistral, Qwen and every other major AI model — completely ...",
+      "url": "https://www.youtube.com/watch?v=tKCoEj6nWgQ",
+      "published": "2026-06-04T01:30:00Z",
+      "channel": "Programming with Kumaresan ",
+      "has_video": true,
+      "video_id": "tKCoEj6nWgQ"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Insider: The Fastest Way To Use AI Agents in your Business &amp; Content (Claude Cowork &amp; Codex!)",
+      "summary": "Start using Gamma today: ...",
+      "url": "https://www.youtube.com/watch?v=B9p1Eum0dwI",
+      "published": "2026-06-01T12:00:38Z",
+      "channel": "The Calum Johnson Show",
+      "has_video": true,
+      "video_id": "B9p1Eum0dwI"
+    },
+    {
+      "source": "youtube",
+      "title": "Generative AI Full Course 2026 | Generative AI Tutorial For Beginners | Gen AI Course | Simplilearn",
+      "summary": "Michigan Engineering - Professional Certificate in AI and Machine Learning ...",
+      "url": "https://www.youtube.com/watch?v=HDCq-0s8Mvk",
+      "published": "2026-06-05T17:30:14Z",
+      "channel": "Simplilearn",
+      "has_video": true,
+      "video_id": "HDCq-0s8Mvk"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI from Scratch #1 (Python): Build Your First AI Agent Loop | Zero Cost",
+      "summary": "Start your Agentic AI journey from scratch in Python with zero-cost tools. In this video, you'll learn what Agentic AI is, how it differs ...",
+      "url": "https://www.youtube.com/watch?v=m6lOsItp9_w",
+      "published": "2026-06-01T13:42:49Z",
+      "channel": "StatLearn Tech",
+      "has_video": true,
+      "video_id": "m6lOsItp9_w"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Code + AssemblyAI: The Easiest Voice Agent You Can Build!",
+      "summary": "This video is sponsored by AssemblyAI. Get a free account and $50 in credits to build your own: ...",
+      "url": "https://www.youtube.com/watch?v=Iw2iyLF9_9Q",
+      "published": "2026-06-06T21:00:37Z",
+      "channel": "Universe of AI",
+      "has_video": true,
+      "video_id": "Iw2iyLF9_9Q"
+    },
+    {
+      "source": "youtube",
+      "title": "AGI is FAKE: The Biggest AI Lie Exposed",
+      "summary": "sponsored Get 50% off the Bitdefender plan! https://odiencetrck.com/clk.php?lid=1887 Learn And Build AI workflows with AI ...",
+      "url": "https://www.youtube.com/watch?v=I3YR5xVpcS4",
+      "published": "2026-06-05T18:00:05Z",
+      "channel": "AI Master",
+      "has_video": true,
+      "video_id": "I3YR5xVpcS4"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Oceanus, Anthropic AGI Claims, GPT-5.6 Checkpoint, GLM 5.2, Nemotron 3 Ultra &amp; More! AI NEWS!",
+      "summary": "AI-generated code is moving faster than human review can keep up. If you wanna actually catch the bugs that slip through PRs ...",
+      "url": "https://www.youtube.com/watch?v=h6_v1IBqmNI",
+      "published": "2026-06-05T07:27:15Z",
+      "channel": "WorldofAI",
+      "has_video": true,
+      "video_id": "h6_v1IBqmNI"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Meet the AI &quot;Co-Scientist&quot; Changing Everything 🤖🧪 #ai",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/iz7elwbqZVI",
+      "published": "2026-06-03T17:00:19Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "iz7elwbqZVI"
+    }
+  ]
+}
