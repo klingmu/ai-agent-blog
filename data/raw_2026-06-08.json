@@ -300,82 +300,82 @@
     {
       "source": "hackernews",
       "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
-      "summary": "HNスコア: 45, コメント数: 32",
+      "summary": "HNスコア: 82, コメント数: 58",
       "url": "https://arxiv.org/abs/2605.31514",
       "published": "2026-06-07T18:54:55",
-      "hn_score": 45
+      "hn_score": 82
     },
     {
       "source": "hackernews",
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
-      "summary": "HNスコア: 727, コメント数: 684",
+      "summary": "HNスコア: 749, コメント数: 721",
       "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
       "published": "2026-06-07T12:49:29",
-      "hn_score": 727
+      "hn_score": 749
     },
     {
       "source": "hackernews",
       "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
-      "summary": "HNスコア: 205, コメント数: 41",
+      "summary": "HNスコア: 214, コメント数: 41",
       "url": "https://github.com/devenjarvis/lathe",
       "published": "2026-06-07T11:16:46",
-      "hn_score": 205
+      "hn_score": 214
     },
     {
       "source": "hackernews",
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
-      "summary": "HNスコア: 407, コメント数: 234",
+      "summary": "HNスコア: 424, コメント数: 245",
       "url": "https://github.com/anthropics/claude-code/issues/65697",
       "published": "2026-06-07T13:06:52",
-      "hn_score": 407
+      "hn_score": 424
     },
     {
       "source": "hackernews",
       "title": "I design with Claude more than Figma now",
-      "summary": "HNスコア: 224, コメント数: 208",
+      "summary": "HNスコア: 235, コメント数: 216",
       "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
       "published": "2026-06-07T05:04:24",
-      "hn_score": 224
+      "hn_score": 235
     },
     {
       "source": "hackernews",
       "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
-      "summary": "HNスコア: 163, コメント数: 66",
+      "summary": "HNスコア: 164, コメント数: 66",
       "url": "https://arxiv.org/abs/2601.14470",
       "published": "2026-06-07T01:37:11",
-      "hn_score": 163
+      "hn_score": 164
     },
     {
       "source": "hackernews",
       "title": "Arithmetic Without Numbers – How LLMs Do Math",
-      "summary": "HNスコア: 96, コメント数: 33",
+      "summary": "HNスコア: 98, コメント数: 33",
       "url": "https://alvaro-videla.com/llm-arithmetic-internals/article_interactive/article.html",
       "published": "2026-06-05T10:19:39",
-      "hn_score": 96
-    },
-    {
-      "source": "hackernews",
-      "title": "\"Terrorists?\": The Suffragette Arson and Bombing Campaign – Egham Museum",
-      "summary": "HNスコア: 23, コメント数: 8",
-      "url": "https://eghammuseum.org/terrorists-the-suffragette-arson-and-bombing-campaign/",
-      "published": "2026-06-07T13:29:05",
-      "hn_score": 23
+      "hn_score": 98
     },
     {
       "source": "hackernews",
       "title": "Harness engineering: Leveraging Codex in an agent-first world",
-      "summary": "HNスコア: 279, コメント数: 188",
+      "summary": "HNスコア: 280, コメント数: 188",
       "url": "https://openai.com/index/harness-engineering/",
       "published": "2026-06-05T18:20:06",
-      "hn_score": 279
+      "hn_score": 280
     },
     {
       "source": "hackernews",
-      "title": "Agentic AI solved coding and exposed every other problem in SE",
-      "summary": "HNスコア: 4, コメント数: 1",
-      "url": "https://venturebeat.com/technology/agentic-ai-solved-coding-and-exposed-every-other-problem-in-software-engineering",
-      "published": "2026-06-07T20:12:47",
-      "hn_score": 4
+      "title": "\"Terrorists?\": The Suffragette Arson and Bombing Campaign – Egham Museum",
+      "summary": "HNスコア: 24, コメント数: 10",
+      "url": "https://eghammuseum.org/terrorists-the-suffragette-arson-and-bombing-campaign/",
+      "published": "2026-06-07T13:29:05",
+      "hn_score": 24
+    },
+    {
+      "source": "hackernews",
+      "title": "How LLMs work",
+      "summary": "HNスコア: 917, コメント数: 254",
+      "url": "https://www.0xkato.xyz/how-llms-actually-work/",
+      "published": "2026-06-03T20:15:13",
+      "hn_score": 917
     },
     {
       "source": "github",
@@ -391,8 +391,8 @@
       "title": "agentscope-ai/agentscope",
       "summary": "Build and run agents you can see, understand and trust.",
       "url": "https://github.com/agentscope-ai/agentscope",
-      "published": "2026-06-07T21:51:33Z",
-      "stars": 26413,
+      "published": "2026-06-07T22:53:47Z",
+      "stars": 26415,
       "language": "Python"
     },
     {
@@ -471,13 +471,13 @@
     },
     {
       "source": "youtube",
-      "title": "AI Insider: The Fastest Way To Use AI Agents in your Business &amp; Content (Claude Cowork &amp; Codex!)",
-      "summary": "Start using Gamma today: ...",
-      "url": "https://www.youtube.com/watch?v=B9p1Eum0dwI",
-      "published": "2026-06-01T12:00:38Z",
-      "channel": "The Calum Johnson Show",
+      "title": "🚀 Complete Instantly.AI Tutorial 2025! Learn cold email mastery - from setup to scaling campaigns t",
+      "summary": "Learn for Free Here: https://getrich.mikee.ai/start Learn for Free Here: https://getrich.mikee.ai/start.",
+      "url": "https://www.youtube.com/watch?v=fzKj_wmdPuA",
+      "published": "2026-06-05T05:15:08Z",
+      "channel": "Mikee Shattuck | AI Paid Acquisition ",
       "has_video": true,
-      "video_id": "B9p1Eum0dwI"
+      "video_id": "fzKj_wmdPuA"
     },
     {
       "source": "youtube",
@@ -501,23 +501,13 @@
     },
     {
       "source": "youtube",
-      "title": "Day - 03 : GEN AI + LLM + RAG + Agentic AI Overview by Mr. Ashok",
-      "summary": "Artificial Intelligence is changing the way software applications are built. In this session, Mr. Ashok explains the most important AI ...",
-      "url": "https://www.youtube.com/watch?v=6HQVGtIEyIM",
-      "published": "2026-06-07T16:31:11Z",
-      "channel": "Ashok IT",
+      "title": "Generative AI Full Course 2026 | Generative AI Tutorial For Beginners | Gen AI Course | Simplilearn",
+      "summary": "Michigan Engineering - Professional Certificate in AI and Machine Learning ...",
+      "url": "https://www.youtube.com/watch?v=HDCq-0s8Mvk",
+      "published": "2026-06-05T17:30:14Z",
+      "channel": "Simplilearn",
       "has_video": true,
-      "video_id": "6HQVGtIEyIM"
-    },
-    {
-      "source": "youtube",
-      "title": "Claude Code + AssemblyAI: The Easiest Voice Agent You Can Build!",
-      "summary": "This video is sponsored by AssemblyAI. Get a free account and $50 in credits to build your own: ...",
-      "url": "https://www.youtube.com/watch?v=Iw2iyLF9_9Q",
-      "published": "2026-06-06T21:00:37Z",
-      "channel": "Universe of AI",
-      "has_video": true,
-      "video_id": "Iw2iyLF9_9Q"
+      "video_id": "HDCq-0s8Mvk"
     },
     {
       "source": "youtube",
@@ -531,13 +521,23 @@
     },
     {
       "source": "youtube",
-      "title": "Claude Mythos 5 LEAKED &amp; IS Coming Sooner Than Expected &amp; GPT-5.6 Checkpoint Out! Huge AI News!",
-      "summary": "Everything you're about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on ...",
-      "url": "https://www.youtube.com/watch?v=fRjWpcA40hs",
-      "published": "2026-06-07T06:44:20Z",
-      "channel": "WorldofAI",
+      "title": "Claude Code + AssemblyAI: The Easiest Voice Agent You Can Build!",
+      "summary": "This video is sponsored by AssemblyAI. Get a free account and $50 in credits to build your own: ...",
+      "url": "https://www.youtube.com/watch?v=Iw2iyLF9_9Q",
+      "published": "2026-06-06T21:00:37Z",
+      "channel": "Universe of AI",
       "has_video": true,
-      "video_id": "fRjWpcA40hs"
+      "video_id": "Iw2iyLF9_9Q"
+    },
+    {
+      "source": "youtube",
+      "title": "How to build AI Agents 10x faster with Claude",
+      "summary": "Check out all free guides at my community at skool.com/raycfu.",
+      "url": "https://www.youtube.com/watch?v=IFEWBgOeTbY",
+      "published": "2026-06-03T05:15:14Z",
+      "channel": "Ray Fu",
+      "has_video": true,
+      "video_id": "IFEWBgOeTbY"
     },
     {
       "source": "youtube_shorts",
