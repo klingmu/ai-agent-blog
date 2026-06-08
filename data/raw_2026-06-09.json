@@ -1,0 +1,564 @@
+{
+  "date": "2026-06-09",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "How reliable are LLMs when it comes to playing dice?",
+      "summary": "We investigate the probabilistic reasoning capabilities of large language models through a controlled benchmarking study on discrete probability problems. We constructed two datasets, respectively a set of standard exercises and a set of counterintuitive exercises, designed to trigger heuristic reasoning, and evaluated 8 state-of-the-art models, each tested with and without Chain-of-Thought prompting. Models achieve an average accuracy of 0.96 on standard problems but only 0.59 on counterintuitive ones. We further provide empirical evidence of token bias: performance drops by over 20% when can",
+      "url": "http://arxiv.org/abs/2606.07515v1",
+      "authors": [
+        "Luca Avena",
+        "Gianmarco Bet",
+        "Bernardo Busoni"
+      ],
+      "published": "2026-06-05T17:59:42+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.HC",
+        "math.PR"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism",
+      "summary": "Current Vision-Language Models struggle with hours-long videos because processing full-length visual sequences induces prohibitive token explosion and attention dilution. To overcome this, we introduce MemDreamer to decouple perception and reasoning, shifting long-video understanding into an agentic exploration process. As a plug-and-play framework, it incrementally streams videos to construct a Hierarchical Graph Memory, a top-down three-tier architecture for semantic abstraction, anchored by a foundational graph capturing spatiotemporal and causal relations. During inference, the reasoning m",
+      "url": "http://arxiv.org/abs/2606.07512v1",
+      "authors": [
+        "Cong Chen",
+        "Guo Gan",
+        "Kaixiang Ji"
+      ],
+      "published": "2026-06-05T17:59:21+00:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "How AI Agents Reshape Knowledge Work: Autonomy, Efficiency, and Scope",
+      "summary": "Frontier AI systems are bridging the gap between intelligence and utility by shifting from conversational assistants to autonomous agents that execute tasks end to end. Using production data from Perplexity's Search and Computer products, we study this transition by examining how AI agents accelerate and reshape knowledge work. Three key empirical findings emerge. First, using sessions with near-identical initial query pairs as natural experiments for the same underlying task attempted with both products, Computer performs 26 minutes of autonomous work per user session, versus 33 seconds for S",
+      "url": "http://arxiv.org/abs/2606.07489v1",
+      "authors": [
+        "Jeremy Yang",
+        "Kate Zyskowski",
+        "Noah Yonack"
+      ],
+      "published": "2026-06-05T17:45:39+00:00",
+      "categories": [
+        "cs.AI",
+        "econ.GN"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Planning-aligned Token Compression for Long-Context Autonomous Driving",
+      "summary": "Monolithic vision-action models represent an emerging paradigm in autonomous driving. However, this architecture produces token sequences that quickly exceed real-time computational budgets when encoding extended temporal context for complex interactions. While approaches like linear transformers and external memory try to make the context lightweight, token compression is most compatible with the architecture as it requires no backbone modifications. Yet existing compression adopts rule-based heuristics like temporal decay, decoupled from planning, risking loss of decision-critical informatio",
+      "url": "http://arxiv.org/abs/2606.07464v1",
+      "authors": [
+        "Zhixuan Liang",
+        "Yuxiao Chen",
+        "Yurong You"
+      ],
+      "published": "2026-06-05T17:16:21+00:00",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle",
+      "summary": "As foundation models advance and agent scaffolding becomes increasingly sophisticated, agents have demonstrated remarkable proficiency in complex, long-horizon coding tasks and even autonomous experiment execution. Despite their evolution from research assistants into autonomous research agents, these systems still exhibit significant limitations in field sensitivity, research ethics, and nuanced scientific judgment. Consequently, frontier agents remain unable to fully replace human researchers. To bridge this gap, we conceptualize the AARR (Act As a Real Researcher) benchmark series. Unlike e",
+      "url": "http://arxiv.org/abs/2606.07462v1",
+      "authors": [
+        "Jiayu Wang",
+        "Weijiang Lv",
+        "Bowen Fu"
+      ],
+      "published": "2026-06-05T17:13:36+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Re-imagining ISO 26262 in the Age of Autonomous Vehicles: Enhancing Controllability through Transferability and Predictability",
+      "summary": "The ISO 26262 standard defines functional safety for road vehicles through risk assessments based on Severity, Exposure, and Controllability, grounded in a human-driven vehicle paradigm. In the context of autonomous vehicles (AVs), the absence of a human driver necessitates revisiting these principles. This paper decomposes the Controllability placeholder into two auditable evidence dimensions of ISO 26262 by introducing two measurable sub-concepts: Transferability and Predictability. Transferability extends Controllability to capture AV systems' ability to hand off control to dedicated fallba",
+      "url": "http://arxiv.org/abs/2606.07437v1",
+      "authors": [
+        "Chaitanya Shinde",
+        "Hadi Hajieghrary",
+        "Paul Schmitt"
+      ],
+      "published": "2026-06-05T16:35:58+00:00",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.HC",
+        "cs.SE",
+        "eess.SY"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "The Masked Advantage: Uncovering Local-Language Access to Cultural Knowledge in LLMs",
+      "summary": "Large language models are increasingly used to answer culturally grounded questions across languages, yet it remains unclear whether local cultural knowledge is better accessed through English or the local language. Existing evaluations face two key limitations: many rely on parallel template-based questions that may not reflect how cultural knowledge naturally appears, and raw accuracy conflates general language proficiency with language-conditioned knowledge access. We address these issues with a controlled framework built on real-world cultural questions collected from regional benchmarks a",
+      "url": "http://arxiv.org/abs/2606.07422v1",
+      "authors": [
+        "Yang Zhang",
+        "Xiao Fei",
+        "Amr Mohamed"
+      ],
+      "published": "2026-06-05T16:16:59+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills",
+      "summary": "LLM-driven software engineering agents have become a central testbed for real-world language-model capability, yet their training remains limited by the availability of high-quality SWE tasks. Existing synthetic data methods typically create tasks through fixed mutation or bug-injection procedures, making the resulting distributions largely independent of the agent's own weaknesses and training progress. We introduce Socratic-SWE, a closed-loop self-evolution framework that reuses the agent's historical solving traces as a source of training signal. Rather than treating traces only as evidence",
+      "url": "http://arxiv.org/abs/2606.07412v1",
+      "authors": [
+        "Chuan Xiao",
+        "Zhengbo Jiao",
+        "Shaobo Wang"
+      ],
+      "published": "2026-06-05T16:00:17+00:00",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "A Comprehensive Anatomy of Human and DeepSeek-R1 LLM Mathematical Reasoning",
+      "summary": "The emergence of \"Aha moments\" in large language models, particularly DeepSeek-R1-0120, has raised the question of whether these systems genuinely reason or merely imitate the appearance of reasoning. We conduct a comprehensive empirical comparison between model and human reasoning across all 30 problems from AIME 2025, exhaustively annotating 10,247 reasoning steps into five functional categories: Analysis, Inference, Branch, Backtrace, and Reflection. We find a clear structural difference. Human solutions maintain a compact alternation between analysis and deduction, whereas DeepSeek-R1 freq",
+      "url": "http://arxiv.org/abs/2606.07410v1",
+      "authors": [
+        "Yuxiang Chen",
+        "Jun Wang"
+      ],
+      "published": "2026-06-05T15:57:42+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Online Pandora's Box for Contextual LLM Cascading",
+      "summary": "Motivated by Large Language Model (LLM) cascading, we propose an online contextual Pandora's Box model for adaptively querying and selecting LLM APIs. In each period, a decision-maker observes a request context and faces a two-phase decision problem. In the query phase, the decision-maker sequentially queries APIs, where each query reveals a generated output and the decision-maker incurs an (output-dependent) cost. In the selection phase, the decision-maker selects one of the generated outputs to deploy and observes only the downstream reward of the deployed output. This output-mediated feedba",
+      "url": "http://arxiv.org/abs/2606.07392v1",
+      "authors": [
+        "Alexandre Belloni",
+        "Yan Chen",
+        "Yehua Wei"
+      ],
+      "published": "2026-06-05T15:29:17+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "econ.EM",
+        "stat.ML"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "published": "Mon, 08 Jun 2026 14:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Built to benefit everyone: our plan",
+      "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "published": "Mon, 08 Jun 2026 01:30:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "summary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+      "url": "https://openai.com/index/economic-research-exchange",
+      "published": "Mon, 08 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "url": "https://openai.com/index/endava-frontiers",
+      "published": "Thu, 04 Jun 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "published": "Thu, 04 Jun 2026 09:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "published": "Thu, 21 May 2026 19:46:42 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Fast-tracking genetic leads to reverse cellular aging",
+      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "published": "Mon, 18 May 2026 18:21:39 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Simulate real-world places with Project Genie and Street View",
+      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
+      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
+      "published": "Sun, 17 May 2026 19:53:18 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini Omni",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
+      "published": "Sun, 17 May 2026 19:50:57 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Google Antigravity 2.0",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-google-antigravity-2-0/",
+      "published": "Sun, 17 May 2026 19:43:45 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "summary": "",
+      "url": "https://huggingface.co/blog/openenv-agentic-rl",
+      "published": "Mon, 08 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "published": "Thu, 04 Jun 2026 18:57:45 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "published": "Thu, 04 Jun 2026 12:24:58 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "summary": "",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "published": "Thu, 04 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "published": "Wed, 03 Jun 2026 12:55:11 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "datasette-agent-edit 0.1a0",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent-edit/releases/tag/0.1a0\">datasette-agent-edit 0.1a0</a></p>\n        <p>I'm planning several plugins for <a href=\"https://agent.datasette.io/\">Datasette Agent</a> which can make edits to existing pieces of text - things like collaborative Markdown editing, updating large SQL queries, and editing SVG files.</p>\n<p>Agentic editing of text is a little tricky to get right. My favorite published design for this is for the <a href=\"https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool#use-the-t",
+      "url": "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything",
+      "published": "2026-06-07T23:56:38+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "micropython-wasm 0.1a2",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/micropython-wasm/releases/tag/0.1a2\">micropython-wasm 0.1a2</a></p>\n        <p>I added a CLI to <code>micropython-wasm</code> (<a href=\"https://github.com/simonw/micropython-wasm/issues/7\">issue #7</a>), inspired by the first draft of <a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/\">the blog entry</a> when I realized it would be a great way to illustrate the <a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#try-it-yourself\">Try it yourself</a> section.</p>\n    \n    \n        <p>Tags: <a",
+      "url": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
+      "published": "2026-06-06T04:26:06+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Running Python code in a sandbox with MicroPython and WASM",
+      "summary": "<p>I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called <a href=\"https://github.com/simonw/micropython-wasm\">micropython-wasm</a>, and I'm using it for a code execution sandbox plugin for <a href=\"https://github.com/datasette/datasette-agent\">Datasette Agent</a> called <a href=\"https://github.com/datasette/datasette-agent-micropython\">datasette-agent-micropython</a>.</p>\n<ul>\n  <li><a href=\"https://",
+      "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything",
+      "published": "2026-06-06T03:53:34+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "OpenAI Help: Lockdown Mode",
+      "summary": "<p><strong><a href=\"https://help.openai.com/en/articles/20001061-lockdown-mode\">OpenAI Help: Lockdown Mode</a></strong></p>\nOpenAI first teased this <a href=\"https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/\">in February</a>, but now it's live and \"rolling out to eligible personal accounts, including Free, Go, Plus, and Pro, and self-serve ChatGPT Business accounts\":</p>\n<blockquote>\n<p>Lockdown Mode is designed to help prevent the final stage of data exfiltration from a prompt injection attack by limiting outbound network requests that could transfer sens",
+      "url": "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything",
+      "published": "2026-06-05T23:56:40+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Andreas Kling",
+      "summary": "<blockquote cite=\"https://ladybird.org/posts/changing-how-we-develop-ladybird/\"><p>We will no longer accept public pull requests. [...]</p>\n<p>A substantial patch used to imply substantial effort, and that effort was a reasonable proxy for good faith. That assumption no longer holds. [...]</p>\n<p>Whether code was typed by hand is beside the point. What matters is who is responsible for it once it enters the browser. Ladybird is becoming a browser for real users. The people introducing changes to it must be the people who decide those changes belong in the project, and who will answer for the c",
+      "url": "https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything",
+      "published": "2026-06-05T11:10:05+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI Submits S-1 Draft to SEC",
+      "summary": "HNスコア: 108, コメント数: 47",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1/",
+      "published": "2026-06-08T21:22:43",
+      "hn_score": 108
+    },
+    {
+      "source": "hackernews",
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "summary": "HNスコア: 282, コメント数: 251",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "published": "2026-06-08T19:14:47",
+      "hn_score": 282
+    },
+    {
+      "source": "hackernews",
+      "title": "Replies to comments on my \"LLMs are eroding my career\" post",
+      "summary": "HNスコア: 127, コメント数: 182",
+      "url": "https://human-in-the-loop.bearblog.dev/replies-to-comments-on-my-llms-are-eroding-my-career-post/",
+      "published": "2026-06-08T09:52:03",
+      "hn_score": 127
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI Confidentially Files for IPO",
+      "summary": "HNスコア: 22, コメント数: 1",
+      "url": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html",
+      "published": "2026-06-08T21:16:20",
+      "hn_score": 22
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI Files S-1",
+      "summary": "HNスコア: 8, コメント数: 1",
+      "url": "https://twitter.com/openainewsroom/status/2064094175541461220",
+      "published": "2026-06-08T21:16:43",
+      "hn_score": 8
+    },
+    {
+      "source": "hackernews",
+      "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+      "summary": "HNスコア: 386, コメント数: 213",
+      "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "published": "2026-06-08T01:39:30",
+      "hn_score": 386
+    },
+    {
+      "source": "hackernews",
+      "title": "I design with Claude more than Figma now",
+      "summary": "HNスコア: 307, コメント数: 265",
+      "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
+      "published": "2026-06-07T05:04:24",
+      "hn_score": 307
+    },
+    {
+      "source": "hackernews",
+      "title": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
+      "summary": "HNスコア: 15, コメント数: 0",
+      "url": "https://www.404media.co/microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users/",
+      "published": "2026-06-08T18:34:04",
+      "hn_score": 15
+    },
+    {
+      "source": "hackernews",
+      "title": "Apple Passwords Now Auto Fixes Weak and Compromised Passwords with Agentic AI",
+      "summary": "HNスコア: 3, コメント数: 2",
+      "url": "https://www.macrumors.com/2026/06/08/apple-passwords-can-now-automatically-fix-passwords-with-agentic-ai/",
+      "published": "2026-06-08T20:28:48",
+      "hn_score": 3
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic, please ship an official Claude Desktop for Linux",
+      "summary": "HNスコア: 522, コメント数: 299",
+      "url": "https://github.com/anthropics/claude-code/issues/65697",
+      "published": "2026-06-07T13:06:52",
+      "hn_score": 522
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-06-08T22:31:38Z",
+      "stars": 39413,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-06-08T22:21:15Z",
+      "stars": 26521,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-06-08T21:50:35Z",
+      "stars": 23217,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-06-08T15:43:42Z",
+      "stars": 10739,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-06-08T14:22:30Z",
+      "stars": 3347,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-06-08T00:23:28Z",
+      "stars": 3285,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-06-07T14:10:22Z",
+      "stars": 3066,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-06-07T13:35:25Z",
+      "stars": 2536,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "Best FREE AI Agent Tools That Actually Work in 2026 (I Tried All)",
+      "summary": "Best Free AI Agent Tool is Base44 https://base44.pxf.io/c/6440076/3820726/25619?trafcat=agent&sharedid=agent5 ✓ Claim your ...",
+      "url": "https://www.youtube.com/watch?v=2GOfWK5M3fg",
+      "published": "2026-06-01T14:15:33Z",
+      "channel": "Mikey No Code",
+      "has_video": true,
+      "video_id": "2GOfWK5M3fg"
+    },
+    {
+      "source": "youtube",
+      "title": "WWDC26: Run local agentic AI on the Mac using MLX | Apple",
+      "summary": "Run AI agents locally with privacy, low latency, and offline access. Dive into how MLX advancements and Mac hardware make ...",
+      "url": "https://www.youtube.com/watch?v=wykPErJ8M-8",
+      "published": "2026-06-08T21:20:04Z",
+      "channel": "Apple Developer",
+      "has_video": true,
+      "video_id": "wykPErJ8M-8"
+    },
+    {
+      "source": "youtube",
+      "title": "Build Your Own AI Agent – Full Course with OpenAI, Langchain, Render Deployment",
+      "summary": "Learn to build and deploy intelligent AI agents that bridge the gap between LLMs and real-world automation to handle complex ...",
+      "url": "https://www.youtube.com/watch?v=MnG0ugK2JAI",
+      "published": "2026-06-02T10:00:09Z",
+      "channel": "freeCodeCamp.org",
+      "has_video": true,
+      "video_id": "MnG0ugK2JAI"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic Workflows: LLM Zoomcamp",
+      "summary": "Welcome to Module 3 of the LLM Zoomcamp! In this video, we introduce AI agents that make autonomous decisions, use tools, ...",
+      "url": "https://www.youtube.com/watch?v=7tvpR8EE0gs",
+      "published": "2026-06-08T08:59:52Z",
+      "channel": "Kestra",
+      "has_video": true,
+      "video_id": "7tvpR8EE0gs"
+    },
+    {
+      "source": "youtube",
+      "title": "Hermes Agentic OS is Insane... just watch",
+      "summary": "ALL Systems: https://bit.ly/4kol0y5 Glaido (voice type): https://bit.ly/42isnim 🎙️ My Goofy pod: https://bit.ly/46nLQ3U I'm ...",
+      "url": "https://www.youtube.com/watch?v=zqUdtL5l9yM",
+      "published": "2026-06-01T14:45:18Z",
+      "channel": "Jack Roberts",
+      "has_video": true,
+      "video_id": "zqUdtL5l9yM"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Code + AssemblyAI: The Easiest Voice Agent You Can Build!",
+      "summary": "This video is sponsored by AssemblyAI. Get a free account and $50 in credits to build your own: ...",
+      "url": "https://www.youtube.com/watch?v=Iw2iyLF9_9Q",
+      "published": "2026-06-06T21:00:37Z",
+      "channel": "Universe of AI",
+      "has_video": true,
+      "video_id": "Iw2iyLF9_9Q"
+    },
+    {
+      "source": "youtube",
+      "title": "WorkBuddy AI Agent Demo | Free AI Agent Builder | AI Workflow Automation 2026",
+      "summary": "Try Workbuddy: https://www.workbuddy.ai/ Discover Tencent WorkBuddy, an advanced AI agent that goes far beyond traditional ...",
+      "url": "https://www.youtube.com/watch?v=UjZ2924wZNY",
+      "published": "2026-06-07T13:20:01Z",
+      "channel": "Neural Net",
+      "has_video": true,
+      "video_id": "UjZ2924wZNY"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Mythos 5 LEAKED &amp; IS Coming Sooner Than Expected &amp; GPT-5.6 Checkpoint Out! Huge AI News!",
+      "summary": "Everything you're about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on ...",
+      "url": "https://www.youtube.com/watch?v=fRjWpcA40hs",
+      "published": "2026-06-07T06:44:20Z",
+      "channel": "WorldofAI",
+      "has_video": true,
+      "video_id": "fRjWpcA40hs"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Meet the AI &quot;Co-Scientist&quot; Changing Everything 🤖🧪 #ai",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/iz7elwbqZVI",
+      "published": "2026-06-03T17:00:19Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "iz7elwbqZVI"
+    }
+  ]
+}
