@@ -1,0 +1,560 @@
+{
+  "date": "2026-06-11",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents",
+      "summary": "In this paper, we propose EEVEE, the first multi-dataset test-time prompt learning framework for LLM agents, enabling test-time prompt learning under real-world task streams. Existing methods are largely designed for single-dataset settings, while real-world applications require models to handle heterogeneous input streams drawn from multiple datasets, domains, and task distributions, limiting their practical applicability. To mitigate cross-dataset interference, EEVEE introduces a router that partitions incoming inputs into task clusters and assigns them to suitable prompt configurations. Thi",
+      "url": "http://arxiv.org/abs/2606.11182v1",
+      "authors": [
+        "Weixian Xu",
+        "Shilong Liu",
+        "Mengdi Wang"
+      ],
+      "published": "2026-06-09T17:57:16+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Flaws in the LLM Automation Narrative",
+      "summary": "Large Language Models (LLMs) are increasingly described as performing at the level of human experts on knowledge economy tasks. These claims are primarily based on how LLMs perform on benchmarking tasks that measure average performance across standardized datasets. Primary limitations of many benchmarking tasks are that they often measure performance based on content directly included in LLM training data, and they frequently do not assess the reliability of LLM performance or the magnitude of LLM errors. However, in high stakes contexts, these qualities are critically important. Through a nov",
+      "url": "http://arxiv.org/abs/2606.11166v1",
+      "authors": [
+        "George Perrett",
+        "Javae Elliott",
+        "Jennifer Hill"
+      ],
+      "published": "2026-06-09T17:46:10+00:00",
+      "categories": [
+        "stat.OT",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
+      "summary": "Large language models (LLMs) are rapidly acquiring capabilities relevant to biological research, from literature synthesis to interpretation of experimental data. Increasingly, LLM agents can also perform in silico biology tasks that previously required experienced human biologists. These emerging AI capabilities offer new opportunities for scientific discovery and biomedical advances, but they also shift the landscape of biosecurity risks. To address this, we introduce the Agentic Bio-Capabilities Benchmark (ABC-Bench), a suite of tasks to measure agentic biosecurity-relevant capabilities. AB",
+      "url": "http://arxiv.org/abs/2606.11150v1",
+      "authors": [
+        "Andrew Bo Liu",
+        "Samira Nedungadi",
+        "Bryce Cai"
+      ],
+      "published": "2026-06-09T17:35:37+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CY"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) is a promising approach for enhancing reasoning and agentic behavior in large language models. However, rollout-intensive policy optimization is often limited by insufficient reward contrast, arising when overly simple or complex prompts generate low-variance feedback and when outcome-only rewards assign the same terminal assessment to every decision in a multi-turn rollout. Past efforts have focused on allocating available rollout resources to promising prompts, yet they only leverage sample informativeness at the prompt level and neglect ",
+      "url": "http://arxiv.org/abs/2606.11119v1",
+      "authors": [
+        "Heming Zou",
+        "Qi Wang",
+        "Yun Qu"
+      ],
+      "published": "2026-06-09T17:16:03+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Towards Autonomous Accelerator Design: FPGA Accelerator Generation with SECDA",
+      "summary": "Designing FPGA-based accelerators for modern artificial intelligence workloads requires exploring a large and complex hardware design space that involves architectural parameters, data flow strategies, and memory hierarchies, making the process very time consuming. While existing methodologies such as SECDA enable rapid hardware-software co-design through SystemC simulation and FPGA execution, identifying efficient accelerator configurations remains a largely manual process requiring extensive domain knowledge. SECDA-DSE is a framework that integrates Large Language Models (LLMs) into the SECD",
+      "url": "http://arxiv.org/abs/2606.11117v1",
+      "authors": [
+        "Vinamra Sharma",
+        "Xingjian Fu",
+        "Jude Haris"
+      ],
+      "published": "2026-06-09T17:14:44+00:00",
+      "categories": [
+        "cs.AR",
+        "cs.AI",
+        "cs.PF"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Unifying Local Communications and Local Updates for LLM Pretraining",
+      "summary": "Communication-efficient pre-training of LLMs is increasingly important as training draws on compute distributed across clusters, data centers, and lower-bandwidth links. Many practical methods reduce communication frequency but still rely on synchronous All-Reduce operations that maintain identical model states and tie progress to global collectives. This can become a bottleneck when bandwidth or worker speed is heterogeneous. We introduce GASLoC, a novel decentralized pre-training algorithm that generalizes the notion of communication acceleration to the recently popular \"outer optimizer\" to ",
+      "url": "http://arxiv.org/abs/2606.11081v1",
+      "authors": [
+        "Pietro Cagnasso",
+        "Eugene Belilovsky",
+        "Edouard Oyallon"
+      ],
+      "published": "2026-06-09T16:40:54+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "A History-Aware Visually Grounded Critic for Computer Use Agents",
+      "summary": "Various test-time interventions for Computer Use Agents (CUAs), including critic models, have been developed to improve performance through pre-execution action evaluation in complex Graphical User Interface (GUI) environments. However, existing critics suffer from two key limitations: they (1) focus primarily on short-sighted decision loops (e.g., forgetting earlier actions) and (2) lack the visual grounding needed to detect flawed actions (e.g., clicking wrong UI elements). To address these, we introduce HiViG, a History-aware Visually Grounded test-time framework, built around a multimodal ",
+      "url": "http://arxiv.org/abs/2606.11078v1",
+      "authors": [
+        "Jaewoo Lee",
+        "Zaid Khan",
+        "Archiki Prasad"
+      ],
+      "published": "2026-06-09T16:39:10+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "T1-Bench: Benchmarking Multi-Scenario Agents in Real-World Domains",
+      "summary": "Recent advances in reasoning and tool-calling capabilities of large language models (LLMs) have enabled increasingly capable agentic systems. However, existing benchmarks remain limited in task complexity, realism, and domain diversity, and often fail to capture interactions that span multiple domains, limiting their ability to evaluate agents in realistic multi-step settings that require sustained reasoning and coordination. To address these limitations, we introduce T1-Bench, a high-fidelity, comprehensive benchmark for evaluating agentic systems in realistic customer-facing, multi-domain en",
+      "url": "http://arxiv.org/abs/2606.11070v1",
+      "authors": [
+        "Genta Indra Winata",
+        "Amartya Chakraborty",
+        "Yuzhen Lin"
+      ],
+      "published": "2026-06-09T16:32:14+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "CIAware-Bench: Benchmarking Control Intervention Awareness Across Frontier LLMs",
+      "summary": "AI control protocols oversee untrusted models by monitoring their actions and modifying potentially unsafe steps, often using a trusted model. This partially tampers with the untrusted model's trajectory. If the trusted model detects such an intervention, it may infer properties of the monitor and adapt to evade control. We introduce \\textbf{CIAware-Bench}, a benchmark for measuring \\textbf{c}ontrol \\textbf{i}ntervention (CI) awareness across frontier models. CIAware-Bench tests whether models can distinguish their own trajectories from those modified by a control intervention. The benchmark i",
+      "url": "http://arxiv.org/abs/2606.11063v1",
+      "authors": [
+        "Joachim Schaeffer",
+        "Thomas Jiralerspong",
+        "Alexander Panfilov"
+      ],
+      "published": "2026-06-09T16:24:16+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "What Fits (Into Few Tokens) Doesn't Overfit: Compression and Generalization in ML Research Agents",
+      "summary": "Reusing a held-out benchmark adaptively should, in principle, invite overfitting. Yet benchmark-driven machine learning (ML) has produced surprisingly little overfitting in practice. An attractive hypothesis is that successful ML strategies are highly compressible. We study this in the setting of LLM-driven research agents, where the hypothesis becomes directly testable via two complementary information bottlenecks. In \\emph{output compression}, an exploration agent adaptively searches for high-performance models using a validation set, and we test whether a fresh ``reproducer agent'' can repr",
+      "url": "http://arxiv.org/abs/2606.11045v1",
+      "authors": [
+        "Martin Andres Bertran",
+        "Aaron Roth",
+        "Zhiwei Steven Wu"
+      ],
+      "published": "2026-06-09T16:12:55+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "published": "Wed, 10 Jun 2026 20:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "published": "Wed, 10 Jun 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "From data to decisions: how LSEG is scaling trusted AI",
+      "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+      "url": "https://openai.com/index/lseg",
+      "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+      "url": "https://openai.com/index/nextdoor",
+      "published": "Tue, 09 Jun 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "DiffusionGemma: 4x faster text generation",
+      "summary": "",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "published": "Wed, 10 Jun 2026 16:24:11 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "published": "Tue, 09 Jun 2026 15:16:25 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "published": "Tue, 09 Jun 2026 14:10:19 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Powering the future of robotics in Europe",
+      "summary": "",
+      "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+      "published": "Tue, 09 Jun 2026 14:02:33 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+      "summary": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
+      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+      "published": "Mon, 08 Jun 2026 13:04:59 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "published": "Tue, 09 Jun 2026 19:38:28 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "published": "Tue, 09 Jun 2026 15:56:23 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "summary": "",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "published": "Tue, 09 Jun 2026 10:46:19 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+      "summary": "",
+      "url": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "summary": "",
+      "url": "https://huggingface.co/blog/openenv-agentic-rl",
+      "published": "Mon, 08 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "DiffusionGemma",
+      "summary": "<p><strong><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/\">DiffusionGemma</a></strong></p>\nLast May Google briefly released an experimental Gemini Diffusion model. I <a href=\"https://simonwillison.net/2025/May/21/gemini-diffusion/\">tried the preview at the time</a> and recorded it running at 857 tokens/second. It was an exciting model, but Google made no further announcements about it.</p>\n<p>That research has returned in the best possible way: as a new open weight (Apache 2 licensed) Gemma model, <a href=\"https://huggingface.",
+      "url": "https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything",
+      "published": "2026-06-10T20:00:54+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Jeremy Howard",
+      "summary": "<blockquote cite=\"https://twitter.com/jeremyphoward/status/2064595816875217362\"><p>Easy solution to slow down recursive AI self improvement:</p>\n<ul>\n<li>The lab with the top-ranked model must agree THEY must not use it for working on frontier AI</li>\n<li>But everyone else should have access to it.</li>\n</ul>\n<p>By definition, this means the frontier doesn't advance.</p>\n<p>It also has the critical benefit of avoiding a dangerous power imbalance.</p>\n<p>Anthropic has chosen the <em>opposite</em> of the safe path: they are allowing themselves, the current top lab, to use their top model for fro",
+      "url": "https://simonwillison.net/2026/Jun/10/jeremy-howard/#atom-everything",
+      "published": "2026-06-10T15:23:34+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "summary": "<p><strong><a href=\"https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html\">If Claude Fable stops helping you, you&#x27;ll never know</a></strong></p>\nJonathon Ready highlights one of the more eyebrow-raising details from the <a href=\"https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf\">319 page system card</a> for Fable 5 and Mythos 5. Here's a longer excerpt, highlights mine:</p>\n<blockquote>\n<p>In light of the ability of recent models to <a href=\"https://www.anthropic.com/institute/recursive-self-improvement\">accelerat",
+      "url": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything",
+      "published": "2026-06-10T00:37:25+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Initial impressions of Claude Fable 5",
+      "summary": "<p>I didn't have early access to today's <a href=\"https://www.anthropic.com/news/claude-fable-5-mythos-5\">Claude Fable 5</a> release, but I've spent the past ~5.5 hours putting it through its paces. My initial impressions are that this is something of a <em>beast</em>. It's slow, expensive and has been quite happily churning through everything I've thrown at it so far. As is frequently the case with current frontier models the challenge is finding tasks that it can't do.</p>\n<p>First, let's review the key characteristics.</p>\n<p>Anthropic claim that <a href=\"https://www.anthropic.com/news/clau",
+      "url": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything",
+      "published": "2026-06-09T23:59:54+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "llm 0.32a3",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32a3\">llm 0.32a3</a></p>\n        <p>Almost entirely written by the new Claude Fable 5, see <a href=\"https://simonwillison.net/2026/Jun/9/claude-fable-5/#adding-features-to-datasette-agent-and-llm-using-claude-code\">my write-up for more details</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">l",
+      "url": "https://simonwillison.net/2026/Jun/9/llm/#atom-everything",
+      "published": "2026-06-09T22:27:03+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "summary": "HNスコア: 29, コメント数: 24",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "published": "2026-06-10T16:42:00",
+      "hn_score": 29
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
+      "summary": "HNスコア: 38, コメント数: 11",
+      "url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+      "published": "2026-06-09T17:23:40",
+      "hn_score": 38
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: HelixDB – A graph database built on object storage",
+      "summary": "HNスコア: 78, コメント数: 29",
+      "url": "https://github.com/HelixDB/helix-db/tree/main",
+      "published": "2026-06-10T15:47:31",
+      "hn_score": 78
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
+      "summary": "HNスコア: 302, コメント数: 209",
+      "url": "https://github.com/anthropics/claude-code/issues/29045",
+      "published": "2026-06-10T17:11:56",
+      "hn_score": 302
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic's model naming, extrapolated",
+      "summary": "HNスコア: 244, コメント数: 70",
+      "url": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
+      "published": "2026-06-10T18:45:20",
+      "hn_score": 244
+    },
+    {
+      "source": "hackernews",
+      "title": "Apache Burr: Build reliable AI agents and applications",
+      "summary": "HNスコア: 157, コメント数: 86",
+      "url": "https://burr.apache.org/",
+      "published": "2026-06-10T15:01:06",
+      "hn_score": 157
+    },
+    {
+      "source": "hackernews",
+      "title": "A €0.01 bank transfer could compromise a banking AI agent",
+      "summary": "HNスコア: 154, コメント数: 143",
+      "url": "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/",
+      "published": "2026-06-10T13:39:11",
+      "hn_score": 154
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Fable 5",
+      "summary": "HNスコア: 2543, コメント数: 2072",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "published": "2026-06-09T16:58:01",
+      "hn_score": 2543
+    },
+    {
+      "source": "hackernews",
+      "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
+      "summary": "HNスコア: 385, コメント数: 225",
+      "url": "https://news.ycombinator.com/item?id=48473166",
+      "published": "2026-06-10T08:21:38",
+      "hn_score": 385
+    },
+    {
+      "source": "hackernews",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "summary": "HNスコア: 996, コメント数: 491",
+      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "published": "2026-06-09T21:19:11",
+      "hn_score": 996
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-06-10T17:44:10Z",
+      "stars": 39426,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-06-10T21:35:43Z",
+      "stars": 26656,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-06-10T22:09:09Z",
+      "stars": 23245,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-06-10T10:16:11Z",
+      "stars": 10743,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-06-08T14:22:30Z",
+      "stars": 3347,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-06-10T15:42:48Z",
+      "stars": 3289,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-06-10T22:20:45Z",
+      "stars": 3068,
+      "language": "C#"
+    },
+    {
+      "source": "github",
+      "title": "BAAI-Agents/Cradle",
+      "summary": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.",
+      "url": "https://github.com/BAAI-Agents/Cradle",
+      "published": "2026-06-10T17:44:41Z",
+      "stars": 2538,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "Inside The Genspark 4.0 Agent Updates | Creating AI Agents for Business",
+      "summary": "Build With Agents at https://www.genspark.ai/?utm_source=yt&utm_campaign=jonlawedu03 In this video, I go deep on the agentic ...",
+      "url": "https://www.youtube.com/watch?v=TZ4PR3Z7leI",
+      "published": "2026-06-03T04:42:07Z",
+      "channel": "Jon Law ",
+      "has_video": true,
+      "video_id": "TZ4PR3Z7leI"
+    },
+    {
+      "source": "youtube",
+      "title": "FULL Hermes Agent Tutorial For Beginners in 2026! (Become a PRO)",
+      "summary": "Run your AI Agents with Hostinger: https://hostinger.com/aifoundations Use code: AIFOUNDATIONS for 10% off! Master AI agents ...",
+      "url": "https://www.youtube.com/watch?v=4ftONmdO9yo",
+      "published": "2026-06-03T14:00:39Z",
+      "channel": "AI Foundations",
+      "has_video": true,
+      "video_id": "4ftONmdO9yo"
+    },
+    {
+      "source": "youtube",
+      "title": "WWDC26: Run local agentic AI on the Mac using MLX | Apple",
+      "summary": "Run AI agents locally with privacy, low latency, and offline access. Dive into how MLX advancements and Mac hardware make ...",
+      "url": "https://www.youtube.com/watch?v=wykPErJ8M-8",
+      "published": "2026-06-08T21:20:04Z",
+      "channel": "Apple Developer",
+      "has_video": true,
+      "video_id": "wykPErJ8M-8"
+    },
+    {
+      "source": "youtube",
+      "title": "The Best LOCAL Agentic Coding Workflow (Complete Guide)",
+      "summary": "Deploy your site using here.now completely for free, copy the prompt for your agent here! https://here.now/r/twt In this complete ...",
+      "url": "https://www.youtube.com/watch?v=hfba9dAT6xE",
+      "published": "2026-06-10T13:00:23Z",
+      "channel": "Tech With Tim",
+      "has_video": true,
+      "video_id": "hfba9dAT6xE"
+    },
+    {
+      "source": "youtube",
+      "title": "I Tested AI Agents on Academic Tasks: Here is What Happened",
+      "summary": "Links and Codes: Undetectable AI: https://undetectable.ai?fpr=andy Consensus: https://get.consensus.app/andy25 (25% off with ...",
+      "url": "https://www.youtube.com/watch?v=fOfy-OsKWf4",
+      "published": "2026-06-04T02:30:24Z",
+      "channel": "Andy Stapleton",
+      "has_video": true,
+      "video_id": "fOfy-OsKWf4"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Fable 5 TOMORROW? GPT 5.6 Kindle, OpenAI IPO News, Gemini 3.5 Pro, Nex-N2, &amp; More! AI NEWS!",
+      "summary": "Everything you're about to see, I benchmarked using the tool I made. Great Vibe Coding Platform. If you want to run these tests ...",
+      "url": "https://www.youtube.com/watch?v=bPYhPxwUyGA",
+      "published": "2026-06-09T07:37:55Z",
+      "channel": "WorldofAI",
+      "has_video": true,
+      "video_id": "bPYhPxwUyGA"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Fable 5 Makes New Things Possible",
+      "summary": "I SPENT 700 MILLION TOKENS ON CLAUDE FABLE 5 IN ONE DAY AND CANCELLED MY CHATGPT PRO PLAN. This is the ...",
+      "url": "https://www.youtube.com/watch?v=bygXK_9MYk0",
+      "published": "2026-06-10T13:26:31Z",
+      "channel": "BridgeMind",
+      "has_video": true,
+      "video_id": "bygXK_9MYk0"
+    },
+    {
+      "source": "youtube",
+      "title": "Every AI Tool Explained in 2026: ChatGPT, Claude, OpenClaw &amp; More",
+      "summary": "The 2026 AI landscape explained without the jargon — AI models vs workflow tools vs agents, side by side. I break down LLMs ...",
+      "url": "https://www.youtube.com/watch?v=JnQ-YlyqZGI",
+      "published": "2026-06-09T15:00:24Z",
+      "channel": "Automate with Marc | AI Automation ",
+      "has_video": true,
+      "video_id": "JnQ-YlyqZGI"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Meet the AI &quot;Co-Scientist&quot; Changing Everything 🤖🧪 #ai",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/iz7elwbqZVI",
+      "published": "2026-06-03T17:00:19Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "iz7elwbqZVI"
+    }
+  ]
+}
