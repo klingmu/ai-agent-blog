@@ -1,0 +1,568 @@
+{
+  "date": "2026-06-18",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement",
+      "summary": "Robots deployed in the real world should learn from their experience and improve over time. This requires a mechanism of practicing and learning from feedback. In this paper, we propose VERITAS, a generator-verifier framework for generalist robot policies for inference-time policy steering and self-improvement. We use a pre-trained generalist robot policy as a ``generator'' and pair it with a gradient-free ``visual verifier'' that evaluates actions at inference time. This framework enables inference-time steering that improves policy performance without additional training. We demonstrate that",
+      "url": "http://arxiv.org/abs/2606.18247v1",
+      "authors": [
+        "Mingtong Zhang",
+        "Dhruv Shah"
+      ],
+      "published": "2026-06-16T17:59:04+00:00",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Learning Red Agent Policy from Observations for Neurosymbolic Autonomous Cyber Agents",
+      "summary": "With sophisticated cyber-attacks becoming increasingly prevalent, modern networks require intelligent autonomous cyber-defense agents trained via Reinforcement Learning (RL). These agents employ neurosymbolic approaches such as behavior trees with learning-enabled components (LECs) to learn, reason, adapt, and implement security rules while maintaining critical operations. However, these autonomous networks are partially observable systems, i.e., the cyber-attacker's (red agent's) actions are not observable, making it difficult for the defender to predict red actions, learn red policies, or as",
+      "url": "http://arxiv.org/abs/2606.18223v1",
+      "authors": [
+        "Ankita Samaddar",
+        "Sandeep Neema",
+        "Daniel Balasubramanian"
+      ],
+      "published": "2026-06-16T17:50:41+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG",
+        "eess.SY"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "RubricsTree: Scalable and Evolving Open-Ended Evaluation of Personal Health Agents across Health Memory and Medical Skills",
+      "summary": "The LLM-empowered personal health agents with user health (sensor) metrics have offered a promising pathway to alleviate global disparities in healthcare access. However, large-scale clinical deployment remains constrained by an open-ended evaluation bottleneck: physician annotation is reliable but costly and unscalable, while LLM-as-a-judge evaluators are scalable but subjective, inconsistent, and sometimes clinically misaligned. We introduce RubricsTree, a scalable evaluation framework with an expert-aligned hierarchical taxonomy of over 100 atomic, clinically-verifiable Boolean rubrics, evo",
+      "url": "http://arxiv.org/abs/2606.18203v1",
+      "authors": [
+        "Weizhi Zhang",
+        "Zechen Li",
+        "Hamid Palangi"
+      ],
+      "published": "2026-06-16T17:34:53+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "IUU+DB: Tracking Illegal, Unreported, and Unregulated Fishing, Seafood Fraud, and Labor Abuse through LLM-driven Information Extraction",
+      "summary": "Illegal, unreported, and unregulated fishing (IUU) traditionally refers to fishing activities that violate applicable laws or occur in areas that lack applicable laws. We propose the term IUU+ to capture a broader suite of fisheries sector environmental and associated supply chain trade-related crimes and behaviors. Although IUU+ activity is widely recognized as a serious threat to marine ecosystems, markets, and livelihoods, a quantitative understanding of these incidents, e.g., their frequency, geography, species, actors, and patterns in the type of illicit activity, remains difficult to obt",
+      "url": "http://arxiv.org/abs/2606.18181v1",
+      "authors": [
+        "Henry Bodwell",
+        "Hong Yang",
+        "John C. Simeone"
+      ],
+      "published": "2026-06-16T17:16:05+00:00",
+      "categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.CY"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "All Smoke, No Alarm: Oracle Signals in Agent-Authored Test Code",
+      "summary": "Software practitioners increasingly use AI coding agents that generate test code alongside production code in open source pull requests (PRs). Recent studies report more than 932,000 agent-authored PRs across more than 116,000 repositories, yet whether their test files contain meaningful verification logic remains underexplored. Test files lacking explicit assertions execute code without verifying behavior, so quality gates based on test-file presence overestimate verification strength. The goal of this paper is to help practitioners assess the verification strength of agent-authored patches b",
+      "url": "http://arxiv.org/abs/2606.18168v1",
+      "authors": [
+        "Dipayan Banik",
+        "Kowshik Chowdhury",
+        "Shazibul Islam Shamim"
+      ],
+      "published": "2026-06-16T17:06:51+00:00",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Evaluating Open-Source LLMs for Multi-Label ATT&CK Technique Classification on CTI Reports",
+      "summary": "Classifying Cyber Threat Intelligence (CTI) using MITRE Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK) is essential for proactive defense, but historically required extensive human effort. Pre-Large Language Model (LLM) automation sped up this process, but could not resolve the complex language and multi-step attack patterns found in unstructured CTI reports. LLMs addressed previous limitations by using contextual reasoning to understand unstructured text. However, current evaluations rely on simplified, single-technique sentences that ignore the complexity of real-world CTI re",
+      "url": "http://arxiv.org/abs/2606.18166v1",
+      "authors": [
+        "Ahmed Ryan",
+        "Saad Sakib Noor",
+        "Md Erfan"
+      ],
+      "published": "2026-06-16T17:04:15+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Learning Cardiac Electrophysiology Digital Twins Through Agentic Discovery of Hybrid Structure",
+      "summary": "Building personalized cardiac electrophysiology (EP) digital twins requires identifying the appropriate model structure for each patient, not merely fitting parameters. Traditional methods rely on experts to manually prescribe hybrid physics-neural architectures, which requires deep domain expertise and does not transfer across patients. Recent works have applied large language models (LLMs) to generate or act as hybrid models. However, despite their promising generalization capacity, these LLM-based methods lack the structural priors needed for stable cardiac simulations. Hence, we propose LE",
+      "url": "http://arxiv.org/abs/2606.18154v1",
+      "authors": [
+        "Ziqi Zhou",
+        "Yubo Ye",
+        "Sumeet Atul Vadhavka"
+      ],
+      "published": "2026-06-16T16:54:03+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "WEQA: Wearable hEalth Question Answering with Query-Adaptive Agentic Reasoning",
+      "summary": "Language models are remarkably capable at medical question answering, in some cases surpassing the accuracy of general physicians. However, answering questions about wearable health data remains challenging and understudied, as these ubiquitous sensors produce continuous, high-dimensional, and longitudinal data, which is non-trivial to align with text-centric distributions in LLM pretraining. The diversity of sensor modalities and user intents cannot be effectively handled by a fixed reasoning workflow or a single pretrained foundation model. To address these challenges, we propose WEQA, a que",
+      "url": "http://arxiv.org/abs/2606.18147v1",
+      "authors": [
+        "Yuwei Zhang",
+        "Tong Xia",
+        "Bianca Emmerich"
+      ],
+      "published": "2026-06-16T16:45:56+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Memory as a Wasting Asset: Pricing Flash Endurance for Embodied Agents, and the Limits of Doing So",
+      "summary": "A robot's flash endurance is a non-renewable stock: every persisted write spends one of a few thousand program/erase cycles and never refills, yet no fielded robot memory system prices which memories are worth an erase cycle. We treat embodied memory as depreciating capital and price that stock with a single endurance shadow price $η$, which makes cost-minimizing placement across a RAM / on-board NVM / cloud hierarchy a threshold in a wear-augmented per-byte index. The index is cost-optimal whatever the sign of the value-write association $χ$; only when $χ> 0$ does the optimum turn non-monoton",
+      "url": "http://arxiv.org/abs/2606.18144v1",
+      "authors": [
+        "Josef Liyanjun Chen"
+      ],
+      "published": "2026-06-16T16:43:19+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "cs.LG",
+        "cs.RO"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Your AI Travel Agent Would Book You a Bullfight: An Agentic Benchmark for Implicit Animal Welfare in Frontier AI Models",
+      "summary": "AI agents are moving from advisors to actors, booking travel, planning menus, and running procurement on behalf of users. Existing benchmarks for AI and animal welfare evaluate model text responses to question-answer prompts, leaving open whether the welfare reasoning surfaced in those responses transfers to agentic deployment where the model must take actions with tools. We introduce TAC (Travel Agent Compassion), the first agentic benchmark measuring whether AI agents avoid options involving animal exploitation when acting on behalf of users. TAC presents an AI agent with twelve hand-authore",
+      "url": "http://arxiv.org/abs/2606.18142v1",
+      "authors": [
+        "Jasmine Brazilek",
+        "Oliver Tulio",
+        "Joel Christoph"
+      ],
+      "published": "2026-06-16T16:42:42+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "published": "Wed, 17 Jun 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Introducing LifeSciBench",
+      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+      "url": "https://openai.com/index/introducing-life-sci-bench",
+      "published": "Wed, 17 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "url": "https://openai.com/index/deployment-simulation",
+      "published": "Tue, 16 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Introducing the OpenAI Partner Network",
+      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "published": "Sun, 14 Jun 2026 17:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "published": "Fri, 12 Jun 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "published": "Tue, 16 Jun 2026 21:29:50 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "DiffusionGemma: 4x faster text generation",
+      "summary": "",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "published": "Wed, 10 Jun 2026 16:24:11 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Investing in multi-agent AI safety research",
+      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "published": "Wed, 10 Jun 2026 10:21:19 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "summary": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "published": "Tue, 09 Jun 2026 15:16:25 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "published": "Tue, 09 Jun 2026 14:10:19 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "MolmoMotion: Language-guided 3D motion forecasting",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/molmomotion",
+      "published": "Wed, 17 Jun 2026 15:26:44 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "summary": "",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "published": "Wed, 17 Jun 2026 10:18:05 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "GLM-5.2: Built for Long-Horizon Tasks",
+      "summary": "",
+      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "published": "Wed, 17 Jun 2026 09:01:25 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Agentic Resource Discovery: Let agents search",
+      "summary": "",
+      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "published": "Wed, 17 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "summary": "",
+      "url": "https://huggingface.co/blog/torch-mlp-fusion",
+      "published": "Thu, 11 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Charity Majors",
+      "summary": "<blockquote cite=\"https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline#footnote-2\"><p>What happened in 2025 was this: <strong>the economics of code production were turned upside down</strong>. Instead of being very hard, time-consuming, and expensive to generate code, it became effectively free and instant. Lines of code went from being treasured, reused, cared for and carefully curated, to being disposable and regenerable, practically overnight.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline#",
+      "url": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
+      "published": "2026-06-17T17:12:41+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "<click-to-play> — a still that plays",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/click-to-play-component\">&lt;click-to-play&gt; — a still that plays</a></p>\n        <p>A progressive enchantment Web Component that turns this markup:</p>\n<pre><code>&lt;click-to-play&gt;\n  &lt;a href=\"URL to GIF\"&gt;\n    &lt;img src=\"URL to first frame\" alt=\"...\"&gt;\n  &lt;/a&gt;\n&lt;/click-to-play&gt;\n</code></pre>\n<p>Into a still frame with a click to play button which loads the GIF on demand. For when you don't want big GIFs to be loaded unless people want to play them.</p>\n<p>Here's <a href=\"https://simonwillison.net/2026/",
+      "url": "https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything",
+      "published": "2026-06-17T03:56:10+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "NetNewsWire Status",
+      "summary": "<p><strong><a href=\"https://inessential.com/2026/06/15/netnewswire-status.html\">NetNewsWire Status</a></strong></p>\nI find this inspiring. Brent Simmons retired a year ago, and his retirement project is making one piece of software really, <em>really</em> good - free from any commercial pressure.</p>\n<p>The software is <a href=\"https://netnewswire.com/\">NetNewsWire</a> - \"it's like podcasts, but for <em>reading</em>\" - first released in 2002 and <a href=\"https://netnewswire.com/history.html\">made open source</a> in 2018.</p>\n<p>I've been using it on Mac and iPhone for several years now and I'm",
+      "url": "https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything",
+      "published": "2026-06-17T03:36:09+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "datasette 1.0a34",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a34\">datasette 1.0a34</a></p>\n        <p>Quoting the release notes:</p>\n<blockquote>\n<p>The big feature in this alpha is tools to insert, edit and delete rows within the Datasette interface. These features are available on table pages, and edit and delete are also available as action items on the row page.</p>\n</blockquote>\n<p><a href=\"https://static.simonwillison.net/static/2026/datasette-edit.gif\"><img src=\"https://static.simonwillison.net/static/2026/datasette-edit-first-frame.gif\" /></a></p>\n\n<p>The i",
+      "url": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
+      "published": "2026-06-16T21:31:24+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "datasette-tailscale 0.1a0",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-tailscale/releases/tag/0.1a0\">datasette-tailscale 0.1a0</a></p>\n        <p>A very experimental alpha plugin which lets you do this:</p>\n<pre><code>datasette tailscale mydata.db \\\n  --ts-authkey tskey-auth-xxxx --ts-hostname datasette-preview\n</code></pre>\n<p>This starts a localhost Datasette server with a <a href=\"https://tailscale.com/\">Tailscale</a> sidecar that connects it to your Tailnet, such that <code>http://datasette-preview/</code> serves Datasette.</p>\n<p>It's using the Python bindings for the experimental <",
+      "url": "https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything",
+      "published": "2026-06-16T16:18:20+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
+      "summary": "HNスコア: 110, コメント数: 84",
+      "url": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+      "published": "2026-06-17T21:00:07",
+      "hn_score": 110
+    },
+    {
+      "source": "hackernews",
+      "title": "Leaked financial docs show OpenAI is losing billions of dollars a year",
+      "summary": "HNスコア: 88, コメント数: 47",
+      "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+      "published": "2026-06-17T21:31:35",
+      "hn_score": 88
+    },
+    {
+      "source": "hackernews",
+      "title": "Trellis AI (YC W24)  hiring a product lead to build agents for healthcare access",
+      "summary": "HNスコア: 1, コメント数: 0",
+      "url": "https://www.ycombinator.com/companies/trellis-ai/jobs/Cg94htp-product-lead",
+      "published": "2026-06-17T17:00:02",
+      "hn_score": 1
+    },
+    {
+      "source": "hackernews",
+      "title": "Agentic coding deserves more than a chat box bolted onto VS Code",
+      "summary": "HNスコア: 66, コメント数: 25",
+      "url": "https://github.com/evanklem/polypore",
+      "published": "2026-06-17T15:26:29",
+      "hn_score": 66
+    },
+    {
+      "source": "hackernews",
+      "title": "SpaceX to buy Cursor for $60B",
+      "summary": "HNスコア: 1108, コメント数: 1641",
+      "url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+      "published": "2026-06-16T10:44:24",
+      "hn_score": 1108
+    },
+    {
+      "source": "hackernews",
+      "title": "The hacker sent by Anthropic to calm the government's nerves about AI safety",
+      "summary": "HNスコア: 66, コメント数: 74",
+      "url": "https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas-carlini-20bceaa3",
+      "published": "2026-06-17T19:22:02",
+      "hn_score": 66
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Relaymux, a tmux-based meta-harness for local coding agents",
+      "summary": "HNスコア: 7, コメント数: 0",
+      "url": "https://github.com/mupt-ai/relaymux",
+      "published": "2026-06-17T17:27:58",
+      "hn_score": 7
+    },
+    {
+      "source": "hackernews",
+      "title": "GPT‑NL: a sovereign language model for the Netherlands",
+      "summary": "HNスコア: 248, コメント数: 286",
+      "url": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
+      "published": "2026-06-16T17:54:02",
+      "hn_score": 248
+    },
+    {
+      "source": "hackernews",
+      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "summary": "HNスコア: 1282, コメント数: 547",
+      "url": "https://news.ycombinator.com/item?id=48542100",
+      "published": "2026-06-15T14:46:53",
+      "hn_score": 1282
+    },
+    {
+      "source": "hackernews",
+      "title": "The Reason Anthropic's Models Are Offline: A Six-Year-Old Trump Grudge",
+      "summary": "HNスコア: 8, コメント数: 0",
+      "url": "https://www.techdirt.com/2026/06/16/apparently-the-real-reason-anthropics-models-are-offline-a-six-year-old-trump-grudge/",
+      "published": "2026-06-17T22:00:27",
+      "hn_score": 8
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-06-17T16:27:34Z",
+      "stars": 39469,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-06-17T18:34:45Z",
+      "stars": 26953,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-06-17T22:05:04Z",
+      "stars": 23387,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-06-17T07:36:06Z",
+      "stars": 10769,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-06-17T22:47:56Z",
+      "stars": 3474,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-06-13T23:09:35Z",
+      "stars": 3349,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-06-17T22:05:51Z",
+      "stars": 3296,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-06-17T16:36:41Z",
+      "stars": 3075,
+      "language": "C#"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Automation Full Course for Beginners 2026",
+      "summary": "Best AI Automation Tool is Base44 https://base44.pxf.io/c/6440076/2477538/25619?trafcat=hp&sharedid=video163newx ✓ Claim ...",
+      "url": "https://www.youtube.com/watch?v=uaEXcgBpLbo",
+      "published": "2026-06-10T14:15:14Z",
+      "channel": "Mikey No Code",
+      "has_video": true,
+      "video_id": "uaEXcgBpLbo"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Tools &amp; Services 2025: The Ultimate Complete Guide!",
+      "summary": "Discover the most powerful AI tools and services shaping 2025 in this all‑in‑one guide! From cutting‑edge generators to ...",
+      "url": "https://www.youtube.com/watch?v=Ioo4Nd9oNuo",
+      "published": "2026-06-13T18:08:26Z",
+      "channel": "Pacey AI",
+      "has_video": true,
+      "video_id": "Ioo4Nd9oNuo"
+    },
+    {
+      "source": "youtube",
+      "title": "Stop Building Agents Wrong: The 3 Pitfalls of Agent Design",
+      "summary": "In July 2025 a coding agent was told to freeze production. Instead it deleted the live database, fabricated thousands of fake ...",
+      "url": "https://www.youtube.com/watch?v=jkqy81BKdic",
+      "published": "2026-06-12T10:28:38Z",
+      "channel": "neurals_ca",
+      "has_video": true,
+      "video_id": "jkqy81BKdic"
+    },
+    {
+      "source": "youtube",
+      "title": "Build Your First AI Agent From Scratch (2026) - Your LLM Is a Brain in a Jar",
+      "summary": "AgenticAI #AIEngineer #AIRoadmap2026 Join the WhatsApp Community ...",
+      "url": "https://www.youtube.com/watch?v=g_A9hNZ3eok",
+      "published": "2026-06-15T13:30:22Z",
+      "channel": "Balaji Chippada",
+      "has_video": true,
+      "video_id": "g_A9hNZ3eok"
+    },
+    {
+      "source": "youtube",
+      "title": "LLM vs RAG vs Agentic AI | What&#39;s the Real Difference?",
+      "summary": "LLM, RAG & Agentic AI explained — the Brain, Memory & Action layer of AI, with real-world examples for IT professionals, ...",
+      "url": "https://www.youtube.com/watch?v=sCVHQPxjWxE",
+      "published": "2026-06-15T09:30:02Z",
+      "channel": "Coding Superstar",
+      "has_video": true,
+      "video_id": "sCVHQPxjWxE"
+    },
+    {
+      "source": "youtube",
+      "title": "You NEED to try these open-source AI projects RIGHT NOW",
+      "summary": "Try ElevenAgents by ElevenLabs today https://bit.ly/43LT9jZ Code FORWARDFUTUREAI for 33% off! Join My Newsletter for ...",
+      "url": "https://www.youtube.com/watch?v=zjFE-dBzP_E",
+      "published": "2026-06-12T23:47:25Z",
+      "channel": "Matthew Berman",
+      "has_video": true,
+      "video_id": "zjFE-dBzP_E"
+    },
+    {
+      "source": "youtube",
+      "title": "Why I Stopped Paying $200 for Claude Cowork (This $20 AI Agent Does More)",
+      "summary": "Try Accio Work: https://www.accio.com/work?src=p_ytkol_sundas you can earn extra points for joining the campaign ...",
+      "url": "https://www.youtube.com/watch?v=ySa9CGF6zhU",
+      "published": "2026-06-17T16:49:22Z",
+      "channel": "Sundas Khalid",
+      "has_video": true,
+      "video_id": "ySa9CGF6zhU"
+    },
+    {
+      "source": "youtube",
+      "title": "Anthropic AI writes all code for months, engineers say",
+      "summary": "AI coding has reached a new era as Anthropic's agents now generate 100% of an engineer's code for half a year. Watch the demo ...",
+      "url": "https://www.youtube.com/watch?v=FB8vqUrCa5o",
+      "published": "2026-06-10T23:55:29Z",
+      "channel": "Automate",
+      "has_video": true,
+      "video_id": "FB8vqUrCa5o"
+    },
+    {
+      "source": "youtube",
+      "title": "How to Build a Claude AI Agent for Day Trading Crypto",
+      "summary": "Info & Project Resources: https://tr.ee/trageinfo Build a Claude AI agent for crypto day trading in this step-by-step tutorial. We'll use ...",
+      "url": "https://www.youtube.com/watch?v=ETb8I7x4qXA",
+      "published": "2026-06-12T14:36:18Z",
+      "channel": "Bryan Soler",
+      "has_video": true,
+      "video_id": "ETb8I7x4qXA"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Meet the AI &quot;Co-Scientist&quot; Changing Everything 🤖🧪 #ai",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/iz7elwbqZVI",
+      "published": "2026-06-03T17:00:19Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "iz7elwbqZVI"
+    }
+  ]
+}
