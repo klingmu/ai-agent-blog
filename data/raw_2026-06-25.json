@@ -1,0 +1,542 @@
+{
+  "date": "2026-06-25",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+      "summary": "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, SERA, and Nemotron-Terminal typically target a single benchmark, leaving open the question of how to train models that generalize across diverse agentic tasks. The OpenThoughts-Agent (OT-Agent) project addresses this gap with a fully open data curation pipeline for training agentic models. We conduct more than 100 controlled ablation experiments to systematically investigate each stage of the pipel",
+      "url": "http://arxiv.org/abs/2606.24855v1",
+      "authors": [
+        "Negin Raoof",
+        "Richard Zhuang",
+        "Marianna Nezhurina"
+      ],
+      "published": "2026-06-23T17:34:29+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "World Models in Pieces: Structural Certification for General Agents",
+      "summary": "In the big-world regime, agents cannot be universally capable and their ability is inevitably specialized across a world model in pieces. Consequently, standard uniform guarantees fail to distinguish between the understanding of critical bottlenecks and irrelevant failures. We first formalize this limitation by proving that general agents are not universal, rendering standard worst-case analysis uninformative. To overcome this, we introduce structural certification, a transition-local framework that maps bounded goal-conditioned performance to entry-wise guarantees on the agent's internal worl",
+      "url": "http://arxiv.org/abs/2606.24842v1",
+      "authors": [
+        "Yikai Lu",
+        "Yifei Wu",
+        "Xinyu Lu"
+      ],
+      "published": "2026-06-23T17:21:09+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System",
+      "summary": "Agentic data analysis systems produce rich outputs, including code, numerical results, and verbal diagnostics. This makes them more challenging to evaluate than single-turn LLM responses. It is therefore necessary to distinguish genuine disagreement between an agent's output and a ground-truth answer from grading artifacts. We investigate how reliably automated graders assess such a system and what strategies improve grading quality by applying LAMBDA, a multi-agent data-analysis system, on 153 numerical QRData tasks from DSGym. We develop and evaluate a three-layer human-AI grading cascade: s",
+      "url": "http://arxiv.org/abs/2606.24839v1",
+      "authors": [
+        "Tian Zheng",
+        "Kai-Tai Hsu"
+      ],
+      "published": "2026-06-23T17:18:28+00:00",
+      "categories": [
+        "cs.AI",
+        "stat.AP"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Accuracy and Satisfaction in Multi-Turn LLM Dialogues for NFR Assessment",
+      "summary": "LLM-based dialogue assistants have become mainstream tools for software developers, yet current evaluation benchmarks focus exclusively on functional correctness. This leaves a critical gap in assessing the quality and accuracy of these conversations when handling Non-Functional Requirements (NFRs), which are inherently vague, context-dependent, and involve many parts of a program. Evaluating how well these systems support collaborative reasoning about NFRs requires methods that go beyond single-turn accuracy to capture both the correctness of the system's outputs and the quality of the multi-",
+      "url": "http://arxiv.org/abs/2606.24834v1",
+      "authors": [
+        "Ali Pourghasemi Fatideh",
+        "Wilder Baldwin",
+        "Maria Dhakal"
+      ],
+      "published": "2026-06-23T17:15:40+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Grad Detect: Gradient-Based Hallucination Detection in LLMs",
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across diverse tasks, yet they remain prone to generating hallucinations. Detecting these hallucinations is critical for deploying LLMs reliably in high-stakes applications. We present Grad Detect, a gradient-based approach for predicting hallucinations by analyzing layer-wise gradient patterns from a single forward-backward pass during inference. Our method shows that the internal gradient structure of a model carries rich information about the correctness of its output. This information is not accessible through output-le",
+      "url": "http://arxiv.org/abs/2606.24790v1",
+      "authors": [
+        "Anand Kamat",
+        "Daniel Blake",
+        "Brent M. Werness"
+      ],
+      "published": "2026-06-23T16:46:36+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Paying to Know: Micro-Transaction Markets for Verified Product Information in Agentic E-Commerce",
+      "summary": "Commercial NLP treats the shopping chatbot as a recommender or a conversion tool: its job is to match a user to a catalogue entry and close a sale. We argue that the arrival of agent-native micro-payment rails (e.g., x402, AP2) changes what is scarce. When the buyer is an autonomous agent that can investigate exhaustively, the bottleneck is no longer matching products but acquiring trustworthy, decision-relevant information about them. We envision agentic e-commerce as a micro-transaction market for verified information: buyer agents spend fractions of a cent to progressively unlock seller- an",
+      "url": "http://arxiv.org/abs/2606.24783v1",
+      "authors": [
+        "Filippos Ventirozos",
+        "Matthew Shardlow"
+      ],
+      "published": "2026-06-23T16:42:21+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "DeepBD: A Grounded Agentic Workflow for Variant Prioritization and Diagnosis of Genetic Birth Defects",
+      "summary": "Birth defects are a major cause of fetal loss, neonatal morbidity and long-term disability. In the subset with suspected genetic etiologies, exome and genome sequencing have moved many cases from variant detection to post-sequencing interpretation: clinicians must rank patient-specific candidate variants under incomplete fetal or infant phenotypes and heterogeneous evidence from population genetics, variant-effect prediction, gene-disease validity, phenotype ontologies, cellular and pathway context, protein structure and clinical literature. We present DeepBD, a grounded agentic workflow for v",
+      "url": "http://arxiv.org/abs/2606.24779v1",
+      "authors": [
+        "Shiyu Li",
+        "Ziqi Yan",
+        "Zhihao Wu"
+      ],
+      "published": "2026-06-23T16:37:48+00:00",
+      "categories": [
+        "q-bio.GN",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
+      "summary": "Recent multimodal large language models (MLLMs) have shown strong potential for autonomous driving scene understanding, yet existing methods still face a fundamental trade-off between temporal reasoning and spatial precision. Models that rely on single-frame or low-resolution inputs often miss small, distant, or partially occluded hazards, while language-centric driving models frequently provide limited grounded evidence for their explanations. To address this gap, we propose UniDrive, a unified visual-language and grounding framework for interpretable risk understanding in autonomous driving.",
+      "url": "http://arxiv.org/abs/2606.24759v1",
+      "authors": [
+        "Xiaowei Gao",
+        "Pengxiang Li",
+        "Yitai Cheng"
+      ],
+      "published": "2026-06-23T16:17:39+00:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Scaling Laws for Task-Specific LLM Distillation",
+      "summary": "Large Language Models (LLMs) achieve strong performance across a growing range of domains, yet their scale poses deployment challenges in applications where latency and cost constraints are critical. This paper derives empirical scaling laws for domain-specific LLM compression, quantifying how in-domain and general knowledge performance scale with dataset size, compression ratio, supervision format, and iterative pruning schedule. Using quantitative finance as our application domain, we compare logit-based and LoRA-based distillation under iterative structural pruning, introducing a blended ch",
+      "url": "http://arxiv.org/abs/2606.24747v1",
+      "authors": [
+        "Lavinia Ghita",
+        "Dhruv Desai",
+        "Ioana Boier"
+      ],
+      "published": "2026-06-23T16:09:57+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CE"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "FlowPipe: LLM-Enhanced Conditional Generative Flow Networks for Data Preparation Pipeline Construction",
+      "summary": "Data preparation pipelines improve data quality in machine learning by transforming raw tables into learning-ready data through sequential cleaning and feature transformation operators. However, automatically constructing such pipelines is computationally difficult because operator sequences are combinatorial and end-to-end evaluation is expensive. Existing state-of-the-art (SOTA) Multi-DQN methods still face three key limitations: decoupled value estimators weaken long-horizon credit assignment, dataset context is only weakly injected into the policy, and exploration is inefficient in a spars",
+      "url": "http://arxiv.org/abs/2606.24679v1",
+      "authors": [
+        "Kunyu Ni",
+        "Lei Cao",
+        "Jie He"
+      ],
+      "published": "2026-06-23T15:10:00+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "published": "Wed, 24 Jun 2026 06:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Helping build shared standards for advanced AI",
+      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "published": "Tue, 23 Jun 2026 13:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "published": "Tue, 23 Jun 2026 17:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Omio is building the future of conversational travel",
+      "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+      "url": "https://openai.com/index/omio",
+      "published": "Tue, 23 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "published": "Mon, 22 Jun 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "published": "Wed, 24 Jun 2026 16:30:01 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "published": "Tue, 16 Jun 2026 21:29:50 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Securing the future of AI agents",
+      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "published": "Tue, 16 Jun 2026 15:46:31 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "DiffusionGemma: 4x faster text generation",
+      "summary": "",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "published": "Wed, 10 Jun 2026 16:24:11 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Investing in multi-agent AI safety research",
+      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "published": "Wed, 10 Jun 2026 10:21:19 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "published": "Wed, 24 Jun 2026 16:00:13 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "published": "Wed, 24 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "published": "Tue, 23 Jun 2026 12:51:55 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "summary": "",
+      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "published": "Tue, 23 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "summary": "",
+      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "published": "Tue, 23 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Tom MacWright",
+      "summary": "<blockquote cite=\"https://macwright.com/2026/06/24/accidental-anonymity.html\"><p>In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated commit messages. [...]</p>\n<p>My other reaction is that <em>I don't know anything about these people</em>.</p>\n<p>They haven't put themselves out there. They haven't said anything true. [...]</p>\n<p>The perfected, generated, prompted resume is generic and impersonal. It tells me nothing about this ",
+      "url": "https://simonwillison.net/2026/Jun/24/tom-macwright/#atom-everything",
+      "published": "2026-06-24T18:13:51+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "datasette 1.0a35",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a35\">datasette 1.0a35</a></p>\n        <p>I'll write more about this one soon, but it's a big release. Three highlights from the release notes:</p>\n<blockquote>\n<ul>\n<li>New \"Create table\" interface in the database actions menu, backed by the <code>/&lt;database&gt;/-/create</code> <a href=\"https://docs.datasette.io/en/latest/json_api.html#tablecreateview\">JSON API</a>. It can define columns, primary keys, custom column types, <code>NOT NULL</code> constraints, literal defaults, expression defaults and sin",
+      "url": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
+      "published": "2026-06-23T21:34:37+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "OPFS + Pyodide test harness",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/opfs-pyodide\">OPFS + Pyodide test harness</a></p>\n        <p>I've been pondering if <a href=\"https://lite.datasette.io/\">Datasette Lite</a> - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored on the user's computer.</p>\n<p>That's what <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system\">OFPS</a> (Origin Private File System) is for, so I had Claude Code for web build me this playground ",
+      "url": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
+      "published": "2026-06-23T18:58:54+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Prompt Injection as Role Confusion",
+      "summary": "<p><strong><a href=\"https://role-confusion.github.io\">Prompt Injection as Role Confusion</a></strong></p>\nFirst, I absolutely love this:</p>\n<blockquote>\n<p>This is a blog-style writeup of the paper.</p>\n</blockquote>\n<p>I wish <em>every paper</em> would come with one of these. Academic writing is pretty dry - the impact of a paper can be so much higher if you publish a readable version to accompany the formal one.</p>\n<p>Charles Ye, Jasmine Cui, and Dylan Hadfield-Menell present some fascinating research into the challenge of having models distinguish their own privileged text (here wrapped i",
+      "url": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
+      "published": "2026-06-22T23:59:53+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+      "summary": "<p>This morning <a href=\"https://news.ycombinator.com/item?id=48630171\">on Hacker News</a> I saw <a href=\"https://hustvl.github.io/Moebius/\">Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance</a>, describing a small but effective inpainting model - a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model <a href=\"https://github.com/hustvl/Moebius/blob/9310b76e368f5f7a8ecdf06493231af279c9973b/requirements.txt#L1\">required PyTorch and NVIDIA CUDA</a>, but since it described itself as 0.2B I decided",
+      "url": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
+      "published": "2026-06-22T23:43:51+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI unveils its first custom chip, built by Broadcom",
+      "summary": "HNスコア: 396, コメント数: 269",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "published": "2026-06-24T17:47:00",
+      "hn_score": 396
+    },
+    {
+      "source": "hackernews",
+      "title": "RubyLLM: A Ruby framework for all major AI providers",
+      "summary": "HNスコア: 317, コメント数: 47",
+      "url": "https://rubyllm.com/",
+      "published": "2026-06-24T14:41:41",
+      "hn_score": 317
+    },
+    {
+      "source": "hackernews",
+      "title": "Computer use in Gemini 3.5 Flash",
+      "summary": "HNスコア: 123, コメント数: 71",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "published": "2026-06-24T17:21:34",
+      "hn_score": 123
+    },
+    {
+      "source": "hackernews",
+      "title": "GLM-5.2 is a step change for open agents",
+      "summary": "HNスコア: 53, コメント数: 16",
+      "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+      "published": "2026-06-23T03:23:28",
+      "hn_score": 53
+    },
+    {
+      "source": "hackernews",
+      "title": "NSA lost access to Mythos amid Anthropic dispute",
+      "summary": "HNスコア: 181, コメント数: 164",
+      "url": "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
+      "published": "2026-06-24T11:45:47",
+      "hn_score": 181
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: peerd – AI agent harness that runs entirely in your browser",
+      "summary": "HNスコア: 52, コメント数: 17",
+      "url": "https://github.com/NotASithLord/peerd",
+      "published": "2026-06-23T15:05:00",
+      "hn_score": 52
+    },
+    {
+      "source": "hackernews",
+      "title": "\"Fix\" MacBook Neo Cursor Lag: Record 1 Pixel of the Screen Every 10 Seconds",
+      "summary": "HNスコア: 205, コメント数: 87",
+      "url": "https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf",
+      "published": "2026-06-24T02:38:47",
+      "hn_score": 205
+    },
+    {
+      "source": "hackernews",
+      "title": "Qwen-AgentWorld: Language World Models for General Agents",
+      "summary": "HNスコア: 193, コメント数: 51",
+      "url": "https://arxiv.org/abs/2606.24597",
+      "published": "2026-06-24T02:21:47",
+      "hn_score": 193
+    },
+    {
+      "source": "hackernews",
+      "title": "Haystack: Open-Source AI Framework for Production Ready Agents, RAG",
+      "summary": "HNスコア: 82, コメント数: 21",
+      "url": "https://haystack.deepset.ai/",
+      "published": "2026-06-24T11:21:32",
+      "hn_score": 82
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI Codex bombards SSDs with needless write operations",
+      "summary": "HNスコア: 6, コメント数: 0",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/23/openai-codex-bombards-ssds-with-needless-write-operations-costing-millions/5260402",
+      "published": "2026-06-24T21:32:15",
+      "hn_score": 6
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-06-24T17:08:19Z",
+      "stars": 39508,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-06-24T21:42:08Z",
+      "stars": 27153,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-06-24T21:03:03Z",
+      "stars": 23507,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-06-24T21:42:26Z",
+      "stars": 10841,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-06-24T22:01:25Z",
+      "stars": 4713,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-06-23T11:28:32Z",
+      "stars": 3352,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-06-24T11:31:16Z",
+      "stars": 3304,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "SciSharp/BotSharp",
+      "summary": "AI Multi-Agent Framework in .NET",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "published": "2026-06-24T03:26:12Z",
+      "stars": 3079,
+      "language": "C#"
+    },
+    {
+      "source": "youtube",
+      "title": "How to Build AI Agents in 14 minutes Using Claude (for beginners)",
+      "summary": "Claim your FREE $499 Masterclass: Build & Sell Apps, AI Agents & Websites with AI https://mikeyno-code.com/Skool-base44 ...",
+      "url": "https://www.youtube.com/watch?v=3MX7rVeVIYw",
+      "published": "2026-06-18T14:15:14Z",
+      "channel": "Mikey Vibe Coding",
+      "has_video": true,
+      "video_id": "3MX7rVeVIYw"
+    },
+    {
+      "source": "youtube",
+      "title": "Build Your First AI Agent in Python (Step by Step)",
+      "summary": "This beginner-friendly tutorial walks you through how to build your first AI agent in Python from scratch, step by step, with no prior ...",
+      "url": "https://www.youtube.com/watch?v=YKPO2S6j7MM",
+      "published": "2026-06-17T07:00:31Z",
+      "channel": "Kevin Stratvert",
+      "has_video": true,
+      "video_id": "YKPO2S6j7MM"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI Explained: The Complete 2026 Guide",
+      "summary": "Most people think they understand AI, but they only understand the part where you type something into ChatGPT and it types ...",
+      "url": "https://www.youtube.com/watch?v=vbKKQATMZ-0",
+      "published": "2026-06-19T20:15:07Z",
+      "channel": "Aishwarya Srinivasan",
+      "has_video": true,
+      "video_id": "vbKKQATMZ-0"
+    },
+    {
+      "source": "youtube",
+      "title": "How Agentic AI Was Born | AI Evolution Explained #ai #agenticai #chatgpt #ml #llm #openai",
+      "summary": "The story of Agentic AI did not begin with ChatGPT. It began more than 70 years ago with cybernetics, feedback loops, symbolic ...",
+      "url": "https://www.youtube.com/watch?v=yQWkvEiCu48",
+      "published": "2026-06-17T23:00:08Z",
+      "channel": "Family Trail",
+      "has_video": true,
+      "video_id": "yQWkvEiCu48"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI Explained Simply | Beginner to Advanced Guide 2026",
+      "summary": "Agentic Ai Explained Simply - Learn the core components of Agentic AI, including perception, reasoning and planning.",
+      "url": "https://www.youtube.com/watch?v=COioB2C3Xqg",
+      "published": "2026-06-22T15:37:09Z",
+      "channel": "LearnITGuide Tutorials",
+      "has_video": true,
+      "video_id": "COioB2C3Xqg"
+    },
+    {
+      "source": "youtube",
+      "title": "Master Claude AI Agents in 2026 (5 Real Examples in 10 min)",
+      "summary": "Join my AI newsletter to stay up to date on everything AI: https://tristen-obrien.kit.com/59e783d0c3 Animations made with ...",
+      "url": "https://www.youtube.com/watch?v=_aY_EDaC_dA",
+      "published": "2026-06-21T13:00:23Z",
+      "channel": "Tristen O'Brien",
+      "has_video": true,
+      "video_id": "_aY_EDaC_dA"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Code&#39;s NEW Open Source Repo Builds Effective AI Agents in MINUTES!",
+      "summary": "Learn Claude Code. Only $9. https://www.skool.com/claudecodeclub Summary ⤵️ Anthropic just released a FREE ...",
+      "url": "https://www.youtube.com/watch?v=D6Cfjy83MQA",
+      "published": "2026-06-19T14:45:02Z",
+      "channel": "Duncan Rogoff | Learn Claude Code",
+      "has_video": true,
+      "video_id": "D6Cfjy83MQA"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Meet the AI &quot;Co-Scientist&quot; Changing Everything 🤖🧪 #ai",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/iz7elwbqZVI",
+      "published": "2026-06-03T17:00:19Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "iz7elwbqZVI"
+    }
+  ]
+}
