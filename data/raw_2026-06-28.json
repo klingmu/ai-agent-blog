@@ -1,0 +1,550 @@
+{
+  "date": "2026-06-28",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "Reinforcement Learning without Ground-Truth Solutions can Improve LLMs",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) for training LLMs typically rely on ground-truth answers to assign rewards, limiting their applicability to tasks where the ground-truth solution is unknown. We introduce a \\textbf{R}anking-\\textbf{i}nduced \\textbf{VER}ifiable framework (RiVER) that trains LLMs on score-based optimization tasks without ground-truth solutions, using deterministic execution feedback as continuous-valued supervision. When applying group-relative RL to such continuous rewards, we identify two key challenges: \\emph{scale dominance}, where uncalibrated score magn",
+      "url": "http://arxiv.org/abs/2606.27369v1",
+      "authors": [
+        "Yingyu Lin",
+        "Qiyue Gao",
+        "Nikki Lijing Kuang"
+      ],
+      "published": "2026-06-25T17:59:36+00:00",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "When are likely answers right? On Sequence Probability and Correctness in LLMs",
+      "summary": "Many decoding methods for large language models can be understood as shifting probability mass toward outputs that are more likely under the model, either locally at the token level or globally at the sequence level. Therefore, their success depends on a fundamental question: when does sequence probability, that is, the conditional probability of a continuation given a prompt, actually align with correctness? In this paper, we set out to quantify this relationship across decoding methods, models, and benchmarks at four levels: across decoding methods, across hyperparameters within a method, ac",
+      "url": "http://arxiv.org/abs/2606.27359v1",
+      "authors": [
+        "Johannes Zenn",
+        "Jonas Geiping"
+      ],
+      "published": "2026-06-25T17:58:02+00:00",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+      "summary": "Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions. While small open source MLLMs are cost efficient and privacy preserving compared with commercial large models, they suffer from weak planning and limited cross website generalization. To address these limitations, we introduce the planning experience exploration and utilization (PEEU) method, which autonomously explores environments to discover experiences and utilizes hindsight experience to synthesize strictly aligned, hi",
+      "url": "http://arxiv.org/abs/2606.27330v1",
+      "authors": [
+        "Tianyi Men",
+        "Zhuoran Jin",
+        "Pengfei Cao"
+      ],
+      "published": "2026-06-25T17:44:48+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "When Does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models",
+      "summary": "Multi-model LLM systems such as routing, voting, cascades, fusion, and mixture-of-agents are used to beat single-model accuracy. We show that their gain is capped by a quantity the field rarely reports. For any policy whose output is one member model answer, accuracy cannot exceed one minus beta, where beta is the rate at which every model is wrong on the same query. In contrast, the usual diagnostic, average pairwise error correlation rho, cannot identify beta: error laws with identical marginals and pairwise correlations can have different all-wrong rates. A Clopper-Pearson bound on beta giv",
+      "url": "http://arxiv.org/abs/2606.27288v1",
+      "authors": [
+        "Josef Chen"
+      ],
+      "published": "2026-06-25T17:06:06+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy",
+      "summary": "Building persistent embodied agents in unstructured environments demands unified orchestration of heterogeneous tools spanning both cyber (APIs, IoT) and physical (manipulation, navigation) domains, coupled with autonomous recovery from physical failures that inevitably arise over extended operation. Existing systems treat these as separate problems: VLM-based planners lack a unified cyber-physical action space, agent frameworks accumulate unbounded context that degrades temporal coherence, and VLA policies execute open-loop without detecting their own failures. We argue that persistent autono",
+      "url": "http://arxiv.org/abs/2606.27251v1",
+      "authors": [
+        "Junhao Shi",
+        "Zezheng Huai",
+        "Siyin Wang"
+      ],
+      "published": "2026-06-25T16:36:35+00:00",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement",
+      "summary": "Evaluating LLM outputs remains a major bottleneck in NLP: human evaluation is expensive and slow, lexical metrics correlate poorly with human judgments on open-ended generation, and holistic LLM judges often produce opaque scores that are hard to debug. We propose BINEVAL, a framework that decomposes evaluation criteria into atomic binary questions and aggregates the resulting verdicts into interpretable, multi-dimensional scores. Given a task prompt, a meta-prompt generates fine-grained evaluation questions, and an LLM answers them independently for each output, yielding transparent question-",
+      "url": "http://arxiv.org/abs/2606.27226v1",
+      "authors": [
+        "Sangwoo Cho",
+        "Kushal Chawla",
+        "Pengshan Cai"
+      ],
+      "published": "2026-06-25T16:14:50+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Forecasting With LLMs: Improved Generalization Through Feature Steering",
+      "summary": "Successful forecasting involves identifying patterns between historical and future states of the world which generalize to future observations. We apply LLMs to a variety of forecasting tasks and inspect their internal states using sparse autoencoders to understand whether they appear to rely on time-specific pieces of knowledge versus generalizable patterns. Our analyses identify features associated with both time-aware reasoning and look-ahead-biased reasoning. We then apply the LLMs to an entirely different domain and intervene on these features. We find that amplifying time-awareness featu",
+      "url": "http://arxiv.org/abs/2606.27199v1",
+      "authors": [
+        "Humzah Merchant",
+        "Bradford Levy"
+      ],
+      "published": "2026-06-25T15:59:20+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "A Process Harness for Uplifting Legacy Workflows to Agentic BPM: Design and Realization in CUGA FLO",
+      "summary": "We introduce the process harness, a new mechanism for uplifting legacy workflows into Agentic Business Process Management (Agentic BPM) without replacing the underlying workflow engine. A process harness places a policy-governed agentic layer around a deterministic workflow engine, intercepting designated control points to contribute reasoning, adaptation, and oversight while the engine retains structural authority over the process. To define the process harness rigorously, we develop the Task-Decision-Flow (TDF) model, specifying both its data schema and its execution semantics. TDF decompose",
+      "url": "http://arxiv.org/abs/2606.27188v1",
+      "authors": [
+        "Fabiana Fournier",
+        "Lior Limonad"
+      ],
+      "published": "2026-06-25T15:50:42+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Joint Learning of Experiential Rules and Policies for Large Language Model Agents",
+      "summary": "For LLM agents in multi-step interactive environments, a key challenge is to make effective use of accumulated interaction experience. Existing work has typically separated two uses of such experience: keeping it outside the model as natural-language rules for later prompting, or using trajectories and feedback to update the model parameters. The former is easy to interpret but can fall out of sync with the evolving policy; the latter improves the policy more broadly but provides only limited correction for local mistakes in sparse-reward settings. We present Joint Learning of Experiential Rul",
+      "url": "http://arxiv.org/abs/2606.27136v1",
+      "authors": [
+        "Shicheng Ye",
+        "Chao Yu"
+      ],
+      "published": "2026-06-25T15:11:02+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Application of LLMs to Threat Assessment of Foreign Peacekeeping Missions",
+      "summary": "We present a novel approach for applying Large Language Models (LLMs) to threat assessment in the context of foreign peacekeeping missions. Building on the PINPOINT project and its use case, the EU Monitoring Mission in Georgia, we combine an interdisciplinary risk-model with OSINT-based media collection and LLM-supported threat extraction. The proposed workflow maps media contents to mission-relevant threats, extracts structured information and applies several additional LLM-based processing steps to improve relevance and grounding. An evaluation of threats extracted from media documents show",
+      "url": "http://arxiv.org/abs/2606.27106v1",
+      "authors": [
+        "Gerhard Backfried",
+        "Christian Schmidt",
+        "Diego Pilutti"
+      ],
+      "published": "2026-06-25T14:43:42+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "published": "Fri, 26 Jun 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How agents are transforming work",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "published": "Thu, 25 Jun 2026 02:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "published": "Wed, 24 Jun 2026 06:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Helping build shared standards for advanced AI",
+      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "published": "Tue, 23 Jun 2026 13:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "published": "Tue, 23 Jun 2026 17:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "published": "Wed, 24 Jun 2026 16:30:01 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "published": "Tue, 16 Jun 2026 21:29:50 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Securing the future of AI agents",
+      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "published": "Tue, 16 Jun 2026 15:46:31 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "DiffusionGemma: 4x faster text generation",
+      "summary": "",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "published": "Wed, 10 Jun 2026 16:24:11 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Investing in multi-agent AI safety research",
+      "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "published": "Wed, 10 Jun 2026 10:21:19 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "summary": "",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "published": "Fri, 26 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Which tokens does a hybrid model predict better?",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "published": "Thu, 25 Jun 2026 16:11:42 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "published": "Wed, 24 Jun 2026 16:00:13 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "published": "Wed, 24 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "published": "Tue, 23 Jun 2026 12:51:55 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Dean W. Ball",
+      "summary": "<blockquote cite=\"https://www.hyperdimensional.co/p/what-should-be-done\"><p>This is a bad state of affairs. Consider, in particular, some industry dynamics:</p>\n<ol>\n<li>Frontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that they are broadly available. After that period elapses, the models become sub-frontier, competition emerges, and margins compress. Every week of delay is eating into the narrow window that labs have to make their accounting work.</li>\n<li>The ongoing AI infrastructure buildout—the one that is,",
+      "url": "https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything",
+      "published": "2026-06-26T22:25:46+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Timothy B. Lee",
+      "summary": "<blockquote cite=\"https://twitter.com/binarybits/status/2070527944817053862\"><p>This is like saying there's no learning curve to being a manager because your employees will just do whatever you tell them to do.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/binarybits/status/2070527944817053862\">Timothy B. Lee</a>, on the idea that LLMs take no skill and have no learning curve</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a",
+      "url": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
+      "published": "2026-06-26T21:15:09+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "What happened after 2,000 people tried to hack my AI assistant",
+      "summary": "<p><strong><a href=\"https://www.fernandoi.cl/posts/hackmyclaw/\">What happened after 2,000 people tried to hack my AI assistant</a></strong></p>\nFernando Irarrázaval ran a challenge on <a href=\"https://hackmyclaw.com/\">hackmyclaw.com</a> to see if anyone could leak secrets held by his OpenClaw test instance by sending it email.</p>\n<p>Surprisingly, after 6,000 attempts (and $500 in token spend and a Google account suspension triggered by too many inbound emails) nobody managed to leak the secret.</p>\n<p>The underlying model was Opus 4.6, with the following prompt:</p>\n<blockquote>\n<pre><code>##",
+      "url": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
+      "published": "2026-06-26T18:33:14+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Incident Report: CVE-2026-LGTM",
+      "summary": "<p><strong><a href=\"https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html\">Incident Report: CVE-2026-LGTM</a></strong></p>\nSpectacular hypothetical incident report by Andrew Nesbitt.</p>\n<blockquote>\n<p><strong>Day 2, 16:00 UTC</strong> --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping <code>foxhole-lz4</code>, enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press rel",
+      "url": "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
+      "published": "2026-06-26T17:58:54+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting OpenAI",
+      "summary": "<blockquote cite=\"https://openai.com/index/previewing-gpt-5-6-sol/\"><p>We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while being 2x cheaper and Luna brings strong capability at our lowest cost. [...]</p>\n<p>We believe in broad access, and we plan to make GPT‑5.6 Sol, Terra, and Luna generally available in the coming weeks. As part of our ongoing engagement with the U.S. government, we previewed our plans and the models’ capabilities ",
+      "url": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
+      "published": "2026-06-26T17:10:43+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
+      "summary": "HNスコア: 34, コメント数: 29",
+      "url": "https://github.com/kageroumado/adrafinil",
+      "published": "2026-06-27T20:34:53",
+      "hn_score": 34
+    },
+    {
+      "source": "hackernews",
+      "title": "DSpark: Speculative decoding accelerates LLM inference [pdf]",
+      "summary": "HNスコア: 703, コメント数: 289",
+      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "published": "2026-06-27T09:18:52",
+      "hn_score": 703
+    },
+    {
+      "source": "hackernews",
+      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+      "summary": "HNスコア: 1101, コメント数: 709",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "published": "2026-06-26T17:06:55",
+      "hn_score": 1101
+    },
+    {
+      "source": "hackernews",
+      "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
+      "summary": "HNスコア: 539, コメント数: 733",
+      "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+      "published": "2026-06-26T22:48:28",
+      "hn_score": 539
+    },
+    {
+      "source": "hackernews",
+      "title": "The gap between open weights LLMs and closed source LLMs",
+      "summary": "HNスコア: 297, コメント数: 226",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "published": "2026-06-26T21:14:47",
+      "hn_score": 297
+    },
+    {
+      "source": "hackernews",
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "summary": "HNスコア: 1144, コメント数: 1204",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+      "published": "2026-06-26T18:23:14",
+      "hn_score": 1144
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "summary": "HNスコア: 198, コメント数: 108",
+      "url": "https://github.com/workweave/router",
+      "published": "2026-06-26T16:40:11",
+      "hn_score": 198
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic says Alibaba used 25k accounts to mine Claude",
+      "summary": "HNスコア: 27, コメント数: 22",
+      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
+      "published": "2026-06-27T16:16:20",
+      "hn_score": 27
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI leans toward waiting until next year for IPO",
+      "summary": "HNスコア: 175, コメント数: 148",
+      "url": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html",
+      "published": "2026-06-25T20:36:05",
+      "hn_score": 175
+    },
+    {
+      "source": "hackernews",
+      "title": "AgentKits – 60 production-ready AI agent blueprints with guardrails",
+      "summary": "HNスコア: 38, コメント数: 2",
+      "url": "https://www.agent-kits.com",
+      "published": "2026-06-26T21:19:34",
+      "hn_score": 38
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-06-27T21:34:37Z",
+      "stars": 39520,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-06-27T21:55:58Z",
+      "stars": 27237,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-06-27T21:18:08Z",
+      "stars": 23549,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-06-27T21:23:32Z",
+      "stars": 10882,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-06-27T21:30:26Z",
+      "stars": 5116,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "xbtlin/ai-berkshire",
+      "summary": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework   built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "published": "2026-06-27T22:05:28Z",
+      "stars": 4045,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-06-23T11:28:32Z",
+      "stars": 3352,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-06-27T10:05:19Z",
+      "stars": 3306,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "How to Build AI Agents Better than 99% of People",
+      "summary": "Claim your FREE $499 Masterclass: Build & Sell Apps, AI Agents & Websites with AI https://mikeyno-code.com/Skool-base44 ...",
+      "url": "https://www.youtube.com/watch?v=9AsFlLk5-S8",
+      "published": "2026-06-22T14:15:10Z",
+      "channel": "Mikey No Code",
+      "has_video": true,
+      "video_id": "9AsFlLk5-S8"
+    },
+    {
+      "source": "youtube",
+      "title": "Master Claude AI Agents in 2026 (5 Real Examples in 10 min)",
+      "summary": "Join my AI newsletter to stay up to date on everything AI: https://tristen-obrien.kit.com/59e783d0c3 Animations made with ...",
+      "url": "https://www.youtube.com/watch?v=_aY_EDaC_dA",
+      "published": "2026-06-21T13:00:23Z",
+      "channel": "Tristen O'Brien",
+      "has_video": true,
+      "video_id": "_aY_EDaC_dA"
+    },
+    {
+      "source": "youtube",
+      "title": "The Full Guide to AI Voice Agents 2025 #ai",
+      "summary": "Is 2025 the year AI completely takes over the phone lines? In this full guide, we break down everything you need to know ...",
+      "url": "https://www.youtube.com/watch?v=UHsyZec7xqE",
+      "published": "2026-06-22T11:22:49Z",
+      "channel": "My Vibe Club",
+      "has_video": true,
+      "video_id": "UHsyZec7xqE"
+    },
+    {
+      "source": "youtube",
+      "title": "Introducing Ornith 1.0 - Agentic Coding LLMs",
+      "summary": "In this video, I look at the Ornith 1.0 family of agentic coding models. Both what they can do and how they were created. Thanks to ...",
+      "url": "https://www.youtube.com/watch?v=uD4-uy0GmHE",
+      "published": "2026-06-26T14:00:00Z",
+      "channel": "Sam Witteveen",
+      "has_video": true,
+      "video_id": "uD4-uy0GmHE"
+    },
+    {
+      "source": "youtube",
+      "title": "Run Your Own Agentic AI? 🦙 Full Ollama Setup + Hermes Workflow",
+      "summary": "How can I run my own AI, on my computer, without sending data (or money) to others? It's easier than you think! Local models are ...",
+      "url": "https://www.youtube.com/watch?v=4KXLW9Y1r4c",
+      "published": "2026-06-25T12:30:17Z",
+      "channel": "Wanderloots",
+      "has_video": true,
+      "video_id": "4KXLW9Y1r4c"
+    },
+    {
+      "source": "youtube",
+      "title": "5 AI Agent Terms You Need to Know",
+      "summary": "Learn more about AI Agents here → https://ibm.biz/~dXkrYnDwR Frontier AI agents rely on more than just large language models ...",
+      "url": "https://www.youtube.com/watch?v=k5jYwyhDMxA",
+      "published": "2026-06-23T11:00:39Z",
+      "channel": "IBM Technology",
+      "has_video": true,
+      "video_id": "k5jYwyhDMxA"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Mythos is Back?",
+      "summary": "Get the Agent OS https://www.skool.com/ai-profit-lab-7462/about Want to make money and save time with AI? Join here: ...",
+      "url": "https://www.youtube.com/watch?v=c0Qi9_FuvAw",
+      "published": "2026-06-27T04:00:21Z",
+      "channel": "Julian Goldie SEO",
+      "has_video": true,
+      "video_id": "c0Qi9_FuvAw"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Just Made AI Agents That Actually Work in Production",
+      "summary": "More courses & support: https://theaiaccelerators.com/join Transform your business with AI: ...",
+      "url": "https://www.youtube.com/watch?v=8Q70cqQ3yrE",
+      "published": "2026-06-22T13:50:24Z",
+      "channel": "Nick Puru | AI Automation",
+      "has_video": true,
+      "video_id": "8Q70cqQ3yrE"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Meet the AI &quot;Co-Scientist&quot; Changing Everything 🤖🧪 #ai",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/iz7elwbqZVI",
+      "published": "2026-06-03T17:00:19Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "iz7elwbqZVI"
+    }
+  ]
+}
