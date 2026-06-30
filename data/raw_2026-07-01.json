@@ -1,0 +1,566 @@
+{
+  "date": "2026-07-01",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "Self-Evolving World Models for LLM Agent Planning",
+      "summary": "World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and all model parameters frozen. WorldEvolver integrates three modules: (i) Episodic Memory, which exploits real action transitions through retrieval-based simulation; (ii) Semantic Memory, which extracts pe",
+      "url": "http://arxiv.org/abs/2606.30639v1",
+      "authors": [
+        "Xuan Zhang",
+        "Wenxuan Zhang",
+        "See-Kiong Ng"
+      ],
+      "published": "2026-06-29T17:58:43+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "One-Step Gradient Delay is Not a Barrier for Large-Scale Asynchronous Pipeline Parallel LLM Pretraining",
+      "summary": "Modern large-scale LLM pretraining benefits from utilizing Pipeline Parallelism; however, synchronous implementations leave GPUs idle during pipeline bubbles, wasting computational resources. Asynchronous Pipeline Parallelism eliminates these bubbles, maximizing throughput at the cost of gradient staleness. Among asynchronous schedules, PipeDream-2BW is particularly appealing: unlike the original PipeDream schedule, it ensures a constant one-step gradient delay regardless of pipeline depth. However, its adoption remains limited due to the common belief that optimizing under staleness is fundam",
+      "url": "http://arxiv.org/abs/2606.30634v1",
+      "authors": [
+        "Philip Zmushko",
+        "Egor Petrov",
+        "Nursultan Abdullaev"
+      ],
+      "published": "2026-06-29T17:57:50+00:00",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "GROW$^2$: Grounding Which and Where for Robot Tool Use",
+      "summary": "Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challenge of $\\textit{open-world affordance grounding}$: select an open-category object to act as a tool and localize its specific region of action. To this end, we introduce GROW$^2$ (GROunding Which and Where), which leverages object parts as a natural abstraction to split the grounding process hierarchically into semantic and geometric levels, thus bypassing the need for data-heavy, end-to-end training",
+      "url": "http://arxiv.org/abs/2606.30632v1",
+      "authors": [
+        "Yuhong Deng",
+        "Yuyao Liu",
+        "David Hsu"
+      ],
+      "published": "2026-06-29T17:56:53+00:00",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "MESA: Prioritizing Vulnerable Communication Channels for Securing Multi-Agent Systems",
+      "summary": "Multi-agent systems (MAS) are increasingly used to automate complex, distributed workflows. However, their inter-agent communication channels introduce new attack surfaces that remain poorly understood and are difficult to defend against. In this paper, we address how defenders should prioritize limited security effort to protect vulnerable communication channels before attacks are observed. This is motivated by our observation that the channel-level attack impact is highly non-uniform: a single compromised edge can account for up to 75% of total attack success. We introduce Mesa, a label-free",
+      "url": "http://arxiv.org/abs/2606.30602v1",
+      "authors": [
+        "Kunyang Li",
+        "Kyle Domico",
+        "Jonathan Gregory"
+      ],
+      "published": "2026-06-29T17:40:45+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Words Speak Louder Than Code: Investigating Cognitive Heuristics in LLM-Based Code Vulnerability Detection",
+      "summary": "Researchers and practitioners increasingly apply Large Language Models (LLMs) for automated vulnerability detection. Recent work has shown that LLMs are susceptible to the same cognitive heuristics that bias human judgment. Yet, no work has investigated whether these heuristics affect a model's assessment of code vulnerabilities. In this paper, we present the first systematic exploration of cognitive heuristics in LLM-driven code vulnerability detection. We introduce a controlled framework that holds the code fixed and only varies the surrounding context to trigger three cognitive heuristics: ",
+      "url": "http://arxiv.org/abs/2606.30587v1",
+      "authors": [
+        "Asif Shahriar",
+        "Hongyu Cai",
+        "Hadjer Benkraouda"
+      ],
+      "published": "2026-06-29T17:31:10+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Attractor States Emerge in Multi-Turn LLM Conversations",
+      "summary": "Large language models (LLMs) are increasingly used in open-ended multi-agent settings, but the long-run dynamics of model--model interaction remain poorly understood. We study whether open-ended LLM discussions exhibit attractor-like behavior, i.e. topic-independent stable sets of behaviors which conversations settle into. Across 7 LLMs and 20 controversial topics, we compare self-play and mixed-play dyadic debates, tracking trajectories in representation space, discourse traits, and stances. We find self-play trajectories to be model-specific attractors that draw their conversation partners a",
+      "url": "http://arxiv.org/abs/2606.30571v1",
+      "authors": [
+        "Ting-Wen Ko",
+        "Jonas Geiping"
+      ],
+      "published": "2026-06-29T17:14:29+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Forensic Trajectory Signatures for Agent Memory Poisoning Detection",
+      "summary": "We discover a behavioral invariant in LLM agents under persistent memory poisoning: in architectures where routing information is retrieved through observable memory-tool invocations, successful attacks require calling memory_recall_fact before email_send_email, a transition that non-exfiltrating sessions rarely exhibit. Under the evaluated architecture, this invariant follows from the attack's information-retrieval dependency rather than being merely an empirical correlation, and suppressing it breaks the attack. A simple rule exploiting this invariant alone achieves AUC = 0.9563. A Random Fo",
+      "url": "http://arxiv.org/abs/2606.30566v1",
+      "authors": [
+        "Jun Wen Leong"
+      ],
+      "published": "2026-06-29T17:09:03+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "TraceLab: Characterizing Coding Agent Workloads for LLM Serving",
+      "summary": "Coding agents are rapidly becoming a major application of agentic LLMs, but serving them efficiently remains challenging. Progress on this challenge requires understanding real workload patterns, yet the data needed for such analysis is largely absent. Existing public traces and benchmarks do not capture real, day-to-day coding-agent usage across multiple agents and model families for serving-system analysis. To help fill this gap, we collect and release a trace of roughly 4,300 coding-agent sessions, containing about 350,000 LLM steps and 430,000 tool calls from our own day-to-day use of Clau",
+      "url": "http://arxiv.org/abs/2606.30560v1",
+      "authors": [
+        "Kan Zhu",
+        "Mathew Jacob",
+        "Chenxi Ma"
+      ],
+      "published": "2026-06-29T16:59:05+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.PF"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Linguistic Firewall: Geometry as Defense in Multi-Agent Systems Routing",
+      "summary": "The rapid integration of Large Language Models (LLMs) has driven the evolution of Multi-Agent Systems (MAS), where specialized agents collaborate to execute complex workflows. Effective orchestration in these environments requires robust routing mechanisms to efficiently allocate tasks to the most suitable agent. However, existing routers fundamentally rely on unverified proxies, ranging from textual self-descriptions to static surrogate representations, to gauge an agent's competence. This reliance on non-empirical data creates a critical gap between an agent's projected profile and its actua",
+      "url": "http://arxiv.org/abs/2606.30555v1",
+      "authors": [
+        "Dvir Alsheich",
+        "Adar Peleg",
+        "Ben Hagag"
+      ],
+      "published": "2026-06-29T16:51:06+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "To Tab or Not to Tab: Measuring Critical Engagement in AI Code Completion Tools Using Behavioral Signals and Attention Checks",
+      "summary": "AI code completion tools, such as Github Copilot, provide students with code suggestions to help them write programs. However, recent qualitative studies suggest that students fail to critically evaluate these suggestions. We present Clover, a code completion tool that logs students' interactions with code suggestions and additionally offers attention checks to probe reflective engagement during programming tasks. We also develop a taxonomy of behavioral interaction metrics for AI-assisted programming, informed by literature. We analyzed relationships between interaction patterns, engagement w",
+      "url": "http://arxiv.org/abs/2606.30549v1",
+      "authors": [
+        "Jessica Hutchison",
+        "Ian Tyler Applebaum",
+        "Kenneth Angelikas"
+      ],
+      "published": "2026-06-29T16:47:46+00:00",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.SE"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How ChatGPT adoption has expanded",
+      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "published": "Tue, 30 Jun 2026 09:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Introducing GeneBench-Pro",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "published": "Tue, 30 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "published": "Tue, 30 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Inside Genebench-Pro",
+      "summary": "",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "published": "Tue, 30 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "published": "Mon, 29 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "summary": "",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "published": "Tue, 30 Jun 2026 16:02:40 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "published": "Wed, 24 Jun 2026 16:30:01 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "published": "Tue, 16 Jun 2026 21:29:50 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Securing the future of AI agents",
+      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "published": "Tue, 16 Jun 2026 15:46:31 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "DiffusionGemma: 4x faster text generation",
+      "summary": "",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "published": "Wed, 10 Jun 2026 16:24:11 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "published": "Tue, 30 Jun 2026 18:32:50 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Why Specialization Is Inevitable",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "published": "Tue, 30 Jun 2026 14:39:11 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "summary": "",
+      "url": "https://huggingface.co/blog/eee-community-evals",
+      "published": "Tue, 30 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "DiScoFormer: One transformer for density and score, across distributions",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "published": "Mon, 29 Jun 2026 18:02:48 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "summary": "",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "published": "Fri, 26 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "What's new in Claude Sonnet 5",
+      "summary": "<p><strong><a href=\"https://platform.claude.com/docs/en/about-claude/models/whats-new-sonnet-5\">What&#x27;s new in Claude Sonnet 5</a></strong></p>\nClaude Sonnet 5 came out <a href=\"https://www.anthropic.com/news/claude-sonnet-5\">this morning</a>. I always head straight for the \"what's new\" developer docs because they tend to have more actionable information than the official announcement post.</p>\n<p>Anthropic say of Sonnet 5 that \"its performance is close to that of Opus 4.8, but at lower prices\". The <a href=\"https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20So",
+      "url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+      "published": "2026-06-30T21:23:02+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "The AI Compass",
+      "summary": "<p><strong><a href=\"https://bambamramfan.github.io/ai-compass/\">The AI Compass</a></strong></p>\nThis political compass style quiz <a href=\"https://bambamramfan.tumblr.com/post/820505178072580096/the-ai-compass\">by bambamramfan</a> is pretty neat - answer 29 questions about AI and AI ethics to see which of the 30 archetypes you best fit.</p>\n<p>I'm impressed that my answers on my first time through the quiz categorized me as \"The Garage Tinkerer\", patron saint myself!</p>\n<p><img alt=\"Screenshot of a quiz result screen on a dark background. The top half shows a square scatter-plot quadrant char",
+      "url": "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything",
+      "published": "2026-06-30T17:39:23+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Have your agent record video demos of its work with shot-scraper video",
+      "summary": "<p><a href=\"https://shot-scraper.datasette.io/en/stable/video.html\">shot-scraper video</a> is a new command introduced in today's <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.10\">shot-scraper 1.10</a> release which accepts a <code>storyboard.yml</code> file defining a routine to run against a web application and uses Playwright to record a video of that routine. I've written before about the importance of <a href=\"https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#proving-code-actually-works\">having coding agents produce demos</a> of their work; this is my latest atte",
+      "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
+      "published": "2026-06-30T16:54:26+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "shot-scraper 1.10",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.10\">shot-scraper 1.10</a></p>\n        <p>The big new feature is <code>shot-scraper video storyboard.yml</code>, described in detail in <a href=\"https://simonwillison.net/2026/Jun/30/shot-scraper-video/\">Have your agent record video demos of its work with shot-scraper video</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/shot-scraper\">shot-scraper</a></p>",
+      "url": "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything",
+      "published": "2026-06-30T15:10:14+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "HTML table extractor",
+      "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/html-table-extractor\">HTML table extractor</a></p>\n        <p>Yet another in my growing collection of paste-conversion tools. This one accepts pasted rich text from browsers (with embedded HTML tables) and converts every detected table into HTML, Markdown, CSV, TSV, or JSON.</p>\n<p>Try it out by selecting everything on the Wikipedia <a href=\"https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_the_San_Francisco_Bay_Area\">List of cities and towns in the San Francisco Bay Area</a> page and pasting it directly into the tool:<",
+      "url": "https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything",
+      "published": "2026-06-29T23:38:21+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Sonnet 5",
+      "summary": "HNスコア: 738, コメント数: 407",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "published": "2026-06-30T17:59:52",
+      "hn_score": 738
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code is steganographically marking requests",
+      "summary": "HNスコア: 1190, コメント数: 310",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "published": "2026-06-30T15:44:24",
+      "hn_score": 1190
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Science",
+      "summary": "HNスコア: 294, コメント数: 104",
+      "url": "https://claude.com/product/claude-science",
+      "published": "2026-06-30T17:07:41",
+      "hn_score": 294
+    },
+    {
+      "source": "hackernews",
+      "title": "Tell HN: Installing Cursor on iOS irreversibly changes your privacy settings",
+      "summary": "HNスコア: 182, コメント数: 27",
+      "url": "https://news.ycombinator.com/item?id=48737226",
+      "published": "2026-06-30T18:33:59",
+      "hn_score": 182
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code Just Got 5x More Expensive",
+      "summary": "HNスコア: 13, コメント数: 0",
+      "url": "https://www.vincentschmalbach.com/claude-code-quietly-looks-5x-more-expensive/",
+      "published": "2026-06-30T21:03:56",
+      "hn_score": 13
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Sonnet 5 – benchmark results",
+      "summary": "HNスコア: 34, コメント数: 15",
+      "url": "https://artificialanalysis.ai/models/claude-sonnet-5",
+      "published": "2026-06-30T20:09:25",
+      "hn_score": 34
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Desktop is now available on Linux (in beta)",
+      "summary": "HNスコア: 41, コメント数: 4",
+      "url": "https://code.claude.com/docs/en/desktop-linux",
+      "published": "2026-06-30T16:09:10",
+      "hn_score": 41
+    },
+    {
+      "source": "hackernews",
+      "title": "Ask HN: Secure wrapper for coding agents?",
+      "summary": "HNスコア: 15, コメント数: 9",
+      "url": "https://news.ycombinator.com/item?id=48732627",
+      "published": "2026-06-30T13:40:11",
+      "hn_score": 15
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Clusy – Cursor for data science notebooks in cloud",
+      "summary": "HNスコア: 5, コメント数: 0",
+      "url": "https://www.clusy.io/",
+      "published": "2026-06-30T17:09:22",
+      "hn_score": 5
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic has embedded hidden spyware-like code in Claude Code",
+      "summary": "HNスコア: 46, コメント数: 9",
+      "url": "https://twitter.com/IntCyberDigest/status/2071971609183678544",
+      "published": "2026-06-30T16:29:36",
+      "hn_score": 46
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-06-30T16:58:36Z",
+      "stars": 39530,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-06-30T22:17:51Z",
+      "stars": 27336,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-06-30T22:14:33Z",
+      "stars": 23593,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-06-30T16:48:35Z",
+      "stars": 10907,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "xbtlin/ai-berkshire",
+      "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "published": "2026-06-30T22:13:00Z",
+      "stars": 7455,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-06-30T22:14:12Z",
+      "stars": 5741,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-06-30T21:53:49Z",
+      "stars": 3359,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-06-30T02:10:13Z",
+      "stars": 3309,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "Build Your AI Agent | What is LangChain? | In Detail - Episode #2025  #langchain #aiagent",
+      "summary": "In this episode of the Build Your AI Agent series, you'll learn the core concepts of LangChain and understand why it is one of the ...",
+      "url": "https://www.youtube.com/watch?v=S-TxoR6ae3I",
+      "published": "2026-06-25T20:54:53Z",
+      "channel": "You Can Automate",
+      "has_video": true,
+      "video_id": "S-TxoR6ae3I"
+    },
+    {
+      "source": "youtube",
+      "title": "What is Azure AI Foundry? Microsoft&#39;s AI Platform Explained (2025)",
+      "summary": "What is Azure AI Foundry? In this video, we break down Microsoft's unified enterprise AI platform covering the Model Catalog ...",
+      "url": "https://www.youtube.com/watch?v=DioQk72PZ6A",
+      "published": "2026-06-23T04:57:35Z",
+      "channel": "Kaleem M",
+      "has_video": true,
+      "video_id": "DioQk72PZ6A"
+    },
+    {
+      "source": "youtube",
+      "title": "Build Your First AI Agent for Real Estate (No Code, Step-by-Step)",
+      "summary": "Build your first AI agent for real estate in minutes — no code, nothing to install. In this video I show you exactly how to set up an ...",
+      "url": "https://www.youtube.com/watch?v=9roqOE2zZ-w",
+      "published": "2026-06-28T15:32:26Z",
+      "channel": "The Closer's Edge",
+      "has_video": true,
+      "video_id": "9roqOE2zZ-w"
+    },
+    {
+      "source": "youtube",
+      "title": "5 AI Agent Terms You Need to Know",
+      "summary": "Learn more about AI Agents here → https://ibm.biz/~dXkrYnDwR Frontier AI agents rely on more than just large language models ...",
+      "url": "https://www.youtube.com/watch?v=k5jYwyhDMxA",
+      "published": "2026-06-23T11:00:39Z",
+      "channel": "IBM Technology",
+      "has_video": true,
+      "video_id": "k5jYwyhDMxA"
+    },
+    {
+      "source": "youtube",
+      "title": "Introducing Ornith 1.0 - Agentic Coding LLMs",
+      "summary": "In this video, I look at the Ornith 1.0 family of agentic coding models. Both what they can do and how they were created. Thanks to ...",
+      "url": "https://www.youtube.com/watch?v=uD4-uy0GmHE",
+      "published": "2026-06-26T14:00:00Z",
+      "channel": "Sam Witteveen",
+      "has_video": true,
+      "video_id": "uD4-uy0GmHE"
+    },
+    {
+      "source": "youtube",
+      "title": "Run Your Own Agentic AI? 🦙 Full Ollama Setup + Hermes Workflow",
+      "summary": "How can I run my own AI, on my computer, without sending data (or money) to others? It's easier than you think! Local models are ...",
+      "url": "https://www.youtube.com/watch?v=4KXLW9Y1r4c",
+      "published": "2026-06-25T12:30:17Z",
+      "channel": "Wanderloots",
+      "has_video": true,
+      "video_id": "4KXLW9Y1r4c"
+    },
+    {
+      "source": "youtube",
+      "title": "Luzmo MCP: Bring Your Data Into Claude, ChatGPT or Your Own Agents Youtube recording",
+      "summary": "Your users increasingly want to ask data questions without logging into your product. They just ask Claude, or whatever AI tool ...",
+      "url": "https://www.youtube.com/watch?v=eI1Z6i5uYsI",
+      "published": "2026-06-30T13:42:15Z",
+      "channel": "Luzmo",
+      "has_video": true,
+      "video_id": "eI1Z6i5uYsI"
+    },
+    {
+      "source": "youtube",
+      "title": "Build a WhatsApp AI Agent in Just 30 Minutes (Claude Code Tutorial)",
+      "summary": "In this video, I build a full WhatsApp AI assistant — using Claude Code to write every single line of code. No coding experience ...",
+      "url": "https://www.youtube.com/watch?v=_VX7jc_BhB8",
+      "published": "2026-06-28T06:50:18Z",
+      "channel": "Yashica Jain",
+      "has_video": true,
+      "video_id": "_VX7jc_BhB8"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Sonnet 5 IS OUT &amp; ITS HORRIBLE! Worst Model By Anthropic EVER? (Fully Tested)",
+      "summary": "Claude Sonnet 5 is finally here... but after extensive testing, is this Anthropic's biggest disappointment yet? My Links: Sponsor a ...",
+      "url": "https://www.youtube.com/watch?v=VuodSALTF9w",
+      "published": "2026-06-30T19:58:13Z",
+      "channel": "WorldofAI",
+      "has_video": true,
+      "video_id": "VuodSALTF9w"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Meet the AI &quot;Co-Scientist&quot; Changing Everything 🤖🧪 #ai",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/iz7elwbqZVI",
+      "published": "2026-06-03T17:00:19Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "iz7elwbqZVI"
+    }
+  ]
+}
