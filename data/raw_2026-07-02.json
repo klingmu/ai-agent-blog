@@ -1,0 +1,567 @@
+{
+  "date": "2026-07-02",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+      "summary": "LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to inform the model about the goodness of intermediate actions. Dense supervision methods aim to solve this problem by scoring intermediate steps, from intrinsic confidence to self-distillation and embedding similarities. However, it is common practice to evaluate them by measuring the downstream performance of a training pipeline that integrates them. This is expensive, conflates supervision quality",
+      "url": "http://arxiv.org/abs/2606.32034v1",
+      "authors": [
+        "Sergio Hernández-Gutiérrez",
+        "Matteo Merler",
+        "Ilze Amanda Auzina"
+      ],
+      "published": "2026-06-30T17:58:23+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+      "summary": "Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes. Yet LLMs exhibit systemic deficiencies in key metacognitive faculties: they hallucinate with high confidence, fail to recognize knowledge boundaries, and misrepresent their internal uncertainty--undermining trustworthiness and reliability. Since monitoring task performance and adapting behavior accordingly are central to metacognition, we posit that models capable of accurately judging their own performance are better positioned to improve it. We operationaliz",
+      "url": "http://arxiv.org/abs/2606.32032v1",
+      "authors": [
+        "Gabrielle Kaili-May Liu",
+        "Avi Caciularu",
+        "Gal Yona"
+      ],
+      "published": "2026-06-30T17:56:01+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
+      "summary": "While large language models (LLMs) perform well on table tasks, they still make data referencing errors (DREs), i.e., incorrectly citing or omitting table values, despite understanding the table structure. Beyond final-answer accuracy, DREs directly compromise the correctness and reliability of intermediate reasoning steps. Yet prior studies have only offered limited, small-scale analyses. In this work, we present the first systematic evaluation of tabular data referencing errors across different models and tasks. Our results show that DREs occur across all tested models (1.7B to 20B parameter",
+      "url": "http://arxiv.org/abs/2606.32029v1",
+      "authors": [
+        "Yuqing Yang",
+        "Qi Zhu",
+        "Zhen Han"
+      ],
+      "published": "2026-06-30T17:54:50+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "TRIAGE: Role-Typed Credit Assignment for Agentic Reinforcement Learning",
+      "summary": "Agentic reinforcement learning requires assigning credit to environment-facing actions such as searches, clicks, edits, navigation commands, and object interactions. Standard GRPO uses the final verifier outcome as a uniform advantage over all action tokens. This outcome signal is useful but structurally incomplete: it punishes useful exploration in failed rollouts and reinforces redundant or regressive actions in successful rollouts. We propose TRIAGE, a role-typed credit assignment framework that adds a semantic role axis to outcome credit. A structured judge classifies each segment as decis",
+      "url": "http://arxiv.org/abs/2606.32017v1",
+      "authors": [
+        "Yuanda Xu",
+        "Zhengze Zhou",
+        "Hejian Sang"
+      ],
+      "published": "2026-06-30T17:48:07+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Surrogate Fidelity: When Can Open LLMs Explain Closed Ones?",
+      "summary": "Mechanistic interpretability (MI) requires full access to model internals, yet the APIs for most widely deployed language models at best expose log-probabilities over output tokens. This creates a surrogate problem: when do measurements made on open models allow us to make claims about a closed model? We evaluate surrogate fidelity at the prediction, attribution, and representation levels. For binary classification tasks, log-odds provide an API-compatible scalar readout of the model's representation space, and leave-one-out attributions provide insight into model behavior. Across eleven model",
+      "url": "http://arxiv.org/abs/2606.32008v1",
+      "authors": [
+        "Philippe Chlenski",
+        "Zachariah Carmichael",
+        "Ayush Warikoo"
+      ],
+      "published": "2026-06-30T17:43:44+00:00",
+      "categories": [
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "AxDafny: Agentic Verified Code Generation in Dafny",
+      "summary": "We study agentic code generation in Dafny, where a model must generate both executable code and the proof artifacts for verification. We present AxDafny, a verifier-guided repair framework that iteratively generates implementations, invariants, assertions, and termination arguments. We also introduce LiveCodeBench-Pro-Dafny (LCB-Pro-Dafny), a benchmark of 250 competition-style programming problems translated into Dafny with formal specifications and a verifier-based evaluation harness. On LCB-Pro-Dafny, AxDafny substantially improves verification success over baseline GPT-5.5 performance. On D",
+      "url": "http://arxiv.org/abs/2606.32007v1",
+      "authors": [
+        "Benjamin Breen",
+        "Austin Letson",
+        "Borja Requena Pozo"
+      ],
+      "published": "2026-06-30T17:39:43+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "TreeAgent: A Generalizable Multi-Agent Framework for Automated Bias Labeling in Forestry via Compiled Expert Rules and Vision-Language Models",
+      "summary": "Human-labeled data are widely used as reference annotations in ML, despite known variability across annotators in many expert-driven domains. In addition, expert annotation is slow, inconsistent, and remains a major bottleneck for scaling tasks like tree height bias classification in forestry remote sensing. We propose a multi-agent system (MAS) that orchestrates expert decision trees with Vision-Language Models (VLMs), treating the decision tree as a structural prior while VLMs perform localized semantic perception at individual nodes, with multi-agent voting to mitigate VLM stochasticity. We",
+      "url": "http://arxiv.org/abs/2606.31976v1",
+      "authors": [
+        "Shiyi Chen",
+        "Nicholas Saban",
+        "Collin Hargreaves"
+      ],
+      "published": "2026-06-30T17:16:59+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "MECoBench: A Systematic Study of Multimodal Agent Collaboration in Embodied Environments",
+      "summary": "Recent multimodal large language models (MLLMs) have strong potential as embodied agents, but their ability to collaborate in visually grounded environments remains underexplored. To address this gap, we introduce MECoBench, a multimodal embodied cooperation benchmark with an evaluation platform spanning diverse real-world tasks, two cooperation structures, and three collaboration modes. Through extensive experiments across various MLLMs, we summarize three key findings: (i) Collaboration generally improves embodied task completion, but its benefits depend on balancing collaborative gains agai",
+      "url": "http://arxiv.org/abs/2606.31966v1",
+      "authors": [
+        "Qingyun Liu",
+        "Jiwen Zhang",
+        "Jingyi Hu"
+      ],
+      "published": "2026-06-30T17:07:53+00:00",
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Attend, Transform, or Silence: Operator-Level Visual Skipping for Efficient Multimodal LLM Inference",
+      "summary": "Multimodal large language models (MLLMs) increasingly process long visual-token sequences, increasing the overall inference computation. Existing acceleration methods usually remove visual tokens or skip visual-token updates in entire layers, but these coarse strategies may discard fine-grained evidence or suppress useful operators together with redundant ones. In this paper, we study visual-token computation from an answer-observable perspective and find that late visual-token updates can remain large while having little effect on answer-token representations. Motivated by this answer-silent ",
+      "url": "http://arxiv.org/abs/2606.31903v1",
+      "authors": [
+        "Zhaoyang Luo",
+        "Runmin Dong",
+        "Miao Yang"
+      ],
+      "published": "2026-06-30T16:08:29+00:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "An Agentic AI Framework to Accelerate Scientific Discovery in Plant Phenotyping",
+      "summary": "High-throughput plant phenotyping now generates image derived datasets far faster than scientists can analyze them. At Oak Ridge National Laboratory's Advanced Plant Phenotyping Laboratory (APPL), automated stations image hundreds of plants daily across multiple remote sensing modalities; yet, trait extraction and interpretation remain manual, expert-bound, and strictly post-hoc, making analysis, not acquisition, the binding constraint on discovery. We present an end-to-end agentic AI framework that turns the facility from a data factory into an interactive autonomous, discovery platform, wher",
+      "url": "http://arxiv.org/abs/2606.31831v1",
+      "authors": [
+        "Renan Souza",
+        "Daniel Rosendo",
+        "Kelsey Carter"
+      ],
+      "published": "2026-06-30T15:37:02+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How ChatGPT adoption has expanded",
+      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "published": "Tue, 30 Jun 2026 09:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Inside Genebench-Pro",
+      "summary": "",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "published": "Tue, 30 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Introducing GeneBench-Pro",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "published": "Tue, 30 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "published": "Tue, 30 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "published": "Mon, 29 Jun 2026 07:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "summary": "",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "published": "Tue, 30 Jun 2026 16:02:40 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "published": "Wed, 24 Jun 2026 16:30:01 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "published": "Tue, 16 Jun 2026 21:29:50 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Securing the future of AI agents",
+      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "published": "Tue, 16 Jun 2026 15:46:31 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "DiffusionGemma: 4x faster text generation",
+      "summary": "",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "published": "Wed, 10 Jun 2026 16:24:11 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "summary": "",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "published": "Wed, 01 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "published": "Tue, 30 Jun 2026 18:32:50 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Why Specialization Is Inevitable",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "published": "Tue, 30 Jun 2026 14:39:11 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "summary": "",
+      "url": "https://huggingface.co/blog/eee-community-evals",
+      "published": "Tue, 30 Jun 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "DiScoFormer: One transformer for density and score, across distributions",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "published": "Mon, 29 Jun 2026 18:02:48 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Anthropic",
+      "summary": "<blockquote cite=\"https://twitter.com/anthropicai/status/2072106151890809341\"><p>We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.</p>\n<p>We'll begin restoring access tomorrow, and will share an update soon.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/anthropicai/status/2072106151890809341\">Anthropic</a>, on Twitter</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generativ",
+      "url": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
+      "published": "2026-06-30T23:58:15+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Nano Banana 2 Lite",
+      "summary": "<p><strong><a href=\"https://deepmind.google/models/gemini-image/flash-lite/\">Nano Banana 2 Lite</a></strong></p>\nAlso known as Gemini 3.1 Flash Lite Image (<code>gemini-3.1-flash-lite-image</code> <a href=\"https://ai.google.dev/gemini-api/docs/image-generation\">in their API</a>), this is the \"fastest and cheapest Gemini image model, engineered for velocity and scale\".</p>\n<p>I <a href=\"https://aistudio.google.com/app/prompts/new_chat?model=gemini-3.1-flash-lite-image\">used AI studio</a> to run this prompt:</p>\n<blockquote>\n<p><code>Do a where's Waldo style image but it's where is the raccoon h",
+      "url": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything",
+      "published": "2026-06-30T22:15:35+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "What's new in Claude Sonnet 5",
+      "summary": "<p><strong><a href=\"https://platform.claude.com/docs/en/about-claude/models/whats-new-sonnet-5\">What&#x27;s new in Claude Sonnet 5</a></strong></p>\nClaude Sonnet 5 came out <a href=\"https://www.anthropic.com/news/claude-sonnet-5\">this morning</a>. I always head straight for the \"what's new\" developer docs because they tend to have more actionable information than the official announcement post.</p>\n<p>Anthropic say of Sonnet 5 that \"its performance is close to that of Opus 4.8, but at lower prices\". The <a href=\"https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20So",
+      "url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything",
+      "published": "2026-06-30T21:23:02+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "The AI Compass",
+      "summary": "<p><strong><a href=\"https://bambamramfan.github.io/ai-compass/\">The AI Compass</a></strong></p>\nThis political compass style quiz <a href=\"https://bambamramfan.tumblr.com/post/820505178072580096/the-ai-compass\">by bambamramfan</a> is pretty neat - answer 29 questions about AI and AI ethics to see which of the 30 archetypes you best fit.</p>\n<p>I'm impressed that my answers on my first time through the quiz categorized me as \"The Garage Tinkerer\", patron saint myself!</p>\n<p><img alt=\"Screenshot of a quiz result screen on a dark background. The top half shows a square scatter-plot quadrant char",
+      "url": "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything",
+      "published": "2026-06-30T17:39:23+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Have your agent record video demos of its work with shot-scraper video",
+      "summary": "<p><a href=\"https://shot-scraper.datasette.io/en/stable/video.html\">shot-scraper video</a> is a new command introduced in today's <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.10\">shot-scraper 1.10</a> release which accepts a <code>storyboard.yml</code> file defining a routine to run against a web application and uses Playwright to record a video of that routine. I've written before about the importance of <a href=\"https://simonwillison.net/2026/Feb/10/showboat-and-rodney/#proving-code-actually-works\">having coding agents produce demos</a> of their work; this is my latest atte",
+      "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
+      "published": "2026-06-30T16:54:26+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenWiki: CLI that writes and maintains agent documentation for your codebase",
+      "summary": "HNスコア: 5, コメント数: 0",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "published": "2026-07-01T20:51:52",
+      "hn_score": 5
+    },
+    {
+      "source": "hackernews",
+      "title": "Fable open sourced NanoClaw's agent factory. It cost $800",
+      "summary": "HNスコア: 13, コメント数: 14",
+      "url": "https://twitter.com/Gavriel_Cohen/status/2072432348805669139",
+      "published": "2026-07-01T21:41:06",
+      "hn_score": 13
+    },
+    {
+      "source": "hackernews",
+      "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+      "summary": "HNスコア: 912, コメント数: 630",
+      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "published": "2026-06-30T23:55:12",
+      "hn_score": 912
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code is steganographically marking requests",
+      "summary": "HNスコア: 2353, コメント数: 709",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "published": "2026-06-30T15:44:24",
+      "hn_score": 2353
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: PMB – local memory for coding agents that shows if it is used",
+      "summary": "HNスコア: 18, コメント数: 7",
+      "url": "https://pmbai.dev",
+      "published": "2026-06-29T15:37:30",
+      "hn_score": 18
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Sonnet 5",
+      "summary": "HNスコア: 1232, コメント数: 762",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "published": "2026-06-30T17:59:52",
+      "hn_score": 1232
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Morph Reflexes – Multi-head classifiers for agent traces",
+      "summary": "HNスコア: 11, コメント数: 2",
+      "url": "https://news.ycombinator.com/item?id=48739038",
+      "published": "2026-06-30T20:52:04",
+      "hn_score": 11
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Fable 5 Promotional Access",
+      "summary": "HNスコア: 87, コメント数: 71",
+      "url": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
+      "published": "2026-07-01T19:31:46",
+      "hn_score": 87
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Science",
+      "summary": "HNスコア: 552, コメント数: 171",
+      "url": "https://claude.com/product/claude-science",
+      "published": "2026-06-30T17:07:41",
+      "hn_score": 552
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic says US lifts export ban on Fable 5",
+      "summary": "HNスコア: 16, コメント数: 1",
+      "url": "https://www.bbc.com/news/articles/cdr42623e1do",
+      "published": "2026-07-01T04:47:38",
+      "hn_score": 16
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-07-01T16:37:21Z",
+      "stars": 39536,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-07-01T20:04:51Z",
+      "stars": 27366,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-07-01T21:27:02Z",
+      "stars": 23620,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-07-01T15:39:02Z",
+      "stars": 10911,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "xbtlin/ai-berkshire",
+      "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "published": "2026-07-01T21:30:45Z",
+      "stars": 8096,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-07-01T22:15:02Z",
+      "stars": 5941,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-07-01T06:15:30Z",
+      "stars": 3360,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-07-01T16:04:12Z",
+      "stars": 3310,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "Build Your AI Agent | What is LangChain? | In Detail - Episode #2025  #langchain #aiagent",
+      "summary": "In this episode of the Build Your AI Agent series, you'll learn the core concepts of LangChain and understand why it is one of the ...",
+      "url": "https://www.youtube.com/watch?v=S-TxoR6ae3I",
+      "published": "2026-06-25T20:54:53Z",
+      "channel": "You Can Automate",
+      "has_video": true,
+      "video_id": "S-TxoR6ae3I"
+    },
+    {
+      "source": "youtube",
+      "title": "5500 MORE Microsoft Employees Just Lost Their Jobs to AI",
+      "summary": "Microsoft is cutting 5500 jobs—2.5% of its workforce, just as the new fiscal year begins. But it's not about bad profits; it's about ...",
+      "url": "https://www.youtube.com/watch?v=Zko9w9X1mgM",
+      "published": "2026-07-01T20:48:05Z",
+      "channel": "Mark Savant",
+      "has_video": true,
+      "video_id": "Zko9w9X1mgM"
+    },
+    {
+      "source": "youtube",
+      "title": "Build Your First AI Agent for Real Estate (No Code, Step-by-Step)",
+      "summary": "Build your first AI agent for real estate in minutes — no code, nothing to install. In this video I show you exactly how to set up an ...",
+      "url": "https://www.youtube.com/watch?v=9roqOE2zZ-w",
+      "published": "2026-06-28T15:32:26Z",
+      "channel": "The Closer's Edge",
+      "has_video": true,
+      "video_id": "9roqOE2zZ-w"
+    },
+    {
+      "source": "youtube",
+      "title": "Full Hermes Agent Tutorial (Desktop) 🧠 A Useful Agentic AI Workflow",
+      "summary": "What if your AI Agent got smarter every time you used it? Hermes Agent is Agentic AI that learns from interactions, remembers ...",
+      "url": "https://www.youtube.com/watch?v=GL67DEf2nyI",
+      "published": "2026-07-01T12:30:30Z",
+      "channel": "Wanderloots",
+      "has_video": true,
+      "video_id": "GL67DEf2nyI"
+    },
+    {
+      "source": "youtube",
+      "title": "Introducing Ornith 1.0 - Agentic Coding LLMs",
+      "summary": "In this video, I look at the Ornith 1.0 family of agentic coding models. Both what they can do and how they were created. Thanks to ...",
+      "url": "https://www.youtube.com/watch?v=uD4-uy0GmHE",
+      "published": "2026-06-26T14:00:00Z",
+      "channel": "Sam Witteveen",
+      "has_video": true,
+      "video_id": "uD4-uy0GmHE"
+    },
+    {
+      "source": "youtube",
+      "title": "Run Your Own Agentic AI? 🦙 Full Ollama Setup + Hermes Workflow",
+      "summary": "How can I run my own AI, on my computer, without sending data (or money) to others? It's easier than you think! Local models are ...",
+      "url": "https://www.youtube.com/watch?v=4KXLW9Y1r4c",
+      "published": "2026-06-25T12:30:17Z",
+      "channel": "Wanderloots",
+      "has_video": true,
+      "video_id": "4KXLW9Y1r4c"
+    },
+    {
+      "source": "youtube",
+      "title": "Luzmo MCP: Bring Your Data Into Claude, ChatGPT or Your Own Agents Youtube recording",
+      "summary": "Your users increasingly want to ask data questions without logging into your product. They just ask Claude, or whatever AI tool ...",
+      "url": "https://www.youtube.com/watch?v=eI1Z6i5uYsI",
+      "published": "2026-06-30T13:42:15Z",
+      "channel": "Luzmo",
+      "has_video": true,
+      "video_id": "eI1Z6i5uYsI"
+    },
+    {
+      "source": "youtube",
+      "title": "Copy These Claude Web Search Use Cases! (endless possibilities)",
+      "summary": "Decodo: https://visit.decodo.com/OYz52A Full courses + unlimited support: ...",
+      "url": "https://www.youtube.com/watch?v=0XCguiHeOIo",
+      "published": "2026-07-01T11:38:53Z",
+      "channel": "Brendan Jowett",
+      "has_video": true,
+      "video_id": "0XCguiHeOIo"
+    },
+    {
+      "source": "youtube",
+      "title": "Build a WhatsApp AI Agent in Just 30 Minutes (Claude Code Tutorial)",
+      "summary": "In this video, I build a full WhatsApp AI assistant — using Claude Code to write every single line of code. No coding experience ...",
+      "url": "https://www.youtube.com/watch?v=_VX7jc_BhB8",
+      "published": "2026-06-28T06:50:18Z",
+      "channel": "Yashica Jain",
+      "has_video": true,
+      "video_id": "_VX7jc_BhB8"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Meet the AI &quot;Co-Scientist&quot; Changing Everything 🤖🧪 #ai",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/iz7elwbqZVI",
+      "published": "2026-06-03T17:00:19Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "iz7elwbqZVI"
+    }
+  ]
+}
