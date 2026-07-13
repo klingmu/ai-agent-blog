@@ -1,0 +1,566 @@
+{
+  "date": "2026-07-14",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
+      "summary": "Internet of Things (IoT) systems are inherently vulnerable due to constrained hardware, outdated firmware, and insecure default configurations, creating a need for scalable and adaptive security testing approaches. While recent adoptions of Large Language Model (LLM) agents have demonstrated promise in penetration testing and Capture-the-Flag (CTF) environments, their application to IoT specific vulnerabilities remains unexplored. This paper presents an autonomous multi-agent framework, referred to as Vulnerability EXploitation using AI Agents (VEXAIoT), for vulnerability discovery and exploit",
+      "url": "http://arxiv.org/abs/2607.09653v1",
+      "authors": [
+        "Katherine Swinea",
+        "Kshitiz Aryal",
+        "Lopamudra Praharaj"
+      ],
+      "published": "2026-07-10T17:52:29+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Task-Specific Multimodal Question Answering Agents via Confidence Calibration and Incremental Reasoning for QANTA 2026",
+      "summary": "We present our submission to the QANTA 2026 shared challenge at the ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA). Quanta evaluates multimodal quizbowl systems that answer pyramid-style questions from incrementally revealed text and accompanying images while operating under realistic efficiency constraints. The challenge consists of two distinct tasks: Tossup questions, which require deciding when to answer under uncertainty, and Bonus questions, which emphasize accurate answer selection and human adoption. To address these differing objectives, we develop a task-speci",
+      "url": "http://arxiv.org/abs/2607.09623v1",
+      "authors": [
+        "Nirjhar Das",
+        "Md. Al-Mamun Provath"
+      ],
+      "published": "2026-07-10T17:22:49+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "LLM for EDA in Front-End Design: Challenges and Opportunities",
+      "summary": "As chip complexity increases and time-to-market pressures grow, front-end design has become a critical bottleneck in chip development. Recently, Large Language Models (LLMs) have shown great potential in Electronic Design Automation (EDA). Beyond specification understanding, LLMs show the potential to serve as a unified intelligent interface for hardware description language (HDL) generation, testbench construction, and design space exploration. The rise of agentic AI, represented by pioneering systems such as OpenClaw, offers a strategic roadmap for the next generation EDA. From this perspect",
+      "url": "http://arxiv.org/abs/2607.09616v1",
+      "authors": [
+        "Kangwei Xu",
+        "Bing Li",
+        "Ulf Schlichtmann"
+      ],
+      "published": "2026-07-10T17:15:54+00:00",
+      "categories": [
+        "cs.ET",
+        "cs.AR",
+        "cs.LG",
+        "eess.SY"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation",
+      "summary": "Enhancing the reasoning capabilities of large language model (LLM) agents requires effective orchestration of diverse expert models and tools. However, existing frameworks typically call APIs based on coarse-grained matching between tasks and the functions of expert models or tools, while overlooking critical factors such as performance variability and cost efficiency among functionally similar alternatives. To address this, we propose Agora, a framework that introduces an incentive-compatible auction mechanism for dynamically allocating tasks to expert models and tools. By treating reasoning ",
+      "url": "http://arxiv.org/abs/2607.09600v1",
+      "authors": [
+        "Kaiji Zhou",
+        "Ales Leonardis",
+        "Yue Feng"
+      ],
+      "published": "2026-07-10T16:54:52+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "TrustX Agent Risk Classification Framework (ARC): Risk-Tiering Internally Created Agentic AI Systems",
+      "summary": "The proliferation of agentic AI systems across enterprise and public-sector contexts has outpaced the capacity of general-purpose AI risk frameworks to classify and govern them. In this paper, we introduce the TrustX Agent Risk Classification Framework, a structured, repeatable instrument that can be applied to seven types of agentic AI systems and is grounded in foundational pre-existing AI governance frameworks. At the core of the framework is a twelve-dimension scoring rubric that robustly quantifies the risk. This rubric is combined with other components, such as the GPA + IAT classificati",
+      "url": "http://arxiv.org/abs/2607.09586v1",
+      "authors": [
+        "Hannah M. Liu",
+        "Rhea Saxena",
+        "Shiv Asthana"
+      ],
+      "published": "2026-07-10T16:36:44+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "SAGEAgent: A Self-Evolving Agent for Cost-Aware Modality Acquisition in Multimodal Survival Prediction",
+      "summary": "Does every cancer patient truly need a complete diagnostic workup for accurate survival prediction? In multimodal clinical oncology, diagnostic modalities follow a clinically mandated order of escalating burden -- from demographics collected at intake to genomic profiling requiring specialized tissue analysis. Current multimodal survival methods either assume all modalities are available or passively handle missing data, but none actively reason about whether acquiring the next modality is justified for a given patient along this ordered workflow. We formulate this as a sequential decision pro",
+      "url": "http://arxiv.org/abs/2607.09521v1",
+      "authors": [
+        "Chongyu Qu",
+        "Can Cui",
+        "Zhengyi Lu"
+      ],
+      "published": "2026-07-10T15:32:11+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Failure as a Process: An Anatomy of CLI Coding Agent Trajectories",
+      "summary": "Large language model (LLM) coding agents are increasingly deployed to autonomously perform software engineering tasks in terminal-based environments, making their reliability a growing concern. Existing empirical studies investigate why coding agents fail, yet they largely treat failure as a final outcome rather than a temporal process, providing limited insight into how failures emerge, evolve, and become unrecoverable. We present the first large-scale empirical study of CLI coding-agent failure trajectories, introducing a process-oriented framework that analyzes failure through its onset, ev",
+      "url": "http://arxiv.org/abs/2607.09510v1",
+      "authors": [
+        "Xiangxin Zhao",
+        "Han Li",
+        "Shuaiting Li"
+      ],
+      "published": "2026-07-10T15:25:56+00:00",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
+      "summary": "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain constraints, data schemas, and tool-use patterns that made previous sessions productive. Naively persisting entire conversation histories is token-inefficient and counterproductive: irrelevant context degrades generation quality. We introduce shared selective persistent memory, an architecture that identifies and retains four categories of reusable context (task specifications, data schemas, tool configurations, and o",
+      "url": "http://arxiv.org/abs/2607.09493v1",
+      "authors": [
+        "Sanjana Pedada",
+        "Aditya Dhavala",
+        "Neelraj Patil"
+      ],
+      "published": "2026-07-10T15:07:00+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.SE"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "ProofCouncil: An LLM Agent for Solving Open Mathematical Problems",
+      "summary": "Large language models (LLMs) have shown increasing promise in solving open problems in mathematics. However, their performance can be further improved through agentic workflows tailored to real-world mathematical practice. To this end, we introduce ProofCouncil, a mathematical agent that is designed to tackle open problems using an author-critic architecture. ProofCouncil served as a submission to the second batch of FirstProof, a challenge consisting of 10 real-world mathematical problems that agents must solve autonomously. Its submissions for 6 of the 10 problems were judged by the referees",
+      "url": "http://arxiv.org/abs/2607.09474v1",
+      "authors": [
+        "Johannes Schmitt",
+        "Tim Gehrunger",
+        "Jasper Dekoninck"
+      ],
+      "published": "2026-07-10T14:46:01+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Practical Source Code Recovery from Binary Functions Using Anchor-Based Retrieval and LLM Reasoning",
+      "summary": "We present a practical pipeline for recovering source code from stripped binary functions by combining reverse engineering, anchor-based source code retrieval, and large language model reasoning. Our binary-to-source-code retrieval method attempts to identify the source function from a source code database, rather than generating approximate decompiled pseudocode. It extracts anchors such as strings, constants, external calls, and available function names using Ghidra, retrieves candidate files via an inverted-index search database, narrows candidates to likely function snippets, and re-ranks ",
+      "url": "http://arxiv.org/abs/2607.09452v1",
+      "authors": [
+        "Charles Edward Gagnon",
+        "Steven H. H. Ding",
+        "Philippe Charland"
+      ],
+      "published": "2026-07-10T14:22:30+00:00",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "published": "Fri, 10 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Getting started with ChatGPT",
+      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "url": "https://openai.com/academy/getting-started",
+      "published": "Fri, 10 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "published": "Thu, 09 Jul 2026 13:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "summary": "Details about the OpenAI Bio Bounty program",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "published": "Thu, 09 Jul 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "url": "https://openai.com/index/gpt-5-6",
+      "published": "Thu, 09 Jul 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "summary": "",
+      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+      "published": "Fri, 03 Jul 2026 14:25:43 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "summary": "",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "published": "Tue, 30 Jun 2026 16:02:40 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "published": "Wed, 24 Jun 2026 16:30:01 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "published": "Tue, 16 Jun 2026 21:29:50 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Securing the future of AI agents",
+      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "published": "Tue, 16 Jun 2026 15:46:31 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "summary": "",
+      "url": "https://huggingface.co/blog/torch-attention-profile",
+      "published": "Fri, 10 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Data for Agents",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "published": "Wed, 08 Jul 2026 17:16:05 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Native-speed vLLM transformers modeling backend",
+      "summary": "",
+      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "published": "Wed, 08 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+      "summary": "",
+      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "published": "Tue, 07 Jul 2026 21:15:33 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Hugging Face Models on Foundry Managed Compute",
+      "summary": "",
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "published": "Tue, 07 Jul 2026 15:20:06 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "datasette code-frequency chart on GitHub",
+      "summary": "<p><strong><a href=\"https://github.com/simonw/datasette/graphs/code-frequency\">datasette code-frequency chart on GitHub</a></strong></p>\nOut of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is this GitHub chart of frequency of code changes to my <a href=\"https://datasette.io/\">Datasette</a> open source project:</p>\n<p><img alt=\"Screenshot of a GitHub &quot;Code frequency&quot; bar chart, subtitled &quot;Additions and deletions per week&quot;, showing green addition bars and ",
+      "url": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
+      "published": "2026-07-13T21:45:27+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Directly Responsible Individuals (DRI)",
+      "summary": "<p><strong><a href=\"https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/\">Directly Responsible Individuals (DRI)</a></strong></p>\nI went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to describe the person who is \"ultimately accountable for the success or failure of a specific project, initiative, or activity\".</p>\n<p>I've been thinking about this term recently in the context of LLM-powered agents and how they fit into human organizations. I ",
+      "url": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
+      "published": "2026-07-12T23:57:14+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "shot-scraper 1.11",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.11\">shot-scraper 1.11</a></p>\n        <p>Some minor improvements, mainly around command option consistency and making the <code>server:</code> mechanism <a href=\"https://shot-scraper.datasette.io/en/stable/multi.html#running-a-server-for-the-duration-of-the-session\">used by</a> both <code>shot-scraper video</code> and <code>shot-scraper multi</code> work if the server takes longer than a second to start serving traffic.</p>\n<blockquote>\n<ul>\n<li><code>server:</code> processes used by <code>shot-scraper ",
+      "url": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+      "published": "2026-07-12T23:46:52+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Fable gets another bump",
+      "summary": "<p>One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, <a href=\"https://x.com/claudeai/status/2076351399999557669\">bumped the date</a> that Fable stops being available in their Claude Max plans:</p>\n<blockquote>\n<p>We're extending Claude Fable 5 access on all paid plans, as well as keeping Claude Code’s weekly rate limits 50% higher, through July 19.</p>\n<p>As before, you can use up to half of your weekly usage limit on Fable 5. After that, you can continue using Fable 5 with usage credits, or switch to another model to keep worki",
+      "url": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
+      "published": "2026-07-12T21:20:07+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "sqlite-utils 4.1.1",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.1.1\">sqlite-utils 4.1.1</a></p>\n        <p>Mainly a fix for an edge case that regular Claude chat spotted while <a href=\"https://claude.ai/share/564b187d-d126-47ea-9b59-07c16ade0b70\">experimenting with the 4.1 release</a> to answer a question about ON DELETE.</p>\n<blockquote>\n<ul>\n<li><code>table.transform()</code> now raises a <code>TransactionError</code> if called while a transaction is open with <code>PRAGMA foreign_keys</code> enabled and the table is referenced by foreign keys with destructive <co",
+      "url": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
+      "published": "2026-07-12T20:55:30+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Nobie – an Excel-compatible runtime for agents and humans",
+      "summary": "HNスコア: 48, コメント数: 20",
+      "url": "https://nobie.com",
+      "published": "2026-07-13T18:26:04",
+      "hn_score": 48
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
+      "summary": "HNスコア: 36, コメント数: 15",
+      "url": "https://github.com/morganwilliscloud/billai-bass",
+      "published": "2026-07-13T18:18:23",
+      "hn_score": 36
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
+      "summary": "HNスコア: 164, コメント数: 138",
+      "url": "https://github.com/clawkwork/clawk",
+      "published": "2026-07-13T14:02:03",
+      "hn_score": 164
+    },
+    {
+      "source": "hackernews",
+      "title": "AI agents write Ruby but can't navigate it: a 5-model, 13-codebase benchmark",
+      "summary": "HNスコア: 5, コメント数: 2",
+      "url": "https://github.com/luuuc/sense/blob/main/bench/verticals/ruby-rails/report-for-humans.md",
+      "published": "2026-07-13T18:21:35",
+      "hn_score": 5
+    },
+    {
+      "source": "hackernews",
+      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+      "summary": "HNスコア: 1356, コメント数: 680",
+      "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+      "published": "2026-07-13T08:39:39",
+      "hn_score": 1356
+    },
+    {
+      "source": "hackernews",
+      "title": "Precursor",
+      "summary": "HNスコア: 147, コメント数: 134",
+      "url": "https://blog.cloudflare.com/introducing-precursor/",
+      "published": "2026-07-13T14:39:38",
+      "hn_score": 147
+    },
+    {
+      "source": "hackernews",
+      "title": "Old and new apps, via modern coding agents",
+      "summary": "HNスコア: 444, コメント数: 132",
+      "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+      "published": "2026-07-12T11:09:42",
+      "hn_score": 444
+    },
+    {
+      "source": "hackernews",
+      "title": "Mechanistic interpretability researchers applying causality theory to LLMs",
+      "summary": "HNスコア: 112, コメント数: 79",
+      "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
+      "published": "2026-07-12T18:04:41",
+      "hn_score": 112
+    },
+    {
+      "source": "hackernews",
+      "title": "I love LLMs, I hate hype",
+      "summary": "HNスコア: 472, コメント数: 306",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "published": "2026-07-12T18:31:56",
+      "hn_score": 472
+    },
+    {
+      "source": "hackernews",
+      "title": "Stop Telling Me to Ask an LLM",
+      "summary": "HNスコア: 234, コメント数: 133",
+      "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
+      "published": "2026-07-11T22:28:48",
+      "hn_score": 234
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-07-13T19:49:31Z",
+      "stars": 39609,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-07-13T20:18:15Z",
+      "stars": 27812,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-07-13T19:49:19Z",
+      "stars": 23775,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-07-13T18:01:37Z",
+      "stars": 10966,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "xbtlin/ai-berkshire",
+      "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "published": "2026-07-13T21:10:37Z",
+      "stars": 13013,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-07-13T21:59:04Z",
+      "stars": 7213,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-07-13T10:23:36Z",
+      "stars": 3367,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "i-am-bee/beeai-framework",
+      "summary": "Build production-ready AI agents in both Python and Typescript.",
+      "url": "https://github.com/i-am-bee/beeai-framework",
+      "published": "2026-07-13T15:28:53Z",
+      "stars": 3315,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Agents For Beginners – OpenClaw Case Study",
+      "summary": "AI can feel overwhelming, but this hands-on course makes it practical, approachable, and fun. You will start with AI fundamentals ...",
+      "url": "https://www.youtube.com/watch?v=AZDSpS5v57w",
+      "published": "2026-07-07T12:13:50Z",
+      "channel": "freeCodeCamp.org",
+      "has_video": true,
+      "video_id": "AZDSpS5v57w"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Agents Explained: Build Your First One in 2026",
+      "summary": "Host Hermes Agent on Hostinger http://hostinger.com/yourihermes In this video, I show you how to build your own AI agent from ...",
+      "url": "https://www.youtube.com/watch?v=-Zhntlk0v80",
+      "published": "2026-07-07T15:30:32Z",
+      "channel": "Roboverse",
+      "has_video": true,
+      "video_id": "-Zhntlk0v80"
+    },
+    {
+      "source": "youtube",
+      "title": "Building Ai agents With Microsoft Foundry- Build ,Govern AI Apps And Agents at Scale",
+      "summary": "Check out Microsoft Foundry https://fandf.co/4vpw7Lq Microsoft Foundry is the enterprise AI platform to build, ground, and govern ...",
+      "url": "https://www.youtube.com/watch?v=ZP_U8eKBy2g",
+      "published": "2026-07-07T15:59:58Z",
+      "channel": "Krish Naik",
+      "has_video": true,
+      "video_id": "ZP_U8eKBy2g"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI Frameworks Explained: Workflows, Multi-Agent, &amp; Production",
+      "summary": "Learn more about AI Agent Frameworks here → https://ibm.biz/~M1qnwGHnE Too many agentic AI frameworks and no clear ...",
+      "url": "https://www.youtube.com/watch?v=ZVPlLaehjLk",
+      "published": "2026-07-09T11:00:08Z",
+      "channel": "IBM Technology",
+      "has_video": true,
+      "video_id": "ZVPlLaehjLk"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic Ai Explained In 8 Minutes | What Is Agentic Ai And How Does It Work? | 2026 | Simplilearn",
+      "summary": "In this video on \"What is Agentic AI\", we explain the meaning of Agentic AI through the simple story of Emma, a small online ...",
+      "url": "https://www.youtube.com/watch?v=l_Zg237msTg",
+      "published": "2026-07-10T15:30:28Z",
+      "channel": "Simplilearn",
+      "has_video": true,
+      "video_id": "l_Zg237msTg"
+    },
+    {
+      "source": "youtube",
+      "title": "Local AI Coding Agents Are Finally Good Enough",
+      "summary": "Book (From Idea to App Store with Claude Code): https://cwb.sh/book?r=yt Local LLMs finally don't suck, I ran Qwen3.6 27B on my ...",
+      "url": "https://www.youtube.com/watch?v=Zof2Oaj14rk",
+      "published": "2026-07-09T10:00:07Z",
+      "channel": "Code with Beto",
+      "has_video": true,
+      "video_id": "Zof2Oaj14rk"
+    },
+    {
+      "source": "youtube",
+      "title": "NEW ChatGPT Work is the Claude Cowork Killer? (Full Breakdown)",
+      "summary": "Join My Skool Community: https://bit.ly/4t2yNgG Get My 15 Claude Skills I Can't Live Without: https://bit.ly/4vYG9Vh Connect ...",
+      "url": "https://www.youtube.com/watch?v=qotnt0fzT5Y",
+      "published": "2026-07-10T15:25:39Z",
+      "channel": "Brock Mesarich | AI for Non Techies",
+      "has_video": true,
+      "video_id": "qotnt0fzT5Y"
+    },
+    {
+      "source": "youtube",
+      "title": "OpenAI is so back... GPT 5.6 Sol first look",
+      "summary": "Try Blacksmith for free to run your GitHub Actions 2x faster - https://www.blacksmith.sh/ OpenAI just released GPT-5.6, which ...",
+      "url": "https://www.youtube.com/watch?v=URKml8lgw8Y",
+      "published": "2026-07-10T17:25:44Z",
+      "channel": "Fireship",
+      "has_video": true,
+      "video_id": "URKml8lgw8Y"
+    },
+    {
+      "source": "youtube",
+      "title": "Meet GPT-5.6",
+      "summary": "Watch GPT-5.6 build a playable, celestial-themed card game in Codex from a short, open-ended prompt. In this demo, GPT-5.6 ...",
+      "url": "https://www.youtube.com/watch?v=-MPGU2a67Ls",
+      "published": "2026-07-09T17:55:26Z",
+      "channel": "OpenAI",
+      "has_video": true,
+      "video_id": "-MPGU2a67Ls"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "The “Biggest” AI That Came Out Of Nowhere!",
+      "summary": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Guide for using DeepSeek on Lambda: ...",
+      "url": "https://www.youtube.com/shorts/4bFDPVe6BHs",
+      "published": "2025-07-15T15:06:39Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "4bFDPVe6BHs"
+    }
+  ]
+}
