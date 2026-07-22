@@ -1,0 +1,550 @@
+{
+  "date": "2026-07-23",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
+      "summary": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as cascade decisions: try a cheap model first, then escalate hard cases to a stronger and more expensive model. In coding, however, execution feedback can also make further cheap-model recovery worthwhile, raising a budgeted deployment question: when should an agent spend more cheap compute, and when should it escalate? We formulate this post-failure decision as recovery routing over h",
+      "url": "http://arxiv.org/abs/2607.19338v1",
+      "authors": [
+        "Qijia He",
+        "Jiayi Cheng",
+        "Chenqian Le"
+      ],
+      "published": "2026-07-21T17:56:49+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Agents in the Wild: Where Research Meets Deployment",
+      "summary": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes to production scale deployments across domains such as software engineering, scientific discovery, and finance. While academic work has emphasized benchmarks and algorithmic innovation, deployment raises new challenges around robustness, safety, and reliability. This tutorial brings together researchers and practitioners to explore advances in reasoning and planning, multi agent coordination, and e",
+      "url": "http://arxiv.org/abs/2607.19336v1",
+      "authors": [
+        "Grace Hui Yang",
+        "Pranav N. Venkit",
+        "Hooman Sedghamiz"
+      ],
+      "published": "2026-07-21T17:55:10+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "LLM Detection as an Intervention: Downstream Impact under Strategic User Behavior",
+      "summary": "As LLM adoption becomes more widespread, there is a growing interest in detecting LLM-generated content, for example through LLM detection tools and through heuristics based on language patterns. Detectors operate as an intervention that steers not only the detected attribute itself, but also downstream metrics such as LLM usage and output quality. In this work, we demonstrate how imperfect LLM detectors lead to counterintuitive impacts on these downstream metrics, by distorting how users are incentivized to use LLMs in their workflow. We develop a stylized model which captures how users strat",
+      "url": "http://arxiv.org/abs/2607.19300v1",
+      "authors": [
+        "Meena Jagadeesan",
+        "Tatsunori Hashimoto",
+        "Jon Kleinberg"
+      ],
+      "published": "2026-07-21T17:11:02+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.GT"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes",
+      "summary": "This paper is a practitioner guide to graph-based workflow pathways for long-running, stateful, multi-step generative AI systems in business processes. Rather than treating LangGraph, a low-level orchestration framework for stateful agents, as a model-quality benchmark target, we present three executable recipes -- SQL analytics with repair loops, agentic retrieval-augmented generation with evidence gating, and human-in-the-loop policy review with interrupt and checkpoint recovery -- to show how typed state, conditional routing, deterministic tools, retries, interrupts, checkpoints, and traces",
+      "url": "http://arxiv.org/abs/2607.19297v1",
+      "authors": [
+        "Daniel Pearson",
+        "Sidney Shapiro",
+        "Emiliano Sebastian Gonzalez Venegas"
+      ],
+      "published": "2026-07-21T17:07:13+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "They'll Verify. They Just Won't Act. How Authority Framing and Laundered Code Turn a Trusted Agentic CI/CD Pipeline Into an Attack Surface",
+      "summary": "We study a five-agent CI/CD pipeline (triage -> developer -> security-scan -> review -> approve/deploy), built from five distinct production LLMs across three providers, behind an LLM firewall in shadow mode. A single untrusted input - an external issue requesting a \"usage-telemetry\" feature - asks for code that exfiltrates process secrets (dict(os.environ)) to an attacker URL, laundered as observability. Across a pre-registered A x B (x C) factorial (N=20; naive arm N=60) we find: (1) the entry agent does not leak its system prompt (0/40); (2) an authority-framed injection (\"pre-approved unde",
+      "url": "http://arxiv.org/abs/2607.19267v1",
+      "authors": [
+        "Yohann Sidot"
+      ],
+      "published": "2026-07-21T16:38:32+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.MA"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Toward Auditable Fraud Detection: Combining Graph Features, Model Explanations, and Agentic Case Investigation",
+      "summary": "Fraud detection systems must scale with rising transaction volume while remaining explainable and reviewable. We study a layered pipeline on the PaySim dataset that combines a gradient-boosted classifier, graph-derived structural features, an autoencoder-based anomaly signal, TreeSHAP explanations, and a bounded LLM investigation agent applied to cases the classifier scores uncertainly. Before any model comparison, we identify and remove a simulator-specific balance shortcut that would otherwise inflate baseline performance. After this correction, neither the graph features nor the anomaly sig",
+      "url": "http://arxiv.org/abs/2607.19266v1",
+      "authors": [
+        "Rahil Sharma"
+      ],
+      "published": "2026-07-21T16:37:41+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "BioSecBench-Surveillance: A Verifiable Benchmark for AI Agents in Pathogen Genomic Surveillance",
+      "summary": "As pathogen genomic surveillance scales, the bottleneck is shifting from data generation to analysis. We present BioSecBench-Surveillance, a verifiable benchmark of 100 evaluations testing whether AI agents can infer the right analysis pipeline from raw sequencing data and surveillance context. Each evaluation gives an agent only the data and context a human analyst would have, then grades its structured answer deterministically. The tasks span seven categories, from taxonomic classification to genetic-engineering detection, across diverse sample types and sequencing technologies. Across 3,962",
+      "url": "http://arxiv.org/abs/2607.19262v1",
+      "authors": [
+        "Harmon Bhasin",
+        "Kevin Flyangolts",
+        "Dianzhuo Wang"
+      ],
+      "published": "2026-07-21T16:33:57+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Inference-Time Steering for Cross-Lingual Factual Consistency in LLMs",
+      "summary": "Although Large Language Models (LLMs) demonstrate remarkable multilingual fluency, their internal knowledge representations remain disproportionately biased toward high-resource languages. This leads to cross-lingual factual inconsistency, where they shift their empirical answer distributions based solely on the prompt language. We investigate whether these biases can be mitigated at inference time, forcing an English-prompted model to answer as if it were queried in target languages (German, Spanish, Bulgarian), and evaluate four intervention strategies: zero-shot contextual steering (persona",
+      "url": "http://arxiv.org/abs/2607.19243v1",
+      "authors": [
+        "Alexander Manev"
+      ],
+      "published": "2026-07-21T16:15:05+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Beyond Score Prediction: LLM-Based Essay Scoring and Feedback Generation via Reinforcement Learning with Rubric Rewards",
+      "summary": "Large language models (LLMs) have been widely applied to automated essay scoring (AES) and automated feedback generation (AFG). However, existing studies rely primarily on prompt engineering or supervised fine-tuning, while systematic research on reinforcement learning (RL) post-training and automated evaluation of feedback quality remains limited. We propose RLAES, a unified LLM framework that jointly optimizes essay scoring and feedback generation through RL. To make feedback quality measurable, interpretable, and usable for training, we introduce Rubric-based Feedback Evaluation (RFE), an e",
+      "url": "http://arxiv.org/abs/2607.19219v1",
+      "authors": [
+        "Xuefeng Jin",
+        "Jiashuo Zhang",
+        "Teng Cao"
+      ],
+      "published": "2026-07-21T15:49:02+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents",
+      "summary": "Real-to-sim conversion for robotic interaction with objects remains labor-intensive because it requires more than visual reconstruction: a streamlined real2sim process must recover scene geometries and object states, infer physical parameters, and assemble actors, objects, cameras, poses, and trajectories into a runnable physical simulation. Today this process still depends on manual tuning of visual foundation models, mesh cleanup, coordinate-frame alignment, and brittle workflow glue across visual perception tools and simulators. We introduce \\textit{Agentic Real2Sim}, a framework for genera",
+      "url": "http://arxiv.org/abs/2607.19190v1",
+      "authors": [
+        "Guanxiong Chen",
+        "Qianjun Xia",
+        "Jiawei Peng"
+      ],
+      "published": "2026-07-21T15:23:38+00:00",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "published": "Wed, 22 Jul 2026 13:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "published": "Wed, 22 Jul 2026 13:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Advancing the next era of national science",
+      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "published": "Wed, 22 Jul 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Introducing OpenAI Presence",
+      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "published": "Wed, 22 Jul 2026 05:30:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Introducing the ChatGPT for small business program",
+      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "published": "Tue, 21 Jul 2026 17:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "published": "Wed, 22 Jul 2026 13:38:54 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "published": "Tue, 21 Jul 2026 15:16:30 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini 3.5 Flash Cyber",
+      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+      "published": "Fri, 17 Jul 2026 15:00:11 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Our approach to bioresilience",
+      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "published": "Thu, 16 Jul 2026 09:30:42 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Empowering India’s next generation of innovators with ATL Saathi",
+      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+      "published": "Mon, 13 Jul 2026 12:37:28 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "The State of Simulation for Physical AI: An Overview",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "published": "Tue, 21 Jul 2026 20:00:27 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Grabette: an open system to record robot-manipulation data",
+      "summary": "",
+      "url": "https://huggingface.co/blog/grabette",
+      "published": "Tue, 21 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Newer Models, Same Advantage",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "published": "Thu, 16 Jul 2026 11:49:48 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Security incident disclosure — July 2026",
+      "summary": "",
+      "url": "https://huggingface.co/blog/security-incident-july-2026",
+      "published": "Thu, 16 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "What building Shippy taught us about building agents",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "published": "Wed, 15 Jul 2026 17:29:41 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Nativ: Run AI models locally on your Mac",
+      "summary": "<p><strong><a href=\"https://blaizzy.github.io/nativ/\">Nativ: Run AI models locally on your Mac</a></strong></p>\nPrince Canuma is the developer behind the excellent <a href=\"https://github.com/Blaizzy/mlx-vlm\">MLX-VLM</a> Python library for running vision-LLMs using MLX on a Mac.</p>\n<p>I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models.</p>\n<p>The app picked up MLX models I had already tried that were present in my Hugging Face cache di",
+      "url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
+      "published": "2026-07-21T14:22:27+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "summary": "<p>Earlier this month I hosted a fireside chat session at the <a href=\"https://www.ai.engineer/worldsfair/2026\">AI Engineer World's Fair</a> with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves.</p>\n<p>The full video of the session is now available <a href=\"https://www.youtube.com/watch?v=uU5Gv2h8-9g\">on YouTube</a>. Below is an edited copy of the transcript, with extra links and my own bolded highlights.</p>\n \n\n<p>A few top-level notes if you do",
+      "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+      "published": "2026-07-21T12:54:02+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Reverse-engineering is cheap now",
+      "summary": "<p>I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes.</p>\n<p>I think this is an interesting illustration of the impact of the reduced cost of writing code.</p>\n<p>Prior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth all of that effort? More importantly, any experienced programmer knows that undocumented, unstable APIs like that may well change or break in the future. Is that initial work worth the effort if you're committing yourself to a frustrating cycle of m",
+      "url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+      "published": "2026-07-20T19:24:05+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Who’s Afraid of Chinese Models?",
+      "summary": "<p><strong><a href=\"https://stratechery.com/2026/whos-afraid-of-chinese-models/\">Who’s Afraid of Chinese Models?</a></strong></p>\nInteresting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more effectively with their Chinese counterparts:</p>\n<blockquote>\n<p>The U.S. should pass a law that (1) makes explicit that collecting data for training models is fair use, and (2) bars terms of service that forbid distillation, for U.S. companies at a minimum. Stoppi",
+      "url": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+      "published": "2026-07-20T17:09:19+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Sam Altman",
+      "summary": "<blockquote cite=\"https://twitter.com/techemails/status/2078854346683678927\"><p>We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded.</p></blockquote>\n<p class",
+      "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+      "published": "2026-07-20T03:47:59+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample",
+      "summary": "HNスコア: 457, コメント数: 255",
+      "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+      "published": "2026-07-22T17:30:40",
+      "hn_score": 457
+    },
+    {
+      "source": "hackernews",
+      "title": "Can a MUD evaluate LLMs? A $99 proof of concept",
+      "summary": "HNスコア: 82, コメント数: 50",
+      "url": "https://cruciblebench.ai/",
+      "published": "2026-07-22T15:39:01",
+      "hn_score": 82
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: DeepSQL – A self-hostable DBA agent for Postgres and MySQL",
+      "summary": "HNスコア: 40, コメント数: 20",
+      "url": "https://deepsql.ai/",
+      "published": "2026-07-20T15:32:20",
+      "hn_score": 40
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "summary": "HNスコア: 1528, コメント数: 1083",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "published": "2026-07-21T20:09:52",
+      "hn_score": 1528
+    },
+    {
+      "source": "hackernews",
+      "title": "Advertise in ChatGPT",
+      "summary": "HNスコア: 1049, コメント数: 820",
+      "url": "https://ads.openai.com/",
+      "published": "2026-07-21T18:58:44",
+      "hn_score": 1049
+    },
+    {
+      "source": "hackernews",
+      "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
+      "summary": "HNスコア: 127, コメント数: 43",
+      "url": "https://ai.google.dev/gemini-api/docs/latest-model",
+      "published": "2026-07-21T21:27:54",
+      "hn_score": 127
+    },
+    {
+      "source": "hackernews",
+      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+      "summary": "HNスコア: 542, コメント数: 546",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "published": "2026-07-21T19:04:39",
+      "hn_score": 542
+    },
+    {
+      "source": "hackernews",
+      "title": "We got California to intervene about OpenAI's corporate switch from nonprofit",
+      "summary": "HNスコア: 10, コメント数: 1",
+      "url": "https://fortune.com/2026/07/22/openai-foundation-class-n-stock-board-control-ipo/",
+      "published": "2026-07-22T19:46:18",
+      "hn_score": 10
+    },
+    {
+      "source": "hackernews",
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "summary": "HNスコア: 739, コメント数: 564",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "published": "2026-07-21T15:17:16",
+      "hn_score": 739
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Agent in 9 Lines Python",
+      "summary": "HNスコア: 17, コメント数: 6",
+      "url": "https://gist.github.com/tosh/6e91a9dbf08dd630c535e7345ac7f0b5",
+      "published": "2026-07-22T13:52:23",
+      "hn_score": 17
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-07-22T15:43:03Z",
+      "stars": 39655,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-07-22T17:45:22Z",
+      "stars": 28175,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-07-22T21:42:51Z",
+      "stars": 23917,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-07-22T21:35:05Z",
+      "stars": 11019,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "xbtlin/ai-berkshire",
+      "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "published": "2026-07-22T21:10:34Z",
+      "stars": 13688,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "TencentCloud/TencentDB-Agent-Memory",
+      "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "published": "2026-07-22T21:13:01Z",
+      "stars": 9222,
+      "language": "TypeScript"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-07-22T21:17:50Z",
+      "stars": 7634,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-07-21T09:56:04Z",
+      "stars": 3367,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "You’re Not Behind (Yet): How to Build Your First AI Agent (Full Guide)",
+      "summary": "Get Your FREE AI Company Operating System here: https://go.danmartell.com/3SXCfgk Are you building an AI software ...",
+      "url": "https://www.youtube.com/watch?v=Bm84BAtOfQw",
+      "published": "2026-07-15T13:00:36Z",
+      "channel": "Dan Martell",
+      "has_video": true,
+      "video_id": "Bm84BAtOfQw"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Agents Explained - What Is an AI Agent and how to build one? (Real Examples, Not Hype)",
+      "summary": "Best courses to learn all about AI agents and AI engineering: DataCamp's Associate AI Engineer for Developers Track ...",
+      "url": "https://www.youtube.com/watch?v=ZvDkJsKE80k",
+      "published": "2026-07-16T13:00:18Z",
+      "channel": "Tech With Tim",
+      "has_video": true,
+      "video_id": "ZvDkJsKE80k"
+    },
+    {
+      "source": "youtube",
+      "title": "Hermes Agent just got 10X Better... I’m Done",
+      "summary": "FULL Hermes Course: https://bit.ly/4wRk62c ⚡️ Zapier: https://bit.ly/4ftQzVq Firecrawl: https://bit.ly/4aHCD8A Hermes agent ...",
+      "url": "https://www.youtube.com/watch?v=sJt1sQO87sc",
+      "published": "2026-07-20T16:03:52Z",
+      "channel": "Jack Roberts",
+      "has_video": true,
+      "video_id": "sJt1sQO87sc"
+    },
+    {
+      "source": "youtube",
+      "title": "What is an Agentic Harness?",
+      "summary": "Experience an agentic harness in action → https://goo.gle/4f3PFjs Demystify the concept of an Agentic Harness and learn how ...",
+      "url": "https://www.youtube.com/watch?v=W9BX0jyzd2k",
+      "published": "2026-07-16T16:00:13Z",
+      "channel": "Google Cloud Tech",
+      "has_video": true,
+      "video_id": "W9BX0jyzd2k"
+    },
+    {
+      "source": "youtube",
+      "title": "Agent AI System Design Explained in 27 Minutes",
+      "summary": "A lot of people think an AI agent is just a large language model wrapped in a chat interface. But when you move from a local demo ...",
+      "url": "https://www.youtube.com/watch?v=mwN75EiGfCE",
+      "published": "2026-07-15T07:02:50Z",
+      "channel": "Aishwarya Srinivasan",
+      "has_video": true,
+      "video_id": "mwN75EiGfCE"
+    },
+    {
+      "source": "youtube",
+      "title": "How to Create 24/7 AI Voice Agent with Claude Code (AI Call Assistant)",
+      "summary": "sponsored Explore Telnyx here https://telnyx.com/?utm_source=youtube&utm_medium=sponsored&utm_campaign=ai_master ...",
+      "url": "https://www.youtube.com/watch?v=AAV84FdvC1o",
+      "published": "2026-07-16T19:45:00Z",
+      "channel": "AI Master",
+      "has_video": true,
+      "video_id": "AAV84FdvC1o"
+    },
+    {
+      "source": "youtube",
+      "title": "This Repo Just Solved The #1 Claude + Codex Headache",
+      "summary": "Master Claude Code, Build Your Agency, Land Your First Client⚡ https://www.skool.com/chase-ai FREE community   ...",
+      "url": "https://www.youtube.com/watch?v=neK8ydl0Vlk",
+      "published": "2026-07-16T18:39:24Z",
+      "channel": "Chase AI",
+      "has_video": true,
+      "video_id": "neK8ydl0Vlk"
+    },
+    {
+      "source": "youtube",
+      "title": "Use Kimi K3 API Completely FREE – Best AI Coding Setup 2026 | Claude Code Alternative | Kimi k3 test",
+      "summary": "Run Kimi K3 API Completely FREE — the most powerful open AI coding setup you can build right now without using Claude Code ...",
+      "url": "https://www.youtube.com/watch?v=crwL81Q_sxk",
+      "published": "2026-07-21T08:51:44Z",
+      "channel": "Pro Coder",
+      "has_video": true,
+      "video_id": "crwL81Q_sxk"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Claude Just Revealed AI&#39;s Biggest Problem",
+      "summary": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The paper is available here: ...",
+      "url": "https://www.youtube.com/shorts/axOcn--n_lM",
+      "published": "2026-07-16T15:39:17Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "axOcn--n_lM"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    }
+  ]
+}
