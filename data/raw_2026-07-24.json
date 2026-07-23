@@ -1,0 +1,557 @@
+{
+  "date": "2026-07-24",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "The Ethics of Autonomous AI Agents for Offensive Security",
+      "summary": "LLM-driven autonomous agents are reshaping offensive security. Unlike traditional penetration-testing tooling -- deterministic, narrowly scoped, and operated by trained practitioners -- agentic security tools exhibit \\textit{indeterminacy} along three independent dimensions. First, their actions are drawn from a non-deterministic policy whose outputs resist both ex-ante and ex-post explanation, frustrating incident attribution and pre-deployment safety review. Second, their impact is open-ended due to the non-deterministic actions, agency of utilized models, and opaque LLM supply-chains. Third",
+      "url": "http://arxiv.org/abs/2607.20255v1",
+      "authors": [
+        "Andreas Happe",
+        "Jürgen Cito",
+        "Jasmin Wachter"
+      ],
+      "published": "2026-07-22T15:13:15+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Small, Free, and Effective: Orchestrating Open-Weight Small Language Models to Outperform Single LLM for Malware Analysis",
+      "summary": "Malware analysis demands rapid interpretation of complex detonation reports spanning filesystem, network, and process behaviours. While large language models (LLMs) demonstrate impressive capabilities for technical artifact interpretation, the opacity and escalating API costs of closed-weight frontier models motivate exploration of open-weight alternatives. However, many open-weight models are large, demanding significant compute resources and incurring non-trivial hosting costs that place them beyond reach for resource-constrained deployments. This paper investigates whether orchestrated ense",
+      "url": "http://arxiv.org/abs/2607.20216v1",
+      "authors": [
+        "Adel ElZemity",
+        "Shujun Li",
+        "Budi Arief"
+      ],
+      "published": "2026-07-22T14:36:10+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Autonomous Collaborative Learning Among an Ensemble of Tsetlin Machines with Consensus-Based Inference",
+      "summary": "Tsetlin Machine (TM) is a rule-based machine-learning algorithm comprising collectives of two-action Tsetlin Automata (TAs) that cooperatively form conjunctive logical clauses from Boolean inputs through stochastic feedback. Although few recent studies have examined TM Federated Learning, the broader area of distributed and decentralized TM learning has not received much attention in the existing literature and warrants further exploration. In this work, we propose a paradigm for decentralized collaborative learning under a vertical feature-partitioning setting among an ensemble of Tsetlin Mac",
+      "url": "http://arxiv.org/abs/2607.20124v1",
+      "authors": [
+        "Yehuda Rudin",
+        "Osnat Keren",
+        "Michal Yemini"
+      ],
+      "published": "2026-07-22T13:28:28+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.MA"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Co-Evolving LLM Evaluators and Policies via DynamicRubric",
+      "summary": "Post-training with evaluator feedback on policy-induced samples serves as a major mechanism for improving large language models. As policies improve, these sampled responses become close in quality. These close candidates create a bottleneck for policy optimization: collapsed relative evaluator score gaps yield weak or misleading policy supervision. We theoretically characterize why these gaps matter through a probability allocation view, showing that the directional gain of shifting probability mass from one response to another is exactly the evaluator score gap between them. This identifies ",
+      "url": "http://arxiv.org/abs/2607.20083v1",
+      "authors": [
+        "Beining Wang",
+        "Weihang Su",
+        "Hongtao Tian"
+      ],
+      "published": "2026-07-22T12:35:40+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "EvoDRC: A Self-Evolving Agentic Framework for Automated DRC Violation Repair",
+      "summary": "Design rule check (DRC) closure remains a major bottleneck in advanced-node physical design. Although detailed routers are rule-aware, residual design rule violations (DRVs) often require manual engineering change order iterations. Automating this process is challenging because repairs must account for complex geometric interactions, preserve circuit connectivity, and avoid introducing new violations. We present EvoDRC, a skill-evolution framework for agentic block-level DRC repair. EvoDRC initializes layer-specific repair skills using knowledge distilled from an unrelated reference design and",
+      "url": "http://arxiv.org/abs/2607.20019v1",
+      "authors": [
+        "Bing-Yue Wu",
+        "Chia-Tung Ho",
+        "Haoyu Yang"
+      ],
+      "published": "2026-07-22T10:59:46+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Coordinating from Memory: Graph-Structured Experience Reuse for Multi-Agent Adaptation in Dynamic Manufacturing",
+      "summary": "Dynamic manufacturing environments require multi-agent systems to coordinate effectively under frequent operational disturbances such as machine failures, urgent job arrivals, and processing time variations. Existing multi-agent reinforcement learning approaches treat each disturbance episode independently, discarding valuable coordination experience that could accelerate future adaptation. In this paper, we propose a Graph-Structured Experiential Memory (GSEM) framework for multi-agent coordination in dynamic manufacturing. The framework encodes historical coordination episodes as heterogeneo",
+      "url": "http://arxiv.org/abs/2607.19985v1",
+      "authors": [
+        "Chengxiao Dai",
+        "Zhanhui Lin",
+        "Zhaokun Yan"
+      ],
+      "published": "2026-07-22T10:17:53+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "When Shippers Become Algorithms: Candidate Exposure, Information Design, and the Concentration of LLM-Mediated Freight Markets",
+      "summary": "Shippers are beginning to delegate carrier selection to large language model (LLM) agents. We ask what such delegation does to a freight matching market, and which platform design choices contain it. We carried out agent-based simulations in which fifty shipper agents, built on commercial LLMs from OpenAI (GPT), Anthropic (Claude), and Google (Gemini), procure truckload capacity for thirty days. The market implements the rules of digital freight matching: each load is offered down the shipper's ranked list of carriers (waterfall tendering), carriers have daily capacity limits, spot prices resp",
+      "url": "http://arxiv.org/abs/2607.19967v1",
+      "authors": [
+        "Takahiro Ezaki",
+        "Naoto Imura",
+        "Katsuhiro Nishinari"
+      ],
+      "published": "2026-07-22T09:51:56+00:00",
+      "categories": [
+        "physics.soc-ph",
+        "cs.AI",
+        "cs.CY"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace",
+      "summary": "As AI agents become integral to business workflows, establishing guiding user experience (UX) principles is crucial for ensuring user trust and successful adoption. To address this, our study uses a multi-method approach - combining participatory design workshop, paper-and-pencil, expert review, meta-analysis, and in-depth interviews - to identify and validate a design framework of eight core UX principles for human-AI agent interaction in the workplace. Together with their underlying criteria, these principles provide actionable guardrails for designers and software engineers, creating a foun",
+      "url": "http://arxiv.org/abs/2607.19941v1",
+      "authors": [
+        "Kathrin Paimann",
+        "Elizangela Valarini",
+        "Sebastian Juhl"
+      ],
+      "published": "2026-07-22T09:13:12+00:00",
+      "categories": [
+        "cs.HC",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "JANUS: Foreseeing Latent Risk for Long-Horizon Agent Safety",
+      "summary": "Agent safety is moving from content moderation toward preventing operational failures before tool-using agents act. We propose Janus, a foresight-oriented framework for long-horizon agent safety that trains guards to anticipate delayed risks from partial trajectories. Janus synthesizes diverse agent trajectories via multi-agent simulation and learns a shared policy with two coupled tasks: an anticipation task that forecasts safety-relevant futures and an adjudication task that decides safety from both the observed prefix and anticipated future. The two tasks are jointly optimized with CoAA-RL,",
+      "url": "http://arxiv.org/abs/2607.19913v1",
+      "authors": [
+        "Yuan Xiong",
+        "Linji Hao",
+        "Shizhu He"
+      ],
+      "published": "2026-07-22T08:43:43+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Harnessing Disagreement: Detecting Correlated Agreement Blindness in Multi-Agent Triage",
+      "summary": "Disagreement-triggered escalation can create a structural blind spot in multi-agent arbitration: as base learners improve, they tend to converge, weakening safety monitoring where correlated failures concentrate. We term this correlated agreement blindness and present ARAT (Arbitrated Reasoning Agents for Alarm Triage), a directed-star system combining an inductive Random Forest (RF) agent, an analogical case-based k-nearest neighbour (k-NN) agent, and a calibrated meta-model to mitigate this effect. On 82,332 holdout samples from the UNSW-NB15 network intrusion detection dataset, 57.2% of err",
+      "url": "http://arxiv.org/abs/2607.19899v1",
+      "authors": [
+        "Shay Seiya McDonnell",
+        "Avantika Singh",
+        "Quoc-Viet Pham"
+      ],
+      "published": "2026-07-22T08:35:00+00:00",
+      "categories": [
+        "cs.MA",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Launching Health in ChatGPT",
+      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "url": "https://openai.com/index/health-in-chatgpt",
+      "published": "Thu, 23 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "published": "Wed, 22 Jul 2026 13:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "published": "Wed, 22 Jul 2026 13:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Advancing the next era of national science",
+      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "published": "Wed, 22 Jul 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Introducing OpenAI Presence",
+      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "published": "Wed, 22 Jul 2026 05:30:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "published": "Wed, 22 Jul 2026 13:38:54 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "published": "Tue, 21 Jul 2026 15:16:30 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini 3.5 Flash Cyber",
+      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+      "published": "Fri, 17 Jul 2026 15:00:11 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Our approach to bioresilience",
+      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "published": "Thu, 16 Jul 2026 09:30:42 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Empowering India’s next generation of innovators with ATL Saathi",
+      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+      "published": "Mon, 13 Jul 2026 12:37:28 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "published": "Thu, 23 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "The State of Simulation for Physical AI: An Overview",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "published": "Tue, 21 Jul 2026 20:00:27 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Grabette: an open system to record robot-manipulation data",
+      "summary": "",
+      "url": "https://huggingface.co/blog/grabette",
+      "published": "Tue, 21 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Newer Models, Same Advantage",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "published": "Thu, 16 Jul 2026 11:49:48 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Security incident disclosure — July 2026",
+      "summary": "",
+      "url": "https://huggingface.co/blog/security-incident-july-2026",
+      "published": "Thu, 16 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Seth Larson",
+      "summary": "<blockquote cite=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\"><p>The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was <a href=\"https://github.com/pypi/warehouse/pull/19727\">put in place</a> to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible.</p></blockquote>\n<",
+      "url": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+      "published": "2026-07-23T04:50:36+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Thomas Ptacek",
+      "summary": "<blockquote cite=\"https://twitter.com/tqbf/status/2080045032162173329\"><p>I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/tqbf/status/2080045032162173329\">Thomas Ptacek</a>, doesn't think <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/#resist-the-temptation-to-write-this-off-as-a-stunt\">this even needs</a> a",
+      "url": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
+      "published": "2026-07-22T23:59:01+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
+      "summary": "<p>This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI's sandbox, then found exploits to break <em>in</em> to Hugging Face, all so it could cheat on the test by stealing the answers.</p>\n<p>Along the way it helped make the strongest case yet for how the imbalance of model availability is hurting our ability to secure our software.</p>\n<h4 id=\"here-s-what-happened\">Here's what happened</h4>\n<p>We currently have three documents",
+      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
+      "published": "2026-07-22T23:51:33+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Are AI labs pelicanmaxxing?",
+      "summary": "<p><strong><a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html\">Are AI labs pelicanmaxxing?</a></strong></p>\nExcellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bicycles in response to my <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">deeply unscientific benchmark</a>.</p>\n<p>I've been randomly spot-checking this in the past by testing models against other animals riding other types of vehicle, but never with anything close to the d",
+      "url": "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything",
+      "published": "2026-07-22T23:01:00+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Orchestrions",
+      "summary": "<p>San Francisco tip: it only costs around $15 ($10 in quarters plus a $5 bill for the self-playing violin) to activate every single Orchestrion in <a href=\"https://en.wikipedia.org/wiki/Musée_Mécanique\">Musée Mécanique</a>.</p>\n<p>And because most people are bad at allocating their funds you may well be the ONLY person activating the Orchestrions, which means you get to craft the soundscape for the entire museum.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/san-francisco\">san-francisco</a></p>",
+      "url": "https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything",
+      "published": "2026-07-22T14:48:52+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
+      "summary": "HNスコア: 46, コメント数: 47",
+      "url": "https://news.ycombinator.com/item?id=49024620",
+      "published": "2026-07-23T16:48:38",
+      "hn_score": 46
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+      "summary": "HNスコア: 65, コメント数: 25",
+      "url": "https://github.com/onecli/onecli",
+      "published": "2026-07-23T15:42:40",
+      "hn_score": 65
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI’s accidental attack against Hugging Face is science fiction that happened",
+      "summary": "HNスコア: 328, コメント数: 274",
+      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
+      "published": "2026-07-23T01:16:14",
+      "hn_score": 328
+    },
+    {
+      "source": "hackernews",
+      "title": "Free way to get your data out of ChatGPT Business accounts",
+      "summary": "HNスコア: 72, コメント数: 7",
+      "url": "https://github.com/Conradqh/scrapemychats",
+      "published": "2026-07-23T15:45:51",
+      "hn_score": 72
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Claude-thermos – keeps your Claude session warm for you",
+      "summary": "HNスコア: 50, コメント数: 41",
+      "url": "https://github.com/izeigerman/claude-thermos",
+      "published": "2026-07-23T17:06:22",
+      "hn_score": 50
+    },
+    {
+      "source": "hackernews",
+      "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
+      "summary": "HNスコア: 1077, コメント数: 610",
+      "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+      "published": "2026-07-22T17:30:40",
+      "hn_score": 1077
+    },
+    {
+      "source": "hackernews",
+      "title": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
+      "summary": "HNスコア: 57, コメント数: 30",
+      "url": "https://brightsec.com/research/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast/",
+      "published": "2026-07-21T07:01:24",
+      "hn_score": 57
+    },
+    {
+      "source": "hackernews",
+      "title": "Fourth Circuit: Border Agents Can Search Your Phone by Hand, No Suspicion Needed",
+      "summary": "HNスコア: 49, コメント数: 13",
+      "url": "https://www.eff.org/deeplinks/2026/07/fourth-circuit-says-border-agents-can-search-your-phone-hand-no-suspicion-required",
+      "published": "2026-07-23T15:22:21",
+      "hn_score": 49
+    },
+    {
+      "source": "hackernews",
+      "title": "Snapshots, copy-on-write, and the economics of agent sandboxes",
+      "summary": "HNスコア: 13, コメント数: 0",
+      "url": "https://builders.cortex.io/blog/sandboxing-agents-part-2/",
+      "published": "2026-07-23T14:51:47",
+      "hn_score": 13
+    },
+    {
+      "source": "hackernews",
+      "title": "ChatGPT medical advice brought man 'to brink of death', lawsuit alleges",
+      "summary": "HNスコア: 16, コメント数: 12",
+      "url": "https://www.bbc.com/news/articles/cwylp3nxp5yo",
+      "published": "2026-07-23T18:40:47",
+      "hn_score": 16
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-07-23T17:36:53Z",
+      "stars": 39660,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-07-23T15:41:04Z",
+      "stars": 28210,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-07-23T21:29:12Z",
+      "stars": 23933,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-07-23T18:56:17Z",
+      "stars": 11027,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "xbtlin/ai-berkshire",
+      "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "published": "2026-07-23T20:46:39Z",
+      "stars": 13748,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "TencentCloud/TencentDB-Agent-Memory",
+      "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "published": "2026-07-23T22:08:58Z",
+      "stars": 9240,
+      "language": "TypeScript"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-07-23T21:50:02Z",
+      "stars": 7679,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-07-21T09:56:04Z",
+      "stars": 3367,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Agents Explained - What Is an AI Agent and how to build one? (Real Examples, Not Hype)",
+      "summary": "Best courses to learn all about AI agents and AI engineering: DataCamp's Associate AI Engineer for Developers Track ...",
+      "url": "https://www.youtube.com/watch?v=ZvDkJsKE80k",
+      "published": "2026-07-16T13:00:18Z",
+      "channel": "Tech With Tim",
+      "has_video": true,
+      "video_id": "ZvDkJsKE80k"
+    },
+    {
+      "source": "youtube",
+      "title": "Ultimate Claude Guide: How to Use Claude AI for Beginners in 2026",
+      "summary": "sponsored Use code AIMASTER10 to get 10% off the InstaHeadshots paid plans! https://go.instaheadshots.com/4hc4NfV ...",
+      "url": "https://www.youtube.com/watch?v=GvJh_OfF6C0",
+      "published": "2026-07-18T07:15:18Z",
+      "channel": "AI Master",
+      "has_video": true,
+      "video_id": "GvJh_OfF6C0"
+    },
+    {
+      "source": "youtube",
+      "title": "SOC-SOAR, détection et remédiation automatique avec Wazuh, n8n, Agent IA et WindowsServer2025",
+      "summary": "AcadiaCyberSec a réalisé une démonstration mettant en œuvre un workflow d'automatisation de la réponse aux incidents de ...",
+      "url": "https://www.youtube.com/watch?v=QczqnTiSpXI",
+      "published": "2026-07-23T19:53:19Z",
+      "channel": "AcadiaCyberSec",
+      "has_video": true,
+      "video_id": "QczqnTiSpXI"
+    },
+    {
+      "source": "youtube",
+      "title": "Obsidian + Agentic AI? 🧠 Full Hermes Obsidian Workflow &amp; Wiki Prep",
+      "summary": "Many people are using Obsidian with AI agents, which leads to the question: should I have a separate agent vault in Obsidian?",
+      "url": "https://www.youtube.com/watch?v=znj-WpMj1dI",
+      "published": "2026-07-23T12:30:17Z",
+      "channel": "Wanderloots",
+      "has_video": true,
+      "video_id": "znj-WpMj1dI"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Agents vs Agentic AI: The Difference Everyone Misses",
+      "summary": "Everyone is talking about AI Agents and Agentic AI, but are they actually the same thing? In this video, we'll break down the ...",
+      "url": "https://www.youtube.com/watch?v=YUB_Oe3Su5Y",
+      "published": "2026-07-20T13:15:32Z",
+      "channel": "AgentStax",
+      "has_video": true,
+      "video_id": "YUB_Oe3Su5Y"
+    },
+    {
+      "source": "youtube",
+      "title": "How to Use MiniMax M3 in Claude Code (Full Setup + Tests) | Open Source AI",
+      "summary": "Check out M3! Here: https://platform.minimax.io/subscribe/coding-plan?code=JeAVDDg5MT&source=link MiniMax M3 just landed ...",
+      "url": "https://www.youtube.com/watch?v=O3bMEtlpElk",
+      "published": "2026-07-23T05:23:00Z",
+      "channel": "Jon Law ",
+      "has_video": true,
+      "video_id": "O3bMEtlpElk"
+    },
+    {
+      "source": "youtube",
+      "title": "Use Kimi K3 API Completely FREE – Best AI Coding Setup 2026 | Claude Code Alternative | Kimi k3 test",
+      "summary": "Run Kimi K3 API Completely FREE — the most powerful open AI coding setup you can build right now without using Claude Code ...",
+      "url": "https://www.youtube.com/watch?v=crwL81Q_sxk",
+      "published": "2026-07-21T08:51:44Z",
+      "channel": "Pro Coder",
+      "has_video": true,
+      "video_id": "crwL81Q_sxk"
+    },
+    {
+      "source": "youtube",
+      "title": "How I Use Claude AI Agents for Passive Income (Full Trading Bot Guide)",
+      "summary": "I ran an AI Trading Bot for 24 hours straight, no manual trades, no screen-watching, no stress. Just an AI agent making real ...",
+      "url": "https://www.youtube.com/watch?v=VC1LhqwCVzE",
+      "published": "2026-07-17T19:15:34Z",
+      "channel": "Dominic Parker",
+      "has_video": true,
+      "video_id": "VC1LhqwCVzE"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "The “Biggest” AI That Came Out Of Nowhere!",
+      "summary": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Guide for using DeepSeek on Lambda: ...",
+      "url": "https://www.youtube.com/shorts/4bFDPVe6BHs",
+      "published": "2025-07-15T15:06:39Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "4bFDPVe6BHs"
+    }
+  ]
+}
