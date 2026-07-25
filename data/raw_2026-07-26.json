@@ -1,0 +1,397 @@
+{
+  "date": "2026-07-26",
+  "items": [
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Launching Health in ChatGPT",
+      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "url": "https://openai.com/index/health-in-chatgpt",
+      "published": "Thu, 23 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "published": "Wed, 22 Jul 2026 13:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "published": "Wed, 22 Jul 2026 13:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Advancing the next era of national science",
+      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "published": "Wed, 22 Jul 2026 12:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Introducing OpenAI Presence",
+      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "published": "Wed, 22 Jul 2026 05:30:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "published": "Wed, 22 Jul 2026 13:38:54 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "published": "Tue, 21 Jul 2026 15:16:30 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini 3.5 Flash Cyber",
+      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+      "published": "Fri, 17 Jul 2026 15:00:11 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Our approach to bioresilience",
+      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "published": "Thu, 16 Jul 2026 09:30:42 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Empowering India’s next generation of innovators with ATL Saathi",
+      "summary": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+      "published": "Mon, 13 Jul 2026 12:37:28 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "published": "Thu, 23 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "The State of Simulation for Physical AI: An Overview",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "published": "Tue, 21 Jul 2026 20:00:27 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Grabette: an open system to record robot-manipulation data",
+      "summary": "",
+      "url": "https://huggingface.co/blog/grabette",
+      "published": "Tue, 21 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Newer Models, Same Advantage",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "published": "Thu, 16 Jul 2026 11:49:48 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Security incident disclosure — July 2026",
+      "summary": "",
+      "url": "https://huggingface.co/blog/security-incident-july-2026",
+      "published": "Thu, 16 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Boris Cherny",
+      "summary": "<blockquote cite=\"https://twitter.com/bcherny/status/2080713091688583312\"><p>More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/bcherny/status/2080713091688583312\">Boris Cherny</a>, here's that <a href=\"https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf#page=73\">S",
+      "url": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+      "published": "2026-07-25T00:42:59+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Introducing Claude Opus 5",
+      "summary": "<p><strong><a href=\"https://www.anthropic.com/news/claude-opus-5\">Introducing Claude Opus 5</a></strong></p>\nI've been offline <a href=\"https://en.wikipedia.org/wiki/Elkhorn_Slough\">kayaking with sea otters</a> for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's description of it as a \"thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price\" sounds promising. It's currently <a href=\"https://twitter.com/artificialanlys/status/208077771893399596",
+      "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+      "published": "2026-07-24T23:48:50+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+      "summary": "<p><strong><a href=\"https://martinalderson.com/posts/huggingface-openai-exploit/\">The first known runaway AI agent - or a very bad marketing stunt?</a></strong></p>\nMartin Alderson's commentary on the <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\">OpenAI accidental cyberattack against Hugging Face</a> includes a couple of details I hadn't considered.</p>\n<p>First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code:</p>\n<blockquote>\n<p>Hugging Face has an <em>enormous</em> attack surface. They hav",
+      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+      "published": "2026-07-23T22:53:08+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Seth Larson",
+      "summary": "<blockquote cite=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\"><p>The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was <a href=\"https://github.com/pypi/warehouse/pull/19727\">put in place</a> to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible.</p></blockquote>\n<",
+      "url": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+      "published": "2026-07-23T04:50:36+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Thomas Ptacek",
+      "summary": "<blockquote cite=\"https://twitter.com/tqbf/status/2080045032162173329\"><p>I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/tqbf/status/2080045032162173329\">Thomas Ptacek</a>, doesn't think <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/#resist-the-temptation-to-write-this-off-as-a-stunt\">this even needs</a> a",
+      "url": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
+      "published": "2026-07-22T23:59:01+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "summary": "HNスコア: 51, コメント数: 21",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "published": "2026-07-25T20:42:35",
+      "hn_score": 51
+    },
+    {
+      "source": "hackernews",
+      "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
+      "summary": "HNスコア: 10, コメント数: 0",
+      "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
+      "published": "2026-07-25T21:48:22",
+      "hn_score": 10
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Yorishiro – a macOS terminal where AI agents live",
+      "summary": "HNスコア: 16, コメント数: 2",
+      "url": "https://github.com/sktkkoo/Yorishiro",
+      "published": "2026-07-22T15:33:16",
+      "hn_score": 16
+    },
+    {
+      "source": "hackernews",
+      "title": "General Resolution: LLM Usage in Debian",
+      "summary": "HNスコア: 4, コメント数: 0",
+      "url": "https://www.debian.org/vote/2026/vote_002",
+      "published": "2026-07-25T19:44:39",
+      "hn_score": 4
+    },
+    {
+      "source": "hackernews",
+      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+      "summary": "HNスコア: 5, コメント数: 0",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "published": "2026-07-25T18:59:50",
+      "hn_score": 5
+    },
+    {
+      "source": "hackernews",
+      "title": "Pyshackle: A hard pre-execution gate for AI agent tool calls (open source)",
+      "summary": "HNスコア: 3, コメント数: 0",
+      "url": "https://pypi.org/project/pyshackle/",
+      "published": "2026-07-25T18:04:11",
+      "hn_score": 3
+    },
+    {
+      "source": "hackernews",
+      "title": "The Many Claudes of My Code",
+      "summary": "HNスコア: 3, コメント数: 0",
+      "url": "https://shippingbinaries.com/blog/the-many-claudes-of-my-code",
+      "published": "2026-07-25T18:02:38",
+      "hn_score": 3
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Opus 5",
+      "summary": "HNスコア: 1729, コメント数: 1252",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "published": "2026-07-24T16:57:41",
+      "hn_score": 1729
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Opus 5: The System Card",
+      "summary": "HNスコア: 3, コメント数: 0",
+      "url": "https://thezvi.substack.com/p/claude-opus-5-the-system-card",
+      "published": "2026-07-25T21:03:01",
+      "hn_score": 3
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Cookbook",
+      "summary": "HNスコア: 328, コメント数: 163",
+      "url": "https://platform.claude.com/cookbook/",
+      "published": "2026-07-24T05:09:15",
+      "hn_score": 328
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-07-25T14:53:37Z",
+      "stars": 39678,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-07-25T18:44:27Z",
+      "stars": 28262,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-07-25T19:07:03Z",
+      "stars": 23959,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-07-25T10:57:55Z",
+      "stars": 11037,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "xbtlin/ai-berkshire",
+      "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "published": "2026-07-25T21:40:42Z",
+      "stars": 14040,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "TencentCloud/TencentDB-Agent-Memory",
+      "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "published": "2026-07-25T21:05:19Z",
+      "stars": 9281,
+      "language": "TypeScript"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-07-25T21:54:51Z",
+      "stars": 7745,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "Intelligent-Internet/ii-agent",
+      "summary": "II-Agent: a new open-source framework to build and deploy intelligent agents",
+      "url": "https://github.com/Intelligent-Internet/ii-agent",
+      "published": "2026-07-23T23:53:29Z",
+      "stars": 3366,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "From Zero To Advanced AI Agents In 15 Minutes (No Coding)",
+      "summary": "From Zero To Advanced AI Agents In 15 Minutes (No Coding). Build Your AI Agent (free trial): ...",
+      "url": "https://www.youtube.com/watch?v=zaLv6KXrTYg",
+      "published": "2026-07-22T14:37:16Z",
+      "channel": "Zinho Automates",
+      "has_video": true,
+      "video_id": "zaLv6KXrTYg"
+    },
+    {
+      "source": "youtube",
+      "title": "Hermes Agent - Ultimate Crash Course for Beginners (AI Agent)",
+      "summary": "Hermes Agent Crash Course so you can run your own locally hosted or cloud based agent using Hermes. If you've been ...",
+      "url": "https://www.youtube.com/watch?v=4sAmpcSOVEw",
+      "published": "2026-07-21T08:20:41Z",
+      "channel": "Adrian Twarog",
+      "has_video": true,
+      "video_id": "4sAmpcSOVEw"
+    },
+    {
+      "source": "youtube",
+      "title": "How to Build Your First Claude Agent Team in 14 Minutes",
+      "summary": "Claim your FREE $499 Masterclass: Build & Sell Apps, AI Agents & Websites with AI https://mikeyno-code.com/Skool-base44 ...",
+      "url": "https://www.youtube.com/watch?v=kkOm9zeqcN4",
+      "published": "2026-07-21T14:15:30Z",
+      "channel": "Jake One Page",
+      "has_video": true,
+      "video_id": "kkOm9zeqcN4"
+    },
+    {
+      "source": "youtube",
+      "title": "Obsidian + Agentic AI? 🧠 Full Hermes Obsidian Workflow &amp; Wiki Prep",
+      "summary": "Many people are using Obsidian with AI agents, which leads to the question: should I have a separate agent vault in Obsidian?",
+      "url": "https://www.youtube.com/watch?v=znj-WpMj1dI",
+      "published": "2026-07-23T12:30:17Z",
+      "channel": "Wanderloots",
+      "has_video": true,
+      "video_id": "znj-WpMj1dI"
+    },
+    {
+      "source": "youtube",
+      "title": "Day 1 Complete! GenAI, Agentic AI &amp; AI Agents | 3-Hour Hands-on Training | Watch the Recording",
+      "summary": "Day 1 is now complete! We successfully finished our 3-hour LIVE Hands-on GenAI, Agentic AI & AI Agents masterclass.",
+      "url": "https://www.youtube.com/watch?v=oreFrB64bms",
+      "published": "2026-07-19T11:10:47Z",
+      "channel": "HANDSON AGILE COACHING",
+      "has_video": true,
+      "video_id": "oreFrB64bms"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Agents vs Agentic AI: The Difference Everyone Misses",
+      "summary": "Everyone is talking about AI Agents and Agentic AI, but are they actually the same thing? In this video, we'll break down the ...",
+      "url": "https://www.youtube.com/watch?v=YUB_Oe3Su5Y",
+      "published": "2026-07-20T13:15:32Z",
+      "channel": "AgentStax",
+      "has_video": true,
+      "video_id": "YUB_Oe3Su5Y"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude AI: Cách Tôi Cho Đội Ngũ AI Agent Vận Hành Cả Công Ty (Demo thực tế)",
+      "summary": "Nếu team anh/chị đang dùng AI mỗi người một kiểu, không ai ghép lại thành cách làm chung thì video này là câu trả lời. Tôi vận ...",
+      "url": "https://www.youtube.com/watch?v=Tx7QiS5asAo",
+      "published": "2026-07-24T12:32:34Z",
+      "channel": "Trần Quốc Huy - Wecommit",
+      "has_video": true,
+      "video_id": "Tx7QiS5asAo"
+    },
+    {
+      "source": "youtube",
+      "title": "I Combined GPT-5.6, Claude &amp; Grok Into ONE Coding AI (Smart Router Demo)",
+      "summary": "GPT-5.6 for the thinking. Claude Fable 5 for the building. Grok and Opus on standby. What if you never had to choose one coding ...",
+      "url": "https://www.youtube.com/watch?v=BdbwR1bmRtw",
+      "published": "2026-07-24T09:45:01Z",
+      "channel": "Abacus AI",
+      "has_video": true,
+      "video_id": "BdbwR1bmRtw"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Claude Just Revealed AI&#39;s Biggest Problem",
+      "summary": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The paper is available here: ...",
+      "url": "https://www.youtube.com/shorts/axOcn--n_lM",
+      "published": "2026-07-16T15:39:17Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "axOcn--n_lM"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    }
+  ]
+}
