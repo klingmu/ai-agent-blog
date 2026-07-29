@@ -1,0 +1,554 @@
+{
+  "date": "2026-07-30",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening",
+      "summary": "We present VetClaw, an edge-cloud multimodal agentic system for early veterinary disease screening. VetClaw uses a camera module as an edge sensing device and sends captured images, together with optional symptom descriptions, to a server-hosted vision-language model for zero-shot disease classification. The system separates agent interaction from workflow orchestration: OpenClaw provides scheduling, tool access, user interaction, and notification services on the edge device, while LangGraph manages the stateful screening workflow, including input validation, image transmission, model invocati",
+      "url": "http://arxiv.org/abs/2607.26042v1",
+      "authors": [
+        "Syed Mhamudul Hasan",
+        "Anas AlSobeh",
+        "Hussein Zangoti"
+      ],
+      "published": "2026-07-28T17:50:25+00:00",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Does Runtime Topology Context Improve LLM-Generated Kubernetes Security Patches?",
+      "summary": "Kubernetes is central to the cloud-native ecosystem, orchestrating containerised workloads. Recent work suggests that large language models (LLMs) can automate cluster security remediation, generating configuration patches from Kubernetes Security Posture Management (KSPM) findings without human authoring. Such systems, however, prompt the model with each finding in isolation from the live service call graph, assuming general hardening knowledge suffices. This assumption breaks down whenever a patch must preserve a runtime service dependency invisible to the model: an otherwise compliant fix t",
+      "url": "http://arxiv.org/abs/2607.25995v1",
+      "authors": [
+        "Farooq Shaikh"
+      ],
+      "published": "2026-07-28T17:12:12+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents",
+      "summary": "Recently, memory management has become a key infrastructure for LLM-based agents, as it directly affects long-horizon reasoning, personalized responses, and knowledge reuse. However, existing LLM memory systems typically adopt a coarse-grained (utility-agnostic) manner that treats heterogeneous user-LLM interaction records uniformly, leading to redundant and low-impact records persisting in the memory repository. To address this challenge, we present MemLens, a value-aware memory management system that takes memory records as first-class data objects. MemLens provides an end-to-end interactive",
+      "url": "http://arxiv.org/abs/2607.25992v1",
+      "authors": [
+        "Shuyue Wei",
+        "Chang Liu",
+        "Zimu Zhou"
+      ],
+      "published": "2026-07-28T17:08:56+00:00",
+      "categories": [
+        "cs.DB",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "A Cost-Effective Multimodal LLM Reasoning Framework for Question Answering over Irregular Clinical Time Series",
+      "summary": "Question answering (QA) over irregular clinical time series (ICTS) plays a pivotal role in a wide range of healthcare applications. Although recent multimodal time-series large language models (LLMs) have shown considerable promise in general-purpose time-series QA, they remain poorly equipped to model the sparsity, asynchrony, and irregular sampling patterns of clinical observations. To fill this gap, we propose ClinPRISM, a cost-effective multimodal LLM reasoning framework for question answering over ICTS data. First, we devise an irregularity-aware multi-scale encoder to capture sparse clin",
+      "url": "http://arxiv.org/abs/2607.25947v1",
+      "authors": [
+        "Frank Nie",
+        "Ethan B Liu",
+        "Yuan Zhu"
+      ],
+      "published": "2026-07-28T16:33:41+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Evaluating VLMs for Autonomous Agent-Driven Geometry Clipping Detection in Video Game QA",
+      "summary": "In this work, we study the use of Vision-Language Models (VLMs) for anomaly detection in an agent-driven game Quality Assurance (QA) pipeline focusing on geometry clipping. In this evaluation, a custom exploration agent navigates a game level to collect visual observations, while the automatic annotation pipeline provides frame-level clipping labels. This setup allows us to evaluate recent VLMs on a controlled anomaly detection task without manual annotation. We benchmark six recent VLMs (Gemini, GPT, Qwen, Gemma, Llama, and Ministral) under a zero-shot prompting setting and analyse their sens",
+      "url": "http://arxiv.org/abs/2607.25921v1",
+      "authors": [
+        "Carlos Celemin",
+        "Benedict Wilkins",
+        "Adrián Barahona-Ríos"
+      ],
+      "published": "2026-07-28T16:10:47+00:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Toward Standardized Cross-Vendor Agent Tool Trust Management in Autonomous Networks",
+      "summary": "Autonomous Network Levels 4-5 require AI agents to invoke tools across vendor boundaries without human oversight, yet existing management standards lack a standardized mechanism for cross-vendor trust visibility. When a tool from Vendor B is compromised, agents from Vendor A continue invoking it -- unaware of the trust degradation -- causing cascading service impact. We present AgentToolMO, a proposed 3GPP NRM information model for agent tool trust management. The model comprises: a formally defined trust state machine with provable graduated enforcement, damped cascade propagation with bounde",
+      "url": "http://arxiv.org/abs/2607.25914v1",
+      "authors": [
+        "Ravi Kant Sharma",
+        "Ashutosh Uttam",
+        "Ajay Kumar"
+      ],
+      "published": "2026-07-28T16:06:41+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.NI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Interactive Reward Agent: GUI Task Evaluation via Environment-State Verification",
+      "summary": "Graphical user interface task evaluation aims to determine whether a GUI agent has successfully completed a user instruction. Automated GUI task evaluation has received increasing attention because the evaluation results can serve as reward signals for both test-time scaling and post-training. However, reliable GUI task evaluation remains challenging because the judgments often require access to environment states, such as system configurations, file data, and application settings, beyond the screenshots of execution trajectories. In this paper, we propose an interactive reward agent (IRA) bas",
+      "url": "http://arxiv.org/abs/2607.25904v1",
+      "authors": [
+        "Chenrui Shi",
+        "Yuwei Wu",
+        "Yang Liu"
+      ],
+      "published": "2026-07-28T16:01:38+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Messier: A High-Resolution Corpus for Cross-Benchmark Agent Evaluation",
+      "summary": "Evaluating AI agents in interactive environments is hindered by fragmented tasks, scaffolds, verifiers, and scoring rules. Existing efforts focus on narrow settings, remain limited in scale, or require costly reruns, leaving much of the empirical record incomparable. We introduce Messier, a unified corpus of 957,253 records that span 30 benchmarks, 714 agents, 11,891 tasks, and 74,205 verifiers. Messier consolidates public benchmark scores and supplements them with five-agent runs across six underrepresented professional and scientific domains, including a recent legal benchmark. Each record i",
+      "url": "http://arxiv.org/abs/2607.25891v1",
+      "authors": [
+        "Stefan Krsteski",
+        "Charlotte Meyer",
+        "Guillaume Allegre"
+      ],
+      "published": "2026-07-28T15:50:19+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.DB"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Stemma: Induced Decision Regions Reveal LLM Provenance",
+      "summary": "LLM provenance testing asks whether a suspect LLM belongs to the same lineage as a source. Existing black-box methods largely infer this relationship from response-level characteristics, but these characteristics may shift under adaptation or deployment even when the underlying meaning remains unchanged, weakening the reliability of provenance evidence. To address this limitation, we introduce induced decision regions by mapping open-ended outputs into a finite decision space, thereby abstracting away surface-form variation and reframing provenance testing as measuring the inheritance of decis",
+      "url": "http://arxiv.org/abs/2607.25880v1",
+      "authors": [
+        "Keyu Zhang",
+        "Vadim Safronov",
+        "Andrew Martin"
+      ],
+      "published": "2026-07-28T15:42:53+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Runtime Uncertainty Monitoring for LLM-Based Multi-Agent Systems Using Bayesian Networks",
+      "summary": "This paper investigates how multi-agent systems (MAS)-based on large language models (LLMs) can support actuarial risk modelling, with a particular focus on uncertainty quantification. Actuarial workflows represent a high-stakes decision-support setting where unreliable outputs may lead to incorrect risk assessment, unfair pricing, and regulatory non-compliance. To address uncertainty introduced by the probabilistic nature of LLMs and dependencies between agents, a multi-agent framework is proposed in which specialised agents perform data preparation, modelling, review, and explanation tasks u",
+      "url": "http://arxiv.org/abs/2607.25877v1",
+      "authors": [
+        "Bart Custers",
+        "Koorosh Aslansefat"
+      ],
+      "published": "2026-07-28T15:39:43+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "published": "Wed, 29 Jul 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "published": "Wed, 29 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Scientific computing in the age of agentic AI",
+      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "published": "Tue, 28 Jul 2026 17:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How AI is expanding what people do at work",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "published": "Mon, 27 Jul 2026 03:30:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Launching Health in ChatGPT",
+      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "url": "https://openai.com/index/health-in-chatgpt",
+      "published": "Thu, 23 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "published": "Wed, 29 Jul 2026 16:02:10 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "published": "Wed, 22 Jul 2026 13:38:54 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+      "published": "Tue, 21 Jul 2026 15:16:30 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini 3.5 Flash Cyber",
+      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+      "published": "Fri, 17 Jul 2026 15:00:11 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Our approach to bioresilience",
+      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "published": "Thu, 16 Jul 2026 09:30:42 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "published": "Tue, 28 Jul 2026 16:27:42 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+      "summary": "",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "published": "Tue, 28 Jul 2026 15:01:45 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "published": "Mon, 27 Jul 2026 09:32:20 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "summary": "",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "published": "Mon, 27 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "published": "Thu, 23 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting D. Richard Hipp",
+      "summary": "<blockquote cite=\"https://www.youtube.com/watch?v=R57nUGzo7CA&amp;t=848s\"><p>Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer.</p>\n<p>Then SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simple specification, you can generate all of that code that you had to pay the expensive COBOL programmer to do before.</p>\n<p>That didn’t mean programmers went away. It just meant the job changed a little bit.</p></bloc",
+      "url": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
+      "published": "2026-07-29T21:15:21+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "AI Worming through Word",
+      "summary": "<p><strong><a href=\"https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/\">AI Worming through Word</a></strong></p>\nNeat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms:</p>\n<blockquote>\n<p>An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidde",
+      "url": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+      "published": "2026-07-29T18:43:03+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Matthew Green",
+      "summary": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/\"><p>Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new <em>post-quantum</em> algorithms based on novel problems. This is why there are so many standards like HAWK being considered. If there was ever a perfect time for a massive new public cryptanalysis capability to come on line, <em>we’re in it.</em> So unless AIs succeed in undermining all of our hard problems altogether (or we live ",
+      "url": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+      "published": "2026-07-29T18:18:15+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Adding a custom MCP server to Claude and ChatGPT",
+      "summary": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt\">Adding a custom MCP server to Claude and ChatGPT</a></p>\n        <p>Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/t",
+      "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+      "published": "2026-07-29T00:13:18+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "summary": "<p><strong><a href=\"https://www.anthropic.com/research/discovering-cryptographic-weaknesses\">Discovering cryptographic weaknesses with Claude</a></strong></p>\nThe best part of this article (here's <a href=\"https://github.com/anthropics/cryptography-research-demo\">the repo</a>) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s computer systems\") is the prompts that they shared, spelling mistakes included:</p>\n<blockquote>\n<p>the models tend to think it is impossible ",
+      "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+      "published": "2026-07-28T22:45:37+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Timeline of the July 2026 Incident",
+      "summary": "HNスコア: 224, コメント数: 122",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "published": "2026-07-28T20:28:33",
+      "hn_score": 224
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude: Elevated errors across all models",
+      "summary": "HNスコア: 222, コメント数: 196",
+      "url": "https://status.claude.com/incidents/q2kg8n613kr3",
+      "published": "2026-07-29T19:50:42",
+      "hn_score": 222
+    },
+    {
+      "source": "hackernews",
+      "title": "Handbook.md shows that long policy documents do not reliably govern agents",
+      "summary": "HNスコア: 272, コメント数: 170",
+      "url": "https://arxiv.org/abs/2607.25398",
+      "published": "2026-07-29T13:01:57",
+      "hn_score": 272
+    },
+    {
+      "source": "hackernews",
+      "title": "Document-borne AI worms can self-propagate through Copilot for Word",
+      "summary": "HNスコア: 314, コメント数: 235",
+      "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+      "published": "2026-07-29T11:44:33",
+      "hn_score": 314
+    },
+    {
+      "source": "hackernews",
+      "title": "Some thoughts about Anthropic's new cryptanalysis results",
+      "summary": "HNスコア: 81, コメント数: 44",
+      "url": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+      "published": "2026-07-29T16:42:20",
+      "hn_score": 81
+    },
+    {
+      "source": "hackernews",
+      "title": "How much can you delegate to agents?",
+      "summary": "HNスコア: 31, コメント数: 0",
+      "url": "https://newsletter.posthog.com/p/agent-autonomy",
+      "published": "2026-07-29T19:07:13",
+      "hn_score": 31
+    },
+    {
+      "source": "hackernews",
+      "title": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?",
+      "summary": "HNスコア: 77, コメント数: 18",
+      "url": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
+      "published": "2026-07-29T14:56:28",
+      "hn_score": 77
+    },
+    {
+      "source": "hackernews",
+      "title": "NanoClaw and Echo launch agent runtime that secures browsers, tools and libs",
+      "summary": "HNスコア: 6, コメント数: 0",
+      "url": "https://thenewstack.io/nanoclaw-echo-agent-runtime/",
+      "published": "2026-07-29T21:27:03",
+      "hn_score": 6
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic Doesn't Want Open Weight Models Banned. Just All That Makes Them Good",
+      "summary": "HNスコア: 22, コメント数: 3",
+      "url": "https://www.techdirt.com/2026/07/29/anthropic-says-its-against-a-ban-on-open-weight-models-it-just-wants-to-ban-everything-that-makes-them-good/",
+      "published": "2026-07-29T18:42:50",
+      "hn_score": 22
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Bullshit Detector – agent skills that fact-check videos and articles",
+      "summary": "HNスコア: 57, コメント数: 61",
+      "url": "https://github.com/SerhiiKorniienko/bullshit-detector",
+      "published": "2026-07-29T12:58:27",
+      "hn_score": 57
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-07-29T17:25:36Z",
+      "stars": 39698,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-07-29T16:12:48Z",
+      "stars": 28393,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-07-29T21:10:41Z",
+      "stars": 24015,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-07-29T15:18:07Z",
+      "stars": 11065,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "HKUDS/nanobot",
+      "summary": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
+      "url": "https://github.com/HKUDS/nanobot",
+      "published": "2026-07-29T21:33:30Z",
+      "stars": 46384,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "xbtlin/ai-berkshire",
+      "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "published": "2026-07-29T20:39:20Z",
+      "stars": 14701,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "TencentCloud/TencentDB-Agent-Memory",
+      "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "published": "2026-07-29T21:52:38Z",
+      "stars": 9359,
+      "language": "TypeScript"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-07-29T22:03:00Z",
+      "stars": 7889,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "From Zero To Advanced AI Agents In 15 Minutes (No Coding)",
+      "summary": "From Zero To Advanced AI Agents In 15 Minutes (No Coding). Build Your AI Agent (free trial): ...",
+      "url": "https://www.youtube.com/watch?v=zaLv6KXrTYg",
+      "published": "2026-07-22T14:37:16Z",
+      "channel": "Zinho Automates",
+      "has_video": true,
+      "video_id": "zaLv6KXrTYg"
+    },
+    {
+      "source": "youtube",
+      "title": "How I&#39;d Build an AI Agent Making $10,000 with Claude Code",
+      "summary": "Claim your FREE $499 Masterclass: Build & Sell Apps, AI Agents & Websites with AI https://mikeyno-code.com/Skool-base44 ...",
+      "url": "https://www.youtube.com/watch?v=V7_YUe5skv8",
+      "published": "2026-07-23T14:15:03Z",
+      "channel": "Max Max",
+      "has_video": true,
+      "video_id": "V7_YUe5skv8"
+    },
+    {
+      "source": "youtube",
+      "title": "AI Agents Explained",
+      "summary": "If your AI just talks to you, you're only using 10% of what's possible ⁠ ⁠ A chatbot can help you plan your day. An AI agent ...",
+      "url": "https://www.youtube.com/watch?v=lH-L59Gi8mQ",
+      "published": "2026-07-27T15:00:17Z",
+      "channel": "Tina Huang",
+      "has_video": true,
+      "video_id": "lH-L59Gi8mQ"
+    },
+    {
+      "source": "youtube",
+      "title": "Generative AI vs AI Agents vs Agentic AI (Difference Explained)",
+      "summary": "In this video, we explain the difference between Generative AI, AI Agents, and Agentic AI in a simple way. Learn how Artificial ...",
+      "url": "https://www.youtube.com/watch?v=_u2Jciop7rA",
+      "published": "2026-07-29T12:41:11Z",
+      "channel": "CodeHelp - by Babbar",
+      "has_video": true,
+      "video_id": "_u2Jciop7rA"
+    },
+    {
+      "source": "youtube",
+      "title": "Most Popular Agentic AI Agents      #ai, #aiagents #agentic, #llm #python #openai #framework #claude",
+      "summary": "Most Popular Agentic AI Agents #ai, #aiagents #agentic, #llm #python #openai #framework #claude AI, Artificial Intelligence, AI ...",
+      "url": "https://www.youtube.com/watch?v=ZCCUkEk7aP8",
+      "published": "2026-07-24T20:45:06Z",
+      "channel": "Efrain Futuro",
+      "has_video": true,
+      "video_id": "ZCCUkEk7aP8"
+    },
+    {
+      "source": "youtube",
+      "title": "Always On Agentic AI? 🧠 Hermes Supercomputer Setup (Abacus AI)",
+      "summary": "Everyone is talking about Agentic AI, but many people either can't run it or find it overwhelming. So, what if your AI Agent could run ...",
+      "url": "https://www.youtube.com/watch?v=ZL-8IhjQDvE",
+      "published": "2026-07-29T12:37:34Z",
+      "channel": "Wanderloots",
+      "has_video": true,
+      "video_id": "ZL-8IhjQDvE"
+    },
+    {
+      "source": "youtube",
+      "title": "ChatGPT Work Just Killed Claude Cowork",
+      "summary": "ChatGPT is moving from a tool you ask into a platform where work actually happens. Here's what ChatGPT Work signals for ...",
+      "url": "https://www.youtube.com/watch?v=ywndSCmGYXU",
+      "published": "2026-07-27T10:48:01Z",
+      "channel": "AI With Zac",
+      "has_video": true,
+      "video_id": "ywndSCmGYXU"
+    },
+    {
+      "source": "youtube",
+      "title": "Warren Demo for OpenAI Build Week",
+      "summary": "Hi, this is Warren, a desktop companion for monitoring multiple AI coding agents. Warren brings Claude Code, Codex, and ...",
+      "url": "https://www.youtube.com/watch?v=gnRHzmSwnsc",
+      "published": "2026-07-22T00:05:05Z",
+      "channel": "Qing H (Qing)",
+      "has_video": true,
+      "video_id": "gnRHzmSwnsc"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Claude Just Revealed AI&#39;s Biggest Problem",
+      "summary": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The paper is available here: ...",
+      "url": "https://www.youtube.com/shorts/axOcn--n_lM",
+      "published": "2026-07-16T15:39:17Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "axOcn--n_lM"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    }
+  ]
+}
