@@ -1,0 +1,552 @@
+{
+  "date": "2026-07-31",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+      "summary": "Forecasts of explosive AI progress hinge on AI agents automating AI research. But evidence on whether agents can carry out open-ended AI research is thin. Current evaluations either test agents on narrow, verifiable tasks, which excludes open-ended research, or submit AI-generated papers to blind peer review, which is overstretched, stochastic, and suffers from poor review quality. We introduce a third way to measure progress towards AI R\\&D automation. An agent takes on the central, open-ended research question of a high-quality unpublished paper, and the paper's original authors grade its ou",
+      "url": "http://arxiv.org/abs/2607.27191v1",
+      "authors": [
+        "Peter Kirgis",
+        "Sayash Kapoor",
+        "Andrew Schwartz"
+      ],
+      "published": "2026-07-29T17:57:19+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+      "summary": "Large language model (LLM) agents are increasingly expected to assist users in completing tasks. However, existing benchmarks provide limited support for evaluating whether agents can carry out office-suite workflows at a reasonable cost. We introduce OmegaUse-OfficeVal, a benchmark for evaluating LLM agents on long-horizon office-suite tasks with task-level economic grounding. The benchmark comprises 100 tasks derived from office-suite requests proposed by practitioners and adapted through a privacy-preserving process. On average, these tasks require 2.32 hours of human labor to complete. An ",
+      "url": "http://arxiv.org/abs/2607.27155v1",
+      "authors": [
+        "Jingbo Zhou",
+        "Yusai Zhao",
+        "Qi Bao"
+      ],
+      "published": "2026-07-29T17:33:47+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Linguistic Monoculture in LLM-Assisted Language Use",
+      "summary": "Writing and communication are increasingly mediated by large language models (LLMs) that are being used to draft, revise and polish text. Although such assistance can improve clarity and help authors meet institutional expectations, widespread reliance on shared models may reduce population-level variation in linguistic form, a phenomenon we refer to as linguistic monoculture. We develop a mathematical framework in which authors and LLMs are represented as distributions over linguistic features and coevolve through repeated interaction. We analyze three interaction mechanisms: a shared model w",
+      "url": "http://arxiv.org/abs/2607.27134v1",
+      "authors": [
+        "Suhas Thejaswi",
+        "Juhi Kulshreshta",
+        "Lutz Oettershagen"
+      ],
+      "published": "2026-07-29T17:04:36+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.GT"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "InferScale: GPU-Native KV Injection for Personalized LLM Serving",
+      "summary": "Large language models are increasingly deployed with persistent personalized context, such as accumulated memory profiles or long conversation histories, that is shared across a user's many requests. Production memory systems (e.g., Mem0, MemGPT, and Zep) retrieve a relevant subset of this memory and inject it into the prompt, forcing the serving engine to repeatedly prefill the same content. As the retrieval budget grows, time-to-first-token (TTFT) increases even though the underlying memory is reused across requests.\n  We present InferScale, a GPU-native LLM memory system that replaces repea",
+      "url": "http://arxiv.org/abs/2607.27090v1",
+      "authors": [
+        "Peter Li",
+        "Prashant Pandey"
+      ],
+      "published": "2026-07-29T16:18:22+00:00",
+      "categories": [
+        "cs.DC",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Scores Are Not Decisions: Cost-Aware Stopping for Tool Acquisition in LLM Agents",
+      "summary": "As LLM agents increasingly depend on diverse external services such as search engines, databases, and connectors, agent harnesses face a fundamental tool-selection challenge: acquiring too few tools leaves the task under-informed, while too many adds cost, context load, and privacy exposure. Routers and retrievers can rank candidate tools by relevance, but a ranking alone does not determine how many are worth selecting. Existing approaches leave acquisition under heterogeneous costs unaddressed. We formulate this decision as cost-aware marginal decision-focused stopping (CAM-DF) over ranked to",
+      "url": "http://arxiv.org/abs/2607.27083v1",
+      "authors": [
+        "Yicheng Feng",
+        "Yan Zhang",
+        "Yan Cheng"
+      ],
+      "published": "2026-07-29T16:07:37+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment",
+      "summary": "Fine-tuning is the dominant paradigm for specializing large language models (LLMs), yet it exposes a critical vulnerability: malicious data providers can embed harmful behaviors into downstream corpora, creating models that retain professional skills while violating human values on demand. Existing safety-realignment defenses often fail in practice due to three key limitations: they frequently cause catastrophic forgetting of specialized skills; their effectiveness collapses when the defender cannot observe the attacker's prompt template; and successfully realigned models remain susceptible to",
+      "url": "http://arxiv.org/abs/2607.27081v1",
+      "authors": [
+        "Yongjian Guo",
+        "Wanlun Ma",
+        "Lingyu Shen"
+      ],
+      "published": "2026-07-29T16:07:19+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair",
+      "summary": "Memory systems allow agents to retain and reuse information from past interactions, but they can also let malicious content persist. A malicious instruction crafted by an attacker may be stored in long-term memory, recalled much later, and quietly shape a real action. Recent benchmarks increasingly examine agent memory security, yet few trace the same malicious semantics across persistence, downstream consequences, and selective repair under diverse memory-backend comparisons. To address this gap, we introduce MemSecBench, a task-grounded benchmark for the lifecycle security of agent memory sy",
+      "url": "http://arxiv.org/abs/2607.27080v1",
+      "authors": [
+        "Xuanze Chen",
+        "Xukang Xie",
+        "Wentao Fu"
+      ],
+      "published": "2026-07-29T16:06:54+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data",
+      "summary": "Personalized agents are increasingly applied to assist users across a wide range of tasks. Effective personalized assistance requires not only retrieving explicit facts from past interactions stored in agent memory, but also inferring abstract personal characteristics. However, existing memory benchmarks primarily evaluate whether an agent can retrieve information explicitly stated in conversational histories, failing to provide an effective assessment of deeper user understanding. In this work, we propose Setoka, a benchmark for evaluating memory-augmented personalized agents with hierarchica",
+      "url": "http://arxiv.org/abs/2607.27056v1",
+      "authors": [
+        "Lingyang Zeng",
+        "Guangze Chen",
+        "Kaichen Yu"
+      ],
+      "published": "2026-07-29T15:47:40+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "AgentSnare: Learning to Delay, Divert, and Defuse Autonomous Penetration Agents",
+      "summary": "Large language model (LLM) agents automate penetration testing through an observation-action loop, selecting actions based on observations returned by tools. This dependence allows defenders to inject deceptive observations that can mislead the agent's decision-making process. However, existing defenses rely heavily on static, isolated artifacts planted in the environment prior to an attack. Advanced agents can progressively recognize and bypass these artifacts, ultimately refocusing their exploitation attempts on the real target. To address this issue, we introduce AgentSnare, a trajectory-ad",
+      "url": "http://arxiv.org/abs/2607.26998v1",
+      "authors": [
+        "Ruoyu Wang",
+        "Heng Zhao",
+        "Renjie Wu"
+      ],
+      "published": "2026-07-29T14:56:31+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation",
+      "summary": "Bot detectors deployed at scale treat traffic as binary: human or bot. This assumption breaks when AI agents browse the web through browser automation, a traffic class that is neither and that binary classifiers structurally cannot represent. We present a three-class detection framework distinguishing humans, bots, and AI agents, and show that the binary-vs-agent confusion is architectural: a binary human-vs-bot detector misroutes agent sessions because its label space lacks an agent class. On our controlled benchmark, an MLP binary classifier misclassifies 39.1% of real AI agents as human and",
+      "url": "http://arxiv.org/abs/2607.26935v1",
+      "authors": [
+        "Vishisht Choudhary",
+        "Lukas Schmidt",
+        "Anne Zoë Kenntner"
+      ],
+      "published": "2026-07-29T14:05:26+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "published": "Thu, 30 Jul 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "published": "Wed, 29 Jul 2026 15:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "published": "Wed, 29 Jul 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "published": "Wed, 29 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Scientific computing in the age of agentic AI",
+      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "published": "Tue, 28 Jul 2026 17:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "published": "Thu, 30 Jul 2026 15:00:59 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "published": "Wed, 29 Jul 2026 16:02:10 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "summary": "",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "published": "Tue, 28 Jul 2026 13:21:37 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "published": "Wed, 22 Jul 2026 13:38:54 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+      "published": "Tue, 21 Jul 2026 15:16:30 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "published": "Thu, 30 Jul 2026 15:09:09 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "published": "Tue, 28 Jul 2026 16:27:42 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+      "summary": "",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "published": "Tue, 28 Jul 2026 15:01:45 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "published": "Mon, 27 Jul 2026 09:32:20 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "summary": "",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "published": "Mon, 27 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Bruce Schneier",
+      "summary": "<blockquote cite=\"https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html\"><p>The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thinking and outlining and drafting and editing, making and criticizing and revising arguments, will help develop the critical thinking skills they will need in their future careers. And without this constant mental exercise, those skills will atrophy.",
+      "url": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
+      "published": "2026-07-30T18:25:26+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting D. Richard Hipp",
+      "summary": "<blockquote cite=\"https://www.youtube.com/watch?v=R57nUGzo7CA&amp;t=848s\"><p>Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer.</p>\n<p>Then SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simple specification, you can generate all of that code that you had to pay the expensive COBOL programmer to do before.</p>\n<p>That didn’t mean programmers went away. It just meant the job changed a little bit.</p></bloc",
+      "url": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
+      "published": "2026-07-29T21:15:21+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "AI Worming through Word",
+      "summary": "<p><strong><a href=\"https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/\">AI Worming through Word</a></strong></p>\nNeat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms:</p>\n<blockquote>\n<p>An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidde",
+      "url": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+      "published": "2026-07-29T18:43:03+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Quoting Matthew Green",
+      "summary": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/\"><p>Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new <em>post-quantum</em> algorithms based on novel problems. This is why there are so many standards like HAWK being considered. If there was ever a perfect time for a massive new public cryptanalysis capability to come on line, <em>we’re in it.</em> So unless AIs succeed in undermining all of our hard problems altogether (or we live ",
+      "url": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+      "published": "2026-07-29T18:18:15+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Adding a custom MCP server to Claude and ChatGPT",
+      "summary": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt\">Adding a custom MCP server to Claude and ChatGPT</a></p>\n        <p>Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/t",
+      "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+      "published": "2026-07-29T00:13:18+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "summary": "HNスコア: 419, コメント数: 372",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "published": "2026-07-30T15:15:48",
+      "hn_score": 419
+    },
+    {
+      "source": "hackernews",
+      "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
+      "summary": "HNスコア: 76, コメント数: 24",
+      "url": "https://github.com/AminBlg/SimpleEnglish",
+      "published": "2026-07-30T19:34:27",
+      "hn_score": 76
+    },
+    {
+      "source": "hackernews",
+      "title": "Advancing the price-performance frontier with GPT‑5.6",
+      "summary": "HNスコア: 426, コメント数: 280",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+      "published": "2026-07-30T17:15:51",
+      "hn_score": 426
+    },
+    {
+      "source": "hackernews",
+      "title": "2x, not 10x: coding with LLMs in 2026",
+      "summary": "HNスコア: 158, コメント数: 112",
+      "url": "https://obryant.dev/p/2x-not-10x/",
+      "published": "2026-07-25T14:27:05",
+      "hn_score": 158
+    },
+    {
+      "source": "hackernews",
+      "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
+      "summary": "HNスコア: 244, コメント数: 146",
+      "url": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
+      "published": "2026-07-30T17:31:07",
+      "hn_score": 244
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "summary": "HNスコア: 52, コメント数: 40",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "published": "2026-07-30T18:13:06",
+      "hn_score": 52
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Supapool – a Supabase per coding agent in ~400 ms",
+      "summary": "HNスコア: 26, コメント数: 4",
+      "url": "https://supapool.io/",
+      "published": "2026-07-29T17:34:35",
+      "hn_score": 26
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Noisegate – a differential-privacy gateway for untrusted AI agents",
+      "summary": "HNスコア: 11, コメント数: 0",
+      "url": "https://github.com/yashmahajan10/llm-differential-privacy-gateway",
+      "published": "2026-07-30T18:08:48",
+      "hn_score": 11
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
+      "summary": "HNスコア: 40, コメント数: 23",
+      "url": "https://github.com/hamzarehmandeveloper/claude-account",
+      "published": "2026-07-30T14:58:59",
+      "hn_score": 40
+    },
+    {
+      "source": "hackernews",
+      "title": "Why do OpenAI's GPT-2 weights beat mine? Part two: the bugfix",
+      "summary": "HNスコア: 8, コメント数: 0",
+      "url": "https://www.gilesthomas.com/2026/07/why-do-openai-gpt2-weights-beat-mine-2-the-bugfix",
+      "published": "2026-07-30T18:13:31",
+      "hn_score": 8
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-07-30T17:57:40Z",
+      "stars": 39705,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-07-30T20:16:57Z",
+      "stars": 28427,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-07-30T20:54:17Z",
+      "stars": 24028,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-07-30T21:53:16Z",
+      "stars": 11072,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "HKUDS/nanobot",
+      "summary": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
+      "url": "https://github.com/HKUDS/nanobot",
+      "published": "2026-07-30T21:19:44Z",
+      "stars": 46436,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "xbtlin/ai-berkshire",
+      "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "published": "2026-07-30T20:45:27Z",
+      "stars": 14754,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "TencentCloud/TencentDB-Agent-Memory",
+      "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "published": "2026-07-30T21:56:58Z",
+      "stars": 9639,
+      "language": "TypeScript"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-07-30T21:35:10Z",
+      "stars": 7924,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "Generative AI vs AI Agents vs Agentic AI Explained | Complete Beginner&#39;s Guide (2026)",
+      "summary": "Generative AI vs AI Agents vs Agentic AI Explained | Complete Beginner's Guide (2026) Instagram: ...",
+      "url": "https://www.youtube.com/watch?v=_R_d3ibfttY",
+      "published": "2026-07-25T13:00:37Z",
+      "channel": "ezCommit",
+      "has_video": true,
+      "video_id": "_R_d3ibfttY"
+    },
+    {
+      "source": "youtube",
+      "title": "How I&#39;d Build an AI Agent Making $10,000 with Claude Code",
+      "summary": "Claim your FREE $499 Masterclass: Build & Sell Apps, AI Agents & Websites with AI https://mikeyno-code.com/Skool-base44 ...",
+      "url": "https://www.youtube.com/watch?v=V7_YUe5skv8",
+      "published": "2026-07-23T14:15:03Z",
+      "channel": "Max Max",
+      "has_video": true,
+      "video_id": "V7_YUe5skv8"
+    },
+    {
+      "source": "youtube",
+      "title": "How to Build AI Agents in Azure AI Foundry 2025 | Complete Tutorial",
+      "summary": "Complete step-by-step tutorial on building AI Agents in Azure AI Foundry — from fundamentals to production-grade multi-agent ...",
+      "url": "https://www.youtube.com/watch?v=_KKmtcTPL4g",
+      "published": "2026-07-30T04:12:20Z",
+      "channel": "Kaleem M",
+      "has_video": true,
+      "video_id": "_KKmtcTPL4g"
+    },
+    {
+      "source": "youtube",
+      "title": "Generative AI vs AI Agents vs Agentic AI (Difference Explained)",
+      "summary": "In this video, we explain the difference between Generative AI, AI Agents, and Agentic AI in a simple way. Learn how Artificial ...",
+      "url": "https://www.youtube.com/watch?v=_u2Jciop7rA",
+      "published": "2026-07-29T12:41:11Z",
+      "channel": "CodeHelp - by Babbar",
+      "has_video": true,
+      "video_id": "_u2Jciop7rA"
+    },
+    {
+      "source": "youtube",
+      "title": "Learn Every AI Agent Pattern From One Video (I Actually Ran All 35)",
+      "summary": "Access the AI Architects course in our community: ...",
+      "url": "https://www.youtube.com/watch?v=PZsJfBVDZZc",
+      "published": "2026-07-24T12:42:33Z",
+      "channel": "The AI Automators",
+      "has_video": true,
+      "video_id": "PZsJfBVDZZc"
+    },
+    {
+      "source": "youtube",
+      "title": "ChatGPT Work Just Killed Claude Cowork",
+      "summary": "ChatGPT is moving from a tool you ask into a platform where work actually happens. Here's what ChatGPT Work signals for ...",
+      "url": "https://www.youtube.com/watch?v=ywndSCmGYXU",
+      "published": "2026-07-27T10:48:01Z",
+      "channel": "AI With Zac",
+      "has_video": true,
+      "video_id": "ywndSCmGYXU"
+    },
+    {
+      "source": "youtube",
+      "title": "Opus 5, Claude Chats geleakt, ChatGPT nutzt deine Logins, Videomodelle von Flux &amp; Hailou | KI-News",
+      "summary": "Artikel & Newsletter: https://digitaleprofis.de/die-ki-news-der-woche-vom-30-07-2026/ Quellen Neues Lyria Model von Google ...",
+      "url": "https://www.youtube.com/watch?v=9pkgPay_R58",
+      "published": "2026-07-30T14:00:35Z",
+      "channel": "Digitale Profis",
+      "has_video": true,
+      "video_id": "9pkgPay_R58"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Claude Just Revealed AI&#39;s Biggest Problem",
+      "summary": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The paper is available here: ...",
+      "url": "https://www.youtube.com/shorts/axOcn--n_lM",
+      "published": "2026-07-16T15:39:17Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "axOcn--n_lM"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    }
+  ]
+}
