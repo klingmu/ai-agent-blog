@@ -1,0 +1,555 @@
+{
+  "date": "2026-08-01",
+  "items": [
+    {
+      "source": "arxiv",
+      "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
+      "summary": "Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation. Each task must couple a realistic software state with a specification, development tools, and reliable verification. To expand this supply, we present Change2Task, a system grounded in repository history that converts merged pull requests into verified tasks on healthy modern revisions of the same repository. It aligns historical evidence with evolved code, reconstructs task states through Patch Reversal, Code Mapping, or Agent Reconstruction, and validates the lifecycle",
+      "url": "http://arxiv.org/abs/2607.28591v1",
+      "authors": [
+        "Haomin Qi",
+        "Xingliang Wang",
+        "Xuanqi Gao"
+      ],
+      "published": "2026-07-30T17:44:31+00:00",
+      "categories": [
+        "cs.SE",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Rethinking Inference-Time Scaling in Local Computer-Use Agents: Failure Modes and Compute Tradeoffs",
+      "summary": "Deploying autonomous computer-use agents (CUAs) locally is increasingly important for privacy, cost efficiency, and practical usability, yet improving their performance under strict hardware constraints remains challenging. While recent studies show that inference-time scaling can improve frontier computer-use agents through additional computation during execution, its effectiveness for resource-constrained local models remains poorly understood. We present a systematic empirical study of inference-time scaling in local CUAs across contextual, temporal, structural, and parallel dimensions. We ",
+      "url": "http://arxiv.org/abs/2607.28573v1",
+      "authors": [
+        "Woongkyu Lee",
+        "Jungwook Choi"
+      ],
+      "published": "2026-07-30T17:36:36+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "ORCA-bench: How Ready Are Language Model Agents for Oncall?",
+      "summary": "Large language models can write, patch, and search code, but oncall root cause analysis (RCA) demands something different: reasoning over noisy metrics, logs, traces, and source code, starting from ambiguous user-facing reports, often hours after the incident began. We introduce ORCA-bench, a benchmark that puts general-purpose coding agents in a production-fidelity oncall setting. ORCA-bench pairs a live OpenTelemetry-instrumented microservice system--exposing six days of metrics, logs, and traces through real telemetry interfaces (Prometheus, Jaeger, and OpenSearch via Grafana) and full sour",
+      "url": "http://arxiv.org/abs/2607.28545v1",
+      "authors": [
+        "Albert Gong",
+        "Kyuseong Choi",
+        "Abhineet Agarwal"
+      ],
+      "published": "2026-07-30T17:14:07+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.SE"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "ScaFE: Data-Efficient Scar Classification with LLM-Generated Clinical Feature Programs",
+      "summary": "Classifying pathological scars from clinical photographs requires distinguishing keloids from hypertrophic scars despite limited expert-labeled data and substantial acquisition variation across hospitals. End-to-end image models remain data-dependent, whereas sending photographs to a hosted vision-language model (VLM) may conflict with local data-governance requirements and yields decisions that are difficult to reproduce and audit. We introduce ScaFE (Scar Feature Engineering), which transfers clinical knowledge from a large language model (LLM) into deterministic, executable feature programs",
+      "url": "http://arxiv.org/abs/2607.28538v1",
+      "authors": [
+        "Ruman Wang",
+        "Hangting Ye"
+      ],
+      "published": "2026-07-30T17:05:20+00:00",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "MANTA: Multi-Agent Network Topology Adaptation for Self-Evolving Multi-Agent Systems",
+      "summary": "Large language model-based multi-agent systems improve complex problem solving through task decomposition, agent specialization, information exchange, and intermediate validation. However, existing systems typically treat communication topology as a fixed design choice or an offline optimization target. We introduce MANTA, a framework for Multi-Agent Network Topology Adaptation that enables communication structures to self-evolve at inference time. Before execution, MANTA initializes a task-conditioned topology from prior structural experience. During deployment, it monitors collaboration trac",
+      "url": "http://arxiv.org/abs/2607.28527v1",
+      "authors": [
+        "Mao-xun Huang",
+        "Jerry Wang",
+        "Yi-Cheng Lai"
+      ],
+      "published": "2026-07-30T17:01:27+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Agents That Certify Their Own Exploits: Confidence-Scheduled Restricted Responses for Safe Opponent Exploitation",
+      "summary": "An agent playing a Nash-equilibrium strategy in a two-player zero-sum imperfect-information game secures the game value but forfeits the additional value offered by a flawed opponent. Diffuse deviations pose a particular challenge: binary release rules may gather too little evidence to act, while a full best response to an incomplete opponent model can be highly exploitable. We introduce \\emph{budget-constrained confidence-scheduled restricted responses} (CS-RNR), the first opponent-exploitation method whose safety guarantee is a certificate the agent computes on the strategy it actually deplo",
+      "url": "http://arxiv.org/abs/2607.28520v1",
+      "authors": [
+        "Boning Li",
+        "Longbo Huang"
+      ],
+      "published": "2026-07-30T16:57:57+00:00",
+      "categories": [
+        "cs.GT",
+        "cs.AI",
+        "cs.MA"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Towards Autonomous Aircraft Surveillance from Nanosatellites through On-Board Inference and Generative Data Augmentation",
+      "summary": "Airborne surveillance from low Earth orbit is hindered by two interconnected bottlenecks: nanosatellites have a limited downlink budget, yet the conventional approach still transmits terabytes of raw imagery to the ground for processing, and open satellite datasets for aircraft are scarce and severely class-imbalanced. These limitations either delay timely decision-making or prevent standard detectors from learning robust representations of rare aircraft classes. In this paper, a workflow that combines on-board inference with generative data augmentation is proposed to address both limitations",
+      "url": "http://arxiv.org/abs/2607.28470v1",
+      "authors": [
+        "Antonio Delgado-Rosa",
+        "David Muñoz-Valero",
+        "Enrique Adrian Villarrubia-Martin"
+      ],
+      "published": "2026-07-30T16:26:38+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "Machines that know they are aging: a framework for hardware-aware autonomous intelligence",
+      "summary": "Autonomous systems inevitably age, yet their artificial intelligence typically assumes hardware remains in its original condition. Batteries degrade, sensors drift, processors accumulate timing errors, and memory reliability declines, creating a growing mismatch between assumed and actual capability. This can lead to agnostic collapse, where mission failure arises from accumulated hardware degradation rather than a single component fault. We propose Aging-Aware Autonomous Intelligence (AAAI), a framework that integrates hardware health directly into reasoning, planning, and mission execution. ",
+      "url": "http://arxiv.org/abs/2607.28451v1",
+      "authors": [
+        "Cheng Siong Chin",
+        "Jianhua Zhang",
+        "Mohan Venkateshkumar"
+      ],
+      "published": "2026-07-30T16:17:31+00:00",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "When Derived Measurements Mislead: Quantifying and Mitigating LLM Over-Trust with Privileged-Modality Reliability Evidence",
+      "summary": "Derived measurements increasingly enter large language model (LLM) pipelines as direct facts despite their instance-dependent validity. We define derived-feature over-trust (DFOT) as the failure in which a downstream LLM assigns such a measurement the epistemic status of a direct fact or uses it outside its valid scope. Using physiological sensing as a case study, D1 tests acceptance of a PPG-derived rhythm contradicted by offline ECG, whereas D2 tests rejection of an offline-confirmed reliable PPG rhythm under misleading severe history. ECG supplies training supervision and offline reference ",
+      "url": "http://arxiv.org/abs/2607.28421v1",
+      "authors": [
+        "Zongheng Guo",
+        "Tao Chen",
+        "Tianli Li"
+      ],
+      "published": "2026-07-30T16:01:17+00:00",
+      "categories": [
+        "cs.AI"
+      ]
+    },
+    {
+      "source": "arxiv",
+      "title": "WIDE: Boosting Adaptive LLM Inference via Token-level Dynamic Width Pruning",
+      "summary": "Pruning is a promising approach for improving the efficiency of LLMs. Existing static structured pruning methods are hardware-friendly and can deliver practical throughput gains, but their input-agnostic computation allocation often causes substantial accuracy degradation under aggressive sparsity. Recent dynamic sparsity methods improve quality retention by adapting computation to individual inputs, yet they remain largely limited to coarse-grained structural decisions and their practical acceleration under real-world inference scenarios remains challenging. To address these challenges, we pr",
+      "url": "http://arxiv.org/abs/2607.28418v1",
+      "authors": [
+        "Haozhe Hu",
+        "Hao Wu",
+        "Peiran Yin"
+      ],
+      "published": "2026-07-30T16:01:03+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ]
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Advancing responsible AI across Europe",
+      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "published": "Fri, 31 Jul 2026 15:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Building abundant intelligence",
+      "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "url": "https://openai.com/index/building-abundant-intelligence",
+      "published": "Fri, 31 Jul 2026 15:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Univé builds an AI-ready workforce",
+      "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+      "url": "https://openai.com/index/unive",
+      "published": "Fri, 31 Jul 2026 07:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Disrupting a Criminal Scam Operation",
+      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "published": "Fri, 31 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "published": "Thu, 30 Jul 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "published": "Thu, 30 Jul 2026 15:00:59 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "published": "Wed, 29 Jul 2026 16:02:10 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "summary": "",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "published": "Tue, 28 Jul 2026 13:21:37 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "published": "Wed, 22 Jul 2026 13:38:54 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+      "published": "Tue, 21 Jul 2026 15:16:30 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "published": "Thu, 30 Jul 2026 15:09:09 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "published": "Tue, 28 Jul 2026 16:27:42 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+      "summary": "",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "published": "Tue, 28 Jul 2026 15:01:45 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "published": "Mon, 27 Jul 2026 09:32:20 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "summary": "",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "published": "Mon, 27 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
+      "summary": "<p><strong><a href=\"https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison\">Oxide and Friends: The Open Weight Revolution with Simon Willison</a></strong></p>\nOn Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the <em>wild</em> week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\">accidental cybersecurity attacks</a>, and public letters about <a href=\"https://www.microsoft.com/en-us/corporate",
+      "url": "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
+      "published": "2026-07-31T21:33:13+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
+      "summary": "<p><strong><a href=\"https://primeradiant.com/blog/2026/smevals.html\">smevals - a small eval suite for evaluating models, prompts, and harnesses</a></strong></p>\nI've been working with Jesse Vincent's <a href=\"https://primeradiant.com\">Prime Radiant</a> applied AI research lab building out this evals framework to help answer questions about the capabilities of different models.</p>\n<p>The result is <strong><a href=\"https://github.com/prime-radiant-inc/smevals\">smevals</a></strong>, a new tool for running small eval suites across different model configurations and grading the results.</p>\n<p>Thi",
+      "url": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
+      "published": "2026-07-31T21:15:23+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Advancing the price-performance frontier with GPT‑5.6",
+      "summary": "<p><strong><a href=\"https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/\">Advancing the price-performance frontier with GPT‑5.6</a></strong></p>\nHuge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop.</p>\n<p>OpenAI credit 5.6 Sol with enabling this: in <a href=\"https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/\">How GPT‑5.6 fuses frontier intelligence with frontier efficiency</a> they describe using 5.6 Sol to optimize load balancing, and more impressively to optimize inference itself:</p>\n<blockq",
+      "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+      "published": "2026-07-30T23:58:42+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "summary": "<p><strong><a href=\"https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals\">Investigating three real-world incidents in our cybersecurity evaluations</a></strong></p>\nIt happened again! This is turning into something of a pattern.</p>\n<p>Last week <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\">OpenAI accidentally exploited Hugging Face</a> when one of their frontier models broke out of a sandboxed container and hacked into Hugging Face to try and get the solutions to the cyber benchmark it was executing.</p>\n<p>This inspired Anthropic to double-check th",
+      "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+      "published": "2026-07-30T23:41:29+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "llm 0.32rc2",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32rc2\">llm 0.32rc2</a></p>\n        <p>Hot on the heels of <a href=\"https://simonwillison.net/2026/Jul/30/llm-rc1/\">RC1</a>, this fixes a dependency issue and also adds two neat new features:</p>\n<blockquote>\n<ul>\n<li>The default model for users who have not set their own default is now <a href=\"https://developers.openai.com/api/docs/models/gpt-5.6-luna\">GPT-5.6 Luna</a>. It was previously <a href=\"https://developers.openai.com/api/docs/models/gpt-4o-mini\">GPT-4o mini</a>. Luna is a much better and more recent mo",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+      "published": "2026-07-30T22:52:06+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Everyone is building LLM routers, we deprecated ours",
+      "summary": "HNスコア: 69, コメント数: 37",
+      "url": "https://manifest.build/blog/why-we-deprecated-our-llm-router/",
+      "published": "2026-07-31T18:06:39",
+      "hn_score": 69
+    },
+    {
+      "source": "hackernews",
+      "title": "Predictive Speculative KV Replication for Bursty LLM Inference",
+      "summary": "HNスコア: 9, コメント数: 0",
+      "url": "https://jwlabs.vercel.app/post/biting-the-bullet",
+      "published": "2026-07-31T19:55:41",
+      "hn_score": 9
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: How to build and self-host a code review agent",
+      "summary": "HNスコア: 10, コメント数: 2",
+      "url": "https://www.trytilde.ai/blog/how-to-build-code-review-agent",
+      "published": "2026-07-31T20:27:28",
+      "hn_score": 10
+    },
+    {
+      "source": "hackernews",
+      "title": "Orca-Bench: How Ready Are Language Model Agents for Oncall?",
+      "summary": "HNスコア: 20, コメント数: 6",
+      "url": "https://arxiv.org/abs/2607.28545",
+      "published": "2026-07-31T18:32:43",
+      "hn_score": 20
+    },
+    {
+      "source": "hackernews",
+      "title": "13 Models and 4 Agents on SWE Tasks: Go, Java, Python, Rust, TS",
+      "summary": "HNスコア: 39, コメント数: 14",
+      "url": "https://swe-rebench.com",
+      "published": "2026-07-31T15:28:28",
+      "hn_score": 39
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI serves more than one billion active users",
+      "summary": "HNスコア: 9, コメント数: 2",
+      "url": "https://openai.com/index/building-abundant-intelligence/",
+      "published": "2026-07-31T19:42:35",
+      "hn_score": 9
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: What should the GUI for AI agents look like?",
+      "summary": "HNスコア: 101, コメント数: 62",
+      "url": "https://marbleos.com/demo",
+      "published": "2026-07-31T05:17:29",
+      "hn_score": 101
+    },
+    {
+      "source": "hackernews",
+      "title": "The Maxwell Conjecture Is False (GPT 5.6 Sol)",
+      "summary": "HNスコア: 131, コメント数: 124",
+      "url": "https://arxiv.org/abs/2607.27197",
+      "published": "2026-07-31T11:37:12",
+      "hn_score": 131
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+      "summary": "HNスコア: 161, コメント数: 72",
+      "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+      "published": "2026-07-30T18:13:06",
+      "hn_score": 161
+    },
+    {
+      "source": "hackernews",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "summary": "HNスコア: 609, コメント数: 510",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "published": "2026-07-30T15:15:48",
+      "hn_score": 609
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-07-31T21:02:58Z",
+      "stars": 39716,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-07-31T17:24:15Z",
+      "stars": 28463,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-07-31T21:43:39Z",
+      "stars": 24041,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-07-31T16:45:35Z",
+      "stars": 11077,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "HKUDS/nanobot",
+      "summary": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
+      "url": "https://github.com/HKUDS/nanobot",
+      "published": "2026-07-31T21:53:31Z",
+      "stars": 46480,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "xbtlin/ai-berkshire",
+      "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "published": "2026-07-31T21:48:45Z",
+      "stars": 14803,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "TencentCloud/TencentDB-Agent-Memory",
+      "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "published": "2026-07-31T22:09:21Z",
+      "stars": 9830,
+      "language": "TypeScript"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-07-31T20:31:33Z",
+      "stars": 7984,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "How I Built an AI Agent in 14 minutes as A Beginner (2026)",
+      "summary": "Claim your FREE $499 Masterclass: Build & Sell Apps, AI Agents & Websites with AI https://mikeyno-code.com/Skool-base44 ...",
+      "url": "https://www.youtube.com/watch?v=UyoVmQLekBc",
+      "published": "2026-07-27T14:15:15Z",
+      "channel": "Mikey No Code",
+      "has_video": true,
+      "video_id": "UyoVmQLekBc"
+    },
+    {
+      "source": "youtube",
+      "title": "How to Build an INSANELY Profitable AI Trading Bot (Full Guide)",
+      "summary": "Learn AI trading bots and algo trading with us* https://www.skool.com/daviddtech/about?sl=yt_86AlV6174KI FREE Workbooks ...",
+      "url": "https://www.youtube.com/watch?v=86AlV6174KI",
+      "published": "2026-07-27T13:00:36Z",
+      "channel": "Trading with DaviddTech",
+      "has_video": true,
+      "video_id": "86AlV6174KI"
+    },
+    {
+      "source": "youtube",
+      "title": "Generative AI vs AI Agents vs Agentic AI Explained | Complete Beginner&#39;s Guide (2026)",
+      "summary": "Generative AI vs AI Agents vs Agentic AI Explained | Complete Beginner's Guide (2026) Instagram: ...",
+      "url": "https://www.youtube.com/watch?v=_R_d3ibfttY",
+      "published": "2026-07-25T13:00:37Z",
+      "channel": "ezCommit",
+      "has_video": true,
+      "video_id": "_R_d3ibfttY"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic AI – Complete Course for Beginners",
+      "summary": "Learn how to build production-ready multi-agent systems and automate workflows using LangChain and LangGraph. You'll ...",
+      "url": "https://www.youtube.com/watch?v=Zy7EXDONlTY",
+      "published": "2026-07-30T14:04:08Z",
+      "channel": "freeCodeCamp.org",
+      "has_video": true,
+      "video_id": "Zy7EXDONlTY"
+    },
+    {
+      "source": "youtube",
+      "title": "Microsoft Built a New Charting Language for AI Agents",
+      "summary": "Microsoft Research just released Flint, an open-source charting language designed to help AI agents generate reliable, ...",
+      "url": "https://www.youtube.com/watch?v=xFWhiWe91BE",
+      "published": "2026-07-27T12:00:20Z",
+      "channel": "Better Stack",
+      "has_video": true,
+      "video_id": "xFWhiWe91BE"
+    },
+    {
+      "source": "youtube",
+      "title": "DeepSeek V4 Flash Is Beating Models That Cost 50x MORE!",
+      "summary": "DeepSeek quietly shipped the official V4-Flash API and it's landed in the most attractive corner of the intelligence-vs-cost chart at ...",
+      "url": "https://www.youtube.com/watch?v=Dogi7FeJGjg",
+      "published": "2026-07-31T19:39:25Z",
+      "channel": "Universe of AI",
+      "has_video": true,
+      "video_id": "Dogi7FeJGjg"
+    },
+    {
+      "source": "youtube",
+      "title": "ChatGPT Work Just Killed Claude Cowork",
+      "summary": "ChatGPT is moving from a tool you ask into a platform where work actually happens. Here's what ChatGPT Work signals for ...",
+      "url": "https://www.youtube.com/watch?v=ywndSCmGYXU",
+      "published": "2026-07-27T10:48:01Z",
+      "channel": "AI With Zac",
+      "has_video": true,
+      "video_id": "ywndSCmGYXU"
+    },
+    {
+      "source": "youtube",
+      "title": "Opus 5, Claude Chats geleakt, ChatGPT nutzt deine Logins, Videomodelle von Flux &amp; Hailou | KI-News",
+      "summary": "Artikel & Newsletter: https://digitaleprofis.de/die-ki-news-der-woche-vom-30-07-2026/ Quellen Neues Lyria Model von Google ...",
+      "url": "https://www.youtube.com/watch?v=9pkgPay_R58",
+      "published": "2026-07-30T14:00:35Z",
+      "channel": "Digitale Profis",
+      "has_video": true,
+      "video_id": "9pkgPay_R58"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Claude Just Revealed AI&#39;s Biggest Problem",
+      "summary": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The paper is available here: ...",
+      "url": "https://www.youtube.com/shorts/axOcn--n_lM",
+      "published": "2026-07-16T15:39:17Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "axOcn--n_lM"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    }
+  ]
+}
