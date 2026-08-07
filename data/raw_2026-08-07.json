@@ -1,0 +1,397 @@
+{
+  "date": "2026-08-07",
+  "items": [
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "published": "Thu, 06 Aug 2026 10:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Working with the American Psychological Association on youth mental health and AI",
+      "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "published": "Thu, 06 Aug 2026 06:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "From asking to doing: How the world is putting ChatGPT to work",
+      "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "published": "Thu, 06 Aug 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "published": "Tue, 04 Aug 2026 19:00:00 GMT"
+    },
+    {
+      "source": "rss:OpenAI Blog",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "published": "Tue, 04 Aug 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "summary": "",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "published": "Thu, 06 Aug 2026 15:06:15 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "published": "Thu, 30 Jul 2026 15:00:59 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "summary": "",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "published": "Wed, 29 Jul 2026 16:02:10 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "summary": "",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "published": "Tue, 28 Jul 2026 13:21:37 +0000"
+    },
+    {
+      "source": "rss:Google DeepMind",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "published": "Wed, 22 Jul 2026 13:38:54 +0000"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Baseten on Hugging Face Inference Providers 🔥",
+      "summary": "",
+      "url": "https://huggingface.co/blog/baseten",
+      "published": "Thu, 06 Aug 2026 00:00:00 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "summary": "",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "published": "Tue, 04 Aug 2026 13:58:29 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "published": "Thu, 30 Jul 2026 15:09:09 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "published": "Tue, 28 Jul 2026 16:27:42 GMT"
+    },
+    {
+      "source": "rss:Hugging Face Blog",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "summary": "",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "published": "Mon, 27 Jul 2026 09:32:20 GMT"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "datasette 1.0a38",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a38\">datasette 1.0a38</a></p>\n        <blockquote>\n<p>This release fixes a <strong>SQL injection</strong> security issue that affects Datasette instances that serve a <strong>mixture of public and private tables</strong> in the same database, with access configured using the <a href=\"https://docs.datasette.io/en/latest/authentication.html\">Datasette permissions system</a>.</p>\n<p>Site administrators who serve private tables in this way are advised to disable the <a href=\"https://docs.datasette.io/en/lates",
+      "url": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
+      "published": "2026-08-06T18:24:34+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "datasette 0.65.3",
+      "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/0.65.3\">datasette 0.65.3</a></p>\n        <p>Back-ported the SQL Injection security fix from <a href=\"https://simonwillison.net/2026/Aug/6/datasette/\">1.0a38</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
+      "url": "https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything",
+      "published": "2026-08-06T18:22:07+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Simon Willison on Technical Blogging",
+      "summary": "<p><strong><a href=\"https://writethatblog.substack.com/p/simon-willison-on-technical-blogging\">Simon Willison on Technical Blogging</a></strong></p>\nI was interviewed by Cynthia Dunlop for her \"Write that blog!\" series back in January, but I just realized I never linked to the interview from my own blog!</p>\n<p>It includes my answers to the following questions:</p>\n<ul>\n<li>Why did you start blogging – and why do you continue?</li>\n<li>What has been the most surprising impact of blogging for you?</li>\n<li>What blog post are you most proud of and why?</li>\n<li>What post was the most difficult t",
+      "url": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything",
+      "published": "2026-08-06T18:04:39+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "An AI model from Meta also hacked another company during testing",
+      "summary": "<p><strong><a href=\"https://www.cnn.com/2026/08/05/tech/meta-ai-hacking\">An AI model from Meta also hacked another company during testing</a></strong></p>\nStop me if you've <a href=\"https://simonwillison.net/tags/accidental-cyberattacks/\">heard this one before</a>:</p>\n<blockquote>\n<p>An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday.</p>\n<p>Meta says the breach occurred because of an inadvertent error during testing of the model, similar to previously disclosed incidents with ",
+      "url": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
+      "published": "2026-08-06T00:25:27+00:00"
+    },
+    {
+      "source": "rss:Simon Willison",
+      "title": "Introducing Muse Code and Muse Spark 1.2",
+      "summary": "<p><strong><a href=\"https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2\">Introducing Muse Code and Muse Spark 1.2</a></strong></p>\nYet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work!</p>\n<blockquote>\n<p>Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute ",
+      "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+      "published": "2026-08-05T23:58:35+00:00"
+    },
+    {
+      "source": "hackernews",
+      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
+      "summary": "HNスコア: 51, コメント数: 2",
+      "url": "https://www.aleksagordic.com/blog/vllm",
+      "published": "2026-08-06T21:30:21",
+      "hn_score": 51
+    },
+    {
+      "source": "hackernews",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+      "summary": "HNスコア: 142, コメント数: 100",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "published": "2026-08-06T17:02:04",
+      "hn_score": 142
+    },
+    {
+      "source": "hackernews",
+      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+      "summary": "HNスコア: 248, コメント数: 190",
+      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "published": "2026-08-06T11:58:07",
+      "hn_score": 248
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: The Channels SDK – Bring Any Agent to Any Channel (Slack, MS Teams)",
+      "summary": "HNスコア: 84, コメント数: 20",
+      "url": "https://github.com/CopilotKit/channels-sdk",
+      "published": "2026-08-06T16:05:51",
+      "hn_score": 84
+    },
+    {
+      "source": "hackernews",
+      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "summary": "HNスコア: 420, コメント数: 270",
+      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "published": "2026-08-06T18:44:49",
+      "hn_score": 420
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI and four rivals just agreed on one standard for AI agents",
+      "summary": "HNスコア: 15, コメント数: 2",
+      "url": "https://thenextweb.com/news/openai-agent-plugins-open-standard-skills-mcp",
+      "published": "2026-08-06T22:21:32",
+      "hn_score": 15
+    },
+    {
+      "source": "hackernews",
+      "title": "Blasting the Air in Front of Hypersonic Vehicles with Lasers Reduces Drag",
+      "summary": "HNスコア: 10, コメント数: 2",
+      "url": "https://www.twz.com/33859/blasting-the-air-in-front-of-hypersonic-vehicles-with-lasers-could-unlock-unprecedented-speeds",
+      "published": "2026-08-06T22:28:44",
+      "hn_score": 10
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI's latest math breakthroughs commit research misconduct, experts say",
+      "summary": "HNスコア: 21, コメント数: 7",
+      "url": "https://www.scientificamerican.com/article/openais-latest-math-breakthroughs-commit-research-misconduct-experts-say/",
+      "published": "2026-08-06T21:40:55",
+      "hn_score": 21
+    },
+    {
+      "source": "hackernews",
+      "title": "Prime Agent: A self-improving RLM agent",
+      "summary": "HNスコア: 239, コメント数: 59",
+      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "published": "2026-08-05T21:11:57",
+      "hn_score": 239
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod",
+      "summary": "HNスコア: 66, コメント数: 52",
+      "url": "https://www.hyperprobe.co",
+      "published": "2026-08-05T16:47:15",
+      "hn_score": 66
+    },
+    {
+      "source": "github",
+      "title": "2noise/ChatTTS",
+      "summary": "A generative speech model for daily dialogue.",
+      "url": "https://github.com/2noise/ChatTTS",
+      "published": "2026-08-06T22:43:57Z",
+      "stars": 39748,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "agentscope-ai/agentscope",
+      "summary": "Build and run agents you can see, understand and trust.",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "published": "2026-08-07T01:01:57Z",
+      "stars": 28676,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "letta-ai/letta",
+      "summary": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "url": "https://github.com/letta-ai/letta",
+      "published": "2026-08-07T00:30:28Z",
+      "stars": 24126,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "The-Pocket/PocketFlow",
+      "summary": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
+      "url": "https://github.com/The-Pocket/PocketFlow",
+      "published": "2026-08-06T08:29:38Z",
+      "stars": 11086,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "HKUDS/nanobot",
+      "summary": "Ultra-lightweight, open-source, self-hosted personal AI agent framework in Python with WebUI, tools, memory, MCP, multi-agent workflows, automation, and chat apps",
+      "url": "https://github.com/HKUDS/nanobot",
+      "published": "2026-08-07T00:42:58Z",
+      "stars": 46709,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "TencentCloud/TencentDB-Agent-Memory",
+      "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "published": "2026-08-07T01:05:25Z",
+      "stars": 16391,
+      "language": "TypeScript"
+    },
+    {
+      "source": "github",
+      "title": "xbtlin/ai-berkshire",
+      "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "published": "2026-08-07T00:24:28Z",
+      "stars": 15118,
+      "language": "Python"
+    },
+    {
+      "source": "github",
+      "title": "omnigent-ai/omnigent",
+      "summary": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "published": "2026-08-07T00:53:10Z",
+      "stars": 8233,
+      "language": "Python"
+    },
+    {
+      "source": "youtube",
+      "title": "Stanford CS329A Self-Improving AI Agents | Part 1 | Course Overview",
+      "summary": "Want to dive deeper? This curriculum is covered in the following online courses: - XCS329 graduate course: ...",
+      "url": "https://www.youtube.com/watch?v=6YnLB0XbTnI",
+      "published": "2026-08-03T15:50:29Z",
+      "channel": "Stanford Online",
+      "has_video": true,
+      "video_id": "6YnLB0XbTnI"
+    },
+    {
+      "source": "youtube",
+      "title": "未來一年，這6個 AI Agent 趨勢會徹底改變你的工作方式！",
+      "summary": "未來一年，AI Agent 不只會回答問題，而是會真正開始替你工作。這支影片帶你一次看懂6 個最重要的AI Agent 趨勢，幫你提前掌握 ...",
+      "url": "https://www.youtube.com/watch?v=0-Rr2iho6CI",
+      "published": "2026-08-01T03:00:39Z",
+      "channel": "李厂长来了",
+      "has_video": true,
+      "video_id": "0-Rr2iho6CI"
+    },
+    {
+      "source": "youtube",
+      "title": "MCP vs API: Why AI Agents Needed a New Protocol",
+      "summary": "MCP vs API explained for beginners: why AI agents needed a new protocol, plus an agent discovering a tool by itself, on camera.",
+      "url": "https://www.youtube.com/watch?v=wh3FBIrGeCY",
+      "published": "2026-08-01T13:00:06Z",
+      "channel": "TeamOfAIAgents",
+      "has_video": true,
+      "video_id": "wh3FBIrGeCY"
+    },
+    {
+      "source": "youtube",
+      "title": "Learn All Agentic AI Terms in 1 Video ",
+      "summary": "This video covers the most important, most searched, most frequently asked, industry-relevant, and highly demanded Agentic AI ...",
+      "url": "https://www.youtube.com/watch?v=nVVhvLSfbnQ",
+      "published": "2026-08-06T10:58:12Z",
+      "channel": "5 Minutes Engineering",
+      "has_video": true,
+      "video_id": "nVVhvLSfbnQ"
+    },
+    {
+      "source": "youtube",
+      "title": "Agentic Ai roadmap 2026",
+      "summary": "Following are the topics covered in this tutorial on Agentic Ai roadmap 2026: This video on Agentic AI Roadmap 2026 by ...",
+      "url": "https://www.youtube.com/watch?v=u29qvwRWGWk",
+      "published": "2026-08-02T15:30:25Z",
+      "channel": "Simplilearn",
+      "has_video": true,
+      "video_id": "u29qvwRWGWk"
+    },
+    {
+      "source": "youtube",
+      "title": "Don&#39;t Use One AI Agent - Use an Army",
+      "summary": "Buzz by Block: learn how to self host Jack Dorsey's open source Slack alternative and run a full team of AI agents in one chatroom ...",
+      "url": "https://www.youtube.com/watch?v=xJEFjE88wdw",
+      "published": "2026-08-06T13:00:21Z",
+      "channel": "Leon van Zyl",
+      "has_video": true,
+      "video_id": "xJEFjE88wdw"
+    },
+    {
+      "source": "youtube",
+      "title": "Codex Is About To CHANGE Completely!",
+      "summary": "OpenAI's Codex lead says the tool will look primitive in a couple of months, and that the next generation of models needs more ...",
+      "url": "https://www.youtube.com/watch?v=E9LNkZdQF0s",
+      "published": "2026-08-04T22:04:42Z",
+      "channel": "Universe of AI",
+      "has_video": true,
+      "video_id": "E9LNkZdQF0s"
+    },
+    {
+      "source": "youtube",
+      "title": "Buzz Just Fixed AI Agents... But It Has A Serious Flaw",
+      "summary": "Buzz is Jack Dorsey's new open source app where your AI agents sit in the chat with you, and people are calling it a Slack killer.",
+      "url": "https://www.youtube.com/watch?v=a8tLTd4q-fU",
+      "published": "2026-08-04T15:29:49Z",
+      "channel": "AI LABS",
+      "has_video": true,
+      "video_id": "a8tLTd4q-fU"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "Claude Just Revealed AI&#39;s Biggest Problem",
+      "summary": "Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers The paper is available here: ...",
+      "url": "https://www.youtube.com/shorts/axOcn--n_lM",
+      "published": "2026-07-16T15:39:17Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "axOcn--n_lM"
+    },
+    {
+      "source": "youtube_shorts",
+      "title": "AI Agents as &quot;Games Masters&quot;? 🎮🔥",
+      "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your ...",
+      "url": "https://www.youtube.com/shorts/82m7YqosdgU",
+      "published": "2026-06-06T06:20:46Z",
+      "channel": "Two Minute Papers",
+      "has_video": true,
+      "video_id": "82m7YqosdgU"
+    }
+  ]
+}
